@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244548">
+    <meta name="description" content="২ - সাইমুম সিরিজ - EPUB Browser">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EPUB Browser">
+    <title>২ - সাইমুম সিরিজ</title>
+    
+    <script>document.documentElement.classList.add("i18n-boot");setTimeout(function(){document.documentElement.classList.remove("i18n-boot");},3000);</script><script src="/reader/assets/immutable/i18n/i18n-core.978da4e85125.js"></script><script>window.EpubBrowserI18n.registerDictionary("en",{"common.brand":"EPUB Browser","common.language":"Language","common.chinese":"Chinese","common.english":"English","locale.name.en":"English","locale.name.zh-CN":"简体中文","locale.name.zh-TW":"繁體中文","locale.name.ko":"한국어","locale.name.ja":"日本語","common.version":"Version {version}","theme.light":"Light","theme.dark":"Dark","theme.sepia":"Sepia","theme.forest":"Forest","theme.ocean":"Ocean","theme.peach":"Peach","theme.lavender":"Lavender","theme.day":"Day theme","theme.night":"Night theme","theme.automatic":"Automatically switch between day and night themes based on the device","theme.automaticHelp":"Automatic switching hides the toolbar theme button. Choose your day and night themes here.","theme.invalid":"Invalid appearance settings.","theme.saveFailed":"Unable to save appearance settings.","reader.library":"Library","reader.breadcrumb":"Breadcrumb","reader.navigation":"Reading navigation","reader.theme":"Theme","reader.turning":"Turning","reader.scrolling":"Scrolling","reader.book":"Book","reader.home":"Home","reader.top":"Top","reader.settings":"Settings","reader.shelf":"Shelf","reader.annotations":"Annotations","reader.tableOfContents":"Table of contents","reader.bookChapters":"Chapters","reader.thisChapterContents":"This chapter","reader.openBookChapters":"Open book chapters","reader.skipToContent":"Skip to reading content","reader.previous":"Previous chapter","reader.next":"Next chapter","reader.previousPage":"Previous page","reader.nextPage":"Next page","reader.currentPage":"Current page","reader.totalPages":"Total pages","reader.jump":"Jump","reader.clickToTurn":"Click to turn page","reader.pureReading":"Pure reading mode","reader.reloadPages":"Reload pages","reader.setPageHeight":"Set page height","reader.loadingContent":"Loading content","reader.openBookHome":"Open book home","reader.closeBookHome":"Close book home","reader.closeSettings":"Close settings","reader.closeTableOfContents":"Close table of contents","reader.pageHeight":"Page height","reader.turningModeEnabled":"Page turning mode enabled","reader.exitTurningConfirm":"Exit page turning mode?","reader.exitTurning":"Exit page turning","reader.progressLoadedPage":"Progress loaded: Page {page}","reader.progressLoadedPercent":"Progress loaded: {percent}%","reader.pageRange":"1-{total}","reader.validNumber":"Valid number","reader.firstChapter":"First chapter","reader.lastChapter":"Last chapter","reader.first":"First","reader.last":"Last","reader.onlyPageMode":"Only in page mode","reader.pureModeOn":"Pure mode on","reader.pureModeOff":"Pure mode off","reader.reloaded":"Reloaded","reader.clickPageOn":"Click page on","reader.clickPageOff":"Click page off","reader.tocLoadFailed":"Load failed","reader.tocNoTitle":"No title","reader.annotationNotFound":"Could not locate this annotation. Opened its chapter instead.","reader.annotationLoadFailed":"Could not load this annotation. Opened its chapter instead.","reader.loadingNextChapter":"Loading next chapter","reader.loadingPreviousChapter":"Loading previous chapter","reader.chapterLoadFailed":"Could not load this chapter. Please try again.","reader.chapterNumber":"Chapter {number}","reader.continuousScrollRequiresScrolling":"Continuous scroll requires Scrolling mode","reader.continuousScrollEnabledReloading":"Continuous scroll enabled - reloading...","reader.continuousScrollDisabledReloading":"Continuous scroll disabled - reloading...","settings.appearance":"Appearance","settings.reading":"Reading","settings.fontFamily":"Font family","settings.fontSize":"Font size","settings.pageWidth":"Page width","settings.pageWidthNarrow":"Narrow","settings.pageWidthComfortable":"Comfortable","settings.pageWidthWide":"Wide","settings.pageWidthExtraWide":"Extra wide","settings.bookDefault":"Book default","settings.systemDefault":"System default","settings.customByInput":"Custom by input","settings.customFontPlaceholder":"Input font name here","settings.customFontTip":"Tip: Font family applies globally. Ensure it’s installed in the system.","settings.apply":"Apply","settings.readingMode":"Reading mode","settings.showReadingProgressBar":"Show reading progress bar","settings.paginationMode":"Use page-turning mode","settings.exitPaginationMode":"Exit page-turning mode","settings.desktopChapterSidebar":"Show chapter sidebar","settings.continuousScroll":"Enable continuous scroll","settings.continuousScrollTip":"Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off.","settings.customStyles":"Custom styles","settings.optional":"Optional","settings.customStylesDescription":"Use CSS to fine-tune this book’s typography and layout.","settings.customCssPlaceholder":"Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}","settings.save":"Save","settings.saveAsDefault":"Save as default","settings.reset":"Reset","settings.loadDefault":"Load default","settings.preview":"Preview","settings.defaultStyleTip":"Tip: The default style will be applied to all books unless a custom style is set for specific books.","settings.saved":"Saved","settings.defaultSaved":"Default saved","settings.noDefault":"No default","settings.loaded":"Loaded","settings.resetDone":"Reset","settings.applied":"Applied","settings.saveAsDefaultConfirm":"Save as default?","settings.loadDefaultConfirm":"Load default?","settings.resetConfirm":"Reset?","settings.continuousScrollUnavailable":"Continuous scroll is only available in Scrolling mode. Switch to Scrolling mode first to enable this feature.","library.title":"Library","library.pageTitle":"EPUB Library","library.description":"EPUB Library - A web-based EPUB reader","library.information":"Library information","library.navigation":"Primary navigation","library.bookCount":{"one":"{count} book","other":"{count} books"},"library.tagCount":{"one":"{count} tag","other":"{count} tags"},"library.annotations":"Annotations","library.login":"Login","library.theme":"Theme","library.sort.apply":"Apply","library.sort.manual":"Manual order","library.sort.shelfFirst":"Bookshelf first","library.sort.shelfOrder":"Bookshelf order","library.sort.pdfFirst":"PDF first","library.sort.label":"Sort by","library.sort.titleAsc":"Title (A–Z)","library.sort.titleDesc":"Title (Z–A)","library.sort.createdDesc":"Recently added","library.sort.updatedDesc":"Recently updated","library.pagination":"Library pages","library.searchPlaceholder":"Search by book title, author, or tag...","library.all":"All","library.noTag":"No tag","library.showMoreTags":"Show more","library.showFewerTags":"Show fewer","library.top":"Top","library.shelf":"Shelf","library.cover":"Cover","library.usernamePrompt":"Please enter your username:","library.usernameSaved":"Username saved: {username}","library.usernameCleared":"Username cleared","library.install":"Install","library.installing":"Installing app...","library.installSucceeded":"App installed successfully!","library.installCancelled":"Install cancelled","library.loading":"Loading library","library.empty":"No books in your library yet.","library.emptyTitle":"Your library is empty","library.emptyServerDescription":"Add EPUB files to the watched library folder. They will appear here automatically.","library.emptySsgDescription":"Add EPUB files to the source and generate the static site again.","library.noResultsTitle":"No matching books","library.noResultsDescription":"Try a different title, author, or tag.","library.loadError":"Unable to load your library. Please refresh and try again.","library.progress.scanning":"Scanning library","library.progress.processing":"Updating library","library.progress.extracting":"Extracting book information","library.progress.converting":"Building reading cache","library.progress.complete":"Library updated","library.progress.degraded":"Library updated with failures","library.progress.reconnecting":"Reconnecting to library updates…","library.progress.summary":"Processed {completed} of {total} books","library.progress.extractingSummary":"Examined {completed} of {total} books","library.progress.convertingSummary":"Cached {completed} of {total} books","library.progress.removed":{"one":"Removed {count} book","other":"Removed {count} books"},"library.progress.latest":"Latest: {book}","library.progress.failureDetails":"Failure details","library.progress.close":"Close","book.library":"Library","book.breadcrumb":"Breadcrumb","book.navigation":"Book navigation","book.theme":"Theme","book.unknownAuthor":"Unknown author","book.startReading":"Start reading","book.continueReading":"Continue reading","book.moreReadingActions":"More reading actions","book.clearReadingProgress":"Clear reading progress","book.clear":"Clear","book.clearReadingProgressConfirm":"Clear reading progress for this book?","book.clearReadingProgressSucceeded":"All reading progress for this book has been deleted!","book.clearReadingProgressFailed":"Unable to clear reading progress. Please try again.","book.annotations":"Annotations","book.addToShelf":"Add to Shelf","book.removeFromShelf":"Remove from Shelf","book.addedToShelf":"Book added to shelf!","book.removedFromShelf":"Book removed from shelf!","book.goToChapter":"Go to chapter","book.noContents":"This book has no table of contents","book.tableOfContents":"Table of contents","book.totalChapters":"Total: {count}","book.top":"Top","book.shelf":"Shelf","book.home":"Home","book.cover":"Cover","book.cloudSyncUser":"Cloud sync · {username}","book.cloudSyncUserAria":"Cloud-synced reading position for {username}","book.sharedUser":"shared","book.addToShelfTitle":"Add to Shelf","book.closeGroupChooser":"Close group chooser","book.shelfHome":"Shelf Home","book.confirm":"Confirm","book.error.database_unavailable":"The reading progress service is temporarily unavailable.","book.error.server_error":"The reading progress service encountered an error.","book.error.not_found":"The reading progress service was not found.","bookshelf.addGroup":"Add Group","bookshelf.sync":"Sync","bookshelf.export":"Export","bookshelf.import":"Import","bookshelf.title":"Bookshelf","bookshelf.group":"Group","bookshelf.addBook":"Add Book","bookshelf.searchBooks":"Search books","bookshelf.searchPlaceholder":"Search by title or author","bookshelf.searchNoResults":"No books match “{query}”.","bookshelf.noBooksToAdd":"Every available book is already on your bookshelf.","bookshelf.removeBook":"Remove “{title}”","bookshelf.confirmRemoveBook":"Remove “{title}” from this location?","bookshelf.bookAdded":"Added “{title}”.","bookshelf.bookRemoved":"Removed “{title}”.","bookshelf.bookAlreadyAdded":"This book is already on your bookshelf.","bookshelf.rename":"Rename","bookshelf.deleteGroup":"Delete Group","bookshelf.close":"Close","bookshelf.home":"Back to bookshelf","bookshelf.loading":"Loading bookshelf","bookshelf.all":"All","bookshelf.noTag":"No tag","bookshelf.empty":"Your bookshelf is empty","bookshelf.groupEmpty":"This group is empty","bookshelf.groupItems":"{books} books, {groups} subgroups","bookshelf.groupBooks":"{books} books","bookshelf.groupSubgroups":"{groups} subgroups","bookshelf.emptyGroup":"Empty group","bookshelf.currentStats":"Current: {books} book(s), {groups} group(s) | Total: {totalBooks} book(s), {totalGroups} group(s)","bookshelf.groupNamePrompt":"Enter group name:","bookshelf.renameGroupPrompt":"Enter new group name:","bookshelf.confirmDeleteGroup":"Are you sure you want to delete the group \"{name}\"?","bookshelf.groupDeleted":"Deleted group \"{name}\".","bookshelf.nestedGroupWarning":"Please delete all nested groups first before deleting this group.","bookshelf.importSucceeded":"Bookshelf data imported successfully!","bookshelf.importInvalid":"Invalid bookshelf data format.","bookshelf.importParseFailed":"Failed to parse the JSON file.","bookshelf.usernamePrompt":"Please enter your username for sync:","bookshelf.loginRequired":"Please log in before using your cloud bookshelf.","bookshelf.syncing":"Syncing...","bookshelf.syncNewUser":"Sync ({username}): New user created, data uploaded successfully!","bookshelf.syncUpdated":"Sync ({username}): Data updated from server!","bookshelf.syncCurrent":"Sync ({username}): No changes, already up to date!","bookshelf.syncUnavailable":"Sync ({username}): Not allowed to sync, check your configuration!","bookshelf.syncUploaded":"Sync ({username}): Data uploaded successfully!","bookshelf.syncFailed":"Sync ({username}) failed. Please try again.","bookshelf.error.username_required":"A username is required to sync your bookshelf.","bookshelf.error.invalid_json":"The sync request was invalid.","bookshelf.error.no_sync_data":"No bookshelf data was provided for sync.","bookshelf.error.not_found":"The sync endpoint was not found.","bookshelf.error.annotation_not_found":"The requested item was not found.","bookshelf.error.invalid_chapter_index":"The requested chapter is invalid.","bookshelf.error.batch_requires_post":"This request must use POST.","bookshelf.error.database_unavailable":"The sync service is temporarily unavailable.","bookshelf.error.reading_progress_not_found":"Reading progress was not found.","bookshelf.error.server_error":"The sync service encountered an error.","bookshelf.error.unknown":"The bookshelf could not be synchronized.","dialog.title":"Confirm","dialog.confirm":"Confirm","dialog.cancel":"Cancel","dialog.value":"Value","annotations.tab":"Annotations","annotations.enabled":"Enable annotations","annotations.enabledNotice":"Annotations enabled","annotations.disabledNotice":"Annotations disabled","annotations.storageLocation":"Storage location","annotations.localStorage":"Local storage","annotations.cloudStorage":"Cloud storage","annotations.cloudUnavailable":"Cloud storage is unavailable","annotations.checking":"Checking…","annotations.connectedUser":"Connected ({username})","annotations.connectedShared":"Connected (shared)","annotations.connectedAccount":"Connected to your account","annotations.disconnected":"Disconnected","annotations.usernamePrompt":"You are not logged in.\n\n- Click OK to enter a username (annotations will be isolated by user)\n- Click Cancel to use shared mode (all users share the same annotations)","annotations.login":"Sign in","annotations.username":"Username","annotations.usingSharedStorage":"Using shared cloud storage (no user isolation)","annotations.loggedInAs":"Logged in as {username} (annotations isolated)","annotations.defaultColor":"Default color","annotations.defaultColorTip":"Click a color to set it as the default.","annotations.colors":"Colors","annotations.colorReorderTip":"Drag colors to reorder them.","annotations.addColor":"Add color","annotations.deleteColor":"Delete color","annotations.hexColor":"Hex color","annotations.hexPlaceholder":"#RRGGBB","annotations.invalidHex":"Enter a valid hex color such as #RRGGBB.","annotations.noteOptional":"Note (optional)…","annotations.note":"Note:","annotations.addDescription":"Add description…","annotations.add":"Add","annotations.save":"Save","annotations.cancel":"Cancel","annotations.close":"Close","annotations.copy":"Copy","annotations.delete":"Delete","annotations.deleteAnnotation":"Delete annotation","annotations.details":"Annotation details","annotations.color":"Color:","annotations.created":"Created: {date}","annotations.updated":"Updated: {date}","annotations.clickToCopy":"Click to copy","annotations.copied":"Copied","annotations.textCopied":"Text copied","annotations.unableToCopy":"Unable to copy","annotations.notFound":"Annotation not found","annotations.confirmDelete":"Delete this annotation?","annotations.deleted":"Annotation deleted","annotations.loadFailed":"Failed to load annotation: {error}","annotations.addFailed":"Failed to add: {error}","annotations.updateFailed":"Failed to update: {error}","annotations.deleteFailed":"Failed to delete: {error}","annotations.restoreFailed":"Some annotations could not be restored. Please reload the chapter.","annotations.loadAllFailed":"Failed to load annotations: {error}","annotations.dataMigration":"Data migration","annotations.migrationDescription":"Switching storage location requires data migration","annotations.countingData":"Counting data…","annotations.currentData":{"one":"Current data: {count} annotation","other":"Current data: {count} annotations"},"annotations.skip":"Skip","annotations.migrate":"Migrate","annotations.migrating":"Migrating…","annotations.migratingProgress":"Migrating… {current}/{total}","annotations.storageLocationChanged":"Storage location changed","annotations.exportData":"Export data","annotations.exportBook":"Export book","annotations.exportAll":"Export all","annotations.exported":{"one":"Exported {count} annotation","other":"Exported {count} annotations"},"annotations.exportFailed":"Export failed: {error}","annotations.hubTitle":"Annotations","annotations.allAnnotatedBooks":"All annotated books","annotations.closeHub":"Close annotations","annotations.loading":"Loading annotations…","annotations.retry":"Retry","annotations.loadHubFailed":"Unable to load annotations","annotations.loadHubFailedDetail":"Please try again.","annotations.annotatedBooks":"Annotated books","annotations.noAnnotationsTitle":"No annotations yet","annotations.noAnnotationsDescription":"Select text while reading to save your first annotation.","annotations.noBookAnnotationsTitle":"No annotations in this book","annotations.noBookAnnotationsDescription":"This book may have been removed or its annotations were deleted.","annotations.annotationCount":{"one":"{count} annotation","other":"{count} annotations"},"annotations.bookCount":{"one":"{count} book","other":"{count} books"},"annotations.updatedAt":"Updated {date}","annotations.chapterNumber":"Chapter {number}","annotations.bookFallback":"Book","annotations.authorSeparator":" & ","annotations.bylineSeparator":" · ","annotations.error.not_found":"The annotation service was not found.","annotations.error.username_required":"A username is required for this annotation request.","annotations.error.invalid_json":"The annotation request was invalid.","annotations.error.no_sync_data":"No annotation data was provided.","annotations.error.annotation_not_found":"The annotation was not found.","annotations.error.invalid_chapter_index":"The requested chapter is invalid.","annotations.error.batch_requires_post":"This batch request must use POST.","annotations.error.database_unavailable":"The annotation service is temporarily unavailable.","annotations.error.reading_progress_not_found":"Reading progress was not found.","annotations.error.server_error":"The annotation service encountered an error.","annotations.error.network":"A network error occurred while contacting annotations.","annotations.error.timeout":"The annotation request timed out.","footer.product":"EPUB Library","footer.poweredBy":"Powered by","footer.poweredBySuffix":"·","version.updateAvailable":"Update available: v{version}","errors.generic":"Something went wrong.","errors.network":"A network error occurred.","annotations.shareActions":"Share annotations","annotations.copyShare":"Copy Markdown","annotations.exportShare":"Export Markdown","annotations.annotationActions":"Annotation actions","annotations.copyAnnotation":"Copy this annotation","annotations.annotationCopied":"Annotation copied as Markdown.","annotations.annotationCopyFailed":"Unable to copy this annotation.","annotations.shareAuthors":"Authors","annotations.shareCount":"Annotations","annotations.shareNote":"Note","annotations.shareCopied":"Annotation summary copied locally.","annotations.shareCopyFailed":"Unable to copy the annotation summary.","annotations.shareExported":"Annotation summary exported locally.","annotations.shareExportFailed":"Unable to export the annotation summary.","annotations.shareFileFallback":"Annotations","settings.navigationBehavior":"Navigation bar behavior","settings.navigationBehaviorHelp":"Choose when the top navigation stays visible while you read.","settings.navigationBehavior.normal":"Normal scroll","settings.navigationBehavior.sticky":"Always sticky","settings.navigationBehavior.autoHide":"Hide down, show up","settings.keyboardNavigation":"Keyboard navigation","settings.arrowKeyNavigation":"Use Left and Right Arrow keys to navigate","settings.spaceKeyNavigation":"Use Space for the next page or chapter","reader.locateCurrentChapter":"Locate current chapter","reader.locateCurrentSection":"Locate current section","annotations.addImageNote":"Add image note","annotations.imageNote":"Image note","annotations.showMoreColors":"Show {count} more colors","annotations.showFewerColors":"Show fewer colors","annotations.selectionActions":"Selected text actions","annotations.highlight":"Highlight","annotations.noteAction":"Note","annotations.dictionary":"Dictionary","annotations.encyclopedia":"Encyclopedia","dictionary.title":"Dictionary","dictionary.encyclopediaTitle":"Encyclopedia","dictionary.loading":"Looking up…","dictionary.close":"Close","dictionary.notFound":"No entry found.","dictionary.notConfigured":"No local dictionary is installed.","dictionary.choose":"Dictionary","dictionary.unavailable":"This service is temporarily unavailable.","dictionary.source":"Open source","book.readingTime":"Read {duration}","readingSessions.pending":"Reading time will be saved when you are back online.","readingSessions.error":"Unable to save reading time. Retrying automatically.","readingSessions.discarded":"Reading time could not be saved. Continue reading and try again later.","pdf.formatBadge":"PDF","pdf.noContents":"This PDF has no table of contents","pdf.page":"Page {number}","pdf.pageOf":"Page {number} of {total}","pdf.pageLoadError":"This page could not be loaded. Please try again.","pdf.loadingPage":"Loading page…","pdf.browserUnsupported":"This browser is too old to display PDF pages. Please update it, or open this book in a recent version of Chrome, Edge, Firefox, or Safari.","pdf.textUnavailable":"Text selection, annotations, dictionary, and encyclopedia are unavailable because this PDF has no usable text layer.","pdf.selectionWithinPageRequired":"Select text within one PDF page to use annotations, dictionary, or encyclopedia.","pdf.passwordRequired":"This PDF is password protected. Enter its password in the reader to display the page.","pdf.search":"Search PDF","pdf.searchPlaceholder":"Search PDF","pdf.searchNoResults":"No matching pages.","pdf.closeSearch":"Close PDF search","pdf.zoomOut":"Zoom out","pdf.zoomIn":"Zoom in","pdf.fitWidth":"Fit width","pdf.fitPage":"Fit page","pdf.goToPage":"Go to page","pdf.rotate":"Rotate page","pdf.print":"Print PDF","pdf.download":"Download PDF","pdf.searchFailed":"PDF search failed.","settings.desktopLayout":"Desktop layout","settings.autoHideDesktopChapterSidebar":"Auto-hide chapter sidebar","settings.autoHideDesktopChapterSidebarHelp":"Move the pointer to the left edge, or use Tab, to show the chapter sidebar.","settings.autoHideDesktopToolbar":"Auto-hide reading toolbar","settings.autoHideDesktopToolbarHelp":"Move the pointer to the right edge, or use Tab, to show the toolbar.","settings.clickPageHelp":"In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions.","locale.name.es":"Español","locale.name.de":"Deutsch","locale.name.fr":"Français","locale.name.ru":"Русский","locale.name.it":"Italiano","locale.name.pt-BR":"Português (Brasil)","locale.name.ar":"العربية","locale.name.id":"Bahasa Indonesia","locale.name.hi":"हिन्दी","locale.name.vi":"Tiếng Việt","locale.name.th":"ไทย","locale.name.ms":"Bahasa Melayu","library.recentReading.title":"Continue reading","library.recentReading.chapter":"Chapter {index}","library.recentReading.page":"Page {index}","library.recentReading.justNow":"Just now","library.recentReading.minutesAgo":"{count}m ago","library.recentReading.hoursAgo":"{count}h ago","library.recentReading.daysAgo":"{count}d ago","library.recentReading.monthsAgo":"{count}mo ago","kindle.allBooks":"All books","kindle.emptyRecent":"Open a book to start reading.","kindle.fullLibrary":"Open full library","kindle.theme":"Theme","kindle.noResults":"No matching books.","kindle.pdfUnsupported":"This PDF book can't be opened in Kindle mode yet.","kindle.serif":"Serif","kindle.sans":"Sans serif","vocabulary.navigation":"Vocabulary","vocabulary.allWords":"All vocabulary","vocabulary.bookTitle":"Book vocabulary","vocabulary.close":"Close","vocabulary.retry":"Retry","vocabulary.empty":"No words yet.","vocabulary.loading":"Loading vocabulary…","vocabulary.loadError":"Could not load vocabulary.","vocabulary.saveError":"Could not save the change. Try again.","vocabulary.once":"Looked up once","vocabulary.repeated":"Looked up {count} times","vocabulary.firstSeen":"First lookup · {date}","vocabulary.lastSeen":"Latest lookup · {date}","vocabulary.openSource":"Open the latest lookup location","vocabulary.mastery":"Mastery","vocabulary.new":"New","vocabulary.learning":"Learning","vocabulary.mastered":"Mastered","vocabulary.remove":"Remove from this book","vocabulary.delete":"Delete word","vocabulary.confirmRemove":"Remove “{word}” from this book’s vocabulary?","vocabulary.confirmDelete":"Delete “{word}” and its lookup history across all books?","vocabulary.search":"Search words","vocabulary.noMatches":"No words match.","vocabulary.emptyGuide":"Select text and use the dictionary while reading. Your lookups will appear here.","vocabulary.sources":"Sources","vocabulary.more":"More actions","vocabulary.saving":"Saving…","vocabulary.saved":"Mastery saved.","vocabulary.recorded":"Added to your vocabulary.","vocabulary.recordError":"Could not add this lookup to your vocabulary.","vocabulary.previousPage":"Previous","vocabulary.nextPage":"Next","vocabulary.pagination":"Vocabulary pages","vocabulary.scopeRead":"Read vocabulary","vocabulary.scopeWrite":"Manage vocabulary","book.search":"Search this book","book.searchPlaceholder":"Search this book","book.searchHint":"Type a word or phrase to search this book.","book.searching":"Searching…","book.searchNoResults":"No matches found.","book.searchResultCount":"Results: {count}","book.searchPrevPage":"Previous page","book.searchNextPage":"Next page","book.searchPageStatus":"Page {page} of {pages}","book.searchPageOutOfRange":"That page has no results","book.searchFailed":"Search failed. Try again.","book.searchUnavailable":"Search is temporarily unavailable. Try again later.","book.closeSearch":"Close search"});</script>
+    <script>window.EpubBrowserBasePath="/reader/";window.EpubBrowserMode="ssg"</script><script>window.EpubBrowserI18n.init();</script>
+    
+    
+    <noscript><link rel="manifest" href="/reader/assets/manifest.en.json"></noscript>
+    <link class="eb" href="resources/1/2/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link class="eb" href="resources/1/2/page_styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/reader/assets/immutable/vendor/fontawesome/css/all.min.b89e52f7e5ec.css">
+    <link rel="stylesheet" href="/reader/assets/immutable/theme.4c0437afbda0.css">
+    <link rel="stylesheet" href="/reader/assets/immutable/notification.3af6bb473911.css">
+    <link rel="stylesheet" href="/reader/assets/immutable/dialog.11578e5f1426.css">
+    <link rel="stylesheet" href="/reader/assets/immutable/chapter.d6bffadc60de.css">
+    
+    
+    <link rel="stylesheet" href="/reader/assets/immutable/breadcrumb.cf77915b2643.css">
+    <link rel="stylesheet" href="/reader/assets/immutable/loading.4191d9fecbbb.css">
+    <link rel="stylesheet" href="/reader/assets/immutable/annotation.8b634162a3e8.css">
+    <link rel="stylesheet" href="/reader/assets/immutable/annotation-hub.bed06f149212.css">
+    
+    <link rel="stylesheet" href="/reader/assets/immutable/vendor/glightbox/glightbox.min.6d3f62d4d179.css">
+    <link rel="icon" type="image/png" href="/reader/assets/immutable/favicon.dd042ee39766.png">
+    <link rel="apple-touch-icon" href="/reader/assets/immutable/icon-192.15435b416555.png">
+    <link rel="stylesheet" href="/reader/assets/immutable/bookshelf.9fd53d54c1ae.css">
+
+    <script src="/reader/assets/immutable/theme-bootstrap.cb8f81a354a2.js"></script>
+
+</head>
+
+<body>
+
+    <a class="skip-link" href="#eb-content" data-i18n="reader.skipToContent">Skip to reading content</a>
+
+    <div class="reading-progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav class="toc-floating reader-drawer" id="bookHomeFloating" aria-label="Book chapters" data-i18n-aria-label="reader.bookChapters" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.bookChapters">Chapters</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="bookHomeLocateCurrent" type="button" aria-label="Locate current chapter" data-i18n-aria-label="reader.locateCurrentChapter">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <a class="toc-book-home" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome">
+                    <i class="fas fa-book" aria-hidden="true"></i><span data-i18n="reader.openBookHome">Open book home</span>
+                </a>
+                <button class="toc-close" id="bookHomeClose" type="button" aria-label="Close book home" data-i18n-aria-label="reader.closeBookHome">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="bookHomeTocList">
+            <!-- 动态生成的书籍目录将放在这里 -->
+        </ul>
+    </nav>
+
+    <nav class="toc-floating reader-drawer" id="tocFloating" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.thisChapterContents">This chapter</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="tocLocateCurrent" type="button" aria-label="Locate current section" data-i18n-aria-label="reader.locateCurrentSection">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <button class="toc-close" id="tocClose" aria-label="Close table of contents" data-i18n-aria-label="reader.closeTableOfContents">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="tocList">
+            <!-- 动态生成的目录将放在这里 -->
+        </ul>
+    </nav>
+    
+    
+
+    <div class="reader-drawer-backdrop" id="readerDrawerBackdrop" aria-hidden="true"></div>
+
+    <header class="chapter-top-bar app-header">
+        <nav class="app-nav" aria-label="Reading navigation" data-i18n-aria-label="reader.navigation">
+            <a class="app-nav-brand" href="/reader/" aria-label="EPUB Browser" data-i18n-aria-label="common.brand"><img class="app-nav-brand-mark" src="/reader/assets/immutable/logo-mark-color.ef9a3679a944.png" width="32" height="32" alt=""><span data-i18n="common.brand">EPUB Browser</span></a>
+            <div class="app-nav-links">
+                <button type="button" class="app-nav-link" id="bookshelfBtn" aria-haspopup="dialog" aria-controls="bookshelfModal"><i class="fas fa-bookmark" aria-hidden="true"></i><span data-i18n="reader.shelf">Shelf</span></button>
+                <button type="button" class="app-nav-link" id="chapterAnnotationsBtn" data-annotation-hub data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" aria-haspopup="dialog"><i class="fas fa-highlighter" aria-hidden="true"></i><span data-i18n="reader.annotations">Annotations</span></button>
+                
+                
+                
+            </div>
+            <div class="app-nav-actions">
+                <div class="library-language app-nav-locale">
+    <button type="button" class="app-nav-action app-nav-locale-toggle" id="localeToggle" aria-haspopup="menu" aria-expanded="false" aria-label="Language" data-i18n-aria-label="common.language"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only" id="localeCurrentLabel" data-i18n="locale.name.en">English</span></button>
+    <select class="sr-only" id="localeSelect" tabindex="-1" aria-hidden="true"><option value="en" data-i18n="locale.name.en">English</option><option value="zh-CN" data-i18n="locale.name.zh-CN">简体中文</option><option value="zh-TW" data-i18n="locale.name.zh-TW">繁體中文</option><option value="ko" data-i18n="locale.name.ko">한국어</option><option value="ja" data-i18n="locale.name.ja">日本語</option><option value="es" data-i18n="locale.name.es">Español</option><option value="de" data-i18n="locale.name.de">Deutsch</option><option value="fr" data-i18n="locale.name.fr">Français</option><option value="ru" data-i18n="locale.name.ru">Русский</option><option value="it" data-i18n="locale.name.it">Italiano</option><option value="pt-BR" data-i18n="locale.name.pt-BR">Português (Brasil)</option><option value="ar" data-i18n="locale.name.ar">العربية</option><option value="id" data-i18n="locale.name.id">Bahasa Indonesia</option><option value="hi" data-i18n="locale.name.hi">हिन्दी</option><option value="vi" data-i18n="locale.name.vi">Tiếng Việt</option><option value="th" data-i18n="locale.name.th">ไทย</option><option value="ms" data-i18n="locale.name.ms">Bahasa Melayu</option></select>
+</div>
+                <button class="theme-toggle app-nav-action app-nav-theme" id="themeToggle" type="button" aria-label="Theme" data-i18n-aria-label="reader.theme"><i class="fas fa-moon" aria-hidden="true"></i><span class="app-nav-action-label" data-i18n="reader.theme">Theme</span></button>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="reader-toolbar top-controls chapter-tools" role="toolbar" aria-label="Reading tools" data-i18n-aria-label="reader.navigation">
+            <button class="control-btn" id="bookHomeToggle" type="button" aria-label="Open book chapters" data-i18n-aria-label="reader.openBookChapters" aria-controls="bookHomeFloating" aria-expanded="false"><i class="fas fa-book"></i><span class="control-name" data-i18n="reader.bookChapters">Chapters</span></button>
+            <button class="control-btn" id="tocToggle" type="button" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false"><i class="fas fa-list"></i><span class="control-name" data-i18n="reader.thisChapterContents">This chapter</span></button>
+            <button class="control-btn" id="settingsControlBtn" type="button" aria-label="Settings" data-i18n-aria-label="reader.settings" aria-controls="settingsModal" aria-expanded="false"><i class="fas fa-cog"></i><span class="control-name" data-i18n="reader.settings">Settings</span></button>
+            <div class="pagination-toolbar-controls" id="paginationInfo" role="group" aria-label="Page navigation" data-i18n-aria-label="reader.navigation">
+                <a href="/reader/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_112.html" id="readerPreviousChapter" class="control-btn prev-chapter" aria-label="Previous chapter" data-i18n-aria-label="reader.previous" aria-disabled="false"><i class="fas fa-arrow-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previous">Previous chapter</span></a>
+                <button class="control-btn" id="prevPage" type="button" aria-label="Previous page" data-i18n-aria-label="reader.previousPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previousPage">Previous page</span></button>
+                <button class="control-btn" id="reloadPages" type="button" aria-label="Reload pages" data-i18n-aria-label="reader.reloadPages" data-pagination-toolbar-control hidden><i class="fas fa-rotate-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.reloadPages">Reload pages</span></button>
+                <button class="control-btn" id="nextPage" type="button" aria-label="Next page" data-i18n-aria-label="reader.nextPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.nextPage">Next page</span></button>
+                <a href="/reader/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_114.html" id="readerNextChapter" class="control-btn next-chapter" aria-label="Next chapter" data-i18n-aria-label="reader.next" aria-disabled="false"><i class="fas fa-arrow-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.next">Next chapter</span></a>
+                <span class="pagination-page-status" id="currentPage" aria-live="polite">1</span>
+                <span class="pagination-page-status" id="totalPages" aria-label="Total pages" data-i18n-aria-label="reader.totalPages">1</span>
+                <button class="control-btn" id="pageJumpToggle" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump" aria-controls="paginationPageJumpPopover" aria-expanded="false" data-pagination-toolbar-control hidden><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i><span class="control-name" data-i18n="reader.jump">Jump</span></button>
+                <section class="pagination-page-jump-popover" id="paginationPageJumpPopover" role="dialog" aria-modal="false" aria-labelledby="paginationPageJumpTitle" aria-describedby="paginationPageJumpRange" aria-hidden="true" hidden>
+                    <strong class="pagination-page-jump-title" id="paginationPageJumpTitle" data-i18n="reader.jump">Jump</strong>
+                    <p class="pagination-page-jump-range" id="paginationPageJumpRange"></p>
+                    <label class="pagination-page-jump-label" for="pageJumpInput" data-i18n="reader.currentPage">Current page</label>
+                    <div class="pagination-page-jump-form">
+                        <input type="number" id="pageJumpInput" min="1" max="1" value="1" inputmode="numeric" aria-label="Current page" data-i18n-aria-label="reader.currentPage">
+                        <button class="pagination-jump-submit" id="goToPage" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump"><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i></button>
+                    </div>
+                </section>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="eb-content-container" id="eb-content-container" data-id="eb-content-container">
+            <div class="content-loading is-visible" id="contentLoading" aria-live="polite" aria-label="Loading content" data-i18n-aria-label="reader.loadingContent">
+                <div class="loading-spinner"></div>
+            </div>
+            <article class="eb-content" id="eb-content" lang="bn" dir="auto" data-eb-styles data-chapter-index="113" data-chapter-title="২" data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" data-total-chapters="471" data-highlight-script="/reader/assets/immutable/vendor/highlight/highlight.min.c4a399dd6f48.js" data-highlight-light="/reader/assets/immutable/vendor/highlight/github.min.3a9a5def8b9c.css" data-highlight-dark="/reader/assets/immutable/vendor/highlight/github-dark.min.9f208d022102.css">
+            
+<h2 class="block_8" lang="en" id="toc_id_11">২</h2>
+	<p class="block_9" lang="en">সেন্ট্রাল ইউনিভার্সিটি অব মাদ্রিদ আজ উৎসবমুখর। পদার্থ বিজ্ঞান অনার্সের আজ রেজাল্ট হয়েছে। সায়েন্স ফ্যাকাল্টিতে আনন্দটা আজ যেন বেশিই! আনন্দের কেন্দ্রবিন্দু আজ জেন ক্যাথরিনা। প্রথম শ্রেণীতে প্রথম হবার দুর্লভ সৌভাগ্য এবার সেই লাভ করেছে। জেন ক্যাথরিনাকে ঘিরে আনন্দটা আরও এই কারনে বেশি যে, সে অভবিতভাবে এই সম্মান লাভ করেছে। সবাই জানত প্রথম হওয়ার সম্মানটা জোয়ান ফার্ডিনান্ডের জন্যেই বরাদ্দ। সে কোন পরীক্ষাতেই কখনও দ্বিতীয় হয়নি। আর সে প্রথম হয় অনেক ব্যবধান নিয়ে, ক্লাস-পরীক্ষাতেও এটাই দেখা গেছে সব সময়। জেন ক্যাথরিনা, জোয়ান ফার্ডিনান্ডের চিরপ্রতিদ্বন্দ্বী। কিন্তু দ্বিতীয় আসন নিয়েই তাকে সন্তুষ্ট থাকতে হয়েছে সব সময়।</p>
+	<p class="block_9" lang="en">সেমিনার কক্ষে বন্ধু-বান্ধবীদের ভিড়ের মধ্যে বসেছিল জেন। বিয়ের কনের মতো তাকে অতিষ্ঠ করে তুলেছে সবাই।</p>
+	<p class="block_9" lang="en">সেমিনার কক্ষে প্রবেশ করল জোয়ান ফার্ডিনান্ড। তার আজ পরাজয়ের দিন। এ পরাজয়টা তার জন্যে নির্মেঘ আকাশের বজ্রপাতের মতোই আকস্মিক! কিন্তু অন্যেরা একে যেভাবেই দেখুক, জোয়ান একে সহজভাবেই গ্রহন করেছে। জোয়ান স্বভাবগতভাবেই শান্ত ছেলে। অত্যন্ত মেধাবী ও বুদ্ধিমান সে, কিন্তু তার প্রকাশ পাহাড়ী নদীর মতো উচ্ছল নয়, উচ্ছৃংখল তো নয়ই, সমভূমির নদীর মতো তা শান্ত-স্নিগ্ধ। ছাত্র বয়সেই সে এক বছর আগে মৌলিক গবেষণার জন্যে ইউরোপের সবচেয়ে সম্মানজনক পুরস্কার ‘ইউরোপ বিজ্ঞান একাডেমী পুরস্কার’ লাভ করেছে। সেন্ট্রাল ইউনিভার্সিটি অব মাদ্রিদ ও স্পেনের জন্যেও ছিল এটা দুর্লভ সম্মান। এটা ইউরোপের জন্যেও অদ্বিতীয়। মৌলিক আবিষ্কারের জন্যে একজন ছাত্রের এই পুরষ্কার পাওয়া এই প্রথম। যেদিন এ খবর মাদ্রিদে এলো, তখন বিশ্ববিদ্যালয়ের প্রেসিডেন্ট পর্যন্ত লাফিয়ে উঠেছিল। কিন্তু মুখে নির্মল এক খন্ড হাসি ফুটে ওঠা ছাড়া জোয়ানের মধ্যে আর কোন প্রতিক্রিয়া হয়নি। জোয়ান ফার্ডিনান্ডের এই চরিত্র তার প্রতিভার মতোই সকলেরই দৃষ্টি আকর্ষণ করে। যে আনন্দে আত্মহারা হয় না, সে কোন আঘাতেও মুষড়ে পড়ে না। জোয়ানের ক্ষেত্রে আজও তাই হয়েছে। জোয়ান ফার্ডিনান্ড যখন জেনকে স্বাগত জানানোর জন্য সেমিনার কক্ষে প্রবেশ করল, তার চোখে তখন খুঁজলে হয়তো ম্লানিমার একটা কালো ছায়া কেউ পাবে, কিন্তু ঠোঁটে ছিল তার স্বভাবজাত নির্মল এক টুকরো হাসি। আর হাতে ছিল ফুটন্ত এক গোলাপ-কুঁড়ি।</p>
+	<p class="block_9" lang="en">জেনকে মধ্যমণি করে টেবিল ঘিরে সবাই বসে ছিল। সেমিনার কক্ষে প্রবেশ করে যখন জোয়ান টেবিলটির দিকে এগোলো, তখন সবাই কক্ষে হৈ হৈ করে উঠল। কেউ মজা পেল, কারও মধ্যে বিদ্রূপের প্রকাশ ঘটল এবং কারও মধ্যে বিজয়ের উল্লাস। কিন্তু লাল স্কার্ট আর লাল শার্ট পরিহিতা উপচে পড়া আনন্দে উচ্ছালা, চঞ্চলা জেন যেন জোয়ানকে দেখেই দপ করে নিভে গেল! সে জোয়ানের দিকে চাইতে পারছিল না। সে চেয়ার থেকে উঠে দাঁড়াল, চোখটা নিচু।</p>
+	<p class="block_9" lang="en">জোয়ান তার দিকে এগিয়ে গিয়ে সহাস্যে বলল, ‘জেন, তোমাকে স্বাগত!’</p>
+	<p class="block_9" lang="en">বলে জোয়ান তার দিকে গোলাক-কুঁড়ি এগিয়ে দিতে দিতে বলল, ‘তোমার আনন্দে আমার এই উপহার। আমরা সকলে প্রকৃতির সন্তান, আর প্রকৃতির সুন্দরতম প্রকাশ হলো ফুল।’</p>
+	<p class="block_9" lang="en">জেন চোখ তুলে হাত বাড়িয়ে ফুলটি গ্রহন করে বলল, ‘ধন্যবাদ জো।’ মনে হলো চেষ্টা করল সে হাসার জন্যে, কিন্তু পারল না। কেমন অপ্রতিভ ভাব জেনের মধ্যে!</p>
+	<p class="block_9" lang="en">জেনের পাশের চেয়ার থেকে সহপাঠী বার্কা ফোঁস করে উঠল, ‘কিন্তু গোলাপ কেন জো?’</p>
+	<p class="block_9" lang="en">জোয়ান কিছু বলার আগেই জেনের অন্য পাশে বসা হ্যামিলকার ফোঁড়ন কাটল, ‘বার্কা, তুই বোকার মতো প্রশ্ন করেছিস। শুনলি না যে ও ‘মরিসকো’! এতদিন ও গোপন রেখেছিল, আজ হাটে হাঁড়ি ভেঙে গেছে। গোলাপ তো ‘মরিসকো’ দেরই ফুল।’</p>
+	<p class="block_9" lang="en">স্পেনে বাধ্য হয়ে খৃষ্ট ধর্ম গ্রহনকারী মুসলমানদেরকে ‘মরিসকো’ নামে ডাকা হয়। মরিসকোরা স্পেনে তৃতীয় শ্রেনীর নাগরিক। মনে করা হয় এদের পূর্বপুরুষরা জীবন বাঁচানোর জন্যে খৃষ্ট ধর্ম গ্রহন করেছিল, মনেপ্রানে খৃষ্টান হয়নি। সব ক্ষেত্রেই মরিসকোদেরকে সন্দেহ ও অবিশ্বাসের চোখে দেখা হয়। ঘৃণার পাত্র তারা। তাই মরিসকোরা অধিকাংশ ক্ষেত্রেই তাদের পরিচয় গোপন রাখতে চেষ্টা করে।</p>
+	<p class="block_9" lang="en">হ্যামিলকার কথা শেষ করতেই হাসির একটা হুল্লোড় পড়ে গেল টেবিলে। সে হাসিতে যোগ দিল না শুধু জেন। একবার সে শুধু চোখ তুলে তাকিয়েছিল জোয়ানের দিকে। তার চোখে বেদনা ও বিব্রত অবস্থার পাশাপাশি প্রবল জিজ্ঞাসার চিহ্ন।</p>
+	<p class="block_9" lang="en">জোয়ানের ঠোঁটের হাসি তখন মিলিয়ে গেছে, চোখে-মুখে অন্ধকার নেমে এসেছে অপমানের জ্বালা সেখানে স্পষ্ট। সে মুখ খুলল, তীব্র কন্ঠে প্রতিবাদ করল, ‘হ্যামিল, এভাবে যা ইচ্ছা তাই বলা যায় না। আমি যদি তোমাদের কোন ক্ষতি করে থাকি, শাস্তি দাও। কিন্তু মিথ্যা আরোপ কেন?’</p>
+	<p class="block_9" lang="en">‘আমি মিথ্যা বলিনি জো।’ চেয়ার থেকে উঠে দাঁড়িয়ে তীব্র কন্ঠে বলল হ্যামিলকার।</p>
+	<p class="block_9" lang="en">এই সময় চিৎকার করে কথা বলতে বলতে সেমিনার কক্ষে প্রবেশ করল দুংগা ডে ডেলা। সে বলছিল, ‘আমাদের ইউনিভার্সিটির ইজ্জত শেষ পর্যন্ত বাঁচিয়েছে ‘মরিসকো’ ব্যাটা প্রথম হতে পারেনি। জেন, তোমাকে হাজার বার ধন্যবাদ।’</p>
+	<p class="block_9" lang="en">‘কি এসব তোমরা শুরু করেছ?’ অধৈর্য কন্ঠে চিৎকার করে উঠল জেন।</p>
+	<p class="block_9" lang="en">জোয়ান আর ফুঁসে উঠল না, প্রতিবাদও করল না। অপমান ও বেদনায় ভেঙে পড়েছে তার চেহারা। দ্রুত সে বেরিয়ে এলো সেমিনার কক্ষ থেকে। সে সায়েন্স ফ্যাকাল্টি থেকে বেরিয়ে লনে নেমে এলো। তার দৃষ্টিটা ঝাপসা হয়ে উঠেছে। সামনের রাস্তা তার কাছে অস্পষ্ট লাগছে। মগজে ও গোটা সত্তায় একটাই শুধু চিৎকার উঠছে, তাকে ‘মরিসকো’ বলল কেন?’ সে কি ‘মরিসকো’? না, না, এটা হবে কেন?’ এটা হতে পারে না, পারে না এটা হতে! রাগে, উত্তেজনায় মাথা, কপাল, চোখ তার টনটন করছে। চোঁখ ফেটে যেন রক্ত বেরিয়ে আসবে তার! কে যেন সামনে এসে দাঁড়াল তার। জোয়ান চোখ তুলে দেখল, নিউক্লিয়ার ফিজিক্স- এর স্যার জনসন। জোয়ান তার দিকে চোখ তুললে স্যার জনসন জোয়ানের দিকে একবার তাকিয়ে তার মাথায় হাত রেখে বলল, ‘দুঃখ করো না বৎস, ধৈর্য ধর। তুমি মেধায় হারনি, হার হয়েছে পরিচয়ে। খৃষ্টান স্পেনের প্রতিষ্ঠাতা রানী ইসাবেলার ধর্মগুরু কার্ডিনাল ফ্রান্সিসকো জেমেনিজ ও সিসনারোজ -এর প্রতিষ্ঠিত বিশ্ববিদ্যালয়ে একজন ‘মরিসকো’ কে প্রথম স্থান দেয়া ঠিক মনে করা হয়নি। অতীতে যা হয়েছে না জেনে হয়েছে। তুমি ... ...</p>
+	<p class="block_9" lang="en">স্যার আরও কিছু বলতে যাচ্ছিল। কিন্তু শোনার মতো ধৈর্য, শক্তি কোনটাই জোয়ানের ছিল না। স্যার তার হৃদয়ের জ্বালা আরও শত গুণ বাড়িয়ে দিল। কোন কথা না বলে স্যারকে পাশ কাটিয়ে জোয়ান আবার চলতে শুরু করল।</p>
+	<p class="block_9" lang="en">জোয়ান সেমিনার কঁক্ষ থেকে বেরিয়ে এলে জেনও বেরিয়ে এসেছে পেছনে পেছনে। তার মনে প্রবল অস্বস্তি। প্রথম স্থান অধিকার করার খবর তার কাছে পৌছার পর থেকেই এই অবস্থার সৃষ্টি। জোয়ান তার চিরপ্রতিদ্বন্দ্বী। সে সব সময় জোয়ানকে হারাবারই চেষ্টা করেছে, কিন্তু জোয়ান আজ হারার পর তার আর কিছু ভালো লাগছে না। মনে হচ্ছে, জোয়ান প্রথম হলেই যেন তার মনটা বেশি খুশি হতো। তার ওপর জোয়ানের বিরুদ্ধে ‘মরিসকো’ হবার অভিযোগ তাকে অস্থির করে তুলল। সে কিছুতেই এটা মেনে নিতে পারছে না। কেউ কি এভাবে এতদিন পরিচয় গোপন করতে পারে!</p>
+	<p class="block_9" lang="en">জেন ফ্যাকাল্টি থেকে নিচে লনে নেমে এসে দেখল, জোয়ান কারপার্কের দিকে যাচ্ছে। জেন ছুটে গিয়ে তার পথ রোধ করে দাঁড়িয়ে তার দু’হাত ধরে পাগলের মতো ঝাঁকাতে ঝাঁকাতে বলল, ‘বলো তুমি ‘মরিসকো’ নও, তুমি অস্বীকার কর।’</p>
+	<p class="block_9" lang="en">জোয়ান মুহূর্তের জন্যে থমকে দাঁড়াল। তার রক্তের মতো লাল চোখটি জেনের দিকে তুলে ধরল। জেন আঁৎকে উঠল জোয়ানের চোখ দেখে, তার বিধ্বস্ত চেহারা দেখে।</p>
+	<p class="block_9" lang="en">‘আমি কিছু জানি না, আমাকে কিছু বলতে বলো না, যারা ষড়যন্ত্র করেছে তাদের কাছে যাও।’ তীব্র কন্ঠে কথাগুলো ছুঁড়ে দিয়ে জোয়ান জেনকে পাশ কাটিয়ে হন হন করে ছুটল গাড়ির দিকে।</p>
+	<p class="block_9" lang="en">জোয়ানের লক্ষ্য বাড়ি। দ্রুত সে বাড়ি পৌঁছতে চায়। মায়ের কাছে। মায়ের কাছেই জানতে পারবে সে ‘মরিসকো’ কি না।’ গাড়ি চলতে শুরু করল জোয়ানের। আব্বার কথা তার মনে পড়ল। তার আব্বা এই বিশ্ববিদ্যালয়েরই একজন অধ্যাপক ছিলেন। জোয়ানের বয়স যখন পনের, তখন তার আব্বা মারা যান। তার আব্বার সব কথা তার স্পষ্ট মনে আছে। তিনি ছিলেন, স্নেহপরায়ণ পিতা, সুবিবেচক পরিবার-কর্তা, সচেতন ও নীতিনিষ্ঠ একজন নাগরিক। অনেক সমাজ-সংগঠনের সাথে তিনি যুক্ত ছিলেন। বিশ্বস্ততার সাথে তিনি দেশ ও জনগণের সেবা করেছেন। তিনি ‘মরিসকো’ ছিলেন। তার আব্বা কখনও গীর্জায় গেছেন বলে মনে পড়ে না, এমন তো অনেকেই যায় না। কিন্তু কখনও তিনি গীর্জার অবমাননা করেছেন কেউ বলতে পারবে না। ‘মরিসকো’ হওয়ার অভিযোগ তাহলে আসছে কি করে! হৃদয়টা জ্বলে উঠল আবার জোয়ানের।</p>
+	<p class="block_9" lang="en">বাড়িতে পৌঁছে, গাড়ি বারান্দায় রেখেই ছুটল ভেতরে। সোজা মা’র ঘরে। জোয়ানের মা ঘর থেকে বেরুচ্ছিল। দরজায় তার সাথে জোয়ানের দেখা হলো।</p>
+	<p class="block_9" lang="en">জোয়ানের মুখের দিকে তাকিয়ে চমকে উঠল জোয়ানের মা। উদ্বিগ্ন কন্ঠে বলে উঠল, ‘তোর কি হয়েছে জো, কিছু ঘটেছে? অসুখ করেনি তো?’</p>
+	<p class="block_9" lang="en">‘না মা!’ বলে জোয়ান মাকে ঘরের ভেতর টেনে নিয়ে চেয়ারে বসাল। তারপর এসে দরজা বন্ধ করে দিয়ে মায়ের মুখোমুখি বসল।</p>
+	<p class="block_9" lang="en">জায়ানের মার চোখমুখে কৌতূহল, সেই সাথে উৎকন্ঠা।</p>
+	<p class="block_9" lang="en">জোয়ান মা’র দু’টি হাত হাতে নিয়ে অস্থির কন্ঠে বলল, ‘মা, আমি, আমরা মরিসকো?’</p>
+	<p class="block_9" lang="en">জোয়ানের মা এলিনা চমকে উঠল, জোয়ানের কথায়। মুহূর্তে তার মুখের আলো যেন দপ করে নিভে গেল!</p>
+	<p class="block_9" lang="en">‘এ প্রশ্ন কেন জো?’ কষ্ট করে যেন কথা কয়টি উচ্চারণ করল জোয়ানের মা।</p>
+	<p class="block_9" lang="en">মা’র চেহারা পরিবর্তন জোয়ানের চোখ এড়াল না। মায়ের মুখের আলো নিভে যাওয়া দেখে জোয়ানের আশার শেষ আলোটুকু যেন নিভে গেল। হৃদয় তার কেঁপে উঠল।</p>
+	<p class="block_9" lang="en">আবেগ রুদ্ধ কন্ঠে সে মায়ের দু’টি হাত জড়িয়ে ধরে বলল, ‘বলো মা, দেরি কর না, বলো আমাদের বিরুদ্ধে মরিসকো হওয়ার অভিযোগ সত্য নয়।’</p>
+	<p class="block_9" lang="en">জোয়ানের মা এলিনা তৎক্ষণাৎ কোন জবাব দিল না। গম্ভীর হয়ে উঠেছে তার মুখ। একটু সময় পর সে বলল, ‘অভিযোগ কে করেছে জো?’</p>
+	<p class="block_9" lang="en">‘বিশ্ববিদ্যালয়ের সবাই জানে, সবাই বলছে, এমনকি স্যারও বলেছেন আমি ‘মরিসকো’ বলেই আমাকে অনার্সে প্রথম স্থান দেয়া হয়নি।’</p>
+	<p class="block_9" lang="en">বলতে বলতে আবেগে-উত্তেজনায় জোয়ানের কন্ঠ রুদ্ধ হয়ে গেল।</p>
+	<p class="block_9" lang="en">জোয়ানের মা এলিনা পাথরের মতো স্থির হয়ে গেছে। তার মাথা নিচু।</p>
+	<p class="block_9" lang="en">‘কিছু বলছ না কেন মা, কথা বলো।’ প্রায় কান্না ঝরা কন্ঠে বলল জোয়ান।</p>
+	<p class="block_9" lang="en">মা এলিনা চোখ তুলল। গম্ভীর কন্ঠে বলল, ‘তোর প্রশ্নের সবটুকুর উত্তর আমি দিতে পারব না জো। আমি ‘মরিসকো’ ঘরের মেয়ে সেহেতু আমি মরিসকো।’</p>
+	<p class="block_9" lang="en">‘আব্বা?’ সংগে সংগেই বিস্ফরিত চোখে প্রশ্ন করল জোয়ান।</p>
+	<p class="block_9" lang="en">‘তোর আব্বা ‘মরিসকো’ কি না আমি জানি না। আমি ‘মরিসকো’ একথা আমি কোনদিন তোর বাবাকে বলিনি।’</p>
+	<p class="block_9" lang="en">‘আব্বা জানতেন না?’</p>
+	<p class="block_9" lang="en">‘তা বলতে পারব না।’ এ নিয়ে কোন কথা কোনদিন তার সাথে হয়নি। তবে একটা জিনিস জানি, অনেক দেখে-শুনে, অনেক খোঁজ-খুঁজি করে তোর আব্বা বিয়ে করেছে।’</p>
+	<p class="block_9" lang="en">‘কেন তা করেছেন?’</p>
+	<p class="block_9" lang="en">‘জানি না।’</p>
+	<p class="block_9" lang="en">‘দাদী কিছু বলতে পারবেন আম্মা?’</p>
+	<p class="block_9" lang="en">তিনি কিছু জানতেও পারেন, তবে তার কাছে কিছু শুনিনি কোনদিন।’</p>
+	<p class="block_9" lang="en">জোয়ান উঠে দাঁড়াল। দরজা খুলে ছুটে গেল দাদীর কামরায়।</p>
+	<p class="block_9" lang="en">জোয়ানের দাদীর বয়স নব্বই পার হয়েছে। চলা-ফেরা করতে পারেন তবু।</p>
+	<p class="block_9" lang="en">জোয়ান ঘরে ঢুকে দেখল বিছানায় ধ্যানমগ্ন হয়ে বসে আছে। তার দাদীর এ দৃশ্যই সাধারন। জোয়ান গিয়ে পাশে বসতেই তার দাদী চোখ খুলল। বলল, ‘কিরে জো, বলবি কিছু?’</p>
+	<p class="block_9" lang="en">‘না, বলতে আসিনি শুনতে এসেছি দাদী।’ গম্ভীর কন্ঠ জোয়ানের।</p>
+	<p class="block_9" lang="en">‘কেচ্ছা শুনবি?’</p>
+	<p class="block_9" lang="en">‘শুনব, ‘মরিসকো’দের কেচ্ছা বলো।’</p>
+	<p class="block_9" lang="en">দাদী চোখ তুলে তাকাল। যেন একটু ভাবল। তারপর বলল, ‘ওটা নিষিদ্ধ গল্প, আমি বলতে পারব না।’</p>
+	<p class="block_9" lang="en">একটু থেমে বলল, ‘কিন্তু তুই আজ একথা জানতে চাচ্ছিস কেন?’</p>
+	<p class="block_9" lang="en">‘জানতে চাচ্ছি দাদী, আমরা মরিসকো কি না?’</p>
+	<p class="block_9" lang="en">গম্ভীর কন্ঠে সরাসরি প্রশ্ন করল জোয়ান।</p>
+	<p class="block_9" lang="en">দাদী চোখ তুলে তাকাল। দৃষ্টিটা কিছুক্ষণ জোয়ানের ওপর স্থির রেখে বলল, ‘ আমরা ‘মরিসকো’ কি না বলতে পারব না, তবে আমি ‘মরিসকো’।</p>
+	<p class="block_9" lang="en">‘দাদা?’</p>
+	<p class="block_9" lang="en">‘আমি জানি না, কোনদিন কিছু বলেননি’</p>
+	<p class="block_9" lang="en">‘তুমি ‘মরিসকো’ জানতেন তিনি’</p>
+	<p class="block_9" lang="en">‘আমি কোনদিন বলিনি, জানতেন কি না জানি না।’</p>
+	<p class="block_9" lang="en">‘তোমাকেও দাদা কি খুঁজে খুঁজে বিয়ে করেন?’</p>
+	<p class="block_9" lang="en">‘তোর বাবা তোর মাকে যেমন?‘</p>
+	<p class="block_9" lang="en">’হ্যাঁ।’</p>
+	<p class="block_9" lang="en">‘মনে হয়। তা না হলে ভ্যালেনসিয়া থেকে গ্রানাডায় তিনি গেলেন কি করে!’</p>
+	<p class="block_9" lang="en">জোয়ান আর প্রশ্ন করল না। আর সে কথা বলতে পারছে না। ভেতরটা তার কাঁপছে। তোলপাড় উঠেছে গোটা সত্তায়। তার আব্বার ও তার দাদার খুঁজে খুঁজে মরিসকো বিয়ে করার রহস্য কি এই যে, তারা ‘মরিসকো’ ছিলেন বলেই খুঁজে খুঁজে ‘মরিসকো’ কনে বের করেছেন। তার এ জিজ্ঞাসার জবাব কে দেবে?</p>
+	<p class="block_9" lang="en">আর চিন্তুা করতে পারছে না জোয়ান। অনেকটা টলতে টলতেই উঠে দাঁড়াল।</p>
+	<p class="block_9" lang="en">কোনমতে ছুটে গিয়ে সে শুয়ে পড়ল তার বিছানায়। বিছানার ওপর পড়েছিল ‘ফিউচার’ নামক বিশ্ববিখ্যাত সায়েন্স জার্নালের সর্বশেষ সংখ্যা। আজ সকালেই পেয়েছে। পড়তে পড়তে রেখে গিয়েছিল। জোয়ান ওটা ছুঁড়ে ফেলে দিল মেঝেয়। ২টা বাজার শব্দ হলো ঘড়িতে। জোয়ানের চোখটা ঘুরে গেল টেবিল বুক সেলফের দিকে। বইগুলো মনে হচ্ছে তার কাছে অর্থহীন। টেবিলে একটা বাঁধানো ছবি রাখা ছিল। অনার্সে ভর্তির সময় তোলা ডিপার্টমেন্টের ছাত্র-শিক্ষকদের সাথে সুন্দর একটা গ্রুপ ছবি। ছবির মানুষগুলোকে, ছবির জোয়ানকে তার অপরিচিত মনে হচ্ছে। কান্নায় ভেঙে পড়ল জোয়ান।</p>
+	<p class="block_9" lang="en">অনেক কাঁদল জোয়ান। দুপুরে খেল না। ঘর থেকেও বেরুল না। তার সামনে সুন্দর দুনিয়া আজ তার কাছে বিস্বাদ হয়ে গেছে। মনে হচ্ছে, সব কিছুর মধ্যে সে যেন এক অনাহূত অতিথি। পরিচিত দুনিয়ায় তার অস্তিত্বই এখন বেঢপ বেমানান ঠেকছে। সন্দেহ আর অবিশ্বাসের যেন এক জ্যান্ত প্রতিমূর্তি সে এখন! ভাবতেই বুকটা ফেটে চেমচির হয়ে যাচ্ছে, হু হু করে বেরিয়ে আসছে কান্না।</p>
+	<p class="block_9" lang="en">চোখ বন্ধ করে শুয়েছিল জোয়ান। দুই গন্ডে অশ্রুর শুকিয়ে যাওয়া ধারা স্পষ্ট। চোখের কোণ ভেজা।</p>
+	<p class="block_9" lang="en">মা এলিনা এসে ধীরে ধীরে ঘরে ঢুকল।</p>
+	<p class="block_9" lang="en">তার চোখ ভারি, মুখ ভারি। বোঝা গেল সেও কেঁদেছে।</p>
+	<p class="block_9" lang="en">মা এলিনা এসে বসল জোয়ানের বিছানায় তার মাথার কাছে। ধীরে ধীরে হাত রাখল জোয়ানের মাথায়। জোয়ান চোখ খুলল।</p>
+	<p class="block_9" lang="en">জোয়ানের ঠোঁট কাঁপছিল। সে ডান হাতটা তুলে এনে মায়ের হাতে জড়িয়ে ধরে কান্নায় ভেঙে পড়ল। বলল, ‘মা, একি হলো আমাদের। সবাই যা জানে, আমি তা জানতে পারিনি কেন আগে! কেন আমি জীবনকে এত সুন্দর ভেবেছিলাম?’</p>
+	<p class="block_9" lang="en">‘বাবা, আমি কিছুই যে জানতাম না। আমি ‘মরিককো’ এ কথা আমি প্রকাশ করিনি, এটা আমার অপরাধ হতে পারে। কিন্তু কোন ‘মরিসকো’ই তো তার পরিচয় প্রকাশ করতে চায় না। করলে যে তাদের বিয়ে হয় না, চাকরি মেলে না, সমাজের কোন সহযোগিতা মেলে না।’ একটু থামল মা এলিনা। তারপর বলল আবার, ‘আমার কাছে তোর বাবার একটা আমানত আছে তোর জন্যে। কথা ছিল তোর বয়স বাইশ পূর্ণ হলে তোর হাতে তুলে দিতে হবে। আগামী কাল তোর জন্মদিন। আজ তোর বাইশ বছর পূর্ণ হলো।’</p>
+	<p class="block_9" lang="en">তড়াক করে বিছানা থেকে লাফিয়ে উঠল জোয়ান। বলল, ‘কী আমানত মা?’</p>
+	<p class="block_9" lang="en">‘তোর বাবার হাতে সিলমোহর করা তালা বদ্ধ একটা কঠের বাক্স।’</p>
+	<p class="block_9" lang="en">বলে মা এলিনা কাপড়ের আড়াল থেকে কাঠের একটা ছোট বাক্স বের করে তুলে দিল জোয়ানের হাতে।</p>
+	<p class="block_9" lang="en">জোয়ান কম্পিত হাতে তা গ্রহন করল। তার চোষে নতুন উৎকন্ঠা, উত্তেজনা! বাক্সটি জোয়ানের হাতে তুলে দিয়ে মা এলিনা নীরবে ধীর পায়ে বেরিয়ে গেল ঘর থেকে।</p>
+	<p class="block_9" lang="en">জোয়ান ভালো করে বাক্সটির ওপর চোখ বুলাল। মূল্যবান মেহগনি কাঠ দিয়ে অত্যন্ত যত্ন করে তৈরি করা বাক্সটি। বন্ধ তালার ওপর গালা করে সিল লাগানো। সিলের কাগজে বাবার হস্তক্ষর স্পষ্ট।</p>
+	<p class="block_9" lang="en">জোয়ান পাগলের মতোই দ্রুত সিল ও তালা ভেঙে ফেলল।</p>
+	<p class="block_9" lang="en">ধীরে ধীরে কম্পিত হাতে খুলল বাক্সটি।</p>
+	<p class="block_9" lang="en">বাক্সের মুখ ফাঁক হতেই ভেতর ছুটে গেল তার দু’চোখ। চোখে পড়ল একটি খাতা, তার ওপর একটি খাম।</p>
+	<p class="block_9" lang="en">খামটি দ্রুত হাতে তুলে নিল জোয়ান।</p>
+	<p class="block_9" lang="en">সুন্দর নীল খাম। খামের ওপর গাঢ় নীল কালিতে লেখা একটা নামঃ ‘মুসা আবদুল্লাহ’ ওলফে ‘জোয়ান ফার্ডিনান্ড’। কোন সন্দেহ নেই জোয়ানের বাবার হস্তাক্ষর।</p>
+	<p class="block_9" lang="en">নামটি পড়ার সংগে সংগে জোয়ানের হার্টের স্পন্দন যেন বন্ধ হয়ে গিয়েছিল মুহূর্তের জন্যে। মনে হলো তার, তার হৃৎপিন্ডটাকে কেউ খামচে ধরে যেন থামিয়ে দিয়েছে।</p>
+	<p class="block_9" lang="en">বহু কষ্টে একটা ঢোক গিলল জোয়ান।</p>
+	<p class="block_9" lang="en">গলাটা যেন শুকিয়ে কাঠ হয়ে গেছে! শরীরের ভেতরটা অসহ্য শুষ্কতায় কাঁপছে।</p>
+	<p class="block_9" lang="en">তার শরীরের যেন কোন ওজন নেই। যেন শূন্যে ভাসছে সে।</p>
+	<p class="block_9" lang="en">তার হাতে ধরা নীল খামের কভারে লেখা অক্ষরগুলো যেন জীবন্ত হয়ে উঠেছে। এগুলো যেন তার কানে চিৎকার করে বলছে, ‘তুমি জোয়ান ফার্ডিনান্ড নও, তুমি মুসা আবদুল্লাহ।’ সে চিৎকার তার দেহের প্রতিটি স্নায়ুতন্ত্রী ও অণু-পরমাণুতে প্রতিধ্বনিত হচ্ছে।</p>
+	<p class="block_9" lang="en">জোয়ানের কাঁপা হাতে ধরা ছিল ইনভেলাপ। সে খুলে ফেলল ইনভেলাপের মুখ। বেরিয়ে এলো দুই ভাঁজ করা একটা কাগজ। সেই নীল কাগজে গাঢ় নীল কালিতে লেখা কয়েকটা লাইন- জোয়ানের উদ্দেশে লেখা চিঠি। পিতার চিঠি।</p>
+	<p class="block_9" lang="en">চিঠির ওপর আছড়ে পড়ল জোয়ানের চোখ। পড়তে লাগল সে-</p>
+	<p class="block_9" lang="en">প্রিয় মুসা আবদুল্লাহ,</p>
+	<p class="block_9" lang="en">মুসা আমার প্রিয় নাম। ইনি ছিলেন মুসলিম স্পেনের শেষ আশ্রয় গ্রানাডার শেষ সিংহ হৃদয় বীর। তার নামেই তোমার নাম রেখেছি। আর আবদুল্লাহ? আবদুল্লাহ তোমার এক দুর্ভাগা পূর্বপুরুষ।</p>
+	<p class="block_9" lang="en">এই চিঠির সাথে চামড়া বাঁধানো যে খাতা তুমি পাবে, তা আমি পেয়েছিলাম এমনি বাক্সে করে আমার আব্বার কাছ থেকে। আমার বাবা পেয়েছিলেন তার বাবার কাছ থেকে। ছয় পুরুষ ধরে এই বাক্স এমনিভাবে আসছে। সপ্তম পুরুষ হিসেবে তোমার জন্যে বংশের এই পবিত্র আমানত আমি রেখে গেলাম।</p>
+	<p class="block_9" lang="en">আমাদের স্বরূপ সন্ধানের জন্যে আমাদের আত্মপরিচয়ের এই বার্তা তোমার কাছে পৌঁছে দেয়া ছাড়া তোমার প্রতি আমার কোন নির্দেশ নেই।</p>
+	<p class="block_9" lang="en">তোমার পিতা</p>
+	<p class="block_9" lang="en">আহমদ আবদুল্লাহ ওরফে জন জিমেনিজ</p>
+	<p class="block_9" lang="en">চিঠির শেষ শব্দ কয়টি পড়ে কান্নায় ভেঙে পড়ল জোয়ান। ‘বাবা, তোমার এই নির্দেশ না দেয়াই যে আমার ওপর বড় নির্দেশ। বাবা, তুমি উদার, তুমি আমার ওপর কোন চাপ সৃষ্টি করতে চাওনি, কিন্তু এই চাপ না দেয়াই যে আমার ওপর সবচেয়ে শক্ত চাপ! বাবা, তুমি আমাকে স্বাধীনতা দিয়েছ, এই স্বাধীনতা দিয়েই তুমি আমাকে বুঝিয়েছ পরম স্বাধীনতাটা কি! আমার পরম প্রিয় আব্বা, আমি তোমার কাছে কৃতজ্ঞ।’</p>
+	<p class="block_9" lang="en">জোয়ানের দু’চোখ দিয়ে অবিরল ধারায় গড়িয়ে পড়ছিল পানি। এই পানি তার হৃদয়ের অসহ্য যন্ত্রণার গলিত রূপ। অশ্রুর এই স্রোত বেগবান পাহাড়ী নদীর মতো জোয়ানের বাইশ বছরের সুন্দর, উজ্জ্বল, বর্ণাঢ্য জীবনের অতি প্রিয় পরিচয়গুলোর ওপর যেন হাতুড়ির আঘাত হানছে, তাকে ভেঙে গুঁড়িয়ে দিচ্ছে। প্রতি ফোঁটা অশ্রু যেন এক খন্ড করে যন্ত্রণার আগুন। এই যন্ত্রণার মধ্যে জোয়ানের নবজন্ম হচ্ছে।</p>
+	<p class="block_9" lang="en">অশ্রুর ধারায় ভাসছে জোয়ানের চোখ। দৃষ্টি তার ঝাপসা। তার সেই ঝাপসা দৃষ্টির সামনে ফুটে উঠল তার পিতার ছবি। আব্বা তার সুন্দর, সহজ, সরল জীবনের অন্তরালে পাহাড়ের মতো বিরাট এত কথা, এই বেদনা লুকিয়ে রেখেছিলেন! তার হাসি-আনন্দের আড়ালে লুকানো ছিল এত বড় বুকফাটা বেদনা! কী দুর্বহ এই জীবন! জোয়ানের বুক ঠেলে বেরিয়ে এলো এক কান্নার ঝড়।</p>
+	<p class="block_9" lang="en">অনেক পরে জোয়ান মুখ তুলে বাক্সটার দিকে তাকাল। খোলা ছিল বাক্স। চামড়া বাঁধানো সুন্দর খাতাটি তার নজরে পড়ল। কি আছে ওতে! তার আত্মপরিচয়! তাদের ‘মরিসকো’ জীবনের কাহিনী! বুক কেঁপে উঠল জোয়ানের।</p>
+	<p class="block_9" lang="en">ধীরে ধীরে কম্পিত হাত বাড়িয়ে জোয়ান বাক্স থেকে তুলে নিল খাতাটি।</p>
+	<p class="block_9" lang="en">খাতার পৃষ্ঠার সংখ্যা পঞ্চাশের বেশি নয়। চামড়ার তৈরি অত্যন্ত দামী কাগজ খাতার। পাতা উল্টিয়ে প্রথম পৃষ্ঠা জোয়ান তার সামনে মেলে ধরল।</p>
+	<p class="block_9" lang="en">পাতার শীর্ষে আরবী ভাষায় বিসমিল্লাহ লেখা। জোয়ান পড়তে পারল না, কিন্তু ভাষাটি যে আরবী তা বুঝল। তারপর স্প্যানিশ ভাষায় লেখা শুরু। বড় বড় অক্ষরে পরিচ্ছন্ন লেখা। পড়তে লাগল জোয়ান-</p>
+	<p class="block_9" lang="en">‘আমাকে সবাই ‘টম’ বলে ডাকে। বাসার কুকুরটির নাম ‘টমি’। আমার মতো গৃহভৃত্যের নাম আমার ‘প্রভু’ কাউন্ট জুলিয়াস এর চেয়ে ভালো কিছু আর পাননি। কিন্তু আমার নাম আছে। আবদুল্লাহ বিন আবদুর রহমান আমি। আমি আম্মার কাছে শুনেছি, আমার জন্মের সপ্তম দিনে দশটি খাসি আকিকা করে মহাসড়ম্বরে আমার এই নাম রাখা হয়েছিল। ভ্যালেনসিয়া শহরের আমির ওমরাহ গণ্যমান্য সকলেরই আমি দোয়া পেয়েছিলাম, আমার আকিকা-উৎসবে সবাই এসে আমাকে দোয়া করেছিলেন। আমার আব্বা ভ্যালেনসিয়ার ‘দারুল হিকমহ’ অর্থাৎ বিজ্ঞান বিশ্ববিদ্যালয়ের অধ্যক্ষ ছিলেন। রসায়নবিদ্যার ওপর তার লেখা বই স্পেনের বিশ্ববিদ্যালয়গুলোতে পড়ানো হতো। পরে শুনেছি।</p>
+	<p class="block_9" lang="en">আমার এখনকার মনিবের নাম কাউন্ট জুলিয়াস ডে ডেল্লা। সে এখন ভ্যালেনসিয়ার নগর কোতোয়াল। সে খোঁজ নিয়ে আমার পরিচয় জেনেই আমাকে গৃহভৃত বানিয়েছেল। খুব ভালো হতো যদি আমার পরিচয় না জানা কারও গৃহভৃত্য আমি হতাম। তাতে অন্তত বাড়িতে মানসিক যন্ত্রণা থেকে রেহাই পেতাম। সুযোগ পেলেই মালিক ও মালিকপত্নী আমাকে আমার আব্বার নাম ধরে গালি দিত। আমার গৃহভৃত্য জীবনের দ্বিতীয় দিনে বাগানের ফুল গাছগুলোর জন্যে কূপ থেকে পানি তুলছিলাম। অনভ্যস্ত হাতে অল্প সময়ের মধ্যেই ফোস্কা পড়ে গিয়েছিল। বালতির দড়িতে আর হাত দিতে পারছিলাম না। নিরুপায়ভাবে দাঁড়িয়েছিলাম। মনিব আর মনিবপত্নী বাগানে চেয়ারে বসেছিলেন। তারা বুঝতে পারলেন আমার অবস্থা। মুনিব হাঁক দিয়ে বলল, হে আমীর আবদুর রহমানের পুত্র! এটা তোমার বাবার বিশ্ববিদ্যালয় নয়, এখানে গতর খাটিয়ে কাজ করে খেতে হবে। কলম পেশার চাকুরি নেই। এখানে গতর না খাটালে ভাতও হবে না। মুনিবপত্নী উঠে এসে এক খন্ড কাপড় দিয়ে বলল, হাতে জড়িয়ে পানি তোল। অর্ধেক কাজও তো এখনও হয়নি।</p>
+	<p class="block_9" lang="en">আব্বার নাম শুনে আমার চোখ ফেটে পানি এলো। সেই সাথে মনে পড়ল মায়ের কথা। মাত্র একদিন আগের বুকফাটা দৃশ্য আমার চোখের সামনে ভেসে উঠল। আমি আমার আব্বা-আম্মার সাথে ভ্যালেনসিয়া বন্দরে জাহাজে উঠেছিলাম স্পেন ছেড়ে চলে যাবার জন্যে। রাজা ফিলিপের নির্দেশ জারী হয়েছে, মুসলমানরা আর কেউ স্পেনে থাকতে পারবে না। না হলে বাড়ি-ঘর, বিষয়-সম্পত্তি তো যাবেই, জীবনও যাবে। শুনেছিলাম, স্পেনের সব জায়গা থেকেই মুসলমানরা উৎখাত হয়েছে, শুধু বাকী ছিল পূর্ব স্পেনের এই ভ্যালেনসিয়া। সেই ভ্যালেনসিয়াতে এসেও ওদের হাত পড়ল। ক’দিন ধরেই মুসলমারা পালাচ্ছিল ভ্যালেনসিয়া ছেড়ে, কেউ ফ্রান্সের দিকে, কেউ নৌকা বা জাহাজে চড়ে অনিশ্চিতের পথে যাত্রা করছিল। আমরা ছিলাম শেষোক্ত দলে। অনেক ভাড়া করা জাহাজ আমাদের তুলে নিচ্ছিল। আমি আব্বা-আম্মার সাথে জাহাজের ডেকে রেলিং ধরে দাঁড়িয়েছিলাম। আমরা তাকিয়েছিলাম ভ্যালেনসিয়া নগরীর দিকে। আম্মা কাঁদছিলেন। আব্বাকে কোনদিন আমি কাঁদতে দেখিনি। সেই আব্বাকেও আমি চোখ মুছতে দেখলাম। আমি জিজ্ঞেস করেছিলাম, আব্বা, আমরা স্পেনের অন্য কোথাও গিয়ে থাকতে পারি না? আব্বা আমাকে বুকে জড়িয়ে ধরে বলেছিলেন, ‘তেমন এক ইঞ্চি জায়গাও আজ স্পেনে নেই বাছা।’ বলে আব্বা শিশুর মতো কেঁদে উঠেছিলেন। তখন আম্মা কান্না থামিয়ে আব্বার কাঁধে হাত রেখে বলেছিলেন, তুমি কাঁদলে, তুমি ভেঙে পড়লে আমরা বাঁচব কি করে! আব্বা বলেছিলেন, আমি কাঁদিনি, কিন্তু আর কত পারি! আমার এই প্রিয় মাতৃভূমি, চার পুরুষের এই জায়গা, আমার বিশ্ববিদ্যালয়, আমার লাইব্রেরি ছেড়ে যেতে যে হৃদয় ছিঁড়ে যাচ্ছে! জাহাজে লোক ওঠা তখন শেষ। জাহাজ শেষ ভেঁপু বাজচ্ছে। এমন সময় রাজা ফিলিপের পতাকাধারী কে একজন তীর থেকে জাহাজের দিকে চোখ তুলে উচ্চ স্বরে ঘোষণা করল, ‘তোমরা মুসলমানরা চলে যাও, কিন্তু বালক-বালিকারা, শিশুরা মা মেরীর সন্তান। তারা মহান রাজা ফিলিপের সম্পদ। তাদের রেখে তোমরা গোল্লায় যাও।’ ঘোষণার সংগে সংগে রাজার সৈনিকরা এবং সারি সারি লোক জাহাজে উঠে এলো। ওরা মায়ের বুক থেকে, পিতার বাহুবন্ধন থেকে সন্তানদের কেড়ে নিতে লাগল। যারা সামান্যও বাধা দিল, তাদের অমানুষিক মারধর করল। যারা প্রতিরোধ করতে চেষ্টা করল, তারা জীবন দিল। জাহাজের ভেতরটা মানুষের রক্তে লাল হয়ে উঠল। আমি কাঁপছিলাম। মা আমাকে বুকে জড়িয়ে রেখেছিলেন। আর আব্বা আমাদের দু’জনকে আড়াল করে রেখেছিলেন যাতে কেউ দেখতে না পায়। তবু ওরা দেখতে পেল। বন্দুকধারী একজন এসে আব্বাকে ধাক্কা দিয়ে ফেলে দিল। আর আম্মাকে বন্দুকের বাঁটের এক বাড়ি দিয়ে এক হ্যাঁচকা টানে আমাকে মায়ের বুক থেকে কেড়ে নিল। মা এক বুকফাটা আর্তনাদ করে জ্ঞান হারিয়ে পড়ে গিয়েছিলেন ডেকের ওপর। তারপর মায়ের কন্ঠ আমার কাছে চিরদিনের মতোই নিরব হয়ে গেল। আমি নিজেকে ছাড়িয়ে নেবার জন্যে হাত-পা ছুঁড়ছিলাম, আর চিৎকার করে কাঁদছিলাম। শেষবারের মতো পেছনে তাকিয়ে দেখছিলাম, আব্বা ডেক থেকে উঠছেন। তার কপাল ফেটে গিয়েছিল, তার গোটা মুখ রক্তাক্ত। এখনও চোখ বুজলে আব্বার এ রক্তাক্ত মুখই আমি দেখি, মায়ের বুকফাটা ঐ আর্তনাদই আমি শুনতে পাই। আমি তখন আমার সব শক্তি হারিয়ে ফেলি, চারদিকের এ দুনিয়াটা আমার অপরিচিত ও অর্থহীন হয়ে যায়।</p>
+	<p class="block_9" lang="en">সেদিনও তাই হলো। আমার হাত থেকে বালতির দড়ি খসে গেল, বালতি পড়ে গেল কূপে। মুনিব ও মুনিবপত্নীর নজরে পড়লে সংগে তারা ছুটে এলো। মুনিব একবার আমার দিকে চেয়েই বলল, ‘বাদশাহ নন্দন! আবার কাঁদছেন, কাজ ফাঁকি দেয়ার কৌশল। এই মুর বেটারা শেয়ালের মতো চালাক!’ বলে তার হাতের ছড়ি দিয়ে আমাকে প্রহার করতে লাগল। মুনিব পত্নী বলল, তুমি বেছে বেছে কুড়ের সর্দার এক বিজ্ঞানীর পুত্রকে নিয়ে এসেছ। আর লোক পাওনি। আমার মনিব কোতোয়াল বলল, আমি বেছে বেছেই এনেছি গিন্নী। বিজ্ঞানী আবদুর রহমানের পুত্রকে আমি গৃহভৃত্য বাহিয়েছি- এর মধ্যে একটা গৌরব এবং ‘মুর’দের উঁচু মাথা পদদলিত করার একটা সুখ আছে না?</p>
+	<p class="block_9" lang="en">সেদিনই আমার জ্বর এসেছিল। অচেতন-আধা চেতন অবস্থায় আমার কয়দিন কেটেছিল জানি না। কিন্তু যেদিন প্রথম বাইরে বের হলাম দেখলাম, ফুলের কুঁড়িগুলো পূর্ণ প্রস্ফুটিত ফুলে পরিণত হয়েছে। জ্বরের সময় আমি সিঁড়ি ঘরের পাশের একটা ছোট্ট ঘরে পড়েছিলাম। গোট সময়ে পলের মা, মাঝ বয়সী এক ঝাড়ুদারণী, ছাড়া আর কাউকে দেখিনি। আমি জ্বর, মাথা ব্যথায় অস্থির হয়ে পড়লে তিনি আমার মাথায় হাত বুলিয়ে দিতেন, দেখাশোনা করতেন।</p>
+	<p class="block_9" lang="en">যে দিন আমার জ্বর সম্পূর্ণ ছাড়ল, সেদিন সন্ধ্যায় মনে হলো, আমি তো একয়দিন নামাজ পড়িনি। আব্বা-আম্মা থেকে বিচ্ছিন্ন হবার কয়েকটা দিন আমার দুঃস্বপ্নের মতো একটা ঘোরের মধ্যে দিয়ে কেটে গেছে। নামাজ পড়ার কথা মনেই হয়নি। আমার বয়স সে সময় দশ। আব্বা যখন বাসায় থাকতেন, তখন আমাকে সাথে নিয়েই মসজিদে নামাজ পড়তে যেতেন। এভাবে সে বয়সেই পাঁচ ওয়াক্ত নামাজ পড়তে আমি অভ্যন্ত হয়ে উঠেছিলাম। কুরআন পড়া আরো আগে শিখেছিলাম। প্রয়োজনীয় সব দোয়া-দরুদও। সেদিন সন্ধ্যায় আমি আমার হাতের কাজ সেরে অজু করে নিয়ে সিঁড়ির পাশে মাগরিবের নামাজে দাঁড়ালাম। শেষ রাকাতের রুকুতে গেছি, এমন সময় আমি মুনিবের গলার আওয়াজ শুনলাম। তিনি আমাকে ডাকছেন, ড্রইংরুমের এ্যাসট্রে বদলাতে হবে।</p>
+	<p class="block_9" lang="en">তার পায়ের শব্দ পেলাম। আমি তখন সিজদায়। মনে হলো পায়ের শব্দ দরজায় এসে মুহূর্তের জন্যে থামল। তারপর আবার তা ছুটে এলো। আমি সিজদা থেকে মাথা তুলছি, এমন সময় মনিবের হাতের রাবারের ছড়ি সাপের ছোবলের মতো পিঠে, মাথায় আঘাত করতে লাগল। আমি সিজদা থেকে মাথা তুলে বসতে পারলাম না। যন্ত্রণায় লুটিয়ে পড়লাম বিছানায়। এক পশলা চাবুক চালাবার পর মনে হয় তার রাগের কিছু উপশম হলো। তিনি কথা বলল। ঠিক কথা বলল না, চিৎকার করল- তোকে এসব অপকর্ম করার জন্যে স্পেনে রাখা হয়নি। স্পেনে থাকতে হলে খৃষ্টান হয়েই থাকতে হবে। প্রথম দিনেই ব্যাপটাইজ (খৃষ্টান ধর্মে দীক্ষেতকরণ) করার কথা ছিল, তা না করে ভুল করেছি। একটু থামল, তারপর বলর, প্রস্তুত থাকিস কাল সকালে গীর্জায় যেতে হবে।</p>
+	<p class="block_9" lang="en">মনে কোথা থেকে সাহস এসেছিল জানি না। মুনিব তার কথা শেষ করতেই আমি মাটি থেকে মাথা তুলে বললাম, না, আমি খৃষ্টান হবো না, আমি মুসলমান। বারুদে আগুন লাগার মতোই জ্বলে উঠল মুনিব। জ্বরে ওঠার প্রকাশ ঘটল কাথায় নয়, চাবুকে। আগের মতোই রাবারের চাবুক নেমে এলো পিঠে। ভাবতে বিস্ময় লাগে সেদিন সে মার আমি কেমন করে সহ্য করেছিলাম! মুনিব বলল, খৃষ্টান হওয়ার কথা স্বীকার না করা পর্যন্ত চাবুক থামবে না। আমাকে মুখ খুলতে হয়নি। আমি অজ্ঞান হয়ে পড়েছিলাম।</p>
+	<p class="block_9" lang="en">আমার জ্ঞান ফিরেছিল হাসপাতালে। পরে শুনেছিলাম, আমি মরে যাচ্ছি মনে করে সেই পলের মা’ই আমাকে হাসপাতালে নিয়ে এসেছিল। হাসপাতালে থাকতেই পলের মায়ের কাছে শুনলাম, আমি কোতোয়ালের বাড়ি থেকে ছাড়া পেয়েছি। মাত্র ১ হাজার টাকার বিনিময় নিয়ে সে আমাকে হস্তান্তর করেছে এক ব্যবসায়ীর কাছে। পলের মা জানাল সেই আমাকে সেখানে পৌছে দেবে।</p>
+	<p class="block_9" lang="en">যেদিন আমি হাসপাতাল থেকে ছাড়া পেলাম। পলের মা এলো আমাকে সেই বাড়িতে পৌছে দেবার জন্যে। নতুন মনিবের বাড়িতে যাত্রা করার আগে সেই দয়ালু মহিলা একটা গাছের ছায়ায় বসে আমাকে অনেক উপদেশ দিল। বলল, ‘বাছা, আমিও তোমার মতো মুসলমান। একটা গরীব পরিবারের গৃহবধু ছিলাম। স্বামী-পুত্রকে ওরা খুন করেছে। জোর করে ওরা আমাকে খৃষ্টান বানিয়েছে। প্রাণ বাঁচানোর জন্যে খৃষ্টান হয়েছি, কিন্তু মন তো খৃষ্টান হয়নি। তোমাকেও তাই করতে হবে বাছা। তা না হলে তোমাকে ওরা খুন করবে। এদের হাত থেকে বাঁচার এমন একটাই পথ খৃষ্টান হওয়া। আমি দৃঢ়তার সাথে বললাম, আমি খৃষ্টান হতে পারব না কিংবা ভেতরে-বাইরে দুই রকম করার মতো মিথ্যাও বলতে পারব না। পলের মা বলল, তোমাকে মিথ্যা বলতে হবে না। তুমি শুধু চুপ করে থাকবে। ওদেরকে আমি জানাব, তুমি ব্যাপটাইজ হয়ে গেছ। তাহলে খৃষ্টান হওয়ার ঝামেলা থেকে তুমি বেঁচে যাবে, কিন্তু তোমার বহ্যিক পরিচয় হবে খৃষ্টান।</p>
+	<p class="block_9" lang="en">এভাবে আমার নতুন ব্যবসায়ী মুনিবের বাড়িতে আমার খৃষ্টান পরিচয় হলো। সকলের চোখে আমি হয়ে গেলাম মরিসকো। কিন্তু ইসলাম ত্যাগ করিনি। দিনে নামাজ আমি পড়তে পারিনি। কিন্তু রাতে আমি আল্লার কাছে হাজির হয়ে কেঁদে কেঁদে মাফ চেয়েছি। ত্রিশ বছর বয়সে আমি স্বাধীন হতে সমর্থ হই। ব্যবসায়ী মনিবের কাছে ব্যবসা শিখেছিলাম। ব্যবসা করে টাকা উপার্জন করি। মরিসকোদের কাছে জমি বিক্রি হয় না। তাই ভ্যালেনসিয়া থেকে উঠে যাই মাদ্রিদে। সেখানে গিয়ে মরিসকো পরিচয় গোপন করে আমি জমি কিনি এবং বাড়ি করি। সম্মানজনক জীবনের জন্য সকলের সন্দেহ অবিশ্বাস ও শ্যেন দৃষ্টি থেকে বাঁচর জন্য মরিসকো পরিচয় গোপন করলেও খুঁজে পেড়ে একজন মরিসকো মেয়েকে বিয়ে করি। আমি আমার বংশের রক্ত বিশুদ্ধ রাখতে চাই, আমার আশা এই রক্ত একদিন জাগবে একদিন শক্তি সাহস নিয়ে কথা বলবে, যা আমি পারিনি।</p>
+	<p class="block_9" lang="en">যথাসময়ে সন্তান হলো। সামর্থ্যর আমার বাড়ল। আবাল্য গোপন, অতৃপ্ত ইচ্ছা তখন আমার মনে মাথা চাড়া দিয়ে উঠল। আমার বাবা মা’র সন্ধান করতে আমি বেরুব। আমি বেরুলাম। আগের অনুসন্ধান থেকে আমি জানতে পেরেছিলাম। আমার বাবাদের সে জাহাজ ভূমধ্যসাগরে মেজর্কা দ্বীপের কাছে লুন্ঠিত হয়। অনেক নিহত হয়। অবশিষ্টরা মেজর্কার পালমা বন্দরে গিয়ে নামে। আমি মেজর্কার পালমা শহরে গেলাম। সেখানে আতিপাতি করে খুঁজলাম। এই রকম একজন বিজ্ঞানী দম্পতির খোঁজ কেউ জানে কি না। একদিন রেষ্টুরেন্টে একজন বৃদ্ধ নাবিকের সাথে আলোচনায় জানতে পারলাম, স্পেন থেকে একদল উদ্বাস্ত্তকে মেজর্কা তেকে ফ্রান্সের পোর্ট ভেনড্রেসে তাদের জাহাজ পৌছে দিয়েছিল। তাদের মধ্যে এ রকম স্বা-স্ত্রী ছিলেন। নানা কথার মধ্যে একথাও শুনেছিল স্বামী ভদ্রলোকটি একজন বড় বিজ্ঞানী। এই খবর পাওয়ার পর আমি দক্ষিণ ফ্রান্সের পোর্ট ভেনড্রেসে যাই। সেখানে গিয়ে এই খোঁজ পাই যে, স্পেন থেকে একদল উদ্বাস্ত্ত এখানে নেমেছিল। কিন্তু নগর কর্তৃপক্ষ এ শহরে তাদের বসতি স্থাপন করতে না দিয়ে ওদের পশ্চিম দিকে ঠেলে দেয়। শোনা যায় ওরা পিরেনিজ পবর্তমালার পাদদেশে বাল্ক এলাকার দিকে চলে যায়। আর আমি এগোতে পারিনি। পিরেনিজের এক শৃঙ্গে দাঁড়িয়ে তার অন্তহীন পাদদেশের দিকে নজর ফেললাম, তখন সেখানে সবটা জুড়ে আমার পিতার সেই রক্তাক্ত মুখই শুধু দেখলাম এবং শুনতে পেলাম পিরেনিজের মৌন বুক ভেঙে চৌচির করে জেগে উঠছে আমার মায়ের বুকফাটা সেই চিৎকার। চোখের পানিতে ভেসে সেখান থেকে ফিরে এলাম। ফিরে এলাম কিন্তু মনের শান্তি আর ফিরে এলো না। সব সময় মনে হতো পিরেনিজের ওপারে পার্বত্য বনাঞ্চলে আমার বৃদ্ধ আব্বা-আম্মা কেঁদে কেঁদে ঘুরে বেড়াচ্ছেন। হয়তো চেষ্টা করছেন পিরেনিজ ডিঙিয়ে আবার স্পেনে ফিরে আসার।</p>
+	<p class="block_9" lang="en">একদিকে মনে এই অশান্তি, অন্য দিকে ধীরে ধীরে জীবনটা হয়ে উঠছিল অসহনীয়। ভেবেছিলাম, খৃষ্টান হওয়া কিংবা খৃষ্টান পরিচয় গ্রহনের পর মুসলমাদের ওপর নির্যাতন, নিপীড়ন কমবে। কিন্তু তা হলো না। তারা জোর করে মুসলমানদের খৃষ্টান বানাল কিন্তু খৃষ্টান হওয়া এই মুসলমাদের তারা বিশ্বাস করল না। তারা মনে করল, মুসলমানরা কেউ আসলে মুসলমানিত্ব ছাড়েনি। গোপনেও যাতে কেউ নামাজ পড়তে না পারে, রোজা রাখতে না পারে, আরবী শিখতে না পারি, সেদিকে কড়া নজর রাখা হতো। ‘মরিসকো’দের কেউ মারা গেলে গ্রাম্য গীর্জা সংগে সংগে তার লাশ দখল করতো এবং খৃষ্টান মতে তারা দাফন করতো। যতই দিন যাচ্ছে, তাদের আচারণ ‘মরিসকো’দের ওপর ততই কঠিন হচ্ছে। কুরআন শরীফ কোথাও পাওয়া যায় না, আরবী বইও কোথাও মেলে না। আমি আমার সন্তানদের কুরআন মুখস্থ শিখিয়েছি, কিন্তু এভাবে কতদিন চলবে? মাঝে মাঝে ভাবি, এর চেয়ে ভালো, বিদ্রোহ করে জীবন দিয়ে শেষ হয়ে যাওয়া, কিন্তু পারি না। বুঝতে পারি, এই না পারাটাই আমার জাতির সবচেয়ে বড় দুর্বলতা, আমাদের পতনও বোধ হয় এই কারনেই। অনেক সময় আবার ভাবি, দিন সমান যায় না। মরিসকোরা কি কোনদিনই জাগবে না? তাদের মরা প্রাণে কি বাঁচার আগুন জ্বলবে না? নিহত লাখো শিশুর চিৎকার, নির্যাতিতা লাখো মা-বোনের আর্তনাদ কি বৃথাই যাবে? নির্যাতিত-নিপীড়িত মানুষের অশ্রুর যে নদী বইছে, সে অশ্রু কি কোনদিনই কথা বলবে না? গ্রানাডার শেষ বীর মুসার জন্ম কি আর হবে না ‘মরিসকো’ দের মধ্যে? আমি আশাবাদী। আশাবাদী বলেই অসহনীয় জীবন নিয়ে আমি বেঁচে আছি, ‘মরিসকো’রা বেঁচে থাকুক তাও আমি চাই।’</p>
+	<p class="block_9" lang="en">জোয়ান যখন তার পড়া শেষ করল, তখন তার চোখের পানি শুকিয়ে গেছে। বিষন্ন চোখ তার উজ্জ্বল হয়ে উঠেছে। মনে যেন নতুন শক্তির স্পন্দন জাগছে! তার পূর্বপুরুষ হতভাগ্য আবদুল্লাহর শেষ কথাগুলো তার অস্তিত্বের প্রতি পরতে পরতে যন্ত্রণার এক কিলিবিলি সৃষ্টি করছে। তার সত্তার অন্তঃপুর থেকে তার পূর্বপুরুষের সেই প্রশ্নই যেন মাথা তুলছেঃ লাখো শিশুর কান্না, লাখো মা-বোদের আর্তনাদ, লাখো নিযাতির্তের অশ্রুর নদী কি বৃথাই যাবে? গ্রানাডার শেষ বীর সেই মুসার জন্ম কি আর হবে না? জোয়ানের রক্তে একটা উত্তপ্ত শিহরন জাগল। তার আব্বা গ্রানাডার শেষ বীর সেই মুসার নামেই তার নাম রেখেছেন। সেই মুসার কাহিনী জোয়ান জানে না, তবু এই প্রথমবারের মতো গর্বে তার বুকটি যেন ফুলে উঠল! সেই সাথে ‘মরিসকো’রা তার কাছে নতুন রূপ নিয়ে আবির্ভূত হলো। এই নির্যাতিত জাতির জন্যে তার অন্তরে কোথা থেকে যেন হু হু করে ছুটে এলো মমতার বন্যা। মনে পড়ল, তার পূর্বপুরুষ হতভাগ্য বালক আবদুল্লাহর দুঃসহ জীবনের কথা তার আব্বা-মা’র বুক থেকে তাকে ছিনিয়ে নেয়ার দৃশ্য এবং দশ বছরের এক অসহায় বালকের নিছক মুসলমান হওয়ার কারণে তার পিঠে চাবুক বর্ষনের কাহিনী। চোখের কোণ ভিজে উঠল জোয়ানের। হঠাৎ করে চোখের সামনে ভেসে উঠল গোটা স্পেনের মানচিত্র জুড়ে ঐ রকম লাখো বালক যেন অশ্রু বর্ষণ করছে! হৃদয়টা কেঁপে উঠল জোয়ানের। মনে হলো তার, সে ঐ লাখো বালকেরই একজন।</p>
+	<p class="block_9" lang="en">মনটা অনেক হালকা হলো জোয়ানের। মরিসকো হওয়ার জন্যে তার বেদনাবোধ, ভয়, অস্বস্তি, হীনমন্যতা ধীরে ধীরে তার অন্তর থেকে উবে গেল।</p>
+	<p class="block_9" lang="en">জোয়ান ধীরে ধীরে খাতাটি বন্ধ করল। সযত্নে তা রেখে দিল বাক্সে। হঠাৎ তার মনে হলো, তার সন্তানের জন্যে এই আমানত তাকে রক্ষা করতে হবে। কিন্তু পর মুহূর্তে একটা জিজ্ঞাসা তার অন্তরে ঝড়ের বেগে প্রবেশ করল, ইতিহাসের এই গোপন হস্তান্তর আর কতদিন চলবে? আমাদের পরিচয় কেন আমরা গোপন করে চলব? কেন চিৎকার করে বলব না আমাদের পরিচয়ের কথা? কেন শতাব্দীর পর শতাব্দী থেকে চলে আসা বর্বরতার প্রতিবাদ আমরা করব না, প্রতিকার আমরা চাইব না?</p>
+	<p class="block_9" lang="en">জোয়ানের চোখ-মুখ প্রবল এক আবেগ ও দৃঢ়তায় শক্ত হয়ে উঠল।</p>
+	<p class="block_9" lang="en">জোয়ানের আবেগ-উজ্জ্বল চোখটি জানালা দিয়ে বাইরে ছুটে গেল।</p>
+	<p class="block_9" lang="en">নিবদ্ধ হলো দূরের উদার-নীল নীলিমার বুকে। তার মনে হলো নীল আকাশ যেন বিরাট এক রূপালি পর্দা! হাজারো ছবি তাতে ভেসে উঠছে, আবার মিলিয়ে যাচ্ছে। সে জীবন-চলচ্চিত্রে ধীরে ধীরে হারিয়ে যেতে দেখল তার পুরাতন জীবন, সেখানে এসে দাঁড়াল নতুন এক জোয়ান ফার্ডিনান্ড- মুসা আবদুল্লাহ। এ জীবনের সামনে অনিশ্চয়তা ও অন্ধকার এক ভবিষ্যৎ। কিন্তু তবু এই অনিশ্চত ও অন্ধকার ভবিষ্যতের সামনে দাঁড়িয়ে জোয়ানের হৃদয়টা গভীর এক প্রশান্তিতে ভরে উঠছে, কোথা থেকে শক্তির এক প্রসরণ জাগছে তার হৃদয়-কন্দরে।</p>
+	<p class="block_9" lang="en">জোয়ান তাকে পাশ কাটিয়ে চলে গেলে জেন কিছুক্ষন স্থিরভাবে দাঁড়িয়ে থাকল। তার মনে হলো, জোয়ান যেন তার কাছ থেকে পালিয়ে গেল। অভিযোগ মোকাবিলার সাধ্য তার নেই! তাহলে সে সত্যিই ‘মরিসকো’’! জেনের মনটা অস্থির হয়ে উঠল।</p>
+	<p class="block_9" lang="en">জেন বাড়ির পথে পা বাড়াল। বাবার চেহারা ভেসে উঠল জেনের চোখে। তার বাবা জিমোনেজ ডে মিজনারোসা কট্টর মুসলিমবিদ্বেষী, মরিসকো’দের সে দু’চোখে দেখতে পারে না। মনে পড়ে তাদের এক ড্রাইভার ছিল। নাম স্টিফেনো। বয়স ছিল পঞ্চাশের ওপর। দীর্ঘ দিনের পুরানো ড্রাইভার, খুব বিশ্বস্ত ছিল। পরিবারের একজন সদস্যে পরিনত হয়েছিল সে। তারপর একদিন প্রকাশ পেল সে মরিসকো। বাবা শুনে বারুদের মতো জ্বলে উঠেছিলেন। সেদিন নিত্যনিনের মতো ষ্টিফেনো কাজে এসেছিল। বাবা টের পেয়েই ছুটে গিয়েছিলেন। সেদিনের সে দৃশ্যটা এখনও জেনের চোখে ভাসে। তারা দোতালার ব্যালকনিতে দাঁড়িয়ে গোটা ব্যাপারটাই দেখেছিল। বাবা ছুটে গিয়ে ড্রাইভারকে জিজ্ঞেস করেছিলেন, ‘তুই মরিসকো?’</p>
+	<p class="block_9" lang="en">প্রশ্ন শুনেই স্টিফেনোর চোখ ছানাবড়া হয়ে গিয়েছিল! বাবা আর তাকে কোন প্রশ্ন করেননি। ‘ব্যাটা প্রতারক, কালসাপ!’ বলেই হাতের রাবারের চাবুক দিয়ে তাকে পাগলের মতো প্রহার শুরু করেছিলেন। স্টিফেনো কোন কথা বলেনি। তার বড় বড় বোবা দৃষ্টিতে ছিল রাজ্যের ভয় এবং এক আকুল মিনতি।</p>
+	<p class="block_9" lang="en">প্রহারের তোড়ে স্টিফেনোর রক্তাক্ত দেহ মাটিতে পড়ে যায়। বাবা তাকে গাড়িতে তুলে নিয়ে বেরিয়ে যান। জেন মনে করেছিল তাকে হাসপাতারে নিয়ে যাওয়া হয়েছে। কিন্তু কোনদিন স্টিফেনো আর ফিরে আসেনি। আব্বা-আম্মাকে জিজ্ঞেস করলে তারা ব্যাপারটা এড়িয়ে যান। পরে জেন ধীরে ধীরে জানতে পারে, স্টিফেনো বেঁচে নেই। যেহেতু সে মরিসকো অবিশ্বস্ত, তাই তাদের কোন কথা যাতে প্রকাশ করার সুযোগ না পায় এজন্যে দুনিয়া থেকে সরিয়ে দেয়া হয়েছে। জেনের ছোটবেলায় সে অনেক কোলে-পিঠে চড়েছে স্টিফেনোর। জেন মনে খুব কষ্ট পায়। কিন্তু সেও ভাবে, মরিসকো’রা সাংঘাতিক কিছু। এখন জোয়ান সেই সাংঘাতিক কিছুতে পরিনত হয়েছে। তার মানস চোখে ভেসে উঠল তার বাবা যখন জানবেন জোয়ান মরিসকো তখন ঘৃণায় তার মুখটা কেমন বাঁকা হয়ে যাবে! স্টিফেনোর মতো জোয়ানের ওপর তিনি চড়াও হতে পারবেন না বটে তবে জোয়ান তার কাছে আর কোন মানুষরূপেই গণ্য হবে না।</p>
+	<p class="block_9" lang="en">কেঁপে উঠল জেন। জোয়ান তার চিরপ্রতিদ্বন্দ্বী। সেই স্কুল জীবন থেকে জোয়ান তার সহপাঠি ও প্রতিদ্বন্দ্বী। কিন্তু প্রতিদ্বন্দ্বিতায় জেন সব সময় পরাজিত হয়েছে। বরাবরই প্রথম হয়েছে জোয়ান। জেনকে এটা আহত করেছে সব সময়। জেনরা স্পেনের শ্রেষ্ঠ পরিবার। রানী ইসাবেলার গুরু ও এই ইউনিভার্সিটি অব মাদ্রিদ, যার নাম ছিল ইউনিভার্সিটি অব আলফালা, এর প্রতিষ্ঠাতা কার্ডিনাল ফ্রান্সিসকো তাদের উত্তর পুরুষ। জেনের হৃদয় জুড়ে ছোটবেলা থেকে বিরাট এক অহংবোধ গড়ে উঠেছে। সে অহংবোধকে জোয়ান আহত করেছে বার বার। অনার্স ফাইনালে এসে এই প্রথম বারের মতো জিতল সে হারল জোয়ান। জেতার পর জেন আনন্দের চেয়ে বিস্মিত হয়েছে বেশি। জোয়ানের বিরুদ্ধে এই অভিযোগ শুনে তার বিস্ময়টা বেদনায় রূপন্তরিত হয়েছে। জেন জিততে চেয়েছে, কিন্তু জোয়ানকে তো সে এভাবে হারাতে চায়নি। তার মনে একটা প্রবল অস্বস্তি তাকে ভীষণ পীড়া দিচ্ছে, জোয়ান মরিসকো প্রকাশ হওয়ার পরই কি এভাবে হারল সে! হৃদয়টা বেদনায় মোচড় দিয়ে উঠল। মরিসকো‘রা কি মানুষ নয়! মরিসকো বলেই একজনের সব ভালো শেষ হয়ে যাবে?</p>
+	<p class="block_9" lang="en">বাড়ি ফিরতে প্রবৃত্তি হলো না জেনের। সে নিরিবিলি থাকতে চায়। বাড়িতে গেলে তাকে নিয়ে হৈ চৈ চলবে। তার প্রথম হওয়ায় পরিবার ও তার বন্ধু-বান্ধবরা আনন্দে নাচছে।</p>
+	<p class="block_9" lang="en">জেন পার্কের পথ ধরল। কৃত্রিম হ্রদ ঘেরা বিশাল মাদ্রিদ পার্ক।</p>
+	<p class="block_9" lang="en">একটা নিরিবিলি স্থান দেখে বসল জেন। নিরব পার্ক। লোকজন নেই বললেই চলে। পাখির কিচির-মিচির ও বাতাসের শোঁ শোঁ শব্দ ছাড়া কোথাও কোন শব্দ নেই।</p>
+	<p class="block_9" lang="en">কিন্তু প্রকৃতির প্রশান্তি জেনের হৃদয়ের ঝড় থামাতে পারল না। স্বস্তি পাচ্ছে না সে, তার অন্তরটা খচ খচ করছে। ও হারল, সেই সাথে ওর বিরুদ্ধে মরিসকো হবার অভিযোগ উঠল। জোয়ানের সুন্দর, সরল, নিষ্পাপ মুখ ভেসে উঠছে জেনের সামনে। বড় অসহায় মনে হচ্ছে ওকে। ওকে এই আঘাত তো জেন দিতে চায়নি। জেনকে নিজের কাছে বড় অপরাধী মনে হচ্ছে। বড় অসুস্থ মনে হচ্ছে নিজেকে। কপালটা দপ দপ করছে বেদনায়।</p>
+	<p class="block_9" lang="en">পার্কের বেঞ্চিতে নিজের অবসন্ন দেহটাকে এলিয়ে দিল জেন। চোখ দু’টো বুজে গিয়েছিল তার।</p>
+	<p class="block_9" lang="en">কারও স্পর্শে চমকে উঠে চোখ খুলল জেন। চোখ খুলে দেখল, বান্ধবী হান্না। রাজ্যের বিস্ময় নিয়ে তার দিকে তাকিয়ে আছে! বলল, ‘কিরে জেন, তুই এখানে! কি হয়েছে তোর?’</p>
+	<p class="block_9" lang="en">জেন চোখ বুজে বলল, ‘কিছু হয়নি।’</p>
+	<p class="block_9" lang="en">‘বললেই হলো। চোখ-মুখ শুকনো কেন? চোখ অমন লাল কেন?’</p>
+	<p class="block_9" lang="en">‘ও কিছু না, মাথা ধরেছে।’</p>
+	<p class="block_9" lang="en">‘এসময় এখানে তুই?’</p>
+	<p class="block_9" lang="en">‘ভালো লাগছে না।’</p>
+	<p class="block_9" lang="en">‘ভালো লাগছে না? তোর না আজ আনন্দের দিন?’</p>
+	<p class="block_9" lang="en">কোন উত্তর দিল না জেন।</p>
+	<p class="block_9" lang="en">হান্না চোখে-মুখে চিন্তার রেখা ফুটে উঠল। সে জেনের আরও কাছে এগিয়ে এলো। জেনের মুখোমুখি হয়ে বলল, ‘কি হয়েছে তোর বলত? বাড়িতে কিছু ঘটেছে?’</p>
+	<p class="block_9" lang="en">‘না।’</p>
+	<p class="block_9" lang="en">‘তাহলে বিশ্ববিদ্যালয়ে কিছু হয়েছে?’</p>
+	<p class="block_9" lang="en">‘না।’</p>
+	<p class="block_9" lang="en">‘কিছুই হয়নি, কিছুই ঘটেটি, তাহলে তোর কি হলো?’</p>
+	<p class="block_9" lang="en">একটু থামল হান্না। মুহূর্তের জন্যে চোখ বন্ধ করল। চিন্তা করল যেন! তারপর বলল, ‘জোয়ানের খবর শুনেছিস?’</p>
+	<p class="block_9" lang="en">‘কি খবর?’ চমকে উঠে বলল জেন।</p>
+	<p class="block_9" lang="en">হাসল হান্না। বলল, ‘জোয়ান মরিসকো, তুই শুনেছিস?’</p>
+	<p class="block_9" lang="en">সেই অসহ্য কথাটা আবার শুনল জেন। তার বুকে কেউ যেন চাবুক হানল! ক্ষেপে উঠল তার মন। সে সোজা হয়ে বসে বলল, ‘খুব খুশি হয়েছিস না?’ জেনের লাল চোখ আরও লাল হয়ে উঠল।</p>
+	<p class="block_9" lang="en">‘বুঝলাম, তোর অসুখ কি!’ মুখে হাসি টেনে বলল হান্না। ‘কিন্তু তুই মন খারাপ করছিস কেন? ও তোর প্রতিদ্বন্দ্বী। মনে নেই তোর, প্রতিটি পরীক্ষায় ওর কাছে হারার পর তুই কাঁদতিস।’</p>
+	<p class="block_9" lang="en">‘এভাবে ওকে হারাতে চাইনি। বুঝতে পারছি, মরিসকো বলোই ওকে পরীক্ষায় হারানো হয়েছে।’ ভারি গলায় বলল জেন।</p>
+	<p class="block_9" lang="en">‘তাতে তোর কি? ও মরিসকো, ওর হারাই ... ... ‘</p>
+	<p class="block_9" lang="en">‘থাম!’ বলে চিৎকার করে উঠে জেন দু’হাতে নিজের মাথা চেপে ধরে বেঞ্চিতে এলিয়ে পড়ল।</p>
+	<p class="block_9" lang="en">হান্না এগিয়ে এসে জেনকে ধরে দ্রুত বলল, ‘তুই সত্যিই অসুস্থ, তোর বিশ্রাম দরকার। এখানে আর নয়, চল তোকে বাড়িতে পৌছে দেব।’</p>
+	<p class="block_9" lang="en">‘আমার গাড়ি আছে।’</p>
+	<p class="block_9" lang="en">‘না, তুই গাড়ি ড্রাইভ করতে পারবি না।’</p>
+	<p class="block_9" lang="en">বান্ধবীর এই সহানুভূতিতে জেনের চোখের কোণায় পানি এসেছিল। জেন তাড়াতাড়ি মুছে বলল, ‘তোর গাড়ির কি হবে?’</p>
+	<p class="block_9" lang="en">জেনের চোখের পানি হান্নার দৃষ্টি এড়াল না। জেনকে ধরে নিয়ে উঠে দাঁড়াতে দাঁড়াতে বলল, ‘তোকে বলিনি, বার্কা ওদিকে আছে।’ তারপর প্রসংগে ফিরে এসে বলল, ‘জেন, তুই বড় সেন্টিমেন্টাল। ছোটখাট ব্যাপার নিয়ে তোকে এমন সেন্টিমেন্ট হওয়া তো সাজে না।’</p>
+	<p class="block_9" lang="en">জেন কোন জবাব দিল না। মুহূতের জন্যে তার চোখ দু’টি বুজে এলো। হান্নাকে জড়িয়ে ধরে গাড়ির দিকে পা বাড়াতে বাড়াতে জেন বলল, ‘জোয়ানের বিরুদ্ধে মরিসকো হওয়ার অভিযোগ, এক তুই ছোট ব্যাপার বলছিস?’</p>
+	<p class="block_9" lang="en">‘আমি নই, সবাই বলছে, খুশী হয়েছে সবাই।’</p>
+	<p class="block_9" lang="en">‘কেন খুশি হয়েছে?’</p>
+	<p class="block_9" lang="en">‘একজন মরিসকো ধরা পড়েছে বলে।’</p>
+	<p class="block_9" lang="en">জেনের বুকে হান্নার কথা চাবুকের মতো কেটে বসল যেন! বুকটা কেঁপে উঠল তার। মুখের ওপর বেদনার এক পাংশু ছায়া নেমে এলো। তার শুকনো ঠোঁক কাঁপতে লাগল। জেন ঠোঁট কামড়ে ধরল। কোন কথা সে আর বলল না।</p>
+	<p class="block_9" lang="en">জেনকে বাড়িতে ঢুকতে দেখে জেনের মা ছুটে এসে জেনকে জড়িয়ে ধরে বলল, ‘আমাদের মুখ উজ্জ্বল করেছিস মা!’ জেনের কপালে চুমু খেতে গিয়ে জেনের চোখে চোখ পড়তেই চমকে উঠল জেনের মা। বলল, ‘জেন, তোর অসুখ করেছে?’</p>
+	<p class="block_9" lang="en">জেনের বাবাও তখন এসে দাঁড়িয়েছে সেখানে। সে জেনের মাথায় হাত বুলিয়ে দিতে দিতে বলল, ‘রোদে নিশ্চয় খুব হৈ-হুল্লোড় করেছ। যাও একটু বিশ্রাম নাও।’</p>
+	<p class="block_9" lang="en">জেন চলে গেল তার ঘরে। জেন তার বিছানায় মুখ গুঁজে শুয়েছিল।</p>
+	<p class="block_9" lang="en">সে শুধু এপাশ ওপাশ করে সময় কাটিয়েছে।</p>
+	<p class="block_9" lang="en">এপাশ ওপাশ করতে গিয়ে বুক পকেটে রাখা জোয়ানের দেয়া গোলাপ পড়ে গেল বিছানায়। জেন আস্তে তুলে নিল গোলাপটি। গোলাপটি হাতে তুলে নিতেই জোয়ানের মুখ ভেসে উঠল জেনের চোখে। জেন ধীরে ধীরে গোলাপটি তুলে ধরে আলতোভাবে ঠোঁটে স্পর্শ করে আবার সে বুক পকেটে রেখে দিল। তারপর নিজেকে বিছানার ওপর ছুঁড়ে দিয়ে বালিশে মুখ গুঁজল সে।</p>
+	<p class="block_9" lang="en">ঘরে পায়ের শব্দ শুনে মুখ তুলল জেন। দেখল আব্বা-আম্মা ঘরে ঢুকেছেন।</p>
+	<p class="block_9" lang="en">ঘরে ঢুকতে ঢুকতে জেনের আব্বা বলল, ‘জেন, মা শুনেছ, জোয়ান মরিসকো। কী হৈ চৈ আজ এ নিয়ে! কী সাংঘাতিক ওরা! আত্মগোপন করে থাকার কী দক্ষতা ওদের ।’</p>
+	<p class="block_9" lang="en">‘কিন্তু জোয়ান তো দেখতে খুব ভদ্র, সৎ ও শান্ত স্বভাবের ছিল।’ বলল জেনের মা।</p>
+	<p class="block_9" lang="en">‘মরিসকোরা মনেপ্রাণে মুসলমানই রয়ে গেছে। ওরা ইবলিশের চেয়েও বড় শয়তান। বাইরে দেখে ওদের বুঝতে পারবে না।’</p>
+	<p class="block_9" lang="en">‘কিন্তু যাই হোক, জোয়ান ছেলেটার মাথার তুলনা হয় না।’</p>
+	<p class="block_9" lang="en">‘মরিসকোদের মাথা দিয়ে কি হবে? পরিচয় নিয়ে প্রতারণার জন্যে ওর ডিগ্রিও কেড়ে নেয়া উচিত।’</p>
+	<p class="block_9" lang="en">পিতার কথাগুলো জেনের হৃদয়ে নিষ্ঠুরভাবে কষাঘাত করল। জোয়ান প্রতারক! ভন্ড! না, না, তা হতে পারে না। সেই ছোটবেলা থেকে ওকে দেখছে। ওর মতো শান্ত ছেলে, সুন্দর চরিত্র তো আর সে দেখেনি! ওর মতো প্রতিভা তো আর নেই। মরিসকো হবার কারণে তার সব কিছু মিথ্যা হয়ে যাবে। হোক তারা ছদ্মবেশী মুসলমান! কিন্তু কার কি ক্ষতি করেছে তারা? ওরা তো শান্ত, অনুগত নাগরিক। মুসলমান হওয়া কি অপরাধ? ইতিহাস কি এটাই নয় যে, মুসলমানরা স্পেনকে শুধু নয়, ইউরোপকে শুধু দিয়েছেই, নেয়নি কিছু। মন কাঁপছে, দেহের সব স্নায়ু কাঁপছে জেনের। দেখতে পাচ্ছে, চারদিকে পুঞ্জীভূত ঘৃণা, সন্দেহ ছাড়া মরিসকোদের আর কিছু পাবার নেই। সেই পুঞ্জীভূত ঘৃণা ও সন্দেহের স্তুপে হারিয়ে যাচ্ছে জোয়ান, ধ্বংস হয়ে যাচ্ছে সে। আর সে দেখতে পাচ্ছে, বিপর্যস্ত বিধ্বস্ত জোয়ান যেন তার দিকে তাকিয়ে বলছে, ‘তোমার আশা পূর্ণ হয়েছে, এখন আমার ধ্বংস দেখে খুশি হও।’ অনেকটা অবচেতনভাবেই জেনের মুখ থেকে ‘না,না ... চিৎকার বেরিয়া এলো।</p>
+	<p class="block_9" lang="en">জেনের আব্বা-আম্মা ছুটে এলো জেনের পাশে। জেনের আম্মা জেনের মাথায় হাত দিতে গিয়ে চমকে উঠল, ‘একি জ্বর তোর গায়ে।’ তারপর মেয়ের মুখের ওপর ঝুঁকে পড়ে তাকাল, বলল, ‘খুব খারাপ লাগছে মা?’</p>
+	<p class="block_9" lang="en">জেন তখন সম্বিভ ফিরে ফেয়েছে। সম্বিত ফিরে বালিশে মুখ গুঁজল সে।</p>
+	<p class="block_9" lang="en">জেনের আম্মা জেনের আব্বার দিকে তাকিয়ে বলল, ‘তুমি বসে থেকো না, তাড়াতাড়ি ডাক্তারকে টেলিফোন করে দাও।’</p>
+	<p class="block_9" lang="en">জেনের আব্বা ঘর থেকে বেরিয়ে গেল।</p>
+	<p class="block_9" lang="en">জেনের আম্মা জেনের মাথায় হাত বুলাতে লাগল।</p>
+	<p class="block_10" lang="en" id="calibre_pb_12">&#160;</p>
+
+            </article>
+        </div>
+
+    </div>
+
+    <div class="settings-overlay" id="settingsOverlay" data-id="settingsOverlay" aria-hidden="true"></div>
+    <div class="settings-modal" id="settingsModal" data-id="settingsModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="settingsModalTitle">
+        <div class="settings-header">
+            <h2 class="settings-header-title" id="settingsModalTitle">
+                <i class="fas fa-cog" aria-hidden="true"></i>
+                <span data-i18n="reader.settings">Settings</span>
+            </h2>
+            <button class="settings-close-btn" id="settingsCloseBtn" type="button" aria-label="Close settings" data-i18n-aria-label="reader.closeSettings">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="settings-tabs">
+            <button class="settings-tab active" data-tab="font">
+                <i class="fas fa-font"></i>
+                <span data-i18n="settings.appearance">Appearance</span>
+            </button>
+            <button class="settings-tab" data-tab="reading">
+                <i class="fas fa-book-reader"></i>
+                <span data-i18n="settings.reading">Reading</span>
+            </button>
+        </div>
+        <div class="settings-content">
+            <div class="settings-tab-panel active" id="font-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.fontFamily">Font family</label>
+        <div class="font-family-selector">
+            <select id="fontFamilySelect">
+                <option value="ebook-default" selected data-i18n="settings.bookDefault">Book default</option>
+                <option value="system-ui, -apple-system, sans-serif" data-i18n="settings.systemDefault">System default</option>
+                <option value="custom" data-i18n="settings.customByInput">Custom by input</option>
+            </select>
+        </div>
+        <div class="custom-font-input" id="customFontInput" style="display: none;">
+            <input type="text" id="customFontFamily" placeholder="Input font name here" data-i18n-placeholder="settings.customFontPlaceholder">
+            <small data-i18n="settings.customFontTip">Tip: Font family applies globally. Ensure it’s installed in the system.</small>
+            <button class="css-btn primary" id="applyFontSettings">
+                <i class="fas fa-check"></i> <span data-i18n="settings.apply">Apply</span>
+            </button>
+        </div>
+                </div>
+                
+                <div class="settings-group">
+                    <label class="settings-label" for="fontSizeSlider" data-i18n="settings.fontSize">Font size</label>
+                    <div class="font-size-control">
+                        <input type="range" id="fontSizeSlider" min="1" max="12" value="3" step="1" data-sizes-rem="0.9,1.1,1.3,1.5,1.7,1.9,2.2,2.5,2.8,3.2,3.6,4">
+                        <div class="font-size-scale" aria-hidden="true"><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark major"></span></div>
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <div class="settings-label-row">
+                        <label class="settings-label" for="pageWidthSlider" data-i18n="settings.pageWidth">Page width</label>
+                        
+                    </div>
+                    <div class="page-width-control">
+                        <input type="range" id="pageWidthSlider" min="1" max="4" value="3" step="1" aria-label="Page width" data-i18n-aria-label="settings.pageWidth">
+                        <div class="page-width-scale" aria-hidden="true">
+                            
+                            <span data-i18n="settings.pageWidthNarrow">Narrow</span>
+                            <span data-i18n="settings.pageWidthComfortable">Comfortable</span>
+                            <span data-i18n="settings.pageWidthWide">Wide</span>
+                            <span data-i18n="settings.pageWidthExtraWide">Extra wide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-group settings-group-custom-css">
+                    <div class="settings-section-heading">
+                        <span class="settings-section-title" data-i18n="settings.customStyles">Custom styles</span>
+                        <span class="settings-section-optional" data-i18n="settings.optional">Optional</span>
+                    </div>
+                    <p class="settings-section-description" data-i18n="settings.customStylesDescription">Use CSS to fine-tune this book’s typography and layout.</p>
+                    <div class="css-editor">
+                        <textarea id="customCssInput" placeholder="Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}" data-i18n-placeholder="settings.customCssPlaceholder"></textarea>
+                        <div class="css-controls">
+                            <button class="css-btn primary" id="saveCssBtn">
+                                <i class="fas fa-save"></i> <span data-i18n="settings.save">Save</span>
+                            </button>
+                            <button class="css-btn primary" id="saveAsDefaultBtn">
+                                <i class="fas fa-star"></i> <span data-i18n="settings.saveAsDefault">Save as default</span>
+                            </button>
+                            <button class="css-btn secondary" id="resetCssBtn">
+                                <i class="fas fa-undo"></i> <span data-i18n="settings.reset">Reset</span>
+                            </button>
+                            <button class="css-btn secondary" id="loadDefaultBtn">
+                                <i class="fas fa-download"></i> <span data-i18n="settings.loadDefault">Load default</span>
+                            </button>
+                            <button class="css-btn secondary" id="previewCssBtn">
+                                <i class="fas fa-eye"></i> <span data-i18n="settings.preview">Preview</span>
+                            </button>
+                        </div>
+                        <div class="css-info">
+                            <p><i class="fas fa-info-circle"></i> <span data-i18n="settings.defaultStyleTip">Tip: The default style will be applied to all books unless a custom style is set for specific books.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-tab-panel" id="reading-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.readingMode">Reading mode</label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="showReadingProgressBarToggle" checked>
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.showReadingProgressBar">Show reading progress bar</span>
+                    </label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="paginationModeToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.paginationMode">Use page-turning mode</span>
+                    </label>
+                    <div class="settings-option-with-tip">
+                        <label class="settings-switch">
+                            <input type="checkbox" id="clickPageToggle" disabled aria-disabled="true">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="reader.clickToTurn">Click to turn page</span>
+                        </label>
+                        <button type="button" class="settings-info-tip" data-settings-tip data-tip="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-data-tip="settings.clickPageHelp" aria-label="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-aria-label="settings.clickPageHelp">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <label class="settings-switch pagination-incompatible-setting">
+                        <input type="checkbox" id="continuousScrollToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.continuousScroll">Enable continuous scroll</span>
+                        <span class="continuous-scroll-tip" id="continuousScrollTip" tabindex="0" data-settings-tip data-tip="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-data-tip="settings.continuousScrollTip" aria-label="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-aria-label="settings.continuousScrollTip">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </span>
+                    </label>
+                </div>
+                <fieldset class="settings-group desktop-layout-settings">
+                    <legend class="settings-section-title" data-i18n="settings.desktopLayout">Desktop layout</legend>
+                    <div class="desktop-layout-options">
+                        <label class="settings-switch desktop-layout-option desktop-setting-only">
+                            <input type="checkbox" id="desktopChapterSidebarToggle">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.desktopChapterSidebar">Show chapter sidebar</span>
+                        </label>
+                        <div class="desktop-layout-option settings-option-with-tip desktop-setting-only">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopChapterSidebarToggle" disabled aria-disabled="true">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopChapterSidebar">Auto-hide chapter sidebar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-data-tip="settings.autoHideDesktopChapterSidebarHelp" aria-label="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-aria-label="settings.autoHideDesktopChapterSidebarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="desktop-layout-option settings-option-with-tip">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopToolbarToggle">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopToolbar">Auto-hide reading toolbar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-data-tip="settings.autoHideDesktopToolbarHelp" aria-label="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-aria-label="settings.autoHideDesktopToolbarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group keyboard-navigation-settings">
+                    <legend class="settings-section-title" data-i18n="settings.keyboardNavigation">Keyboard navigation</legend>
+                    <div class="keyboard-navigation-options">
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="arrowKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.arrowKeyNavigation">Use Left and Right Arrow keys to navigate</span>
+                        </label>
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="spaceKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.spaceKeyNavigation">Use Space for the next page or chapter</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group navigation-behavior-settings pagination-incompatible-setting" aria-describedby="navigationBehaviorHelp">
+                    <legend class="settings-section-title" data-i18n="settings.navigationBehavior">Navigation bar behavior</legend>
+                    <p class="settings-section-description" id="navigationBehaviorHelp" data-i18n="settings.navigationBehaviorHelp">Choose when the top navigation stays visible while you read.</p>
+                    <div class="navigation-behavior-options">
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="normal" checked><span data-i18n="settings.navigationBehavior.normal">Normal scroll</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="sticky"><span data-i18n="settings.navigationBehavior.sticky">Always sticky</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="auto-hide"><span data-i18n="settings.navigationBehavior.autoHide">Hide down, show up</span></label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <div class="reading-controls" data-id="reading-controls">
+        <button class="control-btn" id="scrollToTopBtn" type="button" aria-label="Top" data-i18n-aria-label="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span class="control-name" data-i18n="reader.top">Top</span>
+        </button>
+        <a class="control-btn" id="bookHomeShortcut" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome" title="Open book home" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span class="control-name" data-i18n="reader.openBookHome">Book home</span>
+        </a>
+    </div>
+
+    <!-- 移动端控件 -->
+    <div class="mobile-controls" data-id="mobile-controls">
+        <button class="control-btn" id="mobileTocBtn" type="button" aria-label="This chapter contents" title="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" data-i18n-title="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false">
+            <i class="fas fa-list"></i>
+            <span data-i18n="reader.thisChapterContents">This chapter</span>
+        </button>
+        <button class="control-btn" id="mobileBookHomeBtn" type="button" aria-label="Open book chapters" title="Open book chapters" data-i18n-aria-label="reader.openBookChapters" data-i18n-title="reader.openBookChapters">
+            <i class="fas fa-book"></i>
+            <span data-i18n="reader.bookChapters">Chapters</span>
+        </button>
+        
+        
+        
+        
+        <a href="/reader/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_112.html" aria-label="Previous chapter" title="Previous chapter" data-i18n-aria-label="reader.previous" data-i18n-title="reader.previous"> <div class="control-btn" aria-label="Previous chapter" data-i18n-aria-label="reader.previous"> <i class="fas fa-arrow-left"></i><span data-i18n="reader.previous">Previous chapter</span></div></a>
+        <a href="/reader/" aria-label="Home" title="Home" data-i18n-aria-label="reader.home" data-i18n-title="reader.home">
+            <div class="control-btn" aria-label="Home" data-i18n-aria-label="reader.home">
+                <i class="fas fa-home"></i>
+                <span data-i18n="reader.home">Home</span>
+            </div>
+        </a>
+        <a href="/reader/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_114.html" aria-label="Next chapter" title="Next chapter" data-i18n-aria-label="reader.next" data-i18n-title="reader.next"> <div class="control-btn" aria-label="Next chapter" data-i18n-aria-label="reader.next"> <i class="fas fa-arrow-right"></i><span data-i18n="reader.next">Next chapter</span></div></a>
+        <button class="control-btn" id="mobilePageJumpBtn" type="button" aria-label="Jump" title="Jump" data-i18n-aria-label="reader.jump" data-i18n-title="reader.jump">
+            <i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i>
+            <span data-i18n="reader.jump">Jump</span>
+        </button>
+        <button class="control-btn" id="mobileSettingsBtn" type="button" aria-label="Settings" title="Settings" data-i18n-aria-label="reader.settings" data-i18n-title="reader.settings" aria-controls="settingsModal" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+            <span data-i18n="reader.settings">Settings</span>
+        </button>
+        <a class="control-btn" id="mobileBookHomeShortcut" href="index.html" aria-label="Open book home" title="Open book home" data-i18n-aria-label="reader.openBookHome" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span data-i18n="reader.openBookHome">Book home</span>
+        </a>
+        <button class="control-btn" id="mobileTopBtn" type="button" aria-label="Top" title="Top" data-i18n-aria-label="reader.top" data-i18n-title="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span data-i18n="reader.top">Top</span>
+        </button>
+    </div>
+
+    <!-- 书架弹窗 -->
+    <div class="bookshelf-modal" id="bookshelfModal" role="dialog" aria-modal="true" aria-labelledby="bookshelfModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addShelfGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addShelfBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    
+                    <button class="bookshelf-action-btn" id="exportShelfBtn">
+                        <i class="fas fa-upload" aria-hidden="true"></i> <span data-i18n="bookshelf.export">Export</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="importShelfBtn">
+                        <i class="fas fa-download" aria-hidden="true"></i> <span data-i18n="bookshelf.import">Import</span>
+                    </button>
+                    <input type="file" id="importShelfFile" accept=".json" style="display: none;">
+                </div>
+                <h2 class="bookshelf-title" id="bookshelfModalTitle"><i class="fas fa-home" aria-hidden="true"></i> <span data-i18n="bookshelf.title">Bookshelf</span></h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="bookshelfCloseBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="bookshelfLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="bookshelfBody">
+            </div>
+            <div class="bookshelf-footer" id="bookshelfFooter">
+                <span id="bookshelfStats"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分组弹窗 -->
+    <div class="bookshelf-modal" id="groupModal" role="dialog" aria-modal="true" aria-labelledby="groupModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addGroupSubGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addGroupBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="renameGroupBtn">
+                        <i class="fas fa-edit" aria-hidden="true"></i> <span data-i18n="bookshelf.rename">Rename</span>
+                    </button>
+                    <button class="bookshelf-action-btn bookshelf-delete-btn" id="deleteGroupBtn">
+                        <i class="fas fa-trash" aria-hidden="true"></i> <span data-i18n="bookshelf.deleteGroup">Delete Group</span>
+                    </button>
+                </div>
+                <h2 class="bookshelf-title" id="groupModalTitle" data-i18n="bookshelf.group">Group</h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="groupCloseBtn" aria-label="Back to bookshelf" data-i18n-aria-label="bookshelf.home">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button class="bookshelf-close-btn" id="groupCloseAllBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="groupLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="groupBody">
+            </div>
+            <div class="bookshelf-footer" id="groupFooter">
+                <span id="groupStats"></span>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="eb-footer" data-id="eb-footer" data-version-check data-current-version="2.17.1" data-release-api="">
+    <p><span data-i18n="footer.product">EPUB Library</span> &copy; 2026 | <span data-i18n="footer.poweredBy">Powered by</span> <a href="https://github.com/dfface/epub-browser" target="_blank" rel="noopener noreferrer">epub-browser</a><!-- i18n-allow-literal: product name --> <span data-i18n="footer.poweredBySuffix">&middot;</span> <span class="eb-footer-version" aria-label="Version 2.17.1" data-i18n-aria-label="common.version" data-i18n-params='{"version":"2.17.1"}'>v2.17.1</span><span class="eb-footer-update" data-version-update hidden><span aria-hidden="true"> &middot; </span><a target="_blank" rel="noopener noreferrer"></a></span></p>
+</footer>
+
+    
+    <script src="/reader/assets/immutable/notification.ea0bd58fa985.js" defer></script>
+    
+    <script src="/reader/assets/immutable/locale-nav.1dfbcbe0b37e.js" defer></script>
+    <script src="/reader/assets/immutable/theme.fca510090d70.js" defer></script>
+    <script src="/reader/assets/immutable/dialog.a3f376ac6a44.js" defer></script>
+    <script src="/reader/assets/immutable/version-check.47351de03846.js" defer></script>
+    <script src="/reader/assets/immutable/vendor/glightbox/glightbox.min.c67c59cdf980.js" defer></script>
+    <script src="/reader/assets/immutable/lightbox-adapter.9c8cb9207923.js" defer></script>
+    <script src="/reader/assets/immutable/vendor/web-highlighter/web-highlighter.min.7360ce01d835.js" defer></script>
+    <script src="/reader/assets/immutable/chapter-prefetch.8dc88587bd93.js" defer></script>
+    <script src="/reader/assets/immutable/chapter-window.8d2c13e8f216.js" defer></script>
+    <script src="/reader/assets/immutable/viewport-anchor.021abaa5aa16.js" defer></script>
+    <script src="/reader/assets/immutable/continuous-buffer.27eaf6de1887.js" defer></script>
+    <script src="/reader/assets/immutable/reading-progress.653eacfc5c3b.js" defer></script>
+    <script src="/reader/assets/immutable/reader-layout.c935b79be9f3.js" defer></script>
+    
+    
+    <script src="/reader/assets/immutable/chapter.d142eca8903e.js" defer></script>
+    <script src="/reader/assets/immutable/annotation-position.df7b410bbafb.js" defer></script>
+    <script src="/reader/assets/immutable/annotation.b20d5ca76780.js" defer></script>
+    <script src="/reader/assets/immutable/annotation-hub.ad5eeecee8bd.js" defer></script>
+    <script src="/reader/assets/immutable/vendor/sortablejs/sortable.min.6d0a831fc19b.js" defer></script>
+    
+    
+    <script src="/reader/assets/immutable/bookshelf.b75fb5bdddd2.js" defer></script>
+    
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.initScriptChapter) window.initScriptChapter();
+    });
+    </script>
+</body>
+</html>
