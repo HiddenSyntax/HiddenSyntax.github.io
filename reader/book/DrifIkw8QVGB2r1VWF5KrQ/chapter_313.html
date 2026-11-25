@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244548">
+    <meta name="description" content="১ - সাইমুম সিরিজ - EPUB Browser">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EPUB Browser">
+    <title>১ - সাইমুম সিরিজ</title>
+    
+    <script>document.documentElement.classList.add("i18n-boot");setTimeout(function(){document.documentElement.classList.remove("i18n-boot");},3000);</script><script src="/assets/immutable/i18n/i18n-core.978da4e85125.js"></script><script>window.EpubBrowserI18n.registerDictionary("en",{"common.brand":"EPUB Browser","common.language":"Language","common.chinese":"Chinese","common.english":"English","locale.name.en":"English","locale.name.zh-CN":"简体中文","locale.name.zh-TW":"繁體中文","locale.name.ko":"한국어","locale.name.ja":"日本語","common.version":"Version {version}","theme.light":"Light","theme.dark":"Dark","theme.sepia":"Sepia","theme.forest":"Forest","theme.ocean":"Ocean","theme.peach":"Peach","theme.lavender":"Lavender","theme.day":"Day theme","theme.night":"Night theme","theme.automatic":"Automatically switch between day and night themes based on the device","theme.automaticHelp":"Automatic switching hides the toolbar theme button. Choose your day and night themes here.","theme.invalid":"Invalid appearance settings.","theme.saveFailed":"Unable to save appearance settings.","reader.library":"Library","reader.breadcrumb":"Breadcrumb","reader.navigation":"Reading navigation","reader.theme":"Theme","reader.turning":"Turning","reader.scrolling":"Scrolling","reader.book":"Book","reader.home":"Home","reader.top":"Top","reader.settings":"Settings","reader.shelf":"Shelf","reader.annotations":"Annotations","reader.tableOfContents":"Table of contents","reader.bookChapters":"Chapters","reader.thisChapterContents":"This chapter","reader.openBookChapters":"Open book chapters","reader.skipToContent":"Skip to reading content","reader.previous":"Previous chapter","reader.next":"Next chapter","reader.previousPage":"Previous page","reader.nextPage":"Next page","reader.currentPage":"Current page","reader.totalPages":"Total pages","reader.jump":"Jump","reader.clickToTurn":"Click to turn page","reader.pureReading":"Pure reading mode","reader.reloadPages":"Reload pages","reader.setPageHeight":"Set page height","reader.loadingContent":"Loading content","reader.openBookHome":"Open book home","reader.closeBookHome":"Close book home","reader.closeSettings":"Close settings","reader.closeTableOfContents":"Close table of contents","reader.pageHeight":"Page height","reader.turningModeEnabled":"Page turning mode enabled","reader.exitTurningConfirm":"Exit page turning mode?","reader.exitTurning":"Exit page turning","reader.progressLoadedPage":"Progress loaded: Page {page}","reader.progressLoadedPercent":"Progress loaded: {percent}%","reader.pageRange":"1-{total}","reader.validNumber":"Valid number","reader.firstChapter":"First chapter","reader.lastChapter":"Last chapter","reader.first":"First","reader.last":"Last","reader.onlyPageMode":"Only in page mode","reader.pureModeOn":"Pure mode on","reader.pureModeOff":"Pure mode off","reader.reloaded":"Reloaded","reader.clickPageOn":"Click page on","reader.clickPageOff":"Click page off","reader.tocLoadFailed":"Load failed","reader.tocNoTitle":"No title","reader.annotationNotFound":"Could not locate this annotation. Opened its chapter instead.","reader.annotationLoadFailed":"Could not load this annotation. Opened its chapter instead.","reader.loadingNextChapter":"Loading next chapter","reader.loadingPreviousChapter":"Loading previous chapter","reader.chapterLoadFailed":"Could not load this chapter. Please try again.","reader.chapterNumber":"Chapter {number}","reader.continuousScrollRequiresScrolling":"Continuous scroll requires Scrolling mode","reader.continuousScrollEnabledReloading":"Continuous scroll enabled - reloading...","reader.continuousScrollDisabledReloading":"Continuous scroll disabled - reloading...","settings.appearance":"Appearance","settings.reading":"Reading","settings.fontFamily":"Font family","settings.fontSize":"Font size","settings.pageWidth":"Page width","settings.pageWidthNarrow":"Narrow","settings.pageWidthComfortable":"Comfortable","settings.pageWidthWide":"Wide","settings.pageWidthExtraWide":"Extra wide","settings.bookDefault":"Book default","settings.systemDefault":"System default","settings.customByInput":"Custom by input","settings.customFontPlaceholder":"Input font name here","settings.customFontTip":"Tip: Font family applies globally. Ensure it’s installed in the system.","settings.apply":"Apply","settings.readingMode":"Reading mode","settings.showReadingProgressBar":"Show reading progress bar","settings.paginationMode":"Use page-turning mode","settings.exitPaginationMode":"Exit page-turning mode","settings.desktopChapterSidebar":"Show chapter sidebar","settings.continuousScroll":"Enable continuous scroll","settings.continuousScrollTip":"Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off.","settings.customStyles":"Custom styles","settings.optional":"Optional","settings.customStylesDescription":"Use CSS to fine-tune this book’s typography and layout.","settings.customCssPlaceholder":"Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}","settings.save":"Save","settings.saveAsDefault":"Save as default","settings.reset":"Reset","settings.loadDefault":"Load default","settings.preview":"Preview","settings.defaultStyleTip":"Tip: The default style will be applied to all books unless a custom style is set for specific books.","settings.saved":"Saved","settings.defaultSaved":"Default saved","settings.noDefault":"No default","settings.loaded":"Loaded","settings.resetDone":"Reset","settings.applied":"Applied","settings.saveAsDefaultConfirm":"Save as default?","settings.loadDefaultConfirm":"Load default?","settings.resetConfirm":"Reset?","settings.continuousScrollUnavailable":"Continuous scroll is only available in Scrolling mode. Switch to Scrolling mode first to enable this feature.","library.title":"Library","library.pageTitle":"EPUB Library","library.description":"EPUB Library - A web-based EPUB reader","library.information":"Library information","library.navigation":"Primary navigation","library.bookCount":{"one":"{count} book","other":"{count} books"},"library.tagCount":{"one":"{count} tag","other":"{count} tags"},"library.annotations":"Annotations","library.login":"Login","library.theme":"Theme","library.sort.apply":"Apply","library.sort.manual":"Manual order","library.sort.shelfFirst":"Bookshelf first","library.sort.shelfOrder":"Bookshelf order","library.sort.pdfFirst":"PDF first","library.sort.label":"Sort by","library.sort.titleAsc":"Title (A–Z)","library.sort.titleDesc":"Title (Z–A)","library.sort.createdDesc":"Recently added","library.sort.updatedDesc":"Recently updated","library.pagination":"Library pages","library.searchPlaceholder":"Search by book title, author, or tag...","library.all":"All","library.noTag":"No tag","library.showMoreTags":"Show more","library.showFewerTags":"Show fewer","library.top":"Top","library.shelf":"Shelf","library.cover":"Cover","library.usernamePrompt":"Please enter your username:","library.usernameSaved":"Username saved: {username}","library.usernameCleared":"Username cleared","library.install":"Install","library.installing":"Installing app...","library.installSucceeded":"App installed successfully!","library.installCancelled":"Install cancelled","library.loading":"Loading library","library.empty":"No books in your library yet.","library.emptyTitle":"Your library is empty","library.emptyServerDescription":"Add EPUB files to the watched library folder. They will appear here automatically.","library.emptySsgDescription":"Add EPUB files to the source and generate the static site again.","library.noResultsTitle":"No matching books","library.noResultsDescription":"Try a different title, author, or tag.","library.loadError":"Unable to load your library. Please refresh and try again.","library.progress.scanning":"Scanning library","library.progress.processing":"Updating library","library.progress.extracting":"Extracting book information","library.progress.converting":"Building reading cache","library.progress.complete":"Library updated","library.progress.degraded":"Library updated with failures","library.progress.reconnecting":"Reconnecting to library updates…","library.progress.summary":"Processed {completed} of {total} books","library.progress.extractingSummary":"Examined {completed} of {total} books","library.progress.convertingSummary":"Cached {completed} of {total} books","library.progress.removed":{"one":"Removed {count} book","other":"Removed {count} books"},"library.progress.latest":"Latest: {book}","library.progress.failureDetails":"Failure details","library.progress.close":"Close","book.library":"Library","book.breadcrumb":"Breadcrumb","book.navigation":"Book navigation","book.theme":"Theme","book.unknownAuthor":"Unknown author","book.startReading":"Start reading","book.continueReading":"Continue reading","book.moreReadingActions":"More reading actions","book.clearReadingProgress":"Clear reading progress","book.clear":"Clear","book.clearReadingProgressConfirm":"Clear reading progress for this book?","book.clearReadingProgressSucceeded":"All reading progress for this book has been deleted!","book.clearReadingProgressFailed":"Unable to clear reading progress. Please try again.","book.annotations":"Annotations","book.addToShelf":"Add to Shelf","book.removeFromShelf":"Remove from Shelf","book.addedToShelf":"Book added to shelf!","book.removedFromShelf":"Book removed from shelf!","book.goToChapter":"Go to chapter","book.noContents":"This book has no table of contents","book.tableOfContents":"Table of contents","book.totalChapters":"Total: {count}","book.top":"Top","book.shelf":"Shelf","book.home":"Home","book.cover":"Cover","book.cloudSyncUser":"Cloud sync · {username}","book.cloudSyncUserAria":"Cloud-synced reading position for {username}","book.sharedUser":"shared","book.addToShelfTitle":"Add to Shelf","book.closeGroupChooser":"Close group chooser","book.shelfHome":"Shelf Home","book.confirm":"Confirm","book.error.database_unavailable":"The reading progress service is temporarily unavailable.","book.error.server_error":"The reading progress service encountered an error.","book.error.not_found":"The reading progress service was not found.","bookshelf.addGroup":"Add Group","bookshelf.sync":"Sync","bookshelf.export":"Export","bookshelf.import":"Import","bookshelf.title":"Bookshelf","bookshelf.group":"Group","bookshelf.addBook":"Add Book","bookshelf.searchBooks":"Search books","bookshelf.searchPlaceholder":"Search by title or author","bookshelf.searchNoResults":"No books match “{query}”.","bookshelf.noBooksToAdd":"Every available book is already on your bookshelf.","bookshelf.removeBook":"Remove “{title}”","bookshelf.confirmRemoveBook":"Remove “{title}” from this location?","bookshelf.bookAdded":"Added “{title}”.","bookshelf.bookRemoved":"Removed “{title}”.","bookshelf.bookAlreadyAdded":"This book is already on your bookshelf.","bookshelf.rename":"Rename","bookshelf.deleteGroup":"Delete Group","bookshelf.close":"Close","bookshelf.home":"Back to bookshelf","bookshelf.loading":"Loading bookshelf","bookshelf.all":"All","bookshelf.noTag":"No tag","bookshelf.empty":"Your bookshelf is empty","bookshelf.groupEmpty":"This group is empty","bookshelf.groupItems":"{books} books, {groups} subgroups","bookshelf.groupBooks":"{books} books","bookshelf.groupSubgroups":"{groups} subgroups","bookshelf.emptyGroup":"Empty group","bookshelf.currentStats":"Current: {books} book(s), {groups} group(s) | Total: {totalBooks} book(s), {totalGroups} group(s)","bookshelf.groupNamePrompt":"Enter group name:","bookshelf.renameGroupPrompt":"Enter new group name:","bookshelf.confirmDeleteGroup":"Are you sure you want to delete the group \"{name}\"?","bookshelf.groupDeleted":"Deleted group \"{name}\".","bookshelf.nestedGroupWarning":"Please delete all nested groups first before deleting this group.","bookshelf.importSucceeded":"Bookshelf data imported successfully!","bookshelf.importInvalid":"Invalid bookshelf data format.","bookshelf.importParseFailed":"Failed to parse the JSON file.","bookshelf.usernamePrompt":"Please enter your username for sync:","bookshelf.loginRequired":"Please log in before using your cloud bookshelf.","bookshelf.syncing":"Syncing...","bookshelf.syncNewUser":"Sync ({username}): New user created, data uploaded successfully!","bookshelf.syncUpdated":"Sync ({username}): Data updated from server!","bookshelf.syncCurrent":"Sync ({username}): No changes, already up to date!","bookshelf.syncUnavailable":"Sync ({username}): Not allowed to sync, check your configuration!","bookshelf.syncUploaded":"Sync ({username}): Data uploaded successfully!","bookshelf.syncFailed":"Sync ({username}) failed. Please try again.","bookshelf.error.username_required":"A username is required to sync your bookshelf.","bookshelf.error.invalid_json":"The sync request was invalid.","bookshelf.error.no_sync_data":"No bookshelf data was provided for sync.","bookshelf.error.not_found":"The sync endpoint was not found.","bookshelf.error.annotation_not_found":"The requested item was not found.","bookshelf.error.invalid_chapter_index":"The requested chapter is invalid.","bookshelf.error.batch_requires_post":"This request must use POST.","bookshelf.error.database_unavailable":"The sync service is temporarily unavailable.","bookshelf.error.reading_progress_not_found":"Reading progress was not found.","bookshelf.error.server_error":"The sync service encountered an error.","bookshelf.error.unknown":"The bookshelf could not be synchronized.","dialog.title":"Confirm","dialog.confirm":"Confirm","dialog.cancel":"Cancel","dialog.value":"Value","annotations.tab":"Annotations","annotations.enabled":"Enable annotations","annotations.enabledNotice":"Annotations enabled","annotations.disabledNotice":"Annotations disabled","annotations.storageLocation":"Storage location","annotations.localStorage":"Local storage","annotations.cloudStorage":"Cloud storage","annotations.cloudUnavailable":"Cloud storage is unavailable","annotations.checking":"Checking…","annotations.connectedUser":"Connected ({username})","annotations.connectedShared":"Connected (shared)","annotations.connectedAccount":"Connected to your account","annotations.disconnected":"Disconnected","annotations.usernamePrompt":"You are not logged in.\n\n- Click OK to enter a username (annotations will be isolated by user)\n- Click Cancel to use shared mode (all users share the same annotations)","annotations.login":"Sign in","annotations.username":"Username","annotations.usingSharedStorage":"Using shared cloud storage (no user isolation)","annotations.loggedInAs":"Logged in as {username} (annotations isolated)","annotations.defaultColor":"Default color","annotations.defaultColorTip":"Click a color to set it as the default.","annotations.colors":"Colors","annotations.colorReorderTip":"Drag colors to reorder them.","annotations.addColor":"Add color","annotations.deleteColor":"Delete color","annotations.hexColor":"Hex color","annotations.hexPlaceholder":"#RRGGBB","annotations.invalidHex":"Enter a valid hex color such as #RRGGBB.","annotations.noteOptional":"Note (optional)…","annotations.note":"Note:","annotations.addDescription":"Add description…","annotations.add":"Add","annotations.save":"Save","annotations.cancel":"Cancel","annotations.close":"Close","annotations.copy":"Copy","annotations.delete":"Delete","annotations.deleteAnnotation":"Delete annotation","annotations.details":"Annotation details","annotations.color":"Color:","annotations.created":"Created: {date}","annotations.updated":"Updated: {date}","annotations.clickToCopy":"Click to copy","annotations.copied":"Copied","annotations.textCopied":"Text copied","annotations.unableToCopy":"Unable to copy","annotations.notFound":"Annotation not found","annotations.confirmDelete":"Delete this annotation?","annotations.deleted":"Annotation deleted","annotations.loadFailed":"Failed to load annotation: {error}","annotations.addFailed":"Failed to add: {error}","annotations.updateFailed":"Failed to update: {error}","annotations.deleteFailed":"Failed to delete: {error}","annotations.restoreFailed":"Some annotations could not be restored. Please reload the chapter.","annotations.loadAllFailed":"Failed to load annotations: {error}","annotations.dataMigration":"Data migration","annotations.migrationDescription":"Switching storage location requires data migration","annotations.countingData":"Counting data…","annotations.currentData":{"one":"Current data: {count} annotation","other":"Current data: {count} annotations"},"annotations.skip":"Skip","annotations.migrate":"Migrate","annotations.migrating":"Migrating…","annotations.migratingProgress":"Migrating… {current}/{total}","annotations.storageLocationChanged":"Storage location changed","annotations.exportData":"Export data","annotations.exportBook":"Export book","annotations.exportAll":"Export all","annotations.exported":{"one":"Exported {count} annotation","other":"Exported {count} annotations"},"annotations.exportFailed":"Export failed: {error}","annotations.hubTitle":"Annotations","annotations.allAnnotatedBooks":"All annotated books","annotations.closeHub":"Close annotations","annotations.loading":"Loading annotations…","annotations.retry":"Retry","annotations.loadHubFailed":"Unable to load annotations","annotations.loadHubFailedDetail":"Please try again.","annotations.annotatedBooks":"Annotated books","annotations.noAnnotationsTitle":"No annotations yet","annotations.noAnnotationsDescription":"Select text while reading to save your first annotation.","annotations.noBookAnnotationsTitle":"No annotations in this book","annotations.noBookAnnotationsDescription":"This book may have been removed or its annotations were deleted.","annotations.annotationCount":{"one":"{count} annotation","other":"{count} annotations"},"annotations.bookCount":{"one":"{count} book","other":"{count} books"},"annotations.updatedAt":"Updated {date}","annotations.chapterNumber":"Chapter {number}","annotations.bookFallback":"Book","annotations.authorSeparator":" & ","annotations.bylineSeparator":" · ","annotations.error.not_found":"The annotation service was not found.","annotations.error.username_required":"A username is required for this annotation request.","annotations.error.invalid_json":"The annotation request was invalid.","annotations.error.no_sync_data":"No annotation data was provided.","annotations.error.annotation_not_found":"The annotation was not found.","annotations.error.invalid_chapter_index":"The requested chapter is invalid.","annotations.error.batch_requires_post":"This batch request must use POST.","annotations.error.database_unavailable":"The annotation service is temporarily unavailable.","annotations.error.reading_progress_not_found":"Reading progress was not found.","annotations.error.server_error":"The annotation service encountered an error.","annotations.error.network":"A network error occurred while contacting annotations.","annotations.error.timeout":"The annotation request timed out.","footer.product":"EPUB Library","footer.poweredBy":"Powered by","footer.poweredBySuffix":"·","version.updateAvailable":"Update available: v{version}","errors.generic":"Something went wrong.","errors.network":"A network error occurred.","annotations.shareActions":"Share annotations","annotations.copyShare":"Copy Markdown","annotations.exportShare":"Export Markdown","annotations.annotationActions":"Annotation actions","annotations.copyAnnotation":"Copy this annotation","annotations.annotationCopied":"Annotation copied as Markdown.","annotations.annotationCopyFailed":"Unable to copy this annotation.","annotations.shareAuthors":"Authors","annotations.shareCount":"Annotations","annotations.shareNote":"Note","annotations.shareCopied":"Annotation summary copied locally.","annotations.shareCopyFailed":"Unable to copy the annotation summary.","annotations.shareExported":"Annotation summary exported locally.","annotations.shareExportFailed":"Unable to export the annotation summary.","annotations.shareFileFallback":"Annotations","settings.navigationBehavior":"Navigation bar behavior","settings.navigationBehaviorHelp":"Choose when the top navigation stays visible while you read.","settings.navigationBehavior.normal":"Normal scroll","settings.navigationBehavior.sticky":"Always sticky","settings.navigationBehavior.autoHide":"Hide down, show up","settings.keyboardNavigation":"Keyboard navigation","settings.arrowKeyNavigation":"Use Left and Right Arrow keys to navigate","settings.spaceKeyNavigation":"Use Space for the next page or chapter","reader.locateCurrentChapter":"Locate current chapter","reader.locateCurrentSection":"Locate current section","annotations.addImageNote":"Add image note","annotations.imageNote":"Image note","annotations.showMoreColors":"Show {count} more colors","annotations.showFewerColors":"Show fewer colors","annotations.selectionActions":"Selected text actions","annotations.highlight":"Highlight","annotations.noteAction":"Note","annotations.dictionary":"Dictionary","annotations.encyclopedia":"Encyclopedia","dictionary.title":"Dictionary","dictionary.encyclopediaTitle":"Encyclopedia","dictionary.loading":"Looking up…","dictionary.close":"Close","dictionary.notFound":"No entry found.","dictionary.notConfigured":"No local dictionary is installed.","dictionary.choose":"Dictionary","dictionary.unavailable":"This service is temporarily unavailable.","dictionary.source":"Open source","book.readingTime":"Read {duration}","readingSessions.pending":"Reading time will be saved when you are back online.","readingSessions.error":"Unable to save reading time. Retrying automatically.","readingSessions.discarded":"Reading time could not be saved. Continue reading and try again later.","pdf.formatBadge":"PDF","pdf.noContents":"This PDF has no table of contents","pdf.page":"Page {number}","pdf.pageOf":"Page {number} of {total}","pdf.pageLoadError":"This page could not be loaded. Please try again.","pdf.loadingPage":"Loading page…","pdf.browserUnsupported":"This browser is too old to display PDF pages. Please update it, or open this book in a recent version of Chrome, Edge, Firefox, or Safari.","pdf.textUnavailable":"Text selection, annotations, dictionary, and encyclopedia are unavailable because this PDF has no usable text layer.","pdf.selectionWithinPageRequired":"Select text within one PDF page to use annotations, dictionary, or encyclopedia.","pdf.passwordRequired":"This PDF is password protected. Enter its password in the reader to display the page.","pdf.search":"Search PDF","pdf.searchPlaceholder":"Search PDF","pdf.searchNoResults":"No matching pages.","pdf.closeSearch":"Close PDF search","pdf.zoomOut":"Zoom out","pdf.zoomIn":"Zoom in","pdf.fitWidth":"Fit width","pdf.fitPage":"Fit page","pdf.goToPage":"Go to page","pdf.rotate":"Rotate page","pdf.print":"Print PDF","pdf.download":"Download PDF","pdf.searchFailed":"PDF search failed.","settings.desktopLayout":"Desktop layout","settings.autoHideDesktopChapterSidebar":"Auto-hide chapter sidebar","settings.autoHideDesktopChapterSidebarHelp":"Move the pointer to the left edge, or use Tab, to show the chapter sidebar.","settings.autoHideDesktopToolbar":"Auto-hide reading toolbar","settings.autoHideDesktopToolbarHelp":"Move the pointer to the right edge, or use Tab, to show the toolbar.","settings.clickPageHelp":"In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions.","locale.name.es":"Español","locale.name.de":"Deutsch","locale.name.fr":"Français","locale.name.ru":"Русский","locale.name.it":"Italiano","locale.name.pt-BR":"Português (Brasil)","locale.name.ar":"العربية","locale.name.id":"Bahasa Indonesia","locale.name.hi":"हिन्दी","locale.name.vi":"Tiếng Việt","locale.name.th":"ไทย","locale.name.ms":"Bahasa Melayu","library.recentReading.title":"Continue reading","library.recentReading.chapter":"Chapter {index}","library.recentReading.page":"Page {index}","library.recentReading.justNow":"Just now","library.recentReading.minutesAgo":"{count}m ago","library.recentReading.hoursAgo":"{count}h ago","library.recentReading.daysAgo":"{count}d ago","library.recentReading.monthsAgo":"{count}mo ago","kindle.allBooks":"All books","kindle.emptyRecent":"Open a book to start reading.","kindle.fullLibrary":"Open full library","kindle.theme":"Theme","kindle.noResults":"No matching books.","kindle.pdfUnsupported":"This PDF book can't be opened in Kindle mode yet.","kindle.serif":"Serif","kindle.sans":"Sans serif","vocabulary.navigation":"Vocabulary","vocabulary.allWords":"All vocabulary","vocabulary.bookTitle":"Book vocabulary","vocabulary.close":"Close","vocabulary.retry":"Retry","vocabulary.empty":"No words yet.","vocabulary.loading":"Loading vocabulary…","vocabulary.loadError":"Could not load vocabulary.","vocabulary.saveError":"Could not save the change. Try again.","vocabulary.once":"Looked up once","vocabulary.repeated":"Looked up {count} times","vocabulary.firstSeen":"First lookup · {date}","vocabulary.lastSeen":"Latest lookup · {date}","vocabulary.openSource":"Open the latest lookup location","vocabulary.mastery":"Mastery","vocabulary.new":"New","vocabulary.learning":"Learning","vocabulary.mastered":"Mastered","vocabulary.remove":"Remove from this book","vocabulary.delete":"Delete word","vocabulary.confirmRemove":"Remove “{word}” from this book’s vocabulary?","vocabulary.confirmDelete":"Delete “{word}” and its lookup history across all books?","vocabulary.search":"Search words","vocabulary.noMatches":"No words match.","vocabulary.emptyGuide":"Select text and use the dictionary while reading. Your lookups will appear here.","vocabulary.sources":"Sources","vocabulary.more":"More actions","vocabulary.saving":"Saving…","vocabulary.saved":"Mastery saved.","vocabulary.recorded":"Added to your vocabulary.","vocabulary.recordError":"Could not add this lookup to your vocabulary.","vocabulary.previousPage":"Previous","vocabulary.nextPage":"Next","vocabulary.pagination":"Vocabulary pages","vocabulary.scopeRead":"Read vocabulary","vocabulary.scopeWrite":"Manage vocabulary","book.search":"Search this book","book.searchPlaceholder":"Search this book","book.searchHint":"Type a word or phrase to search this book.","book.searching":"Searching…","book.searchNoResults":"No matches found.","book.searchResultCount":"Results: {count}","book.searchPrevPage":"Previous page","book.searchNextPage":"Next page","book.searchPageStatus":"Page {page} of {pages}","book.searchPageOutOfRange":"That page has no results","book.searchFailed":"Search failed. Try again.","book.searchUnavailable":"Search is temporarily unavailable. Try again later.","book.closeSearch":"Close search"});</script>
+    <script>window.EpubBrowserBasePath="/";window.EpubBrowserMode="ssg"</script><script>window.EpubBrowserI18n.init();</script>
+    
+    
+    <noscript><link rel="manifest" href="/assets/manifest.en.json"></noscript>
+    <link class="eb" href="resources/1/4/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link class="eb" href="resources/1/4/page_styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/assets/immutable/vendor/fontawesome/css/all.min.59cdcd0cf392.css">
+    <link rel="stylesheet" href="/assets/immutable/theme.c03f373b63a1.css">
+    <link rel="stylesheet" href="/assets/immutable/notification.3af6bb473911.css">
+    <link rel="stylesheet" href="/assets/immutable/dialog.11578e5f1426.css">
+    <link rel="stylesheet" href="/assets/immutable/chapter.d6bffadc60de.css">
+    
+    
+    <link rel="stylesheet" href="/assets/immutable/breadcrumb.cf77915b2643.css">
+    <link rel="stylesheet" href="/assets/immutable/loading.4191d9fecbbb.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation.8b634162a3e8.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation-hub.bed06f149212.css">
+    
+    <link rel="stylesheet" href="/assets/immutable/vendor/glightbox/glightbox.min.6d3f62d4d179.css">
+    <link rel="icon" type="image/png" href="/assets/immutable/favicon.dd042ee39766.png">
+    <link rel="apple-touch-icon" href="/assets/immutable/icon-192.15435b416555.png">
+    <link rel="stylesheet" href="/assets/immutable/bookshelf.9fd53d54c1ae.css">
+
+    <script src="/assets/immutable/theme-bootstrap.cb8f81a354a2.js"></script>
+
+</head>
+
+<body>
+
+    <a class="skip-link" href="#eb-content" data-i18n="reader.skipToContent">Skip to reading content</a>
+
+    <div class="reading-progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav class="toc-floating reader-drawer" id="bookHomeFloating" aria-label="Book chapters" data-i18n-aria-label="reader.bookChapters" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.bookChapters">Chapters</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="bookHomeLocateCurrent" type="button" aria-label="Locate current chapter" data-i18n-aria-label="reader.locateCurrentChapter">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <a class="toc-book-home" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome">
+                    <i class="fas fa-book" aria-hidden="true"></i><span data-i18n="reader.openBookHome">Open book home</span>
+                </a>
+                <button class="toc-close" id="bookHomeClose" type="button" aria-label="Close book home" data-i18n-aria-label="reader.closeBookHome">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="bookHomeTocList">
+            <!-- 动态生成的书籍目录将放在这里 -->
+        </ul>
+    </nav>
+
+    <nav class="toc-floating reader-drawer" id="tocFloating" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.thisChapterContents">This chapter</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="tocLocateCurrent" type="button" aria-label="Locate current section" data-i18n-aria-label="reader.locateCurrentSection">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <button class="toc-close" id="tocClose" aria-label="Close table of contents" data-i18n-aria-label="reader.closeTableOfContents">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="tocList">
+            <!-- 动态生成的目录将放在这里 -->
+        </ul>
+    </nav>
+    
+    
+
+    <div class="reader-drawer-backdrop" id="readerDrawerBackdrop" aria-hidden="true"></div>
+
+    <header class="chapter-top-bar app-header">
+        <nav class="app-nav" aria-label="Reading navigation" data-i18n-aria-label="reader.navigation">
+            <a class="app-nav-brand" href="/" aria-label="EPUB Browser" data-i18n-aria-label="common.brand"><img class="app-nav-brand-mark" src="/assets/immutable/logo-mark-color.ef9a3679a944.png" width="32" height="32" alt=""><span data-i18n="common.brand">EPUB Browser</span></a>
+            <div class="app-nav-links">
+                <button type="button" class="app-nav-link" id="bookshelfBtn" aria-haspopup="dialog" aria-controls="bookshelfModal"><i class="fas fa-bookmark" aria-hidden="true"></i><span data-i18n="reader.shelf">Shelf</span></button>
+                <button type="button" class="app-nav-link" id="chapterAnnotationsBtn" data-annotation-hub data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" aria-haspopup="dialog"><i class="fas fa-highlighter" aria-hidden="true"></i><span data-i18n="reader.annotations">Annotations</span></button>
+                
+                
+                
+            </div>
+            <div class="app-nav-actions">
+                <div class="library-language app-nav-locale">
+    <button type="button" class="app-nav-action app-nav-locale-toggle" id="localeToggle" aria-haspopup="menu" aria-expanded="false" aria-label="Language" data-i18n-aria-label="common.language"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only" id="localeCurrentLabel" data-i18n="locale.name.en">English</span></button>
+    <select class="sr-only" id="localeSelect" tabindex="-1" aria-hidden="true"><option value="en" data-i18n="locale.name.en">English</option><option value="zh-CN" data-i18n="locale.name.zh-CN">简体中文</option><option value="zh-TW" data-i18n="locale.name.zh-TW">繁體中文</option><option value="ko" data-i18n="locale.name.ko">한국어</option><option value="ja" data-i18n="locale.name.ja">日本語</option><option value="es" data-i18n="locale.name.es">Español</option><option value="de" data-i18n="locale.name.de">Deutsch</option><option value="fr" data-i18n="locale.name.fr">Français</option><option value="ru" data-i18n="locale.name.ru">Русский</option><option value="it" data-i18n="locale.name.it">Italiano</option><option value="pt-BR" data-i18n="locale.name.pt-BR">Português (Brasil)</option><option value="ar" data-i18n="locale.name.ar">العربية</option><option value="id" data-i18n="locale.name.id">Bahasa Indonesia</option><option value="hi" data-i18n="locale.name.hi">हिन्दी</option><option value="vi" data-i18n="locale.name.vi">Tiếng Việt</option><option value="th" data-i18n="locale.name.th">ไทย</option><option value="ms" data-i18n="locale.name.ms">Bahasa Melayu</option></select>
+</div>
+                <button class="theme-toggle app-nav-action app-nav-theme" id="themeToggle" type="button" aria-label="Theme" data-i18n-aria-label="reader.theme"><i class="fas fa-moon" aria-hidden="true"></i><span class="app-nav-action-label" data-i18n="reader.theme">Theme</span></button>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="reader-toolbar top-controls chapter-tools" role="toolbar" aria-label="Reading tools" data-i18n-aria-label="reader.navigation">
+            <button class="control-btn" id="bookHomeToggle" type="button" aria-label="Open book chapters" data-i18n-aria-label="reader.openBookChapters" aria-controls="bookHomeFloating" aria-expanded="false"><i class="fas fa-book"></i><span class="control-name" data-i18n="reader.bookChapters">Chapters</span></button>
+            <button class="control-btn" id="tocToggle" type="button" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false"><i class="fas fa-list"></i><span class="control-name" data-i18n="reader.thisChapterContents">This chapter</span></button>
+            <button class="control-btn" id="settingsControlBtn" type="button" aria-label="Settings" data-i18n-aria-label="reader.settings" aria-controls="settingsModal" aria-expanded="false"><i class="fas fa-cog"></i><span class="control-name" data-i18n="reader.settings">Settings</span></button>
+            <div class="pagination-toolbar-controls" id="paginationInfo" role="group" aria-label="Page navigation" data-i18n-aria-label="reader.navigation">
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_312.html" id="readerPreviousChapter" class="control-btn prev-chapter" aria-label="Previous chapter" data-i18n-aria-label="reader.previous" aria-disabled="false"><i class="fas fa-arrow-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previous">Previous chapter</span></a>
+                <button class="control-btn" id="prevPage" type="button" aria-label="Previous page" data-i18n-aria-label="reader.previousPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previousPage">Previous page</span></button>
+                <button class="control-btn" id="reloadPages" type="button" aria-label="Reload pages" data-i18n-aria-label="reader.reloadPages" data-pagination-toolbar-control hidden><i class="fas fa-rotate-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.reloadPages">Reload pages</span></button>
+                <button class="control-btn" id="nextPage" type="button" aria-label="Next page" data-i18n-aria-label="reader.nextPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.nextPage">Next page</span></button>
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_314.html" id="readerNextChapter" class="control-btn next-chapter" aria-label="Next chapter" data-i18n-aria-label="reader.next" aria-disabled="false"><i class="fas fa-arrow-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.next">Next chapter</span></a>
+                <span class="pagination-page-status" id="currentPage" aria-live="polite">1</span>
+                <span class="pagination-page-status" id="totalPages" aria-label="Total pages" data-i18n-aria-label="reader.totalPages">1</span>
+                <button class="control-btn" id="pageJumpToggle" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump" aria-controls="paginationPageJumpPopover" aria-expanded="false" data-pagination-toolbar-control hidden><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i><span class="control-name" data-i18n="reader.jump">Jump</span></button>
+                <section class="pagination-page-jump-popover" id="paginationPageJumpPopover" role="dialog" aria-modal="false" aria-labelledby="paginationPageJumpTitle" aria-describedby="paginationPageJumpRange" aria-hidden="true" hidden>
+                    <strong class="pagination-page-jump-title" id="paginationPageJumpTitle" data-i18n="reader.jump">Jump</strong>
+                    <p class="pagination-page-jump-range" id="paginationPageJumpRange"></p>
+                    <label class="pagination-page-jump-label" for="pageJumpInput" data-i18n="reader.currentPage">Current page</label>
+                    <div class="pagination-page-jump-form">
+                        <input type="number" id="pageJumpInput" min="1" max="1" value="1" inputmode="numeric" aria-label="Current page" data-i18n-aria-label="reader.currentPage">
+                        <button class="pagination-jump-submit" id="goToPage" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump"><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i></button>
+                    </div>
+                </section>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="eb-content-container" id="eb-content-container" data-id="eb-content-container">
+            <div class="content-loading is-visible" id="contentLoading" aria-live="polite" aria-label="Loading content" data-i18n-aria-label="reader.loadingContent">
+                <div class="loading-spinner"></div>
+            </div>
+            <article class="eb-content" id="eb-content" lang="bn" dir="auto" data-eb-styles data-chapter-index="313" data-chapter-title="১" data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" data-total-chapters="471" data-highlight-script="/assets/immutable/vendor/highlight/highlight.min.c4a399dd6f48.js" data-highlight-light="/assets/immutable/vendor/highlight/github.min.3a9a5def8b9c.css" data-highlight-dark="/assets/immutable/vendor/highlight/github-dark.min.9f208d022102.css">
+            
+<h2 class="block_12" lang="en" id="toc_id_51">১</h2>
+	<p class="block_13" lang="en">রাব্বানিক্যাল ইউনিভার্সিটি নিউইয়র্ক-এর অভ্যর্থনা কক্ষ। ক্লান্ত দেহটা সোফায় এলিয়ে বসে আছে আহমদ মুসা। ডঃ হাইম হাইকেল এই ইউনিভার্সিটির ‘ফেইথ স্টাডিজ’ বিভাগের প্রধান রাব্বি। ডঃ হাইম হাইকেলের সাথে দেখা করতে চায় আহমদ মুসা। এই খবর সে পাঠিয়েছে মিনিট পাঁচেক আগে। ডঃ হাইম হাইকেল আসবেন, অথবা ভেতরে তার ডাক আসবে, এরই অপেক্ষা করছে আহমদ মুসা।</p>
+	<p class="block_13" lang="en">শান্ত, নিস্পৃহভাবে বসে থাকলেও বুকটা আহমদ মুসার আশা-নিরাশার দ্বন্দ্বে অনেকটাই অস্থির।</p>
+	<p class="block_13" lang="en">আহমদ মুসার এই নতুন আমেরিকান মিশনে রাব্বি ডঃ হাইম হাইকেলই তার প্রাইম টার্গেট, প্রধান অবলম্বন। নিউইয়ের্কের লিবার্টি টাওয়ার ও ডেমোক্রোসি টাওয়ার ধ্বংসের রহস্য উদঘাটনে অনুসন্ধান চালাতে গিয়ে কামাল সুলাইমানদের স্পুটনিক যে সত্যের সন্ধান পায় তার প্রধান সাক্ষী এই ধর্মনেতা ইহুদী জগতের বিশিষ্ট রাব্বি ডঃ হাইম হাইকেল।</p>
+	<p class="block_13" lang="en">আজ থেকে বিশ বছর আগে নিউইয়ের্কের টুইনটাওয়ার, লিবার্টি টাওয়ার ও ডেমোক্রাসি টাওয়ার, ধ্বংস হয় বিস্ময়কর অভূতপূর্ব এক আক্রমণে। এর জন্যে দায়ী করা হয় একটি মুসলিম গ্রুপকে। সন্দেহের কাঠগড়ায় দাঁড় করানো হয় সব মুসলমানকেই। তারপর মুসলিম বিশ্বের এ প্রান্ত থেকে সে প্রান্ত পর্যন্ত ধ্বংস-বিপর্যয়ের ঝড় বয়ে যায়। মুসলমানদের অনেকেই একে তাদের অপরিণামদর্শী কিছু সদস্যের অপরাধ থেকে সৃষ্ট ভ্যগ্যলেখা হিসাবে মেনে নেয়। আবার অনেকেই একে গোপন ষড়যন্ত্রের পাতা ফাঁদে জড়িয়ে পড়া ভুল সিদ্ধান্ত বলে মনে করে। দীর্ঘ বিশ বছর পর এই শেষোক্ত ধারণা থেকে অনুপ্রাণিত হয়েই কামাল সুলাইমানদের গোয়ান্দা সংস্থা ‘স্পুটনিক’ এই ব্যাপারে সত্য উদঘাটনের জন্যে অনুসন্ধান শুরু করে। সন্ধান পায় তারা এক গোপন ষড়যন্ত্রের। অনেক দলিল-দস্তাবেজ তারা যোগাড় করে এর সমর্থনে। তার মধ্যে একটি গুরুত্বপূর্ণ দলিল ছিল ইহুদী সিনাগগের কনফেশন টেবিলে ‘সর্বশক্তিমান ও শেষ দিনের বিচারক’ ‘জিহোবা’র সামনে পেশ করা ‘কনফেশন’-এর একটি অডিও টেপ। এই কনফেশনে তিনি নিউইয়র্কের টাওয়ার ধ্বংসে তার অপরাধ অংশের কথা স্বীকার করেছিলেন। এই কনফেশন ঘটনাক্রমেই রেকর্ড হয়ে গিয়েছিল এবং ঘটনাক্রমেই সে টেপের একটি কপি কামাল সুলাইমানরা পেয়ে যায়। কিন্তু টাওয়ার ধ্বংসে তাদের সামনে ইহুদীদের ভয়াবহ ষড়যন্ত্রের বিষয়টি প্রমাণের জন্য এই কনেফেশন যথেষ্ট নয়। এজন্য যে তথ্য-প্রমাণ প্রয়োজন তা যোগাড়ে রাব্বি ডঃ হাইম হাইকেলের পক্ষেই সাহায্য করা সম্ভব। এই ষড়যন্ত্রের জগতে প্রবেশের পথে সেই একমাত্র প্রত্যক্ষ সোর্স। এ কারণেই আহমদ মুসা ছুটে এসেছে তার কাছে।</p>
+	<p class="block_13" lang="en">রাব্বি ডঃ হাইম হাইকেল লোকটি কেমন সে আহমদ মুসাকে কিভাবে গ্রহণ করবে, কনফেশনের টেপের কথা স্বীকার করতে রাজি হবে কিনা, ইত্যাদি ভাবনাপীড়িত দুরু দুরু মন নিয়ে অপেক্ষা করছে আহমদ মুসা।</p>
+	<p class="block_13" lang="en">আহমদ মুসার পরণে কালো হ্যাট, কালো লম্বা কোট। এটাই হাসিডিক ইহুদীদের পোশাক। রাব্বি ডঃ হাইম হাইকেলও হাসিডিক পন্থী ইহুদী। অবশ্যই ডঃ হাইম হাইকেল পৈতৃক সূত্রেই ছিলেন ‘হাসকলা’ পন্থী ইহুদী। হাসকলারা বাইরের জীবনে ধর্মের ভূমিকাকে তেমন একটা আমল দেয় না। জ্ঞান ও বিজ্ঞানের মাধ্যমে জীবনকে ও জাতিকে সমৃদ্ধ করাকেই এরা প্রধান কর্তব্য মনে করে। অন্যদিকে হাসিডিকরা লেখাপড়া চর্চার চাইতে ‘দয়া’ ও ‘সানন্দ উপাসনাকে’ বেশি গুরুত্ব দিয়ে থাকে। ডঃ হাইম হাইকেল টাওয়ার ধ্বংসের কিছুকাল পর এই হাসিডিক মত গ্রহণ করেন।</p>
+	<p class="block_13" lang="en">আহমদ মুসা একটু অন্যমনস্ক হয়ে পড়েছিল।</p>
+	<p class="block_13" lang="en">হঠাৎ তার নাম ধরে সম্বোধনের শব্দে সে সম্বিত ফিরে পেল। মুখ তুলে দেখল, তার সামনে একজন লোক দাঁড়িয়ে। পঞ্চাশোর্ধ। পরণে রাব্বির পোশাক। বুদ্ধিদীপ্ত চেহারা। বলছিল সে, ‘আপনি মিঃ আইজ্যাক দানিয়েল?’</p>
+	<p class="block_13" lang="en">আহমদ মুসা ‘আইজ্যাক দানিয়েল’ নাম নিয়েই এসেছে এই ইহুদী বিশ্ববিদ্যালয়ে ডঃ হাইম হাইকেলকে খোঁজ করার জন্যে। সে ফিলিস্তিন থেকে এই নামে পাসপোর্ট করে রেখেছিল। এবার এই পাসপোর্ট নিয়েই আহমদ মুসা মার্কিন যুক্তরাষ্ট্রে এসেছে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা লোকটির দিকে তাকিয়েই উঠে দাঁড়াল। বলল, ‘গুড মর্নিং স্যার। হ্যাঁ, আমি আইজ্যাক দানিয়েল।’</p>
+	<p class="block_13" lang="en">‘ওয়েলকাম।’ বলে হাত বাড়িয়ে লোকটি বলল, ‘আমি জ্যাকব, হাইকেলের সহকর্মী।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা তার সাথে হ্যান্ডশেক করে বলল, ‘পরিচিত হয়ে খুশি হলাম স্যার।’</p>
+	<p class="block_13" lang="en">‘আমিও।’ বলল রাব্বি জ্যাকব।</p>
+	<p class="block_13" lang="en">আহমদ মুসা কিছু বলতে যাচ্ছিল। জ্যাকব বাধা দিয়ে বলল, ‘স্যরি, আসুন আমার সাথে।’</p>
+	<p class="block_13" lang="en">জ্যাকব চলতে শুরু করল।</p>
+	<p class="block_13" lang="en">আহমদ মুসাও তার সাথে সাথে চলল।</p>
+	<p class="block_13" lang="en">পাশের একটি কক্ষে গিয়ে দুজনে বসল।</p>
+	<p class="block_13" lang="en">বসেই রাব্বি জ্যাকব বলল, ‘দয়া করে বলবেন কি রাব্বি ডঃ হাইকেলের সাথে আপনার কি সম্পর্ক? কেন দেখা করতে চান তার সাথে?’</p>
+	<p class="block_13" lang="en">‘তিনি আমার শুভাকাঙ্ক্ষী ও বন্ধু। বাকি প্রশ্নের জবাব তিনিই তো চাইবেন।’ বলল আহমদ মুসা। তার শেষের বাক্যটা একটু শক্ত হয়েছিল।</p>
+	<p class="block_13" lang="en">রাব্বি জ্যাকবের চেহারায় পরিবর্তন দেখা গেল না। শান্ত কন্ঠে সে বলল, ‘রাব্বি ডঃ হাইকেল নেই। তার দেখা আপনি পাবেন না।’</p>
+	<p class="block_13" lang="en">‘কোথায় তিনি?’ বলল, আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘সেটাও আপনি জানবেন না। কারণ আমিও জানি না।’ রাব্বি জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">ভ্রু কুঁচকে গেল আহমদ মুসার। বলল দ্রুতকন্ঠে, ‘আপনি জানবেন না কেন? অফিস তো নিশ্চয় জানে।’</p>
+	<p class="block_13" lang="en">‘অফিসও জানে না।’ রাব্বি জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">‘এটা অসম্ভব। আমি অফিসকে জিজ্ঞাসা করতে চাই।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘সাক্ষাৎ প্রাথী হওয়ার স্লিপ তো অফিসেই পাঠিয়েছিলেন। অফিস আমাকে পাঠিয়েছে। ভিন্নভাবে অফিস আর কথা বলবে না।’ রাব্বি জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">স্তম্ভিত হলো আহমদ মুসা। ডঃ হাইকেল এখানে এক উচ্চপদে চাকুরী করেন। তিনি কোথায় আছেন বা কোথায় গেছেন কেউ জানবে না, এটা কি করে হতে পারে! বলল আহমদ মুসা, ‘তিনি কি এখানে চাকুরী করেন না? চাকুরী ছেড়ে দিয়ে চলে গেছেন? একমাস আগে প্রকাশিত নিউইয়র্কের এডুকেশন গাইড বইতেও দেখেছি, তিনি এখানকার ‘ফেইথ স্টাডিজ’ বিভাগের প্রধান।’ আহমদ মুসার কন্ঠে বিস্ময়।</p>
+	<p class="block_13" lang="en">‘এডুকেশন গাইডের তথ্য ঠিক। তিনি আমাদের ফেইথ স্টাডিজ বিভাগের প্রধান। কিন্তু তিনি নেই। দিন পনের আগে তিনি হঠাৎ উধাও হয়ে গেছেন। কাউকেই কিছু বলে যাননি।’ বলল রাব্বি জ্যাকব।</p>
+	<p class="block_13" lang="en">‘বাড়ির লোকেরা কি বলে?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘তারাও আমাদের মত অন্ধকারে। তার বাড়িতে মা ছাড়া তেমন কেউ নেই। একমাত্র ছেলে বাইরে লেখা-পড়া করছে।’ বলল রাব্বি জ্যাকব।</p>
+	<p class="block_13" lang="en">‘পুলিশ কি এ বিষয়ে কিছু জানে?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘পুলিশ চেষ্টা করছে, কিন্তু কোন সন্ধান পায়নি বলে জানি।’</p>
+	<p class="block_13" lang="en">‘স্যার, তার উধাও হওয়া সম্পর্কে আপনি কি মনে করেন?’</p>
+	<p class="block_13" lang="en">জিজ্ঞাসা আহমদ মুসার।</p>
+	<p class="block_13" lang="en">আহমদ মুসার জিজ্ঞাসার সঙ্গে সঙ্গে উত্তর দিল না রাব্বি জ্যাকব। তার চোখে-মুখে ফুটে উঠল ভয়ের চিহ্ন। কয়েক মুহূর্ত পর এদিক ওদিক তাকিয়ে ধীর কন্ঠে বলল, ‘আমি কিছুই বুঝতে পারছি না। সবাই বিষয়টাকে এড়িয়ে চলতে চাচ্ছে। আমাদের অধিকাংশ শিক্ষক বলছেন, তিনি হয়তো নিজেই কোথাও চলে গেছেন? আমরা কয়েকজন শিক্ষক বিশ্ববিদ্যালয়ের প্রেসিডেন্ট রাব্বি ডঃ আইয়াজ ইয়াহুদের কাছে গিয়েছিলাম ডঃ হাইকেলের সন্ধানের ব্যাপারে আরও তৎপর হবার জন্য। বিষয়াটি পত্র-পত্রিকায় আনার জন্যে অনুরোধ করেছিলাম আমরা। তিনি আমাদেরকে আবেগপ্রবণ না হবার জন্যে উপদেশ দিয়ে বলেছিলেন, ‘পুলিশকে বলা হয়েছে। প্রয়োজনীয় পদক্ষেপ নেয়ার দায়িত্ব তাদের। বহুদিন থেকে ডঃ হাইকেল ফ্রাস্ট্রেশনে ভুগছিলেন। এক সময় তিনি এই বিশ্ববিদ্যালয়ের প্রেসিডেন্ট ছিলেন। সেখান থেকে নিজেই নেমে গিয়ে ‘ফেইথ স্টাডিজ’ বিভাগের মধ্যেই নিজেকে সীমাবদ্ধ রাখলেন। সাম্প্রতিককালে তিনি চিন্তারও ভারসাম্য হারিয়ে ফেলেছিলেন। তার ব্যাপারে সব চিন্তা আপনারা মন থেকে ঝেড়ে ফেলে দিন।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা স্তম্ভিত হলো ডঃ হাইকেলের মানসিক ভারসাম্য হারিয়ে ফেলার কথা শুনে। আহমদ মুসা বলল, ‘ডঃ হাইকেল মানসিক ভারসাম্য হারিয়ে ফেলার কথা কি সত্য?’</p>
+	<p class="block_13" lang="en">‘ডঃ হাইকেল আমার ঘনিষ্ঠ সহকর্মী। আমি কখনও এমন কিছু লক্ষ্য করিনি।’</p>
+	<p class="block_13" lang="en">‘তাহলে ডঃ আয়াজ ইয়াহুদ এটা বললেন কেন? মানে তার কথা মন থেকে ঝেড়ে ফেলার কথা বললেন কেন? তিনি কি তাহলে আপনাদের চেয়ে বেশি জানেন ডঃ হাইকেল সম্পর্কে?’ প্রশ্ন তুলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘আমারও তাই মনে হয়। আমরা সবাই উদ্বিগ্ন, কিন্তু তার মধ্যে কোন উদ্বেগ দেখিনি।’ বলল রাব্বি জ্যাকব।</p>
+	<p class="block_13" lang="en">‘ডঃ আয়াজ ইয়াহুদ তাহলে কিছু সহযোগিতা করতে পারেন।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘কিন্তু আপনি তার সাক্ষ্যত পাবেন না। আর ডঃ হাইকেলের ব্যাপারে আপনার সাথে কোন আলোচনায় তিনি রাজি হবেন না।’ রাব্বি ডঃ জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">‘কেন বলছেন একথা?’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘তিনি প্রশাসন বিভাগকে একটা নির্দেশ দিয়েছেন যে, ডঃ হাইকেল সম্পর্কে কোন কথা আর তার বলার নেই। যা জানার তা যেন মানুষ পুলিশের কাছ থেকে জেনে নেয়। এ বিষয়ে কোন সাক্ষাতকার কাউকে তিনি দেবেন না।’ রাব্বি জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">‘দেখুন রাব্বি ডঃ হাইম হাইকেল আমার অকৃতিম শুভাকাঙ্ক্ষী ও বন্ধু। এসেছিলাম তার সাথে সৌজন্য সাক্ষাতকারের উদ্দেশ্য। তেমন কোন কাজ ছিল না। কিন্তু এখন দেখছি, তাকে খুঁজে পাওয়ার চেষ্টা আমাকে করতে হবে। আমার এমন কিছু হলে তিনি অবশ্যই এটা করতেন।’</p>
+	<p class="block_13" lang="en">রাব্বি ডঃ জ্যাকব সঙ্গে সঙ্গে কোন কথা বলল না। ভাবছিল সে। কিছুক্ষণ পর ধীরে ধীরে বলল, ‘তাতে কোন লাভ হবে না। আপনিই বিপদেই পড়বেন। দেখুন আমরা বিনা কারণে চুপ করে বসে নেই। ডঃ হাইকেলের ব্যাপারে আমাদের মুখ খুলতে নিষেধ করা হয়েছে। এরপর আমরা গিয়েছিলাম বিশ্ববিদ্যালয়ের প্রেসিডেন্টের কাছে। তিনিও আমাদের হতাশ করেছেন।’</p>
+	<p class="block_13" lang="en">‘কে নিষেধ করেছে? আর নিষেধ আপনারা মানবেন কেন?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘কে নিষেধ করেছে জানি না। হুমকি এসেছে টেলিফোনে। না মেনে আমরা কি করব? বিশ্ববিদ্যালয়ের স্বয়ং প্রধান যখন বিষয়টাকে গুরুত্ব দিচ্ছেন না, পুলিশও যেখানে গতানুগতিক, সেখানে আমরা কার উপর নির্ভর করব?’ বলল রাব্বি জ্যাকব।</p>
+	<p class="block_13" lang="en">‘বিশ্ববিদ্যালয়ের প্রেসিডেন্ট ডঃ আয়াজ ইয়াহুদের বাসায় তাঁর আর কে কে আছেন?’ জিজ্ঞাসা আহমদ মুসার।</p>
+	<p class="block_13" lang="en">‘তার এক মেয়ে ও স্ত্রী। এই দুজনসহ তিনজন নিয়ে তার সংসার।’ বলল রাব্বি জ্যাকব।</p>
+	<p class="block_13" lang="en">‘বিশ্ববিদ্যালয়ের তার অফিসের একটা এক্সটেনশন তো তাঁর বাসায় আছে, তাই না?’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">হ্যাঁ। অফিসের নিরিবিলি কাজগুলো তিনি বাসায় বসে করাই পছন্দ করেন।’ রাব্বি জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">‘তার অর্থ অফিসের কম্পিউটার নেটওয়ার্কের সাথে তাঁর রেসিডেন্সিয়াল অফিসের কম্পিউটারগুলো যুক্ত কি বলেন।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘সেটাই স্বাভাবিক।’ রাব্বি জ্যাকব বলল। বলে সে তার হাত ঘড়ির দিকে তাকাল।</p>
+	<p class="block_13" lang="en">‘প্লিজ স্যার, আর একটি কথা। রাব্বি ডঃ হাইম হাইকেলের বাসা এখানে কোথায় ছিল?’ জিজ্ঞাসা আহমদ মুসার।</p>
+	<p class="block_13" lang="en">‘ফিফথ এভেনিউতেই সবকিছু। আমাদের বিশ্ববিদ্যালয় ও জুইস মিউজিয়ামের মাঝের জায়গাটুকুও বিশ্ববিদ্যালয়ের। এখানে বিশ্বাবদ্যালয়ের অনেক কয়টি রেসিডেন্সিয়াল ব্লক আছে। এখানে বিশ্ববিদ্যালয়ের প্রেসিডেন্ট ও তার পার্সোনাল স্টাফদের বাসা। আর পশ্চিমের সর্বশেষ লাইনে ‘ফিফথ’ এভিনিউ-এর লাগোয়া যে ব্লক সেটিই ‘আই’ ব্লক। এ ব্লকের দুতলায় সর্ব উত্তরের ফ্লাটে থাকতেন রাব্বি ডঃ হাইম হাইকেল।’</p>
+	<p class="block_13" lang="en">‘তিনি নিখোঁজ হবার পর তার বাড়িতে আপনারা গেছেন?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘গেছি। কেন এ কথা বলছেন।’ রাব্বি জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">‘এখন কে আছেন তাঁর বাড়িতে?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘পুলিশ তার বাড়ি সীল করে রেখেছে। তদন্ত শেষ না হওয়া পর্যন্ত এ রকম থাকবে। তিনি বাসায় একাই থাকতেন।’ রাব্বি জ্যাকব বলল।</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ স্যার।’</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ’ বলে উঠতে উঠতে রাব্বি জ্যাকব বলল, ‘আমার চোখ দেখতে যদি ভুল না করে থাকে, তাহলে আপনি আমাদের মত চুপ করে থাকার মত লোক নন বলেই মনে হচ্ছে। তবু আমি বলব, পাগলামী করবেন না। ওদের গায়ে হাত দিতেও পারবেন না।’</p>
+	<p class="block_13" lang="en">আহমদ মুসাও উঠে দঁড়াল। বলল, ‘ওদের তো আপনি জানেন না, তাহলে একথা বলছেন কেন?’ জিজ্ঞেস করল আহমদ মুসা। তার চোখে বিস্ময়।</p>
+	<p class="block_13" lang="en">‘আমি ওদের জানি না। কিন্তু ডঃ হাইকেল মনে হয় ওদের জানতেন। কথাচ্ছলে একদিন তিনি আমাকে বলে............’</p>
+	<p class="block_13" lang="en">রাব্বি ডঃ জ্যাকবের কথা শেষ হলো না, অস্পষ্ট একটা শব্দ লক্ষ্যে দরজার দিকে আহমদ মুসা চাইতেই দেখল একটা রিভলবারের নল উঠে এসেছে রাব্বি জ্যাকবকে লক্ষ্য করে। রিভলবারে সাইলেন্সার লাগানো। সঙ্গে সঙ্গেই আহমদ মুসা এক হ্যাচকা টানে সরিয়ে নিল রাব্বি জ্যাকবকে। তারপরেই অ্যাক্রোব্যাটিক ঢংয়ে ঝাঁপিয়ে পড়ল লোকটির উপর। শীষ দেওয়ার মত শব্দ করে একটা গুলী তার আগে বেরিয়ে এসেছে। তার সাথে একটা আর্তনাদও উঠেছে জ্যাকবের মুখ থেকে।</p>
+	<p class="block_13" lang="en">আহমদ মুসার দেহ চরকির পুরো এক রাউন্ড ঘুরে দ্বিতীয় রাউন্ডের প্রথমেই তার জোড়া পা গিয়ে আঘাত করল লোকটার তলপেটে।</p>
+	<p class="block_13" lang="en">লোকটা পেছন দিকে ছিটকে দরজার বাইরে পড়ে গেল। হাত থেকে রিভলবারটাও পড়ে গেছে।</p>
+	<p class="block_13" lang="en">জোড়া পায়ে আঘাত করার পর আহমদ মুসা চিৎ হয়ে পড়ে গিয়েছিল মাটিতে। মুহূর্ত পরেই আহমদ মুসা উঠল। ছুটল লোকটির দিকে এবং চিৎকার করে উঠল, ‘খুনি, সন্ত্রাসী পালাচ্ছে। ধরুন তাকে।’</p>
+	<p class="block_13" lang="en">লোকটি আগেই উঠে দাঁড়িয়েছিল এবং ছুটে পালাচ্ছিল।</p>
+	<p class="block_13" lang="en">রাব্বি ডঃ জ্যাকবের আর্তনাদও সবাই শুনতে পেয়েছিল।</p>
+	<p class="block_13" lang="en">লোকটি অভ্যর্থনা কক্ষের মধ্যে দিয়েই দৌড় দিয়েছিল।</p>
+	<p class="block_13" lang="en">অভ্যর্থনা কক্ষ ও আশ পাশের সবাই লোকটির দিকে ছুটছিল। কিন্তু লোকটি দুটি বোমা ফাটিয়ে পালানোর নিরাপদ পথ করে নিল। আহমদ মুসা লোকটিকে পালাতে দেখেই দ্রুত আবার ফিরে এসেছিল রাব্বি ডঃ জ্যাকবের কক্ষে।</p>
+	<p class="block_13" lang="en">রাব্বি জ্যাকব তার ডান হাত দিয়ে বাম বাহু চেপে ধরে বসেছিল। গুলী লেগেছে তার বাম বাহুর উপরের অংশে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা তার পাশে বসে ক্ষতস্থানটা একটু পরীক্ষা করে বলল, ‘ঈশ্বর আপনাকে বাঁচিয়েছেন। বাহুর আঘাতও খুব মারাত্মক নয়।’</p>
+	<p class="block_13" lang="en">রাব্বি জ্যাকব মুখ তুলে তাকাল আহমদ মুসার দিকে।। বলল, ‘হ্যাঁ, ঈশ্বর আজ আপনার রূপ ধরে এসেছিল। আপনি চোখের পলকে ওভাবে টেনে না নিলে গুলীটা আমার বুক বিদ্ধ করতো।’</p>
+	<p class="block_13" lang="en">সবাই এসে দাঁড়িয়েছিল তাদের চারপাশে। বিশ্ববিদ্যালয়ের প্রেসিডেন্ট ছুটে এসেছিল। এসেই বলল, ‘তাড়াতাড়ি হাসপাতালে নিতে হবে। এ্যাম্বুলেন্স রেডি।’</p>
+	<p class="block_13" lang="en">কথা কয়টি বলেই বিশ্ববিদ্যালয়ের প্রেসিডেন্ট আয়াজ ইয়াহুদ রাব্বি জ্যাকবকে লক্ষ্য করে বলল, ‘কি করে, কেন এসব ঘটল।’ তারপর অপরিচিতি আহমদ মুসার দিকে তাকিয়ে বলল, ‘ইনি কে? এ সময়ে কেন এখানে?</p>
+	<p class="block_13" lang="en">রাব্বি জ্যাকব বলল, ‘স্যার ইনিই আজ আমাকে বাঁচিয়েছেন। ইনি দেখা করতে এসেছিলেন। আমি তার সাথে এখানে বসে কথা বলছিলাম। একপর্যায়ে দরজায় এসে ঐ সন্ত্রাসী আমাকে গুলী করে। ইনি অদ্ভুত ক্ষিপ্রতায় আমাকে সরিয়ে না নিলে বাহুতে যে গুলী লেগেছে তা বুকে লাগত। তারপর ইনি আমাকে সরিয়ে দিয়েই আক্রমণকারীর উপর ঝাঁপিয়ে না পড়লে সন্ত্রাসী দ্বিতীয় গুলী করার সুয়োগ পেয়ে যেতো।’</p>
+	<p class="block_13" lang="en">রাব্বি জ্যাকব থামতেই বিশ্বাবদ্যালয়ের প্রেসিন্ডেট আয়াজ ইয়াহুদ আহমদ মুসাকে লক্ষ্য করে বলল, ‘ধন্যবাদ ইয়ংম্যান। বুদ্ধি, শক্তি ও সাহসে যুবকরা এ রকমই হওয়া উচিত।’</p>
+	<p class="block_13" lang="en">এ্যাম্বুলেপ্স থেকে স্ট্রেচার এসে পৌঁছল। রাব্বি ডঃ জ্যাকবকে আহমদ মুসাই স্ট্রেচারে শুইয়ে দিল।</p>
+	<p class="block_13" lang="en">স্ট্রেচার নিয়ে চলা শুরু হলে রাব্বি জ্যাকব আহমদ মুসাকে লক্ষ্য করে বলল,’আপনি হাসপাতালে আসছেন তো।</p>
+	<p class="block_13" lang="en">‘আবশ্যই আপনার সাথে দেখা করবো।’ বলে আহমদ মুসা তাকাল ডঃ আয়াজ ইয়াহুদের দিকে। বলল, ‘স্যার অনধিকার চর্চা হলেও আমি বলতে চাই. ডঃ জ্যাকবের উপর শত্রু তার উদ্দেশ্য হাসিলে ব্যর্থ হয়েছে। সুতারাং সফল হবার জন্য আবারও তারা চেষ্টা করতে পারে।’</p>
+	<p class="block_13" lang="en">ভ্রুকুঞ্চিত হলো ডঃ আয়াজ ইয়াহুদের। বলল, ‘ইয়ংম্যান, তুমি তো সাংঘাতিক বুদ্ধিমান। ঠিক বলেছ তুমি। আমি এখনি পুলিশকে বলছি। আর পুলিশকে তোমার তো একটা জবানবন্দী দিতে হবে। তুমি লিখে দাও তাতেই চলবে। ডঃ জ্যাকব তো সবকিছুরই সাক্ষী। সবাই বেরিয়ে এল ঘর থেকে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ধীরে ধীরে নিকটবর্তী হল রাব্বিনিক্যাল ইউনিভার্সিটি অব নিউাইয়র্ক-এর প্রেসিডেন্ট ডঃ আয়াজ ইয়াহুদের বাসার।</p>
+	<p class="block_13" lang="en">এইমাত্র আহমদ মুসা বেরিয়ে এসেছে রাব্বি ডঃ হাইম হাইকেলের বাসা থেকে।</p>
+	<p class="block_13" lang="en">ডঃ হাইকেলের বাসা সীল করা। আহমদ মুসা প্রবেশ করে পেছনের এমারজেন্সী এক্সিট দিয়ে। আহমদ মুসা ল্যাসার বীম দিয়ে এক্সিটটির দরজা খুলতে গিয়ে দেখে জরুরি দরোজারটার তালা খোলা। বুঝে নেয় আহমদ মুসা তার আগে আরোও এক পক্ষ এ পথ দিয়ে ভেতরে প্রবেশ করেছিল। সে পক্ষ যে আজর ওযাইজম্যান বা জেনারেল শ্যারনদেরই কেউ হবে সে ব্যাপারেও তার কোন সন্দেহ নেই। আহমদ মুসা আরও বুঝে নেয়, যে তথ্যের সন্ধানে আহমদ মুসা ডঃ হাইম হাইকেলের বাড়িতে প্রবেশ করেছে তা পাবার কোন সম্ভাবনা নেই।</p>
+	<p class="block_13" lang="en">সত্যি তাই। আহমদ মুসা ভেতরে ঢুকে দেখে সবগুলো ঘর লন্ড ভন্ড। কোন কাগজপত্রের চিহ্ন কোন ঘরে নেই। কম্পিউটারের মেমোরিতে কিছুই নেই। ডিস্ক থেকে সবকিছুই মুছে গেছে। ধ্বংসকারী কোন ওয়েভ পুড়িয়ে গেছে, মুছে দিয়ে গেছে সব। স্পুটনিকের ল্যাবও এই অত্যাধুনিক পদ্ধতিতে ধ্বংস করা হয়েছিল।</p>
+	<p class="block_13" lang="en">তবে স্টিলের ফাইল ক্যাবিনেটের বটম ক্যাবিনেটের তলায় বুক সাইজের ইঞ্চি খানেক পুরু স্টিলের এয়ারটাইট একটা কেস পেয়েছে। সুইচ-লক খুলে সে দেখেছে ভেতরে একটা ইনভেলাপে ফিল্ম জাতীয় কিছু আছে। গুরুত্বপূর্ণ একটা ফ্যামিলি ডকুমেন্ট হতে পারে এবং উৎকৃষ্ট একটা সুভেনীর মনে করে আহমদ মুসা সেটা ব্যাগে তুলে নেয়।</p>
+	<p class="block_13" lang="en">সামনেই ডঃ আয়াজ ইয়াহুদের বাড়ি।</p>
+	<p class="block_13" lang="en">ডঃ আয়াজের কথাই ভাবছিল আহমদ মুসা। লোকটির সাথে প্রথম সাক্ষাৎ খারাপ হয়নি। তার সাথে প্রথম দেখা এখনকার আলোচনায় কাজ দেবে। কোন সন্দেহ নেই যে, বিশ্ববিদ্যালয়ের ভেতরে এবং হয়তো বাইরেও আজর ওয়াইজম্যানদের লোক মোতায়েন আছে। আহমদ মুসা যে ডঃ হাইম হাইকেলকে খুঁজতে এসেছে, এটা ওরা জানতে পারে এবং এসে তাদের আলোচনায় আড়িও পাততে পারে। এটা ডঃ জ্যাকবের ঘটনায় প্রমাণ হয়েছে। সে দেখেছে যখন রাব্বি ডঃ জ্যাকব ডঃ হাইম হাইকেল সম্পর্কে একটা গুরুত্বপূর্ণ তথ্য প্রকাশ করতে যাচ্ছে, তখনই তাকে হত্যার জন্যে গুলী করা হয়েছে। লক্ষ্য ছিল ডঃ জ্যাকবের মুখ বন্ধ করা। যে কথা তখন তারা বলতে দেয়নি, সে কথা পরে আহমদ মুসা ডঃ জ্যাকবের কাছ থেকে শুনেছে। ডঃ জ্যাকবের বলা সে কথাটি হলো, ডঃ হাইকেল তাকে একদিন বলেছিল, ‘ধর্মের নামে অর্ধমের হিংস্রতা আর বরদাশত হয় না। সত্যের উপর অসত্যের বলৎকার সত্যিই অসহনীয়। আমিও পাপ করেছি, অমার্জনীয় পাপ। প্রায়শ্চিত্য করার পথেও দুর্লংঘ দেয়াল।’ ডঃ হাইকেলের এইকথা শুনে ডঃ জ্যাকব বিস্মিতকন্ঠে সঙ্গে সঙ্গে বলছিল, ‘ধর্মের নামে অধর্মের হিংস্রতা কে করছে? কি পাপ করেছেন আপনি? প্রায়শ্চিত করার পথে কে আপনাকে বাধা দিচ্ছে?’ ডঃ জ্যাকবের এই প্রশ্নে ভীত হয়ে পড়েছিল ডঃ হাইম হাইকেল। সঙ্গে সঙ্গে সে নিজেকে সংকুচিত করে নেয়। চারদিকে সর্তক দৃষ্টিতে তাকিয়ে বলেছিল, ‘থাক মিঃ জ্যাকব কথাগুলো আপনার মাঝেই রেখে দেবেন। আরো লাখো আমেরিকানের মত আমিও স্বাধীন মানুষ নই। দানবের অক্টোপাশে বন্দী। তারপর চুপ হয়ে গিয়েছিল ডঃ হাইকেল। কোন কথাই তার কাছ থেকে আর বের করা যায়নি।</p>
+	<p class="block_13" lang="en">আহমদ মুসার চিন্তা আবার ফিরে এল ডঃ আয়াজ ইয়াহুদের দিকে। ডঃ আয়াজ কি আজর ওয়াইজম্যানদের ষড়যন্ত্রের সাথে জড়িত? সেদিন ডঃ হাইকেলের উপর আক্রমণের সাথে জড়িতদের কি তিনি জানেন? ডঃ আয়াজ ইয়াহুদের সেদিনের আচরণ ও কথা-বার্তায় আহমদ মুসার এটা মনে হয়নি। আবার হতে পারে ডঃ আয়াজ গভীর পানির মাছ।</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদের বাড়ির মখোমুখি এসে দাঁড়িয়েছে আহমদ মুসা। গেটের কলিং বেলের সুইচ হাতের নাগালের মধ্যে। কিন্তু কলিং বেলে চাপ দেবার আগেই গেটম্যানকে তার দিকে আসতে দেখল।</p>
+	<p class="block_13" lang="en">আহমদ মুসাও তার দিকে এগুলো।</p>
+	<p class="block_13" lang="en">‘স্যার কাকে চাই?’ গেটম্যান বলল বিনীতভাবে।</p>
+	<p class="block_13" lang="en">‘এইমাত্র আয়াজ ইয়াহুদ স্যারের সাথে টেলিফোনে কথা হয়েছে। তিনি আমাকে তাড়াতাড়ি আসতে বলেছেন। দরজা খুলুন।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘ঠিক আছে স্যার আমি সিকিউরিটির লোকদের একটু জিজ্ঞাসা করে আসি।’</p>
+	<p class="block_13" lang="en">‘না, দরকার নেই। দেরি হয়ে যাবে।’ বলে দরজায় ঠেলা দিল।</p>
+	<p class="block_13" lang="en">গেটম্যান একটু চিন্তা করল, তারপর আহমদ মুসার দিকে একবার তাকাল। তারপর দরজা খুলে একপাশে সরে গেল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা প্রবেশ করল ভেতরে।</p>
+	<p class="block_13" lang="en">‘স্যার সোজা চলে যান। সামনের দরজা খোলা। ওটা অভ্যর্থনা কক্ষ। অভ্যর্থনা কক্ষের পরেই অফিসিয়াল ড্রইংরুম। আমি আসব সাথে?’ বলল গেটম্যান।</p>
+	<p class="block_13" lang="en">‘না সাথে আসার প্রয়োজন নেই। তার চেয়ে গেট রক্ষা করুন।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">কথাগুলো বলতে বলতেই আহমদ মুসা হাঁটা দিয়েছিল দরজাটির লক্ষ্যে।</p>
+	<p class="block_13" lang="en">দরজাটি বাড়িতে ঢোকার একমাত্র প্রবেশ পথ। দরজার পশ্চিম পাশে একটা সিঁড়িঘর। এ সিঁড়িঘরের প্রবেশ পথ পশ্চিম দিকে। এ প্রবেশ পথে আসার পথও ভিন্ন। এর ফলে ডঃ আয়াজ ইয়াহুদের ডুপ্লেক্স ফ্লাটের পথ সম্পূর্ণ আলাদা হয়ে গেছে।</p>
+	<p class="block_13" lang="en">এই রেসিডেপ্সিয়াল বিল্ডিং-এর একতলা ও গ্রাউন্ড ফ্লোর নিয়ে এই ডুপ্লেক্স। এখানেই বিশ্ববিদ্যালয়ের প্রেসিডেন্ট ডঃ ইয়াহুদ থাকে। তিন তলা থেকে উপরে থাকে তাঁর অন্যান্য স্টাফরা।</p>
+	<p class="block_13" lang="en">আহমদ মুসা দরজার সামনে গিয়ে মুহূর্তের জন্যে দাঁড়িয়েই টোকা দিল দরজায়। তারপর দরজা খোলার অপেক্ষা না করেই ঘরে ঢুকে গেল। চোখ ধাঁধানো সুন্দর ঘরটির একদম পুব প্রান্তে সুন্দর একটা টেবিলকে সামনে নিয়ে বসে আছে রিসেপশনিস্ট এক তরুণী।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ঘরে ঢুকতেই সে উঠে দাঁড়াল। তার চোখে-মুখে চাঞ্চল্য। আহমদ মুসা অনুমতির অপেক্ষা না করে ঘরে প্রবেশ করার জন্যেই হয়তো এই চাঞ্চল্য। বলল রিসেপশননিস্ট তরুণীটি, ‘স্যার হঠাৎ এভাবে........কি চাই আপনার?’</p>
+	<p class="block_13" lang="en">বলতে বলতেই তরুণীটি তার চেয়ার থেকে সরে আহমদ মুসার দিকে কিছুটা এগিয়ে এল।</p>
+	<p class="block_13" lang="en">‘আমি স্যারের সাথে দেখা করতে এসেছি, জরুরি। নিয়ে চল।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘স্যার আপনি বসুন। আমি তাঁকে বলে আসি’। রিসেপশনিস্ট তরুণীটি বলল।</p>
+	<p class="block_13" lang="en">‘না, অতটা সময় আমি দিতে পারবো না।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘তাহলে স্যার, টেলিফোনে তাঁকে বলি?’ তরুণীটি বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ভাবল, তাও হতে দেয়া যাবে না। কাউকে কোন খবর দেয়ার কিংবা নিজস্ব প্রস্তুতির কোন সুযোগ দেয়া যাবে না। এ চিন্তা থেকেই আহমদ মুসা বলে উঠল, ‘প্রয়োজন নেই। ভয় নেই। তিনি আমার পরিচিতি। নিয়ে চল আমাকে।’</p>
+	<p class="block_13" lang="en">মেয়েটির এরপরও দ্বিধা করছিল। কিন্তু আহমদ মুসার কঠোর হয়ে ওঠা মুখের দিকে চেয়ে তরুণীটি আর কিছু বলতে সাহস পেল না। ‘আসুন স্যার’ বলে হাঁটতে শুরু করল তরুণীটি ড্রইংরুমের দরজার দিকে। কিন্তু কয়েক ধাপ এগিয়েই তরুণীটি তার টেবিলে ফিরে এল। টেবিলের ড্রয়ার খুলে ছোট একটা ভ্যানিটি কেস হাতে তুলে নিল। ভ্যানিটি কেসটাও খুলল ডান হাতের তর্জনি দিয়ে কি একটা পরখ করে সোজা হয়ে দাঁড়িয়ে আবার হাঁটা দিল।</p>
+	<p class="block_13" lang="en">আহমদ মুসাও দাঁড়িয়ে পড়েছিল। সেও হাঁটা শুরু করল। নিচের ড্রইং লাউঞ্জ থেকেই দুতালায় উঠার সিঁড়ি। তরুণীটি আহমদ মুসার দিকে ফিরল। বলল, ‘স্যার উপরে আছেন। আপনি বসুন। আমি বলে আসি।’</p>
+	<p class="block_13" lang="en">‘প্রয়োজন নেই। চলুন উপরে।’ বলল আহমদ মুসা শান্ত, কিন্তু কঠোর নির্দেশের সুরে।</p>
+	<p class="block_13" lang="en">ভীত তরুণীটি অসহায় কন্ঠে বলল, ‘স্যার আপনি যেতে পারেন। আমি এভাবে যেতে পারি না।’</p>
+	<p class="block_13" lang="en">‘তোমার কোন ভয় নেই। তোমার কোন ক্ষতি হবে না। তোমাকে আমি সাথে নিচ্ছি পথ চেনার জন্যে নয়, তুমি যাতে এখনকার ঘটনা বাইরে কোথাও জানাতে না পার এজন্যই সাথে নেয়া। অতএব তোমাকে যেতেই হবে।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">তরুণীটির চোখে-মুখে দেখা দিল আতংক। বিনা বাক্যব্যায়ে সে সিঁড়ি দিয়ে দ্রুত উঠতে শুরু করল। আহমদ মুসা তার পিছু নিল।</p>
+	<p class="block_13" lang="en">দুতলার সিঁড়ির মুখ থেকেই থোকায় থোকায় সোফা সজ্জিত তারকাকৃতির বিরাট লাউঞ্জ। এটা ফ্যামিলি গ্যাদারিং-এর জায়গা।</p>
+	<p class="block_13" lang="en">সিঁড়িমুখে পৌঁছেই তরুণীটি পাথরের মত দাঁড়িয়ে পড়েছিল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা তার পাশে গিয়ে দাঁড়াল। দেখল, মাঝখানে দুটি সোফায় তিনজন বসে আছে। দেখেই আহমদ মুসা বুঝতে পেরেছিল একজন বিশ্ববিদ্যালয়ের প্রেসিডেন্ট ডঃ আয়াজ ইয়াহুদ। তার পাশে বসা তরুণীটি নিশ্চয় তার মেয়ে। তাদের সামনেই বসে মধ্যবয়সী এক ভদ্রমহিলা। মহিলা মিসেস আয়াজ ইয়াহুদ হবে তাতে কোন সন্দেহ নাই।</p>
+	<p class="block_13" lang="en">আহমদ মুসারা সিঁড়ি মুখে এসে দাঁড়াতেই দেখতে পেল সোফায় সোজা হয়ে বসে আছে ডঃ আয়াজ ইয়াহুদ। তার চোখে-মুখে কিছুটা বিস্ময় ও প্রশ্ন ফুটে উঠেছিল। পরক্ষণেই সে প্রশ্ন করল তরুণীটিকে লক্ষ্য করে, ‘লিসা কি ব্যাপার?’ বলেই সে তাকাল আহমদ মুসার দিকে। বলল, ‘ইয়ংম্যান, তুমি তো সেই, যাকে সেদিন ডঃ জ্যাকবের উপর আক্রমণের সময় দেখেছিলাম? কিন্তু তুমি এখানে? এভাবে?’</p>
+	<p class="block_13" lang="en">‘হ্যাঁ স্যার, আমি সেই। আপনার কাছে কিছু জানার আছে। এজন্যে এসেছি।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘এ জানার কাজটা অফিসেও করা যেত। কিংবা সময় নিয়ে আসা যেত।’ তীব্র ক্ষোভ ও বিরক্তি ঝরে পড়ল ডঃ আয়াজ ইয়াহুদের কথায়।</p>
+	<p class="block_13" lang="en">‘স্যার আমি যা বলতে চাই, জানতে চাই তার জন্য এমন একটা পরিবেশ চাই। আপনি বিরক্ত হয়েছেন, কিন্তু আমার কথা আমাকে বলতে হবে।’ ঠান্ডা কিন্তু শক্ত কণ্ঠ আহমদ মুসার।</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ তাকাল তার স্ত্রী ও মেয়ের দিকে। ইংগিত করল উঠে যাবার জন্যে। কিন্তু সঙ্গে সঙ্গেই আহমদ মুসা বলল, ‘স্যার ওঁরা এখানেই থাকবেন।’</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ বিস্মিত দৃষ্টিতে তাকাল তাকাল আহমদ মুসার দিকে। তারপর ইংগিত করল তার রিসেপশনিস্ট লিসাকে চলে যাবার জন্যে। কিন্তু এবারও আহমদ মুসা বাধ সাধল। বলল, ‘ওকে নিচে রেখে আসতে চাইনি বলেই সাথে নিয়ে এসেছি। সেও এখানে থাকবে স্যার।’</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ চোখ ফেরাল আহমদ মুসার দিকে। তার চোখে-মুখে কিছুটা দিশেহারা ভাব, সেই সাথে একরাশ জিজ্ঞাসা। বলল, ‘আমি কিছু বুঝতে পারছি না মিঃ......................।’</p>
+	<p class="block_13" lang="en">‘আইজ্যাক দানিয়েল।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘হ্যাঁ, আইজ্যাক দানিয়েল, তোমার কথা আমার সাথে, এদের কি প্রয়োজন?’ ডঃ আয়াজ ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">‘পরে বুঝবেন স্যার।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">আবারও বিস্ময়ের দৃষ্টি নিয়ে তাকাল ডঃ আয়াজ ইয়াহুদ আহমদ মুসার দিকে। একটু ভাবল। তারপর আহমদ মুসাকে বামপাশের খালি সোফাটা দেখিয়ে বলল, ‘বস।’</p>
+	<p class="block_13" lang="en">‘মাফ করবেন স্যার, আমি দাঁড়িয়ে থেকে কথা বলব। যাতে আমি চারিদিকের উপর নজর রাখতে পারি।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘কেন, তুমি কি কোন প্রকার ভয় করছ? আমার এখানে তো ভয়ের কিছু নেই।’ বলল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘স্যার, এটা আমার সাবধনতা।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘কথা বলার আগে তোমার পরিচয় আমার জানা দরকার।’ বলল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘আমি রাব্বি ডঃ হাইকেলের শুভাকাক্ষী ও বন্ধু।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">ভ্রুকুঞ্চিত হলো ডঃ আয়াজ ইয়াহুদের। বলল, ‘ভাল। কিন্তু আমার সাথে তোমার কি কথা?’</p>
+	<p class="block_13" lang="en">‘স্যার, রাব্বি ডঃ হাইম হাইকেল কোথায়? তাঁর কি হয়েছে জানতে চাই।’ বলল আহমদ মুসা খুব শান্ত কন্ঠে।</p>
+	<p class="block_13" lang="en">‘এটা জানার জন্যে তোমার এত বড় আয়োজন? বিশ্ববিদ্যালয়ের যে কারোও কাছে জিজ্ঞাসা করলে এটা জানতে পারতে?’ ডঃ আয়াজ ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">‘আপনার কাছে জানতে চাই। আপনি যা জানেন, অন্যেরা তা জানে না।’</p>
+	<p class="block_13" lang="en">কিছুটা বিব্রতভাব ডঃ আয়াজ ইয়াহুদের চোখে-মুখে। বলল, ‘তিনি বিশ্ববিদ্যালয়ে আসেন না। বাড়িতেও তিনি নেই। তার আত্নীয়-স্বজনের বাসাতেও তাঁকে পাওয়া যায়নি। হঠাৎ তিনি নিরুদ্দেশ হয়েছেন। পুলিশে এটা জানানো হয়েছে। এইতো আমি জানি।’</p>
+	<p class="block_13" lang="en">‘আপনি আরও জানেন যে, একটি শক্তিশালী মহল তাকে কিডন্যাপ করেছে এবং তারাই সেদিন ডঃ জ্যাকবকে খুন করার চেষ্টা করেছিল।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা একথা বলার সাথে সাথে একটা চমকে উঠা ভাব ফুটে উঠল ডঃ আয়াজ ইয়াহুদের চোখে মুখে। কিন্তু নিজেকে সামলে ক্রুদ্ধ কন্ঠে বলে উঠল, ‘তুমি অনধিকার চর্চার শেষ প্রান্তে পৌঁছে গেছ ইয়ংম্যান।’</p>
+	<p class="block_13" lang="en">‘স্যার আপনি অপরাধী চক্রকে আড়াল করছেন। পুলিশ তাঁর অনুসন্ধানের ব্যাপারে আন্তরিক নয়, এটাও আপনি জানেন।’ ঠান্ডা, কিন্তু শক্ত কন্ঠে বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">ক্রুদ্ধভাবে উঠে দাঁড়াল ডঃ আয়াজ ইয়াহুদ। বলল তীব্র কন্ঠে, ‘এসব বানোয়াট কথা বন্ধ কর। বেরিয়ে যাও তুমি।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা একটু হাসল। বলল, ‘আরও আছে স্যার, আপনারা ডঃ হাইম হাইকেল চিন্তার ভারসাম্যহীনতায় ভুগছে, একথা প্রচার করে তার নিরুদ্দেশ হওয়াটাকে স্বাভাবিক দেখাতে চাচ্ছেন।’</p>
+	<p class="block_13" lang="en">এই সময় ডঃ আয়াজ এর মেয়ে নুমা ইয়াহুদ টেবিলের উপর থেকে ‘রিমোট কলার’ টেনে অদ্ভুত ক্ষিপ্রতার সাথে বোতাম টিপে দিল।</p>
+	<p class="block_13" lang="en">টের পেয়ে গিয়েছিল আহমদ মুসা। প্রথমটায় চোখ দুটি জ্বলে উঠেছিল আহমদ মুসার। পরক্ষণেই নিজেকে সামলে নিল আহমদ মুসা। বলল আহমদ মুসা নুমা ইয়াহুদকে লক্ষ্যে করে, ‘ধন্যবাদ ম্যাডাম, প্রশংসনীয় ক্ষিপ্রতার জন্যে। পিতার উপযুক্ত সন্তানের কাজ করেছেন।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা তার কথা শেষ করার আগেই নিচতলায় দ্রুত পদশব্দ শুনতে পেল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা সিঁড়ি মুখের সামনে থেকে একটু সরে রেলিং-এ ঠেস দিয়ে নিচে তাকিয়ে বলল, ‘সিকিউরিটি উপরে এস। স্যার ডাকছেন। কুইক।’</p>
+	<p class="block_13" lang="en">দুজন সিকিউরিটির লোক এক দৌড়ে সিঁড়ি দিয়ে উপরে উঠে আসতে লাগল। দুজনের হাতেই স্টেনগান। বিশ্ববিদ্যালয়ের সিকিউরিটি ব্রিগেডের লোক এরা। পরণে কালো পোশাক, মাথায কালো হেলমেট।</p>
+	<p class="block_13" lang="en">ওরা সিঁড়ি দিয়ে উঠে এসে সিঁড়ির মুখে দাঁড়াল। তাকাল ডঃ আয়াজ ইযাহুদের দিকে নির্দেশ লাভের জন্যে।</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ আহমদ মুসাকে দেখিয়ে বলল, ‘ওকে ধরে বাইরে নিয়ে যাও এবং পুলিশে দাও। অবৈধ প্রবেশ ছাড়াও ডঃ হাইকেলের নিরুদ্দেশের ঘটনার সাথে এই লোক সংশ্লিষ্ট হতে পারে, এটাই তার বিরুদ্ধে অভিযোগ।’</p>
+	<p class="block_13" lang="en">‘আব্বা পুলিশে দেয়া কেন? উনি তো কিছু জানতে এসেছিল।’ নুমা ইয়াহুদ তার পিতাকে লক্ষ্য করে বলল।</p>
+	<p class="block_13" lang="en">‘চুপ কর নুমা। সেদিনের ঘটনা, আজকে এভাবে প্রবেশ এবং প্রশ্নগুলোর ধরণ প্রমাণ করে ডঃ হাইকেলের ঘটনার সাথে সে শুধু জড়িতই নয়, কোন উদ্দেশ্যে আমাদেরকে ব্ল্যাক মেইল করতে চাচ্ছে।’ বলে ডঃ আয়াজ ইয়াহুদ সিকিউরিটিকে বলল, ‘নিয়ে যাও একে।’</p>
+	<p class="block_13" lang="en">সিকিউরিটির লোক দুজন আহমদ মুসার দিকে এগুলো। আহমদ মুসার কাছাকাছি হয়ে তারা স্টেনগান এক হাতে নিয়ে আর এক হাত খালি করল। স্টেনগানের ব্যারেল তারা আহমদ মুসার সমান্তরালে তুলে রাখল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা নির্লিপ্তভাব নিয়ে দাঁড়িয়ে ছিল। সিকিউরিটির লোকেরা অগ্রসর হলে হেলান দেয়া অবস্থা থেকে শুধু সে সোজা হয়ে দাঁড়াল। কিন্তু আহমদ মুসার মধ্যে প্রতিবাদ বা প্রতিক্রিয়ার কোন লক্ষণ দেখা গেল না। সুতরাং সিকিউরিটির লোকেরা নিশ্চিন্তভাবে আহমদ মুসাকে ধরে নেবার জন্য অগ্রসর হচ্ছিল।</p>
+	<p class="block_13" lang="en">সিকিউরিটির দুজন লোক আহমদ মুসার নাগালের মধ্যে পৌঁছতেই আহমদ মুসার দুহাতের কারাত চোখের পলকে বজ্রপাতের মত গিয়ে আঘাত করল তাদের হেলমেটের ঠিক ধার ঘেঁষে কানের নিচের নরম জায়গাটায়।</p>
+	<p class="block_13" lang="en">দুজনের দেহই টলে উঠে পাক খেয়ে আছড়ে পড়ল মেঝের উপর।</p>
+	<p class="block_13" lang="en">ঘটনার আকস্মিকতায় বিস্ফারিত হয়ে হয়ে উঠেছিল ডঃ আয়াজ ইয়াহুদদের চোখ। তারা যেন অজান্তেই উঠে দাঁড়িয়েছিল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা সিকিউরিটি দুজনের স্টেনগান কুড়িয়ে নিয়ে নিচে ছুঁড়ে দিয়ে বলল ডঃ আয়াজ ইয়াহুদদের লক্ষ্যে করে, ‘আপনারা বসুন। আমার কথা শেষ হয়নি।’</p>
+	<p class="block_13" lang="en">আহমদ মুসার কথার রেশ মিলিয়ে যাবার আগেই ওরা পুতুলের মত বসে পড়ল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা কথা শেষ করে মুহূর্তের জন্যে একটু থেমেছিল। তারপর বলল, ‘ডঃ আয়াজ ইয়াহুদ আপনি আমাকে ডঃ হাইকেলের নিরুদ্দেশ হবার ঘটনার সাথে জড়িত করতে চাচ্ছিলেন। হতভাগ্য ডঃ হাইকেল সম্পর্কে যে-ই অনুসন্ধান এগিয়ে আসবে, তাকে সরিয়ে দেবারই এটা একটা কৌশল। এর অর্থ ডঃ হাইকেলকে নিরুদ্দেশ বা হত্যা করার সাথে আপনি জড়িত আছেন।’</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদের বিস্মিত-বিব্রত চেহারায় ভয়ের চিহ্ন ফুটে উঠল। কঁকিয়ে উঠে বলল, ‘না এটা মিথ্যা কথা, আমি ডঃ হাইকেল নিরুদ্দেশ বা হত্যার সাথে জড়িত নেই। আমি....................।’ কথা শেষ করতে পারল না ডঃ আয়াজ ইয়াহুদ। তার কন্ঠ রুদ্ধ হয়ে গেল।</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ থেমে যেতেই তার মেয়ে নুমা ইয়াহুদ বলে উঠল, ‘আমি এই বিশ্বাবদ্যালয়ের ছাত্রী এবং ফেইথ স্টাডিজ বিভাগেরই। আমি খুব ভালো করে জানি, ডঃ হাইকেল আংকলের সাথে আব্বার সম্পর্ক বরাবরই খুব ভালো। ডঃ হাইকেল আংকেল যখন বিশ্ববিদ্যালয়ের প্রেসিডেন্টের পদ ছাড়লেন, তখন তিনি চেষ্টা করেছিলেন আব্বা যাতে বিশ্ববিদ্যালয়ের প্রেসিডেন্ট হন। আর আব্বা প্রেসিডেন্ট হলেও ডঃ হাইকেল আংকেলকে সিনিয়ার হিসাবে সব সময় শ্রদ্ধা করেন। ডঃ হাইকেল আংকেলকে নিরুদ্দেশ করা বা হত্যা করার কোন মটিভ আব্বার তরফ থেকে থাকা বাস্তব নয়।’</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ ম্যাডাম নুমা। আপনি ভাল তথ্য দিয়েছেন। কিন্তু ‘মটিভ’ অনেক সময় ব্যাক্তিগত নাও হতে পারে, সামষ্টিক বা সম্প্রদায়গতও হতে পারে।’ আহমদ মুসা শান্ত কন্ঠে বলল।</p>
+	<p class="block_13" lang="en">অন্ধকার নামল নুমা ইয়াহুদের মুখে। আহমদ মুসা যে কথা বলেছে তা এক তিলও মিথ্যা নয়।</p>
+	<p class="block_13" lang="en">ইহুদী তরুণী নুমা যেমন সুন্দরী, তেমনি বুদ্ধিদীপ্ত তার চেহারা। সে রাব্বানিক্যাল ইউনিভার্সিটির ফেইথ স্টাডিজ বিভাগের শেষ বর্ষের ছাত্রী।</p>
+	<p class="block_13" lang="en">আহমদ মুসার কথা নিয়ে সে একটু ভাবল। তারপর বলল, ‘আব্বার ক্ষেত্রে সে ধরনের কোন সামষ্টিক ও সাম্প্রদায়িক মটিভ আছে কি?</p>
+	<p class="block_13" lang="en">আহমদ মুসা একটু পেছন সরে রেলিং-এ হেলান দিল। তারপর বলল, ‘ডঃ হাইম হাইকেল এমন একটা ভয়াবহ বিষয় সম্পর্কে জানতেন যে বিষয়টি প্রকাশ হয়ে পড়লে তাদের সাম্প্রদায়িক স্বার্থে বিপর্যয় নামতে পারে। সেজন্য একটা গ্রুপ তাকে হত্যা বা লোক চক্ষুর আড়ালে নিতে চেয়েছে।’</p>
+	<p class="block_13" lang="en">বিস্ময়ে বিস্ফারিত হলো নুমা ইয়াহুদের চোখ। ডঃ আয়াজ ইয়াহুদও চমকে উঠে চোখ তুলেছে আহমদ মুসার দিকে। মিসেস আয়াজ ইয়াহুদের চোখে-মুখে নেমে এসেছে ভয়ের ছায়া।</p>
+	<p class="block_13" lang="en">বিস্ময়ের ধাক্কা কাটিয়ে নুমা ইয়াহুদ জিজ্ঞাসা করল আহমদ মুসাকে, ‘আপনি নিশ্চয় ইহুদী সাম্প্রদায়িক স্বার্থের দিকেই ইংগিত করেছেন। ইহুদী-কম্যুনিটির স্বার্থ তো মার্কিন যুক্তরাষ্ট্রে বিপর্যয়ের মুখেই। বিদেশ থেকেই আসা জেনারেল শ্যারনের বাড়াবাড়ি, বিজ্ঞানী জ্যাকবের মত ইহুদী নেতৃস্থানীয় লোকদের অগ্রহণযোগ্য ও চরম অপরাধমূলক অন্তর্ঘাত, আর বিস্ময়কর আহমদ মুসার সাথে মার্কিন সরকারের আঁতাত বিপর্যস্ত করেছে ইহুদী কম্যুনিটিকে। এর বাইরে আরও এমন কি ভয়ংকর তথ্য আছে, যা প্রকাশ করলে ইহুদী-কম্যুনিটির স্বার্থ আরও বিপর্যস্ত হবে? থাকলেও ডঃ হাইকেলের মত একজন নিষ্ঠাবান ইহুদী তা প্রকাশ করতে যাবেন কেন, ‘যার কারণে তাকে লোকচক্ষুর আড়ালে ঠেলে দেবার দরকার হবে?’</p>
+	<p class="block_13" lang="en">‘মিস নুমা এ প্রশ্ন আপনি আপনার পিতাকে করুন।’ শান্ত কন্ঠে বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">নুমা ইয়াহুদের চোখে-মুখে আরেক দফা অন্ধকার নামল। সে তাকাল তার পিতার দিকে।</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদের চেহারা বিপর্যস্ত। নতুন এক ভয়ের দৃশ্য তার চোখে-মুখে। ‘না নুমা এমন কোন তথ্য আমি জানি না। আমি............।’</p>
+	<p class="block_13" lang="en">আবারও কথা শেষ করতে পারল না ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘কথা শেষ করুন ডঃ আয়াজ ইয়াহুদ।’ শক্ত কন্ঠে বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ চোখ তুলে তাকাল আহমদ মুসার দিকে। ভয়ে আড়ষ্ট হয়ে উঠেছে তার চোখ-মুখ। কিছু বলতে পারল না সে।</p>
+	<p class="block_13" lang="en">‘আব্বা আপনাকে ভীত দেখছি কেন? কেন এই ভয়? ইনি তো আমাদের ভয় দেখাননি, বরং আমরাই সিকিউরিটি ডেকেছিলাম। সত্য কিছু থাকলে তা বলা প্রয়োজন আব্বা। দেখা যাচ্ছে উনি অনেক কিছুই জানেন।’ বলল নরম কন্ঠে নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">মাথা নিচু করল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘ঠিক মিস নুমা। আমি ভয় দেখাইনি। আমি কিছু জানতেই এসেছি। আমি ডঃ হাইকেলকে সাহায্য করতে চাই। ডঃ আয়াজ যা জানেন তা দিয়ে যদি আমকে সাহায্য না করেন, তাহলে জানার জন্য আমি যে কোন উপায় অবলম্বন করব। ডঃ হাইকেলকে সাহায্য করার ব্যাপারে কোন বাধা আমি মানবো না।’ বলে আহমদ মুসা পকেট থেকে রিভলবার বের করে হাতে নিল।</p>
+	<p class="block_13" lang="en">নুমা ইয়াহুদসহ সকলেই তার দিকে চোখ তুলল। ডঃ আয়াজ ইয়াহুদ ও মিসেস আয়াজ ইয়াদের চোখে-মুখে অপরিচিত ভয়। কিন্তু নুমা ইয়াহুদের চোখে-মুখে এবার ভয় নয়, বিমুগ্ধতা। তার মনে এখন আর কোন সন্দেহ নেই, আহমদ মুসা যা করছে তা ডঃ হাইকেলকে সাহায্যের জন্যেই করছে। আহমদ মুসা একজন বিপদগ্রস্তের পক্ষ নেয়া এবং তার কথায় ঋজুতা ও সাহস এবং সর্বোপরি বিপদ ও চরম উত্তেজনাকর অবস্থার মধ্যেও অদ্ভুত স্বাভাবিক ও সরল আচরণ তাকে বিস্ময়-বিমুগ্ধ করেছে। অবিশ্বাস্য এক ফিল্মী চরিত্র জীবন্ত রূপ নিয়ে যেন তার সামনে।</p>
+	<p class="block_13" lang="en">কারও মুখে কোন কথা নেই।</p>
+	<p class="block_13" lang="en">আহমদ মুসাই নিরবতা ভাঙল। বলল, ‘ডঃ আয়াজ ইয়াহুদ আমার সময় খুবই কম। আমি আর সময় দিতে পারছি না।’ আহমদ মুসার কন্ঠ শান্ত, কিন্তু বুলেটের মতই বিদ্ধকারী।</p>
+	<p class="block_13" lang="en">‘বলুন আব্বা। উনি তো ডঃ হাইকেল আংকেলকেই সাহায্য করতে চান।’ নুমা ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">মুখ তুলল ডঃ আয়াজ ইয়াহুদ। তাকাল আহমদ মুসার দিকে পরিপূর্ণভাবে। বলল, ‘মিঃ আইজ্যাক দানিয়েল। আপনি অবশ্যই জানেন না আপনি এক ভয়ংকর পথে পা বাড়িয়েছেন। আমি ভয় করি, আপনি এগুতে পারবেন না। মাঝখানে আমাদের সকলের ডঃ হাইকেলের পরিণতি হবে।’ ভয়জড়িত নরম কন্ঠ তার।</p>
+	<p class="block_13" lang="en">নুমা ইয়াহুদ ও মিসেস আয়াজ ইয়াহুদ শুনছিল ডঃ আয়াজ ইয়াহুদের কথা। ডঃ আয়াজ ইয়াহুদের এ স্বীকৃতিতে অপার বিস্ময় ফুটে উঠেছে তার চোখে-মুখে। তাহলে ডঃ আয়াজ ইয়াহুদও জানেন যে, ডঃ হাইম হাইকেলের কি পরিণিতি হয়েছে। অথচ তারা এতদিন ডঃ আয়াজ ইয়াহুদের কাছ থেকেও জেনেছে চিন্তার কোন প্রকার ভারসাম্যহীনতা থেকেই ডঃ হাইম হাইকেল কোথাও চলে গেছেন!</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ থামতেই আহমদ মুসা বলে উঠল, ‘ডঃ আয়াজ ইয়াহুদ, এ পথে পা দেবার আগেই আমি জানি এটা ভয়ংকর পথ। এখন বলুন আপনি কি জানেন?’</p>
+	<p class="block_13" lang="en">‘আমি আপনাকে বেশি সাহায্য করতে পারবো না। আমি এতটুকু জানি যে, ডঃ হাইকেলকে কিডন্যাপ করা হয়েছে এবং যারা কিডন্যাপ করেছে তাদের লোকজন আমাদের চারপাশে আছে পাহারা দেবার জন্য, যাতে আমরা কোন কিছু করতে না পারি। সেদিন ওদের একজন খুন করার চেষ্টা করেছিল ডঃ জ্যাকবকে।’</p>
+	<p class="block_13" lang="en">‘আপনি কি করে জানলেন, তিনি কিডন্যাপ হয়েছেন। কিডন্যাপকারীদের আপনি চেনেন?’ জিজ্ঞাসা আহমদ মুসার।</p>
+	<p class="block_13" lang="en">ওদের লোক আমার সাথে দেখা করেছে এবং বলেছে, আমি যেন পুলিশকে এবং অন্য সবাইকে একথা বলি যে অনেক দিন থেকে তিনি কিছুটা চিন্তার ভারসাম্যহীনতায় ভুগছিলেন। সম্প্রতি হঠাৎ তা বেড়ে যায়।’ তারা আমাকে একজন মানসিক ডাক্তারের নাম দিয়েছে এবং বলেছে, আমি যেন বলি,এই ডাক্তারের কাছে যেতেন ডঃ হাইম হাইকেল।’ একটু থেমেই আবার বলা শুরু করল, আমি ওদের কাউকে চিনি না। ওরা রাতে আসতো এবং মুখোশ পরে কথা বলতো।’</p>
+	<p class="block_13" lang="en">‘আপনি পুলিশকে কিছু বলেছেন?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘ওদের কিছু বলেনি।’</p>
+	<p class="block_13" lang="en">‘যে ডাক্তারের কথা ওরা বলেছে, সে ডাক্তারকে আপনি চেনেন? ঠিকানা জানেন?’</p>
+	<p class="block_13" lang="en">‘ঠিকানা জানি।’</p>
+	<p class="block_13" lang="en">‘বলুন ঠিকানাটা।’</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ ঠিকানা বললে লিখে নিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘ডঃ হাইকেলকে কোথায় রেখেছে? তিনি কি বেঁচে আছেন? কিছু জানেন?’</p>
+	<p class="block_13" lang="en">‘মিঃ আইজ্যাক দানিয়েল ওরা শুধু শোনার জন্যে আসে, কিছু বলার জন্য নয়।’</p>
+	<p class="block_13" lang="en">সঙ্গে সঙ্গে কথা বলল না আহমদ মুসা। একটু ভাবল। বলল, ডঃ হাইম হাইকেলের বাড়ির ঠিকানা বলুন। কোন সাহায্য যদি সেখান থেকে পাই।’</p>
+	<p class="block_13" lang="en">ডঃ আয়াজ ইয়াহুদ ঠিকানাটা দিয়ে বলল, ‘আমার মনে হয় তাঁর বাড়ি আমাদের চেয়ে আরও বেশি অন্ধকারে আছে।’</p>
+	<p class="block_13" lang="en">‘তাতে একটু সুবিধা পাওয়া যাবে। তাঁর বাড়ি তার নিরুদ্দেশ হওয়া নিয়ে পুলিশ ও আরও উপর মহলে হৈচৈ করতে পারবে, যা আপনারা পারেননি ওদের ভয়ে। কিডন্যাপকারীদের চাপে ফেলার জন্য এই হৈচৈ-এর প্রয়োজন আছে।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘সেই ভয়াবহ তথ্যের কথা কি বলবেন, যে তথ্য ডঃ হাইম হাইকেল আংকেলের কাছে রয়েছে, যার কারণে তিনি কিডন্যাপ হয়েছেন?’ নুমা ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা তাকাল রিসেশনিস্ট লিসার দিকে। তারপর নুমা ইয়াহুদের দিকে ফিরে বলল, এইভাবে বলা যাবে না মিস নুমা।’</p>
+	<p class="block_13" lang="en">নুমা ইয়াহুদ ব্যাপারটা বুঝল। সেও তাকাল একবার লিসার দিকে। আহমদ মুসাও তাকাল আবার লিসার দিকে। বলল, ‘মিস লিসা, তোমার ভ্যানিটি ব্যাগটা কি আমি দেখতে পারি?’</p>
+	<p class="block_13" lang="en">সঙ্গে সঙ্গেই লিসার মুখ ভয়ে এতটুকুন হয়ে গেল। ফ্যাকাসে হয়ে গেল তার মুখের রং। পাথরের মত সে স্থির হয়ে গেছে। ভ্যানিটি কেস ধরা তার হাত কাঁপছিল। ভ্যানিটি কেস তুলে ধরার শক্তি যেন তার নেই।</p>
+	<p class="block_13" lang="en">‘মাফ করবেন লিসা’ বলে আহমদ মুসাই তার হাত থেকে ভ্যানিটি কেসটি নিয়ে নিল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ভ্যানিটি কেসটি খোলা দেখতে পেয়েছিল, এখনও খোলাই আছে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ভ্যানিটি কেসে দেখল দিয়াশলাই সাইজের একটি রেকর্ডার চালু রয়েছে।</p>
+	<p class="block_13" lang="en">আহমদ মুসার মুখে একটুরো হাসি ফুটে উঠল। বলল লিসাকে লক্ষ্য করে, ‘তোমার কক্ষেই তুমি এটা অন করেছিলে, তারপর তো এটা অন করাই ছিল। তাহলে তো সব কথাই রেকর্ড হয়েছে, তাই না?’</p>
+	<p class="block_13" lang="en">কোন উত্তরের অপেক্ষা না করে রেকর্ডার অফ করে দিয়ে অন করল রেকর্ড প্লেয়ারের সুইচ।</p>
+	<p class="block_13" lang="en">ফিরল আহমদ মুসা ডঃ আয়াজ ইয়াহুদের দিকে।</p>
+	<p class="block_13" lang="en">চলছে রেকর্ড প্লেয়ার।</p>
+	<p class="block_13" lang="en">তাদের এতক্ষণের সব কথাই আবার বলে যাচ্ছে রেকর্ডার।</p>
+	<p class="block_13" lang="en">স্তম্ভিত ডঃ আয়াজ ইয়াহুদরা সকলেই।</p>
+	<p class="block_13" lang="en">এক সময় ডঃ আয়াজ ইয়াহুদ তীব্র কন্ঠে বলে উঠল, ‘এতো সাংঘাতিক গোয়েন্দাগিরী? লিসা, এটা কি তুমি সরকারের নির্দেশে করছ।’</p>
+	<p class="block_13" lang="en">ভীত, বিপর্যস্ত লিসা বলার আগেই আহমদ মুসা বলল, ‘না সে সরকারের পক্ষে নয়, ডঃ হাইম হাইকেলের কিডন্যাপকারীদের পক্ষে কাজ করছে।’</p>
+	<p class="block_13" lang="en">‘বুঝলেন কি করে?’ জিজ্ঞাসা নুমা ইয়াহুদের।</p>
+	<p class="block_13" lang="en">‘তার ভয়ের ধরন দেখে বুঝেছি।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘ও গড!’ বলে আর্তনাদ করে উঠল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘আমি কি ঠিক বলেছি লিসা?’ আহমদ মুসা জিজ্ঞেস করল লিসাকে।</p>
+	<p class="block_13" lang="en">ভয় ও আতংকে পান্ডুর মুখটি নত করল লিসা।</p>
+	<p class="block_13" lang="en">‘তুমি কত টাকার বিনিময়ে এই কাজ করছ লিসা?’</p>
+	<p class="block_13" lang="en">ফুপিয়ে কেঁদে উঠল লিসা। কান্নার মধ্যে সে বলল, ‘এক পয়সা আমি নেইনি। পয়সা নিয়ে স্যারের বিরুদ্ধে এমন কাজ আমি করতে পারি না। আমি একাজ না করলে ওরা আমাকে ও আমার আব্বা-আম্মাকে মেরে ফেলবে। রাজী না হওয়ায় আমার আব্বাকে ওরা কিডন্যাপ করেছিল। বাধ্য হয়ে আমি রাজী হয়েছি।’ কান্নায় রুদ্ধ হয়ে গেল তার শেষ কথাগুলো।</p>
+	<p class="block_13" lang="en">দুহাতে মুখ ঢেকে কান্নায় ভেঙ্গে পড়ল লিসা।</p>
+	<p class="block_13" lang="en">আহমদ মুসা দুপা এগিয়ে তরুণীর মাথায় আলতোভাবে হাত বুলিয়ে বলল, ‘তোমাকে ওরা কি ধরনের দায়িত্ব দিয়েছিল?’</p>
+	<p class="block_13" lang="en">মেয়েটি মুখ তুলল। বলল, ‘স্যারের সাক্ষাত করতে আসা লোকদের সাথে কি আলাপ হয় এবং টেলিফোনে কি কথা উনি বলেন, এসব রেকর্ড করা ছিল আমার দায়িত্ব। স্যারের অফিসের কথা-বার্তা ও টেলিফোনের কথা-বার্তাও রেকর্ড করা হয়েছে।’</p>
+	<p class="block_13" lang="en">‘অফিসে কে করছে এই কাজ?’ দ্রুত কন্ঠে জিজ্ঞাসা করল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘আপনার পার্সোনাল এ্যাসিস্টেন্ট ‘জন’।’</p>
+	<p class="block_13" lang="en">আমার বিশ বছরের পুরানো কর্মচারী জন!’ বিস্ময় ও উদ্বেগ ঝরে পড়ল ডঃ আয়াজের কন্ঠে।</p>
+	<p class="block_13" lang="en">কথা শেষ করেই ডঃ আয়াজ ইয়াহুদ আবার বলে উঠল, ‘বিশ্ববিদ্যালয়ের আর কেউ জড়িত আছে কি না তুমি জান?’</p>
+	<p class="block_13" lang="en">‘শুধু এটুকু জানি প্রফেসর ও প্রসাশনের মধ্যে আরও দুতিনজন জড়িত আছে। কিন্তু তাদের নাম জানি না স্যার।’ বলল লিসা।</p>
+	<p class="block_13" lang="en">‘তুমি যে তথ্য যোগাড় কর, সেগুলো কি তারা এসে নিয়ে যায়?’ জিজ্ঞেস করল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘না ওরা কেউ আসে না। ওদের নির্দেশ মত ক্যাসেট বিভিন্ন সময় বিভিন্ন জায়গায় রাখতে হয়। ওরা এসে সেখান থেকে নিয়ে যায়।’ লিসা বলল।</p>
+	<p class="block_13" lang="en">‘তুমি ওদের কাউকে চেন না?’ আহমদ মুসার জিজ্ঞাসা।</p>
+	<p class="block_13" lang="en">‘ওদের একজনই দুবার আমাদের সাথে দেখা করেছে। আর কারো সাথে দেখা হয়নি। ঐ একজন লোক ছাড়া আমি কাউকে চিনি না।’ বলল লিসা।</p>
+	<p class="block_13" lang="en">‘ওরা এসব কেন করছে, কেন ডঃ হাইম হাইকেলকে কিডন্যাপ করেছে, এ ব্যাপারে কিছুই জান না তুমি?’</p>
+	<p class="block_13" lang="en">‘হ্যাঁ, আমাকে রাজি করার যুক্তি হিসাবে ওরা বলেছে, ‘নবী মুসা যেভাবে বনি ইসরাইলকে ফেরাউনের হাত থেকে রক্ষা করেছিল, সেভাবে আমরাও ইহুদী জাতিকে বিশেষ করে মার্কিন ইহুদী সম্প্রদায়কে রক্ষার জন্য কাজ করছি। সব ইহুদীরই উচিত আমাদের সহযোগিতা করা।’ লিসা বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ঘুরে দাঁড়াল। তাকাল ডঃ আয়াজ ইয়াহুদের দিকে। বলল, ‘স্যার আপনাকে অসংখ্য ধন্যবাদ। কয়েকটা গুরুত্বপূর্ণ তথ্য আপনার কাছ থেকে পেয়েছি। প্রয়োজনে আপনাদেরকে যে কষ্ট দিয়েছি সেজন্য আপনাদের সকলের কাছে ক্ষমাপ্রার্থী।</p>
+	<p class="block_13" lang="en">আহমদ মুসা কথা শেষ করতেই লিসা কান্নাজাড়িত স্বরে বলল, ‘স্যার আমার কি হবে? আমি যদি ওদের তথ্য সরবরাহ করতে না পারি, তাহলে ওরা আমাদের সবাইকে মেরে ফেলবে।’</p>
+	<p class="block_13" lang="en">‘কেন, তুমি এই ক্যাসেটটা নিয়ে যাবে। তাদের দেবে, তবে একটা শর্তে। শর্তটা হলো, ক্যাসেটটা ওরা যেখানে রাখতে বলবে, সে স্থানের কথা আমাকে সঙ্গে সঙ্গেই জানাতে হবে। তুমি বিপদে পড় এমন কিছু করব না।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘সর্বনাশ এ ক্যাসেট ওরা পেলে তো আমরা বিপদে পড়ব।’ বলে উঠল আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘স্যার নিশ্চিত থাকুন, ওরা ক্যাসেট শোনার সুযোগ পাবে না।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘এতটা নিশ্চয়তা আপনি কিভাবে দিতে পারেন। ঝুঁকি থেকেই যাবে’। বলল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘ঝুঁকি আবশ্যই থাকবে এবং এ ধরনের ঝুঁকি নিতে হবে।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘ক্যাসেটে যা আছে তাতে আমাদের পরিবার মহাবিপদে পড়বে। লিসা তো ক্যাসেট না দিলেও পারে, ওরা তো এ ঘটনার কথা জানছে না।’ বলল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘এতেও ঝুঁকি আছে। কারণ এ বাড়িতে বাইরের কে কখন আসছে এটা জানবার জন্য ওদের লোক আরো থাকতে পারে। বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">নুমা এবং ডঃ আয়াজদের সকলের মুখ ম্লান হয়ে গেল।</p>
+	<p class="block_13" lang="en">‘স্যার আমি আপনাদের বিপদে ফেলার জন্য আসিনি, অন্তত এ ব্যাপারে নিশ্চত থাকুন।’ সান্ত্বনার সুরে আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">বলেই আহমদ মুসা তার মোবাইল নাম্বার ও ক্যাসেট সমেত ভ্যানিটি ব্যাগ তুলে দিল লিসার হাতে আর বলল, প্রতিশ্রুতির কথা মনে রেখো লিসা।’</p>
+	<p class="block_13" lang="en">‘ফিরল আহমদ মুসা ডঃ আয়াজ ইয়াহুদের দিকে। বলল, এক্সকিউজ মি স্যার, এক্সকিউজ মি ম্যাডাম, আমি আসি।’</p>
+	<p class="block_13" lang="en">‘না, জনাব, আপনার কথা শেষ হয়েছে, কিন্তু আমাদের কথা শেষ হয়নি।’ অনেকটা প্রতিবাদের সুরে সঙ্গে সঙ্গেই বলে উঠল নুমা ইয়াহুদ। আহমদ মুসা সোজা হয়ে দাঁড়িয়েছিল। আবার রেলিং-এ হেলান দিয়ে দাঁড়াল।</p>
+	<p class="block_13" lang="en">‘আংকেল ডঃ হাইম হাইকেল এমন কি ভয়ংকর তথ্য জানতেন যার জন্য তার এই পরিণতি এবং যা চাপা দেয়ার জন্য এতো কিছু ঘটছে?’ বলল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘ইহুদীবাদীদের এক ভয়ংকর পাপ তিনি জানেন।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘কি সে পাপ কাহিনী?’ বলল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘স্যরি, বলার আগে আমাকে ভাবতে হবে। আমি চলি। সিকিউরিটি দুজনের সংজ্ঞা এখনি ফিরে আসবে।’ বলে আহমদ মুসা ঘুরে দাঁড়াতে গেল।</p>
+	<p class="block_13" lang="en">‘শুনুন আমার প্রশ্ন শেষ হয়নি।’ আহমদ মুসাকে লক্ষ্য করে বলল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">দ্রুত আবার ঘুরে দাঁড়াল আহমদ মুসা। মুখ ফেরাল নুমা ইয়াহুদের দিকে।</p>
+	<p class="block_13" lang="en">নুমা ইয়াহুদই আবার কথা বলল, ‘এতক্ষণের ঘটনায় আমার মধ্যে যে প্রশ্নটি সবচেয়ে বড় হয়ে উঠেছে সেটা হলো, আপনি কে? আমি যতটা শুনেছি তাতে একজনের সাথে আপনার মিল আছে। তিনি আহমদ মুসা। বলুন আপনি কে? আপনি আমেরিকান নন, অথচ এত কথা জানেন এবং ডঃ হাইম হাইকেলকে বন্ধু বলছেন। ডঃ হাইম হাইকেল কোনদিন বিদেশে যাননি। তার মত ঘরকুনো মানুষের বিদেশী বন্ধু থাকার কথা নয়।’</p>
+	<p class="block_13" lang="en">‘স্যারি নিরাপত্তাজনিত কারণেই আমার পরিচয় এখন আমি বলব না। তবে আমার সাথে আহমদ মুসার মিল দেখার ব্যাপারটা মজার হয়েছে। আহমদ মুসার সাথে তুলনা করার মত অত তথ্য আপনি কার কাছ থেকে পেয়েছেন?’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘আমি জেনেছি আমার এক বন্ধু সারাহ জেফারসনের কাছ থেকে। আজ সকালেও তার সাথে কথা বলেছি।’ বলল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘উনি এত কথা জানেন কি করে?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘শুধু জানেন তা নয়, আমার মনে হয় তিনি.......</p>
+	<p class="block_13" lang="en">কথা বলার মাঝখানে হঠাৎ থেমে গেল নুমা ইয়াহুদ। বলে উঠল, না থাক। অনুমানে কোন কথা বলা ঠিক নয়।’</p>
+	<p class="block_13" lang="en">থেমে পরমুহূর্তেই আবার বলে উঠল, ‘ভেবে বলবেন বলেছেন। কিভাবে বলবেন? আবার কি দেখা হবে?’</p>
+	<p class="block_13" lang="en">‘পৃথিবী গোল। দেখা হওয়াই স্বাভাবিক।’ বলেই আহমদ মুসা ‘সকলকে ধন্যবাদ, বাই’ কথাটি উচ্চারণ করে দ্রুত নামল সিঁড়ি বেয়ে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা চোখের আড়াল হতেই মিসেস ইয়াহুদ, নুমা ইয়াহুদের মা, নিজের দেহকে সশব্দে সোফায় এলিয়ে দিয়ে বুকে ক্রস এঁকে বলল, ‘কি দেখলাম, কি ঘটল! সিনেমার চেয়েও ভয়ংকর। ঈশ্বর রক্ষা করেছেন।’</p>
+	<p class="block_13" lang="en">হাসল নুমা ইয়াহুদ। বলল, ‘তুমি এত ভয় পেয়ে গেছ আম্মা!’</p>
+	<p class="block_13" lang="en">‘ভয় পাব না! তোর আব্বার কথা, তোর কথা যদি বিশ্বাস না করতো, আরো কথা যদি আদায় করতে চাইতো, তাহলে কি ঘটতো ভাবতেও..............। দেখলি তো, তার হাতের এক ঘায়ে সিকিউরিটির লোক কুপোকাত। দেখতে নেহায়েত ভদ্রলোক, কিন্তু কাজে একেবারে আগুন।’ বলল মিসেস ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘তুমি ঠিক বলেছ আম্মা। তবে মিঃ আইজ্যাক দানিয়েল ক্রিমিনাল নন।’ নুমা ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">‘ক্রিমিনাল এভাবে এত কিছু ঝুঁকি একজন ভালো লোককে সাহায্য করতে আসে না।’ বলল ডঃ আয়াজ ইয়াহুদ। একটু থামল। তারপর সোজা হয়ে বসে বলল, ‘আমি ভাবছি লোকটির মিশন নিয়ে। আমরা ডঃ হাইম হাইকেলের আশা ছেড়ে দিয়েছি ভয় ও চাপে পড়েই। কিন্তু এই লোকটি এই লস্ট কেস নিয়েই ছুটেই এসেছে এবং মনে হচ্ছে সে ছুটবেই। এটা খুব বড় একটা ঘটনা এবং লোকটাও একজন বড় কেউ হবে।’</p>
+	<p class="block_13" lang="en">‘আব্বা উনি যে ভয়ংকর তথ্যের কথা বললেন, যা ডঃ হাইম হাইকেল আংকেল জানতেন বলেই তাঁর এই দুর্ভোগ, সে সম্বন্ধে তুমি কিছুই জান না আব্বা?’ বলল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘আমি সত্যি জানি না। তবে সেটাও কোন বড় ঘটনা হবে। হাইকেল পরিবার এই বিশ্ববিদ্যালয়ের প্রতিষ্ঠাতা। তারাই এই বিশ্ববিদ্যালয় পরিচালনা করে আসছেন। ডঃ হাইম হাইকেল বিশ বছর বিশ্ববিদ্যালয় পরিচালনার পর কি হল তিনি বিশ্বাবদ্যালয় পরিচালনা থেকেই সরে দাঁড়ালেন! সরে দাঁড়ালেন আগের বিশ্বাস থেকে! সরে দাঁড়ালেন সামাজিকতার সকল ক্ষেত্র থেকেও! আমার মনে হতো, কি এক অসহ্য যন্ত্রণা তিনি চেপে রাখতে সদাব্যস্ত। লোকটির কথিক ‘ভয়ংকর তথ্য’-এর সাথে ডঃ হাইম হাইকেলের এই গোটা মানসিক অবস্থার কি কোন যোগ আছে! যদি থাকে তাহলে তা হবে ভয়ংকর বড় এক তথ্য।’ ডঃ আয়াজ ইয়াহুদ থামল। শান্ত গম্ভীর কন্ঠ তার।</p>
+	<p class="block_13" lang="en">‘আব্বা, মি আইজ্যাক দানিয়েলের কথা যদি সত্য হয়, তাহলে ডঃ হাইম হাইকেলের সে ভয়ংকর তথ্যটি সামষ্টিক ও সম্প্রদায়গত। যদি তাই হয়, তাহলে ভয়ংকর তথ্যের ভয়ংকরতা আরও ভয়ংকর হতে বাধ্য।’ নুমা ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">‘আমিও তাই মনে করি।’ বলল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘তাহলে পুলিশকে ব্যাপারটা বলা উচিত নয় কি?’ নুমা ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">‘কিন্তু তথ্যটা আমরা জানি না। বলব কি?’ বলল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘তাহলে আব্বা মিঃ আইজ্যাক দানিয়েলকে আমাদের প্রয়োজন। তিনি সাহায্য চাইতে এসেছিলেন। এখন দেখছি, আমাদেরই সাহায্য চাওয়া উচিত তাঁর কাছে।’ নুমা ইয়াহুদ বলল।</p>
+	<p class="block_13" lang="en">কথা শেষ করেই নুমা ইযাহুদ উঠে দাঁড়াল। রেলিং-এর উপর ঝুঁকে পড়ে নিচের দিকে তাকিয়ে ডাকল রিসেপশনিষ্ট লিসাকে।</p>
+	<p class="block_13" lang="en">লিসা আহমদ মুসার পরপরই নিচে নেমে গিয়েছিল।</p>
+	<p class="block_13" lang="en">দৌড়ে উপরে উঠে এল লিসা।</p>
+	<p class="block_13" lang="en">নুমা ইয়াহুদ লিসার কাছ থেকে আহমদ মুসার মোবাইল নাম্বারটা নিয়ে নিল। তারপর ফিরে এসে নিজের জায়গায় বসতে বসতে বলল, ‘এখন আমার মনে হচ্ছে, আইজ্যাক দানিয়েল ঈশ্বর প্রেরিত। তাকে আমাদের সাহায্য করা প্রয়োজন।’</p>
+	<p class="block_13" lang="en">‘কোন আবেগকে প্রশ্রয় দিও না। ডঃ হাইম হাইকেল হারিয়ে গেছেন। ডঃ জ্যাকব খুন হতে বেঁচে গেছেন। শুধু নিজের জন্য নয়, প্রতিষ্টানের স্বার্থও আমাদের কাছে বড়। এই স্বার্থ নিশ্চিত করে কিছু করা গেলে সেটা দেখা যাবে।’ বলে উঠে দাঁড়াল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">তার সাথে সাথে মিসেস ইয়াহুদও।</p>
+	<p class="block_13" lang="en">একটা বড় শ্বাস ছেড়ে মাথাটাকে একটু হাল্কা করার চেষ্টা করে সোফায় গা এলিয়ে দিল নুমা ইয়াহুদ। হাতের মোবাইল নাম্বারটার দিকে অলসভাবেই একবার চোখ বুলাল।</p>
+	<p class="block_13" lang="en">নিউইয়র্ক ফিফথ এভিনিউ-এর ফুটপাত ধরে এগুচ্ছিল একজন যুবক ও একটি বালক। যুবকটি আগে, বালকটি পেছনে।</p>
+	<p class="block_13" lang="en">ফিফথ এভেনিউ-এর যেখানে ইহুদী মিউজিয়াম ও রাব্বানিক্যাল ইউনিভার্সিটির সীমা একসাথে মিশেছে, সেখানে পৌঁছে যুবকটি দাঁড়াল। ফিরে তাকাল বালকটির দিকে। পরক্ষণেই ঘুরে দাঁড়িয়ে আবার হাঁটতে শুরু করল যুবকটি। আর বালকটি পেছন ফিরে উল্টো দিকে হাঁটতে শুরু করল।</p>
+	<p class="block_13" lang="en">যুবকটিকে দাঁড়াতে দেখে আহমদ মুসা সোজা হয়ে দাঁড়িয়েছিল। কারণ দুই সীমানার ঐ সংযোগস্থলেই লিসা তার ক্যাসেটটি রেখেছে বলে তাকে জানিয়েছে। আহমদ মুসা বিশ্ববিদ্যালয়ের আবাসিক এলাকার সবচেয়ে কাছের গেটে দাঁড়িয়ে অপেক্ষা করছে। আহমদ মুসা নিশ্চিত, ক্যাসেটটি রাখার পর তা নিতে ওরা খুব দেরি করবে না। তাই আহমদ মুসা খবরটি লিসার কাছ থেকে পাওয়ার পরই এখানে এসে দাঁড়িয়ে আছে।</p>
+	<p class="block_13" lang="en">যুবকটিকে চলে যেতে দেখে এবং বালককে উল্টো যাত্রা শুরু করতে দেখে হতাশ হলো আহমদ মুসা। আহমদ মুসা বুঝল, কোন কথা হঠাৎ মনে হওয়ায় যুবকটি বালককে কোন কাজে কোথাও ফেরত পাঠিয়েছে। ওরা তার টার্গেট নয়।</p>
+	<p class="block_13" lang="en">দুতিন মিনিটও যায়নি। হঠাৎ আহমদ মুসা দেখল বালকটি তার সামনে দিয়ে আবার ফিরে আসছে। বিস্মিত হলো আহমদ মুসা। যে সময় গেছে তাতে বালকটি বিশ্ববিদ্যালয়ের এলাকাও পার হতে পারেনি। কি কাজে গিয়েছিল? এরই মধ্যে কি কাজ শেষ হলো?</p>
+	<p class="block_13" lang="en">আহমদ মুসার চোখ বালকটিকে অনুসরণ করলো।</p>
+	<p class="block_13" lang="en">বালকটি গিয়ে থমকে দাঁড়াল সে সংযোগ স্থলে।</p>
+	<p class="block_13" lang="en">অজান্তেই আহমদ মুসা সোজা হয়ে উঠল। সেই একই জায়গায় বালকটি আবার দাঁড়াল।</p>
+	<p class="block_13" lang="en">কি ব্যাপার? প্রশ্নটি মনে জেগে ওঠার সাথে সাথে আহমদ মুসার সব স্নায়ুতন্ত্রী খাড়া হয়ে উঠল।</p>
+	<p class="block_13" lang="en">বালকটি দাঁড়িয়ে পড়েই দুপা এগিয়ে সীমান্ত রেলিং-এর পাশে পৌঁছেই নিচের দিকে ঝুঁকে পড়ল এবং রেলিং-এর ফাঁক দিয়ে ডান হাত ভেতরে ঢুকিয়ে সঙ্গে সঙ্গেই আবার বের করে নিল। তারপর সোজা হয়ে দাঁড়িয়েই হাঁটা শুরু করল সামনে যেদিকে যুবকটি গেছে সেদিকে।</p>
+	<p class="block_13" lang="en">আহমদ মুসার কাছে সব বিষয়ই পরিস্কার হয়ে গেল। বালকটিকে ক্যাসেট দেখিয়েই ফেরত পাঠানো হয়েছিল পরে একা এসে নিয়ে যাবে এ জন্য। খুব সাবধানী ওরা, ঝুঁকিটা বালকের উপর দিয়ে যাচ্ছে। বালক ভাড়া করাও হতে পারে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা পিছু নিল বালকটির।</p>
+	<p class="block_13" lang="en">বালকটি একই গতিতে হাঁটছে। একবারও পেছনে ফিরে তাকায়নি।</p>
+	<p class="block_13" lang="en">ইহুদী মিউজিয়াম পার হবার পর বালকটি একটা গলিতে ঢুকে গেল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা তাকে অনুসরণ করল। আহমদ মুসার লক্ষ্য হলো, তাকে অনুসরণ করে ওদের কোন ঠিকানার সন্ধান লাভ করা এবং সেই সাথে ক্যাসেটটি তাদের হাত থেকে উদ্ধার করা।</p>
+	<p class="block_13" lang="en">বালক দক্ষিণমুখী সে গলি থেকে পুর্বমুখী আরেক গলিতে প্রবেশ করল।</p>
+	<p class="block_13" lang="en">পুবের গলিতে বেশ কিছুটা এগুবার পর আহমদ মুসার হঠাৎ মনে হলো বালটিকে তার এ ফলো করা ওরা ধরে ফেলেছে। জেনে ফেলেছে বালকও। তারা সময় ক্ষেপণ করছে আহমদ মুসাকে ফাঁদে আটকাবার জন্যে।</p>
+	<p class="block_13" lang="en">এই চিন্তা মনে আসার সাথে সাথেই আহমদ মুসা মনে করল, ওদের ফাঁদ পাতা সম্পূর্ণ হবার আগেই বালককে ধরা প্রয়োজন এবং ক্যাসেটটাকে হাত করা দরকার। বালকের কাছ থেকেও ওদের কোন তথ্য পাওয়া যেতে পারে।</p>
+	<p class="block_13" lang="en">নিঃশব্দে আহমদ মুসা দৌড় দিল বালকটিকে লক্ষ্য করে। কয়েক লাফে আহমদ মুসা পৌঁছে গেল বালকটির কাছে।</p>
+	<p class="block_13" lang="en">শেষ মুহূর্তে বালকটি টের পেয়ে গিয়েছিল। সেও দৌড় দিয়েছিল। কিছুটা এগুলোও। কিন্তু ধরা পড়ে গেল আহমদ মুসার হাতে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা তার এক হাত চেপে ধরে বলল, ‘আমি তোমার শত্রু নই। আমি ক্যাসেটটা খুজঁছিলাম। তুমি পেয়ে গেছ। আমাকে দিয়ে দাও।’</p>
+	<p class="block_13" lang="en">আহমদ মুসার হাসি এবং তার শান্ত কথা শুনে বালকটি তাকাল আহমদ মুসার দিকে। তার চোখে আস্থা স্থাপনের একটা জিজ্ঞাসা।</p>
+	<p class="block_13" lang="en">পাশেই গাড়ির শব্দ শুনতে পেল আহমদ মুসা। শোনার সঙ্গে সঙ্গেই আহমদ মুসা বালকটির হাত ছেড়ে দিয়ে এক ধাপ পিছিয়ে সোজা হয়ে দাঁড়াল।</p>
+	<p class="block_13" lang="en">তীব্র গতিতে একটা গাড়ি রাস্তার ওপাশ দিয়ে সামনের দিকে ছুটে আসছিল। গাড়িটি ছোট মাইক্রো। দরজা খোলা। স্টেনগানের একটা নগ্ন ব্যারেল ঝিলিক দিয়ে উঠল আহমদ মুসার চোখে।</p>
+	<p class="block_13" lang="en">স্টেনগানের ব্যারেল ঝিলিক দেয়ার সাথে সাথেই আহমদ মুসার কাছে বিষয়টা পরিষ্কার হয়ে গেছে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা হাত বাড়িয়ে বালকটির জামার কলার ঠেনে ধরে পেছনে দিকে ছিটকে পড়ল। তার আগেই স্টেনগান গর্জন করে উঠেছে।</p>
+	<p class="block_13" lang="en">আর্তনাদ করে উঠেছে বালকটি। আহমদ মুসার বাম হাত প্রচন্ড শক্তির একটা ছোবলে কেপেঁ উঠছে।</p>
+	<p class="block_13" lang="en">ছিটকে পড়েই তাড়াতাড়ি উঠে বসল আহমদ মুসা। তাকাল সে বালকটির দিকে। কাতরাচ্ছে সে। দেখল বালকের বামপাশটা রক্তে ভেসে যাচ্ছে। নিজের হাতের যন্ত্রণাও সে অনুভব করতে পারছে। মনে হচ্ছে তার কনুয়ের একটু উপরে কিছুটা জায়গায় যেন ধারালো কিছু দিয়ে কেউ কেটে তুলে নিয়ে গেছে।</p>
+	<p class="block_13" lang="en">দৃষ্টি ফেরাল আহমদ মুসা গুলি বর্ষণকারী গাড়ির দিকে। মুহূর্তের জন্য সে দেখতে পেল গাড়িটাকে। উত্তর দিকে বাঁক নিয়ে গড়িটা চোখের আড়ালে চলে গেল।</p>
+	<p class="block_13" lang="en">বুঝল আহমদ মুসা বালক এবং সে দুজনই ওদের টার্গেট ছিল। তবে বালকটি ছিল প্রধান টার্গেট। তারা চায়নি বালকটি আহমদ মুসার হাতে পড়ুক।</p>
+	<p class="block_13" lang="en">বালকটি জ্ঞান হারায়নি। আহমদ মুসা তাকে পাঁজকালো করে তুলে নিয়ে সাত্বনা দিয়ে বলল, ‘আমি তোমাকে হাসপাতালে নিয়ে যাচ্ছি। তুমি ঠিক হয়ে যাবে। ভয় নেই তোমার।’</p>
+	<p class="block_13" lang="en">বালকটি আহমদ মুসার দিকে তাকাল। যন্ত্রণাকাতর কন্ঠে বলল, ‘আপনি কি পুলিশের লোক?’</p>
+	<p class="block_13" lang="en">‘না, আমি পুলিশ নই।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘ওরা আমাকে মারল কেন? কান্নায় সুরে বলল বালকটি।</p>
+	<p class="block_13" lang="en">‘ওরা কারা তুমি জান?’ জিজ্ঞাসা আহমদ মুসার। তার চোখে একটা আশার আলো।</p>
+	<p class="block_13" lang="en">‘ঐ গাড়ি আমি চিনি। ওদের গাড়ি ওটা।’ বালকটি বলল।</p>
+	<p class="block_13" lang="en">‘ওরা কারা?’ জিজ্ঞাসা আহমদ মুসার।</p>
+	<p class="block_13" lang="en">‘পরিচয় জানি না। ওদের একজনকে আমি চিনি। বাসায় গেছি।’ কথা বলতে বলতেই এগুচ্ছিল আহমদ মুসা। পেয়ে গেল একটা ট্যাক্সি।</p>
+	<p class="block_13" lang="en">বালককে নিয়ে ট্যাক্সিতে উঠে বলল, ‘ড্রাইভার প্লিজ কোন হাসপাতালে নিয়ে চলুন।’</p>
+	<p class="block_13" lang="en">ছুটতে লাগল ট্যাক্সি।</p>
+	<p class="block_13" lang="en">‘আমার তো ইনসিওরেন্স কার্ড নেই। হাসপাতালে দেখাবার টাকাও নেই।’ বালকটি দুর্বল কন্ঠে করুণ সুরে বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা মিষ্টি হাসল। বলল, ‘বলেছি না তোমার ভয় নেই, চিন্তা নেই। টাকা আমার কাছে আছে।’</p>
+	<p class="block_13" lang="en">বালকটি কিছু বলল না।</p>
+	<p class="block_13" lang="en">পরে বালকটি তার ডান হাত দিয়ে তার জ্যাকেটের বুক পকেট থেকে একটা মিনি ক্যাসেট বের করে আহমদ মুসার হাতে দিল। বলল, ‘এতে কি আছে? এখানে পড়েছিল কেন?’</p>
+	<p class="block_13" lang="en">‘এসব তুমি পরে শুনো। বেশি কথা বলা তোমার ঠিক নয়।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">বালকটি চুপ করল। কিন্তু একটু পর আবার বলে উঠল, ‘খাবার সময়ও বাড়ি না গেলে মা খুব ভাববে। আমার মাকে আপনি খবর দিতে পারবেন? মা ছাড়া আমার কেউ নেই।’</p>
+	<p class="block_13" lang="en">‘বাড়ির ঠিকানা আমাকে দিও। আমি আবশ্যই তোমার মাকে খবর জানাব। কি করেন তোমার মা?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘আমার মা পঙ্গু। হুইল চেয়ারে চলাফেরা করেন।’ বলল বালকটি।</p>
+	<p class="block_13" lang="en">একটা বেদনার ছায়া নামল আহমদ মুসার চোখে-মুখে। বলল, তোমাদের চলে কিভাবে?’</p>
+	<p class="block_13" lang="en">‘মা একটা ভাতা পান। কিন্তু সেটাও কমে গেছে। সব খরচ তাতে চলে না। আমাকেও কিছু আয় করতে হয়।’বালকটি বলল।</p>
+	<p class="block_13" lang="en">‘কি আয় কর তুমি? জিজ্ঞাসা আহমদ মুসার।</p>
+	<p class="block_13" lang="en">বালকটি আহমদ মুসার প্রশ্নের কোন জবাব দিল না। চোখ নামিয়ে চুপ করে থাকল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা বুঝল এই বয়সে তাকে এমন কালো পথে নামতে হয়েছে, যা সে বলতে পারবে না।</p>
+	<p class="block_13" lang="en">হঠাৎ আহমদ মুসার মনে একটা কথা ঝিলিক দিয়ে উঠল। ঐ ক্যাসেটটা ওখানে থাকার খবর আহমদ মুসার জানার অর্থ কি ওরা এটাই ধরবে না যে, লিসাই তাকে এ তথ্যটা জানিয়েছিল কিংবা লিসাই পেতেছিল এই ফাঁদটা! যদি এই অর্থ তারা ধরে তাহলে লিসা কি ওদের নতুন ক্রোধের শিকার................।</p>
+	<p class="block_13" lang="en">আহমদ মুসা চিন্তা শেষ করতে পারল না। ড্রাইভার বলে উঠল, স্যার হাসপপাতালে এসে গেছি।’</p>
+	<p class="block_13" lang="en">তার কথার সাথে সাথেই ট্যাক্সিটি দাঁড়িয়ে পড়ল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা দ্রুত ভাড়া চুকিয়ে বালকটিকে পাঁজকোলা করে নিয়ে নেমে পড়ল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা হুইল চেয়ার ঠেলে বালকটির মা মিসেস প্যাকারকে ড্রইংরুমে তুলে দিয়ে বলল, ‘মিসেস প্যাকার আমি এখন বিদায় নিতে চাই।’</p>
+	<p class="block_13" lang="en">মিসেস প্যাকার আহমদ মুসার দিকে পরিপূর্ণ দৃষ্টি তুলে তাকাল। বলল, ‘আপনি কে জানি না। আপনার নামও এখনও আমাকে বলেননি। যাই হোক আপনি একজন সৎ মানুষ। আমি আপনার কাছে কৃতজ্ঞ।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা পকেট থেকে কিছু ডলার তুলে নিয়ে মিসেস প্যাকারের হাতে গুজে দিয়ে বলল, ‘আপনার এক ভাইয়ের পক্ষ থেকে এই টাকা আপনি রাখুন। আপনার ছেলে প্যাকার জুনিয়রের সুস্থ হতে কয়েক সপ্তাহ লেগে যেতে পারে। আর ডাক্তারের সাথে আমি কথা বলেছি। আজই আপনার ছেলেকে বাড়িতে নিয়ে আসুন। এলাকার কম্যুনিটি স্বাস্থ্য কেন্দ্রের ডাক্তার ও নার্সকে বললেই তারা প্রতিদিন দেখে যাবে। কিছু পয়সা তার জন্য লাগবে। হাসপাতালে তাকে রাখা নিরাপদ নয়।</p>
+	<p class="block_13" lang="en">মিসেস প্যাকারের চোখ অশ্রুতে ভরে গেল। বলল, ‘আমি আমার ছেলের কাছ থেকেই সব শুনেছি। আজ দুবার তাকে আপনি মৃত্যুর অবস্থা থেকেই বাঁচিয়েছেন। হাসপাতালের বিল চুকিয়ে দিয়েছেন। আবার নিজেকে ভাই বলছেন এক অসহায় মহিলার। কোন আমেরিকানই এভাবে কারো ভাই হতে আসে না। বলবেন কি আপনি...............।’</p>
+	<p class="block_13" lang="en">মিসেস প্যাকারকে কথা শেষ করতে না দিয়েই বলে উঠল, ‘সুযোগ পেলে বলব একদিন সব। আমাকে এখনি যেতে হবে। তাড়া আছে।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা কথা শেষ করতেই তার মোবাইল বেজে উঠল।</p>
+	<p class="block_13" lang="en">মোবাইল হাতে নিয়ে তাকাল মোবাইল স্ক্রিনে ভেসে উঠা টেলিফোন নাম্বারের দিকে। অপরিচিত নাম্বার দেখে ভ্রু-কুঁচকে উঠল তার।</p>
+	<p class="block_13" lang="en">টেলিফোন রিসিভ করল আহমদ মুসা। ‘হ্যালো’ বলে সাড়া দিতেই ওপ্রান্ত থেকে একটা মেয়ে কন্ঠ বলে উঠল, ‘আমি নুমা। লিসাকে ওরা গুলী করে মেরে ফেলেছে।’ কান্নায় তার কন্ঠ রুদ্ধ হয়ে গেল।</p>
+	<p class="block_13" lang="en">নুমা মানে নুমা ইয়াহুদের টেলিফোন।</p>
+	<p class="block_13" lang="en">কথাটা শোনার সাথে সাথে আকস্মিক শক খাওয়ার প্রচন্ড এক যন্ত্রণা আহমদ মুসার গোটা দেহে ছড়িয়ে পড়ল। মুহূর্তের জন্য বাকরুদ্ধ হয়ে গেল যেন তার।</p>
+	<p class="block_13" lang="en">নিজেকে সামলে নিয়ে আহমদ মুসা বলল, ‘স্যরি। এমন আশংকার কথা আমি ভেবেছিলাম। কিন্তু তাকে সাবধান করার সময় পেলাম না। মোবাইলে তাকে পাইনি। ওঁর কাছেই যাচ্ছিলাম আমি। স্যরি।’</p>
+	<p class="block_13" lang="en">‘ক্যাসেটের খবর কি? ওদের হাতে পড়েনি তো?’ বলল নুমা ইয়াহুদ। কাঁপা কন্ঠে ঝরে পড়ছে সীমাহীন উদ্বেগ।</p>
+	<p class="block_13" lang="en">‘ভয় নেই। ক্যাসেটটি এখন আমার কাছে। এতেই ওরা ক্ষেপেছে। ওরা মনে করেছে, লিসাই সব জানিয়ে দিয়েছে ওদের শত্রু পক্ষকে।’ বলে মুহূর্তের জন্য থেমেই আবার বলা শুরু করল, ‘আমি লিসাদের ওখানে যাচ্ছি নুমা। বেচারার পরিবার খুব সংকটে পড়ল।’</p>
+	<p class="block_13" lang="en">সঙ্গে সঙ্গেই দ্রুত কন্ঠে বলে উঠল নুমা, ‘আমি লিসাদের ওখান থেকেই কথা বলছি। আমরা সবাই এখন লিসাদের বাড়িতে।’</p>
+	<p class="block_13" lang="en">‘নুমা আমি আসছি। বাই।’ বলে আহমদ মুসা টেলিফোন শেষ করতেই মিসেস প্যাকার বলল, ‘কিছু ঘটেছে? কোন দুঃসংবাদ?’ উদ্বিগ্ন কন্ঠ মিসেস প্যাকারের।</p>
+	<p class="block_13" lang="en">একই প্রশ্নের মুখোমুখি হয়ে দ্বিধায় পড়ে গেল আহমদ মুসা। শুনলে মিসেস প্যাকার ভয় পেয়ে যাবে। তার ছেলের ব্যাপারে আরও উদ্বিগ্ন হবে। কিন্তু পরে ভাবল, তাদের ভয় পাওয়ার দরকার। তাতেই বাস্তবতার ব্যাপারে তারা সাবধান হতে পারবে। এই চিন্তা করে আহমদ মুসা বলল, যারা আপনার ছেলেকে কাজে লাগিয়েছে, যারা আবার তাকে খুন করার চেষ্টা করেছে, তারা রাব্বানিক্যাল বিশ্ববিদ্যালয়ের প্রেসিডেন্টের পি.এ মিস লিসাকে খুন করেছে।’</p>
+	<p class="block_13" lang="en">‘কেন?’ উদ্বিগ প্রশ্ন মিসেস প্যাকারের।</p>
+	<p class="block_13" lang="en">‘লিসাকে ওরা জোর করে কাজে লাগিয়েছিল। লিসা তাদের তথ্য ফাঁস করে দিয়েছে বলে ওদের ধারণা।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">প্রবল এক ভয়ের অন্ধকার নতুন করে নেমে এল মিসেস প্যাকারের মুখে। বলল, ‘আসলে ঘটনা কি মিঃ আইজ্যাক দানিয়েল?’ ওরা কি চাচ্ছে, কি করছে?’</p>
+	<p class="block_13" lang="en">‘রাব্বানিক্যাল বিশ্ববিদ্যালয়ের ডঃ হাইকেল নিরুদ্দেশ হয়েছেন। তাকে কিডন্যাপ করা হয়েছে। তার ব্যাপারে যাতে কেউ কিছু জানতেই না পারে এজন্যই অজ্ঞাত পরিচয় ঐ লোকেরা এসব করছে।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">বিস্ময় ফুটে উঠল মিসেস প্যাকারের চোখে-মুখে। মুহূর্ত কয়েক চিন্তা করল। তারপর বলল, ‘ডঃ হাইম হাইকেলকে নিরুদ্দেশ বলা হচ্ছে কেন? আমি যতদূর জানি, তিনি একজন মানসিক রোগী হিসাবে কোন এক মানসিক হাসপাতালে আছেন।’</p>
+	<p class="block_13" lang="en">বিস্ময় ফুটে উঠল আহমদ মুসার চোখেও। বলল, ‘আপনি জানেন কিছু? কি করে জানেন?</p>
+	<p class="block_13" lang="en">‘আমার স্নায়ু সংক্রান্ত অসুখের জন্যে আমি কিছুদিন সাইক্রিয়াটিস্ট ডঃ নিউম্যান-এর প্যাসেন্ট ছিলাম। আমি দুদিন তাকে টেলিফোনে ডঃ হাইম হাইকেলের বিষয় আলোচনা করতে শুনেছি। দুদিনই আমি তার কাছেই বসা অবস্থায় তিনি টেলিফোন ধরেন। ঘরের একপ্রান্তে সরে কথা বললেও তার সব কথাই আমার কানে এসেছিল। প্রথম দিন তিনি যা বলেছিলেন তার সার কথা হলো, ‘আমি ভেবে দেখেছি, ডঃ হাইম হাইকেলকে মানসিক হাসপাতালে রাখাই নিরাপদ। আজীবনও রাখা যাবে। আমি একটা সার্টিফিকেট দেব, তবে ঐভাবে।’ দ্বিতীয় দিন তিনি যা বলেছিলেন তাহলো, হ্যাঁ ডঃ হাইম হাইকেলের পরিবার সবচেয়ে বড় সমস্যা। তবে অন্য সবদিক ঠিক থাকলে, হাইম হাইকেলের পরিবারও এক সময় বিষয়টাকে স্বাভাবিক হিসাবে মেনে নেবে। যে কোন মূল্যে তার পরিবারকে শান্ত রাখতে হবে।’</p>
+	<p class="block_13" lang="en">থামল একটু মিসেস প্যাকার। থেমেই আবার বলে উঠল, কথাগুলো থেকে তখন আমি যে অর্থ ধরেছিলাম, তাহলো ‘ডঃ হাইম হাইকেল অসুস্থ। তাকে মানসিক হাসপাতালেই রাখা হচ্ছে। তিনি ডঃ নিউম্যানের প্যসেন্ট। ডঃ হাইম হাইকেলের এই অবস্থায় তার পরিবার নিয়ে তারা সমস্যায় পড়েছেন।’</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ মিসেস প্যাকার। আপনি গুরুত্বপূর্ণ তথ্য দিয়েছেন। দয়া করে কি ডাঃ নিউম্যানের ঠিকানা দিতে পারেন?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">ডাঃ নিউম্যানের ঠিকানাটা আহমদ মুসাকে দিতে দিতে বলল, ‘আপনাকে অসংখ্য ধন্যবাদ। আমি বুঝতে পারছি আমার ছেলের সম্পর্কে আমাকে আরও সাবধান হতে হবে।’</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ ম্যাডাম, আপনাকে অসংখ্য ধন্যবাদ। আবার দেখা হবে। বাই।’ বলে আহমদ মুসা ঘুরে দাঁড়িয়ে দ্রুত দরজার দিকে পা বাড়াল।</p>
+	<p class="block_13" lang="en">আহমদ মুসার ট্যাক্সি ছুটছে ডাঃ নিউম্যানের বাড়ির দিকে। ডাঃ নিউম্যানের সন্ধান পেয়ে আহমদ মুসা দারুন খুশি। প্রথমে সে ডাঃ নিউম্যানের কথা শুনেছিল ডঃ আয়াজ ইয়াহুদের কাছে। কিন্তু ডাঃ নিউম্যানের ঠিকানাসহ গুরুত্বপূর্ণ তথ্য দিয়েছে মিসেস প্যাকার।</p>
+	<p class="block_13" lang="en">লিসার ওখানে গিয়ে আহমদ মুসা খুব বেশি দেরি করেনি। ওখানে তার যাওয়া ছিল লিসার বাবা-মাকে সমাবেদনা জানানো, তাদের আর্থিক অবস্থা সর্ম্পকে জানা এবং লিসার মোবাইল পরীক্ষা করা। কিন্তু গিয়ে শোনে যে, খুনিরা লিসাকে খুন করে তার মোবাইল নিয়ে গেছে। আহমদ মুসা দেখল, লিসার আব্বা-আম্মা সহজ সরল খুবই ভালো মানুষ। কিন্তু তাদের চোখে-মুখে মহাবিপর্যয়ের ছাপ। আহমদ মুসা ডঃ আয়াজ ইয়াহুদকে জিজ্ঞাসা করেছিল, লিসার পরিবার তো তার উপর নির্ভরশীল ছিল। এখন চলবে কি করে ওদের।</p>
+	<p class="block_13" lang="en">আহমদ মুসার প্রশ্ন শুনে পিতার পাশে দাঁড়ানো বিস্মিত নুমা ইয়াহুদ প্রশ্ন করেছিল আহমদ মুসাকে, ‘এ প্রশ্ন আপনার মাথায় এল কি করে? আপনি তো কোনভাবেই লিসার পরিবারের সাথে সংশ্লিষ্ট নন?’ আহমদ মুসা বলেছিল, লিসা নিহত হয়েছে আমাকে সাহায্যে করতে গিয়েই। আমি আপরাধবোধ করছি এই অসহায় পরিবারের কাছে।’</p>
+	<p class="block_13" lang="en">‘এখন কি করতে চান?’ জিজ্ঞাসা করল নুমা ইয়াহুদ। তার ঠোঁটে মুখ টেপা হাসি।</p>
+	<p class="block_13" lang="en">‘যতটা সম্ভব আমি পরিবারটির ক্ষতিপূরণ করতে চাই।’ বলে আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘সত্যি আপনি প্রয়োজনের চেয়েও ভালো মানুষ। লিসা তো আপনাকে সাহায্য করতে যেয়ে খুন হয়নি। খুন হয়েছে আমাদেরকে সাহায্য করতে গিয়ে।’ বলেছিল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘কেমন করে?’ আহমদ মুসা বলেছিল।</p>
+	<p class="block_13" lang="en">‘প্রকৃতপক্ষে লিসা সাহায্য করেছিল ডঃ হাইম হাইকেল আংকেলকে, আপনাকে নয়। সুতরাং লিসার দায়িত্বটা আমাদের।’ বলেছিল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">নুমার কথা শেষ হতেই ডঃ আয়াজ ইয়াহুদ বলে উঠেছিল, ‘হ্যাঁ মিঃ আইজ্যাক দানিয়েল, আমরাই ইতিমধ্যে সিদ্ধান্ত নিয়েছি, বিশ্ববিদ্যালয়ের ওয়েলফেয়ার ফান্ড থেকে লিসার নামে একটা পেনশন তার পরিবারকে দেব।’</p>
+	<p class="block_13" lang="en">ধন্যবাদ জানিয়েছিল আহমদ মুসা ডঃ আয়াজ ইয়াহুদকে। তারপর আহমদ মুসা ক্যাসেটকে কেন্দ্র করে বালক জুনিয়র প্যাকারের দুর্ঘটনার কথা তাদের জানিয়েছিল। কাহিনীটা শুনে নুমা ইয়াহুদ বলেছিল, ‘আপনিও নিশ্চয় আহত। আপনার বাম বাহুটাকে আজ শুরু থেকেই একটু বাঁকা অবস্থায় দেখছি কোটের হাতার আড়াল সত্ত্বেও।’</p>
+	<p class="block_13" lang="en">‘ও কিছু না, সামান্য।’ বলেছিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘গুলীর আঘাত?’ উদ্বিগ কন্ঠে প্রশ্ন করেছিল মিসেস ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘জি, হ্যাঁ।’ বলেছিল আহমদ মুসা। তারপরই সে তার ডান হাত বাড়িয়ে দিয়েছিল ডঃ আয়াজ ইয়াহুদের দিকে হ্যান্ডশেকের জন্য। বলেছিল, ‘স্যার বিদায় দিন, জরুরি একটা কাজ আছে।’</p>
+	<p class="block_13" lang="en">‘কি কাজ?’ হ্যান্ডশেক করতে করতে জিজ্ঞেস করে ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘স্যার আপনার কাছে ডাঃ নিউম্যান এর নাম শুনেছিলাম। আর ঠিকানা পেয়েছি মিসেস প্যাকারের কাছে। তার দেয়া তথ্য অনুসারে ডাঃ নিউম্যান জানেন ডঃ হাইম হাইকেল কোথায় আছেন। আমি এখন তার সন্ধানে যাব।’ বলেছিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘এই আহত অবস্থায়?’ বিস্মিত কন্ঠে প্রশ্ন করেছিল নুমা ইয়াহুদ।</p>
+	<p class="block_13" lang="en">নুমার কথা শেষ হতেই ডঃ আয়াজ ইয়াহুদও বলেছিল, ‘তুমি জান ওরা কত বেপরোয়া, ভয়াবহ। লিসা, জুনিয়র প্যাকার এবং তার আগে ডঃ জ্যাকবের দৃষ্টান্ত তোমার সামনেই আছে। আহত অবস্থা নিয়ে তোমার ঐ ধরনের কাজে যাওয়া ঠিক নয়।’</p>
+	<p class="block_13" lang="en">‘আপনাদের এই শুভেচ্ছার জন্য ধন্যবাদ স্যার। কিন্তু ওরা যতটা বেপরোয়া, তার চেয়ে বেশি বেপরোয়া হতে না পারলে ওদের সাথে পারা যাবেনা। ওদের কোন সময় দেয়া যাবে না। ক্যাসেট উদ্ধারের সঙ্গে সঙ্গেই যদি আমি লিসার সাথে যোগাযোগ করতে পারতাম, তাহলে এই দুর্ঘটনা রোধ করা যেতেও পারতো।’ বলেছিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘কিন্তু তুমি একা ওদের সাথে লড়াই করবে কি করে? পুলিশের উপরের অবস্থা কি আমি জানি না। কিন্তু পুলিশের নিচের লোকেরা ওদের কেনা।’ বলেছিল আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘এই অবস্থার মধ্যেই কাউকে না কাউকে এগুতে হবে স্যার, পথ তো বের করতে হবে।’</p>
+	<p class="block_13" lang="en">কথা শেষ করেই ‘বাই টু অল’ বলে ঘুরে দাঁড়াতে যাচ্ছিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">চোখ ভরা একরাশ বিস্ময় নিয়ে ভাবছিল নুমা ইয়াহুদ। আহমদ মুসা ঘুরে দাঁড়াতে গেলে সে বলে উঠল, ‘মিঃ আইজ্যাক দানিয়েল, আপনি কি শুধুই একজন আইজ্যাক দানিয়েল? শুধুই কি একজন শুভকাঙ্ক্ষী ডঃ হাইম হাইকেল আংকেলের? আমরাও তো তার শুভাকাঙ্ক্ষী। কিন্তু আমরা কেউইতো এই দায়িত্ব নিচ্ছি না। আসলে কে আপনি? কেন্দ্রীয় কোন গোয়েন্দা সংস্থার লোক আপনি নন, কারণ আপনি বিদেশী। তাহলে কে আপনি?’</p>
+	<p class="block_13" lang="en">ঘুরে দাঁড়িয়েছিল আহমদ মুসা। কিন্তু সঙ্গে সঙ্গেই কিছু বলল না সে। গম্ভীর হয়ে উঠেছিল তার মুখ। একটু ভেবে বলল, ‘নুমা তুমি যা বলেছ তার সবই সত্য। আমি আইজ্যাক দানিয়েল নই। দুঃখিত আমি, এ মুহূর্তে আমি কে তা বলব না। আমি ভয় করি, পরিচয় কাজের পথে বাধা হতে পারে।’</p>
+	<p class="block_13" lang="en">নুমার বিস্মিত চোখে জেগে উঠে হাজারও প্রশ্ন।</p>
+	<p class="block_13" lang="en">বিস্ময়-বিমুগ্ধ চোখ ডঃ আয়াজ ইয়াহুদের। এক ধাপ এগিয়ে একেবারে মুখোমুখি দাঁড়াল আহমদ মুসার। বলল, ‘আমরা আর তোমার পরিচয় জিজ্ঞাসা করব না। আমি এরাবিয়ান ক্লাসিক্যাল স্টোরিতে হাতেম তাই-এর কাহিনী পড়েছি। তুমি আরেক হাতেম-তাই। তুমি ডঃ হাইম হাইকেলের শুভকাঙ্ক্ষী বলেছ, সেটা ঠিক নয়। তুমি তাকে চিনই না। ঠিক কিনা?’</p>
+	<p class="block_13" lang="en">‘জি, হ্যাঁ।’ বলেছিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘তাহলে তুমি কার জন্য কাজ করছ? ডঃ হাইম হাইকেলের জন্য তো অবশ্যই নয়। হাতেম তাই একজন প্রেমিক শাহজাদার স্বার্থে একজন পরিজাদীকে শাপমুক্ত করার জন্য কাজ করেছিল। তোমার লক্ষ্য কি?’ বলেছিল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">হেসেছিল আহমদ মুসা। বলেছিল, ‘আমি কোন পরিজাদীকে নয়, এক পরম সত্যকে চরম মিথ্যার অবগুণ্ঠন থেকে মুক্ত করতে চাই।’</p>
+	<p class="block_13" lang="en">‘সেই সত্যটা বা মিথ্যাটা কি তুমি অবশ্যই বলবে না, কিন্তু সেই সত্য বা মিথ্যার সাথে ডঃ হাইম হাইকেলের সর্ম্পক কি?’ অপার বিস্ময় নিয়ে জিজ্ঞাসা করেছিল ডঃ আয়াজ ইয়াহুদ।</p>
+	<p class="block_13" lang="en">‘সেই সত্যের জগতে প্রবেশের তিনিই আমার কাছে এখন একমাত্র সিংহদ্বার। বলেছিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">ভ্রুকুঁচকাল ডঃ আয়াজ ইয়াহুদ। অবাক বিস্ময়ে স্থির হয়ে গেছে নুমা ইয়াহুদের দুচোখ।</p>
+	<p class="block_13" lang="en">কথা যেন হারিয়ে গেছে ডঃ আয়াজ ইয়াহুদের মুখ থেকে। সে বুঝতে পারছে ডঃ হাইম হাইকেল তাহলে এমন তথ্য জানে যা মিথ্যার অবগুণ্ঠন উন্মোচন করে দেবে। যুবকটি এই তথ্যের জন্যেই তাহলে ডঃ হাইম হাইকেলকে খুঁজছে। কিন্তু কি এমন তথ্য ওটা। হঠাৎ তার মনে হল ডঃ হাইম হাইকেলের জীবনের যে পরিবর্তন তার সাথে এই সত্য বা মিথ্যার কি যোগ আছে? অবশেষে এই প্রশ্নই করল আহমদ মুসাকে, ‘বৎস, তুমি আমার ছাত্রের মতো, ছেলের মতো। বলত, ডঃ হাইম হাইকেলের জীবনের অস্বাভাবিক পরিবর্তনের সাথে তোমার কথিত ঐ সত্য বা মিথ্যার কোন সর্ম্পক আছে কি?’</p>
+	<p class="block_13" lang="en">‘এই প্রশ্নের উত্তর দেয়ায় কোন অসুবিধা নেই। কিন্তু দুঃখিত, আমি বিষয়টা সত্যই জানি না।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা থামতেই নুমা ইয়াহুদ বলে উঠল, ‘সেই সত্যটা আপনি না বলুন, কিন্তু সেই সত্যের সাথে আপনার সর্ম্পক কি? না হাতেম তাই-এর মত নিছকই জনসেবা এটা?’</p>
+	<p class="block_13" lang="en">হাসল আহমদ মুসা। বলল, ‘নুমা জনসেবা আসলে আত্নসেবাই। কারণ জনের উপকার নিজেরও উপকার আসে। উপকারের রূপ এক নয়, বহু।’</p>
+	<p class="block_13" lang="en">কথা শেষ করেই আহমদ মুসা ‘বাই’ বলে ঘুরে দাঁড়িয়েছিলেন।</p>
+	<p class="block_13" lang="en">চলতে শুরু করল।</p>
+	<p class="block_13" lang="en">পেছন থেকে নুমা বলেছিল, ‘মিঃ.................. সেই জনের মধ্যে কিন্তু ‘নুমা’ও একজন, তার পিতা আছেন এবং মাতাও। সুতরাং.............।’</p>
+	<p class="block_13" lang="en">‘সুতরা আমার কাজ আপনাদেরই কাজ।’ মুখ না ঘুরিয়ে চলতে চলতেই বলেছিল আহমদ মুসা। নুমার মুখের কথা কেড়ে নিয়ে।</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ।’ বলে নুমা অনেকটা স্বগতোক্তির মত।</p>
+	<p class="block_13" lang="en">আহমদ মুসার কানে কথাটা পৌঁছায় না।</p>
+	<p class="block_13" lang="en">হাঁটা দ্রুত করেছিল আহমদ মুসা। পেছন ফিরে আর তাকায়নি সে। ডাঃ নিউম্যানের চিন্তা তখন আহমদ মুসার মাথা জুড়ে।</p>
+	<p class="block_13" lang="en">ডাঃ নিউম্যানের বাসা ‘ইস্ট রিভারে’র পশ্চিম তীরে বিখ্যাত রুজভেল্ট ড্রাইভ-এর একটু পশ্চিমে নিউইয়র্ক হসপিটাল ও কর্নেল মেডিকেল সেন্টারের মাঝখানে। আহমদ মুসা কার্ল সুজ পার্কের মুখে রুজভেল্ট ড্রাইভে উঠে দক্ষিণে ছুটে চলল।</p>
+	<p class="block_13" lang="en">দুহাত আহমদ মুসার স্টিয়ারিং হুইলে। দৃষ্টি তীরের মত সোজা রাস্তার উপর প্রসারিত। ভাবছে আহমদ মুসা। নিউইয়র্ক এসে এ পর্যন্ত যা পেয়েছে তা কম নয়। কিন্তু ডঃ হাইম হাইকেলের সন্ধান এখনো পায়নি। কিন্তু তিনি কোথায় থাকতে পারেন তা জানা গেছে। প্রতিপক্ষের মুখোমুখি হবারও সুযোগ হয়েছে। ডঃ হাইম হাইকেলের বাড়ির ঠিকানা পাওয়া গেছে। এখন ডঃ নিউম্যানের সহযোগিতায় আরও কিছুটা এগুনো যাবে।</p>
+	<p class="block_13" lang="en">আহমদ মুসার গাড়ি নিউইয়র্ক হাসপাতাল বরাবর এসে পশ্চিম দিকে মোড় নিয়ে নিউইয়র্ক হাসপাতাল ও কর্নেল মেডিকেল সেন্টারের মাঝের স্ট্রিট ধরে এগিয়ে চলল।</p>
+	<p class="block_13" lang="en">ডাঃ নিউম্যানের বাড়ি খুঁজে পেতে বেশি বেগ পেতে হলো না আহমদ মুসার। স্ট্রিট থেকে একটা ছোট বাইলেনের মাথা জুড়ে বাড়িটা।</p>
+	<p class="block_13" lang="en">গাড়ি বারান্দায় গাড়ি পার্ক করেই গাড়ি থেকে নামল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">গাড়ি বারান্দা থেকে তিন ধাপের একটা সিঁড়ি পেরোলেই একটা বড় বারান্দা। বারান্দায় উঠলেই সিঁড়ির সোজা সামনে বড় দরজার একটা গেট। দরজার এক পাশে কলিং বক্স। সুইচ টিপল কলিং বক্সের।</p>
+	<p class="block_14" lang="en" id="calibre_pb_59">&#160;</p>
+
+            </article>
+        </div>
+
+    </div>
+
+    <div class="settings-overlay" id="settingsOverlay" data-id="settingsOverlay" aria-hidden="true"></div>
+    <div class="settings-modal" id="settingsModal" data-id="settingsModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="settingsModalTitle">
+        <div class="settings-header">
+            <h2 class="settings-header-title" id="settingsModalTitle">
+                <i class="fas fa-cog" aria-hidden="true"></i>
+                <span data-i18n="reader.settings">Settings</span>
+            </h2>
+            <button class="settings-close-btn" id="settingsCloseBtn" type="button" aria-label="Close settings" data-i18n-aria-label="reader.closeSettings">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="settings-tabs">
+            <button class="settings-tab active" data-tab="font">
+                <i class="fas fa-font"></i>
+                <span data-i18n="settings.appearance">Appearance</span>
+            </button>
+            <button class="settings-tab" data-tab="reading">
+                <i class="fas fa-book-reader"></i>
+                <span data-i18n="settings.reading">Reading</span>
+            </button>
+        </div>
+        <div class="settings-content">
+            <div class="settings-tab-panel active" id="font-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.fontFamily">Font family</label>
+        <div class="font-family-selector">
+            <select id="fontFamilySelect">
+                <option value="ebook-default" selected data-i18n="settings.bookDefault">Book default</option>
+                <option value="system-ui, -apple-system, sans-serif" data-i18n="settings.systemDefault">System default</option>
+                <option value="custom" data-i18n="settings.customByInput">Custom by input</option>
+            </select>
+        </div>
+        <div class="custom-font-input" id="customFontInput" style="display: none;">
+            <input type="text" id="customFontFamily" placeholder="Input font name here" data-i18n-placeholder="settings.customFontPlaceholder">
+            <small data-i18n="settings.customFontTip">Tip: Font family applies globally. Ensure it’s installed in the system.</small>
+            <button class="css-btn primary" id="applyFontSettings">
+                <i class="fas fa-check"></i> <span data-i18n="settings.apply">Apply</span>
+            </button>
+        </div>
+                </div>
+                
+                <div class="settings-group">
+                    <label class="settings-label" for="fontSizeSlider" data-i18n="settings.fontSize">Font size</label>
+                    <div class="font-size-control">
+                        <input type="range" id="fontSizeSlider" min="1" max="12" value="3" step="1" data-sizes-rem="0.9,1.1,1.3,1.5,1.7,1.9,2.2,2.5,2.8,3.2,3.6,4">
+                        <div class="font-size-scale" aria-hidden="true"><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark major"></span></div>
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <div class="settings-label-row">
+                        <label class="settings-label" for="pageWidthSlider" data-i18n="settings.pageWidth">Page width</label>
+                        
+                    </div>
+                    <div class="page-width-control">
+                        <input type="range" id="pageWidthSlider" min="1" max="4" value="3" step="1" aria-label="Page width" data-i18n-aria-label="settings.pageWidth">
+                        <div class="page-width-scale" aria-hidden="true">
+                            
+                            <span data-i18n="settings.pageWidthNarrow">Narrow</span>
+                            <span data-i18n="settings.pageWidthComfortable">Comfortable</span>
+                            <span data-i18n="settings.pageWidthWide">Wide</span>
+                            <span data-i18n="settings.pageWidthExtraWide">Extra wide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-group settings-group-custom-css">
+                    <div class="settings-section-heading">
+                        <span class="settings-section-title" data-i18n="settings.customStyles">Custom styles</span>
+                        <span class="settings-section-optional" data-i18n="settings.optional">Optional</span>
+                    </div>
+                    <p class="settings-section-description" data-i18n="settings.customStylesDescription">Use CSS to fine-tune this book’s typography and layout.</p>
+                    <div class="css-editor">
+                        <textarea id="customCssInput" placeholder="Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}" data-i18n-placeholder="settings.customCssPlaceholder"></textarea>
+                        <div class="css-controls">
+                            <button class="css-btn primary" id="saveCssBtn">
+                                <i class="fas fa-save"></i> <span data-i18n="settings.save">Save</span>
+                            </button>
+                            <button class="css-btn primary" id="saveAsDefaultBtn">
+                                <i class="fas fa-star"></i> <span data-i18n="settings.saveAsDefault">Save as default</span>
+                            </button>
+                            <button class="css-btn secondary" id="resetCssBtn">
+                                <i class="fas fa-undo"></i> <span data-i18n="settings.reset">Reset</span>
+                            </button>
+                            <button class="css-btn secondary" id="loadDefaultBtn">
+                                <i class="fas fa-download"></i> <span data-i18n="settings.loadDefault">Load default</span>
+                            </button>
+                            <button class="css-btn secondary" id="previewCssBtn">
+                                <i class="fas fa-eye"></i> <span data-i18n="settings.preview">Preview</span>
+                            </button>
+                        </div>
+                        <div class="css-info">
+                            <p><i class="fas fa-info-circle"></i> <span data-i18n="settings.defaultStyleTip">Tip: The default style will be applied to all books unless a custom style is set for specific books.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-tab-panel" id="reading-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.readingMode">Reading mode</label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="showReadingProgressBarToggle" checked>
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.showReadingProgressBar">Show reading progress bar</span>
+                    </label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="paginationModeToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.paginationMode">Use page-turning mode</span>
+                    </label>
+                    <div class="settings-option-with-tip">
+                        <label class="settings-switch">
+                            <input type="checkbox" id="clickPageToggle" disabled aria-disabled="true">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="reader.clickToTurn">Click to turn page</span>
+                        </label>
+                        <button type="button" class="settings-info-tip" data-settings-tip data-tip="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-data-tip="settings.clickPageHelp" aria-label="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-aria-label="settings.clickPageHelp">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <label class="settings-switch pagination-incompatible-setting">
+                        <input type="checkbox" id="continuousScrollToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.continuousScroll">Enable continuous scroll</span>
+                        <span class="continuous-scroll-tip" id="continuousScrollTip" tabindex="0" data-settings-tip data-tip="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-data-tip="settings.continuousScrollTip" aria-label="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-aria-label="settings.continuousScrollTip">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </span>
+                    </label>
+                </div>
+                <fieldset class="settings-group desktop-layout-settings">
+                    <legend class="settings-section-title" data-i18n="settings.desktopLayout">Desktop layout</legend>
+                    <div class="desktop-layout-options">
+                        <label class="settings-switch desktop-layout-option desktop-setting-only">
+                            <input type="checkbox" id="desktopChapterSidebarToggle">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.desktopChapterSidebar">Show chapter sidebar</span>
+                        </label>
+                        <div class="desktop-layout-option settings-option-with-tip desktop-setting-only">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopChapterSidebarToggle" disabled aria-disabled="true">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopChapterSidebar">Auto-hide chapter sidebar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-data-tip="settings.autoHideDesktopChapterSidebarHelp" aria-label="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-aria-label="settings.autoHideDesktopChapterSidebarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="desktop-layout-option settings-option-with-tip">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopToolbarToggle">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopToolbar">Auto-hide reading toolbar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-data-tip="settings.autoHideDesktopToolbarHelp" aria-label="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-aria-label="settings.autoHideDesktopToolbarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group keyboard-navigation-settings">
+                    <legend class="settings-section-title" data-i18n="settings.keyboardNavigation">Keyboard navigation</legend>
+                    <div class="keyboard-navigation-options">
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="arrowKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.arrowKeyNavigation">Use Left and Right Arrow keys to navigate</span>
+                        </label>
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="spaceKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.spaceKeyNavigation">Use Space for the next page or chapter</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group navigation-behavior-settings pagination-incompatible-setting" aria-describedby="navigationBehaviorHelp">
+                    <legend class="settings-section-title" data-i18n="settings.navigationBehavior">Navigation bar behavior</legend>
+                    <p class="settings-section-description" id="navigationBehaviorHelp" data-i18n="settings.navigationBehaviorHelp">Choose when the top navigation stays visible while you read.</p>
+                    <div class="navigation-behavior-options">
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="normal" checked><span data-i18n="settings.navigationBehavior.normal">Normal scroll</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="sticky"><span data-i18n="settings.navigationBehavior.sticky">Always sticky</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="auto-hide"><span data-i18n="settings.navigationBehavior.autoHide">Hide down, show up</span></label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <div class="reading-controls" data-id="reading-controls">
+        <button class="control-btn" id="scrollToTopBtn" type="button" aria-label="Top" data-i18n-aria-label="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span class="control-name" data-i18n="reader.top">Top</span>
+        </button>
+        <a class="control-btn" id="bookHomeShortcut" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome" title="Open book home" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span class="control-name" data-i18n="reader.openBookHome">Book home</span>
+        </a>
+    </div>
+
+    <!-- 移动端控件 -->
+    <div class="mobile-controls" data-id="mobile-controls">
+        <button class="control-btn" id="mobileTocBtn" type="button" aria-label="This chapter contents" title="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" data-i18n-title="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false">
+            <i class="fas fa-list"></i>
+            <span data-i18n="reader.thisChapterContents">This chapter</span>
+        </button>
+        <button class="control-btn" id="mobileBookHomeBtn" type="button" aria-label="Open book chapters" title="Open book chapters" data-i18n-aria-label="reader.openBookChapters" data-i18n-title="reader.openBookChapters">
+            <i class="fas fa-book"></i>
+            <span data-i18n="reader.bookChapters">Chapters</span>
+        </button>
+        
+        
+        
+        
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_312.html" aria-label="Previous chapter" title="Previous chapter" data-i18n-aria-label="reader.previous" data-i18n-title="reader.previous"> <div class="control-btn" aria-label="Previous chapter" data-i18n-aria-label="reader.previous"> <i class="fas fa-arrow-left"></i><span data-i18n="reader.previous">Previous chapter</span></div></a>
+        <a href="/" aria-label="Home" title="Home" data-i18n-aria-label="reader.home" data-i18n-title="reader.home">
+            <div class="control-btn" aria-label="Home" data-i18n-aria-label="reader.home">
+                <i class="fas fa-home"></i>
+                <span data-i18n="reader.home">Home</span>
+            </div>
+        </a>
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_314.html" aria-label="Next chapter" title="Next chapter" data-i18n-aria-label="reader.next" data-i18n-title="reader.next"> <div class="control-btn" aria-label="Next chapter" data-i18n-aria-label="reader.next"> <i class="fas fa-arrow-right"></i><span data-i18n="reader.next">Next chapter</span></div></a>
+        <button class="control-btn" id="mobilePageJumpBtn" type="button" aria-label="Jump" title="Jump" data-i18n-aria-label="reader.jump" data-i18n-title="reader.jump">
+            <i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i>
+            <span data-i18n="reader.jump">Jump</span>
+        </button>
+        <button class="control-btn" id="mobileSettingsBtn" type="button" aria-label="Settings" title="Settings" data-i18n-aria-label="reader.settings" data-i18n-title="reader.settings" aria-controls="settingsModal" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+            <span data-i18n="reader.settings">Settings</span>
+        </button>
+        <a class="control-btn" id="mobileBookHomeShortcut" href="index.html" aria-label="Open book home" title="Open book home" data-i18n-aria-label="reader.openBookHome" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span data-i18n="reader.openBookHome">Book home</span>
+        </a>
+        <button class="control-btn" id="mobileTopBtn" type="button" aria-label="Top" title="Top" data-i18n-aria-label="reader.top" data-i18n-title="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span data-i18n="reader.top">Top</span>
+        </button>
+    </div>
+
+    <!-- 书架弹窗 -->
+    <div class="bookshelf-modal" id="bookshelfModal" role="dialog" aria-modal="true" aria-labelledby="bookshelfModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addShelfGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addShelfBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    
+                    <button class="bookshelf-action-btn" id="exportShelfBtn">
+                        <i class="fas fa-upload" aria-hidden="true"></i> <span data-i18n="bookshelf.export">Export</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="importShelfBtn">
+                        <i class="fas fa-download" aria-hidden="true"></i> <span data-i18n="bookshelf.import">Import</span>
+                    </button>
+                    <input type="file" id="importShelfFile" accept=".json" style="display: none;">
+                </div>
+                <h2 class="bookshelf-title" id="bookshelfModalTitle"><i class="fas fa-home" aria-hidden="true"></i> <span data-i18n="bookshelf.title">Bookshelf</span></h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="bookshelfCloseBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="bookshelfLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="bookshelfBody">
+            </div>
+            <div class="bookshelf-footer" id="bookshelfFooter">
+                <span id="bookshelfStats"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分组弹窗 -->
+    <div class="bookshelf-modal" id="groupModal" role="dialog" aria-modal="true" aria-labelledby="groupModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addGroupSubGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addGroupBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="renameGroupBtn">
+                        <i class="fas fa-edit" aria-hidden="true"></i> <span data-i18n="bookshelf.rename">Rename</span>
+                    </button>
+                    <button class="bookshelf-action-btn bookshelf-delete-btn" id="deleteGroupBtn">
+                        <i class="fas fa-trash" aria-hidden="true"></i> <span data-i18n="bookshelf.deleteGroup">Delete Group</span>
+                    </button>
+                </div>
+                <h2 class="bookshelf-title" id="groupModalTitle" data-i18n="bookshelf.group">Group</h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="groupCloseBtn" aria-label="Back to bookshelf" data-i18n-aria-label="bookshelf.home">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button class="bookshelf-close-btn" id="groupCloseAllBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="groupLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="groupBody">
+            </div>
+            <div class="bookshelf-footer" id="groupFooter">
+                <span id="groupStats"></span>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="eb-footer" data-id="eb-footer" data-version-check data-current-version="2.17.1" data-release-api="">
+    <p><span data-i18n="footer.product">EPUB Library</span> &copy; 2026 | <span data-i18n="footer.poweredBy">Powered by</span> <a href="https://github.com/dfface/epub-browser" target="_blank" rel="noopener noreferrer">epub-browser</a><!-- i18n-allow-literal: product name --> <span data-i18n="footer.poweredBySuffix">&middot;</span> <span class="eb-footer-version" aria-label="Version 2.17.1" data-i18n-aria-label="common.version" data-i18n-params='{"version":"2.17.1"}'>v2.17.1</span><span class="eb-footer-update" data-version-update hidden><span aria-hidden="true"> &middot; </span><a target="_blank" rel="noopener noreferrer"></a></span></p>
+</footer>
+
+    
+    <script src="/assets/immutable/notification.ea0bd58fa985.js" defer></script>
+    
+    <script src="/assets/immutable/locale-nav.1dfbcbe0b37e.js" defer></script>
+    <script src="/assets/immutable/theme.fca510090d70.js" defer></script>
+    <script src="/assets/immutable/dialog.a3f376ac6a44.js" defer></script>
+    <script src="/assets/immutable/version-check.47351de03846.js" defer></script>
+    <script src="/assets/immutable/vendor/glightbox/glightbox.min.c67c59cdf980.js" defer></script>
+    <script src="/assets/immutable/lightbox-adapter.9c8cb9207923.js" defer></script>
+    <script src="/assets/immutable/vendor/web-highlighter/web-highlighter.min.7360ce01d835.js" defer></script>
+    <script src="/assets/immutable/chapter-prefetch.8dc88587bd93.js" defer></script>
+    <script src="/assets/immutable/chapter-window.8d2c13e8f216.js" defer></script>
+    <script src="/assets/immutable/viewport-anchor.021abaa5aa16.js" defer></script>
+    <script src="/assets/immutable/continuous-buffer.27eaf6de1887.js" defer></script>
+    <script src="/assets/immutable/reading-progress.653eacfc5c3b.js" defer></script>
+    <script src="/assets/immutable/reader-layout.c935b79be9f3.js" defer></script>
+    
+    
+    <script src="/assets/immutable/chapter.d142eca8903e.js" defer></script>
+    <script src="/assets/immutable/annotation-position.df7b410bbafb.js" defer></script>
+    <script src="/assets/immutable/annotation.b20d5ca76780.js" defer></script>
+    <script src="/assets/immutable/annotation-hub.ad5eeecee8bd.js" defer></script>
+    <script src="/assets/immutable/vendor/sortablejs/sortable.min.6d0a831fc19b.js" defer></script>
+    
+    
+    <script src="/assets/immutable/bookshelf.b75fb5bdddd2.js" defer></script>
+    
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.initScriptChapter) window.initScriptChapter();
+    });
+    </script>
+</body>
+</html>

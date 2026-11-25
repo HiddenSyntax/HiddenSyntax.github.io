@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244548">
+    <meta name="description" content="দুই - সাইমুম সিরিজ - EPUB Browser">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EPUB Browser">
+    <title>দুই - সাইমুম সিরিজ</title>
+    
+    <script>document.documentElement.classList.add("i18n-boot");setTimeout(function(){document.documentElement.classList.remove("i18n-boot");},3000);</script><script src="/assets/immutable/i18n/i18n-core.978da4e85125.js"></script><script>window.EpubBrowserI18n.registerDictionary("en",{"common.brand":"EPUB Browser","common.language":"Language","common.chinese":"Chinese","common.english":"English","locale.name.en":"English","locale.name.zh-CN":"简体中文","locale.name.zh-TW":"繁體中文","locale.name.ko":"한국어","locale.name.ja":"日本語","common.version":"Version {version}","theme.light":"Light","theme.dark":"Dark","theme.sepia":"Sepia","theme.forest":"Forest","theme.ocean":"Ocean","theme.peach":"Peach","theme.lavender":"Lavender","theme.day":"Day theme","theme.night":"Night theme","theme.automatic":"Automatically switch between day and night themes based on the device","theme.automaticHelp":"Automatic switching hides the toolbar theme button. Choose your day and night themes here.","theme.invalid":"Invalid appearance settings.","theme.saveFailed":"Unable to save appearance settings.","reader.library":"Library","reader.breadcrumb":"Breadcrumb","reader.navigation":"Reading navigation","reader.theme":"Theme","reader.turning":"Turning","reader.scrolling":"Scrolling","reader.book":"Book","reader.home":"Home","reader.top":"Top","reader.settings":"Settings","reader.shelf":"Shelf","reader.annotations":"Annotations","reader.tableOfContents":"Table of contents","reader.bookChapters":"Chapters","reader.thisChapterContents":"This chapter","reader.openBookChapters":"Open book chapters","reader.skipToContent":"Skip to reading content","reader.previous":"Previous chapter","reader.next":"Next chapter","reader.previousPage":"Previous page","reader.nextPage":"Next page","reader.currentPage":"Current page","reader.totalPages":"Total pages","reader.jump":"Jump","reader.clickToTurn":"Click to turn page","reader.pureReading":"Pure reading mode","reader.reloadPages":"Reload pages","reader.setPageHeight":"Set page height","reader.loadingContent":"Loading content","reader.openBookHome":"Open book home","reader.closeBookHome":"Close book home","reader.closeSettings":"Close settings","reader.closeTableOfContents":"Close table of contents","reader.pageHeight":"Page height","reader.turningModeEnabled":"Page turning mode enabled","reader.exitTurningConfirm":"Exit page turning mode?","reader.exitTurning":"Exit page turning","reader.progressLoadedPage":"Progress loaded: Page {page}","reader.progressLoadedPercent":"Progress loaded: {percent}%","reader.pageRange":"1-{total}","reader.validNumber":"Valid number","reader.firstChapter":"First chapter","reader.lastChapter":"Last chapter","reader.first":"First","reader.last":"Last","reader.onlyPageMode":"Only in page mode","reader.pureModeOn":"Pure mode on","reader.pureModeOff":"Pure mode off","reader.reloaded":"Reloaded","reader.clickPageOn":"Click page on","reader.clickPageOff":"Click page off","reader.tocLoadFailed":"Load failed","reader.tocNoTitle":"No title","reader.annotationNotFound":"Could not locate this annotation. Opened its chapter instead.","reader.annotationLoadFailed":"Could not load this annotation. Opened its chapter instead.","reader.loadingNextChapter":"Loading next chapter","reader.loadingPreviousChapter":"Loading previous chapter","reader.chapterLoadFailed":"Could not load this chapter. Please try again.","reader.chapterNumber":"Chapter {number}","reader.continuousScrollRequiresScrolling":"Continuous scroll requires Scrolling mode","reader.continuousScrollEnabledReloading":"Continuous scroll enabled - reloading...","reader.continuousScrollDisabledReloading":"Continuous scroll disabled - reloading...","settings.appearance":"Appearance","settings.reading":"Reading","settings.fontFamily":"Font family","settings.fontSize":"Font size","settings.pageWidth":"Page width","settings.pageWidthNarrow":"Narrow","settings.pageWidthComfortable":"Comfortable","settings.pageWidthWide":"Wide","settings.pageWidthExtraWide":"Extra wide","settings.bookDefault":"Book default","settings.systemDefault":"System default","settings.customByInput":"Custom by input","settings.customFontPlaceholder":"Input font name here","settings.customFontTip":"Tip: Font family applies globally. Ensure it’s installed in the system.","settings.apply":"Apply","settings.readingMode":"Reading mode","settings.showReadingProgressBar":"Show reading progress bar","settings.paginationMode":"Use page-turning mode","settings.exitPaginationMode":"Exit page-turning mode","settings.desktopChapterSidebar":"Show chapter sidebar","settings.continuousScroll":"Enable continuous scroll","settings.continuousScrollTip":"Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off.","settings.customStyles":"Custom styles","settings.optional":"Optional","settings.customStylesDescription":"Use CSS to fine-tune this book’s typography and layout.","settings.customCssPlaceholder":"Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}","settings.save":"Save","settings.saveAsDefault":"Save as default","settings.reset":"Reset","settings.loadDefault":"Load default","settings.preview":"Preview","settings.defaultStyleTip":"Tip: The default style will be applied to all books unless a custom style is set for specific books.","settings.saved":"Saved","settings.defaultSaved":"Default saved","settings.noDefault":"No default","settings.loaded":"Loaded","settings.resetDone":"Reset","settings.applied":"Applied","settings.saveAsDefaultConfirm":"Save as default?","settings.loadDefaultConfirm":"Load default?","settings.resetConfirm":"Reset?","settings.continuousScrollUnavailable":"Continuous scroll is only available in Scrolling mode. Switch to Scrolling mode first to enable this feature.","library.title":"Library","library.pageTitle":"EPUB Library","library.description":"EPUB Library - A web-based EPUB reader","library.information":"Library information","library.navigation":"Primary navigation","library.bookCount":{"one":"{count} book","other":"{count} books"},"library.tagCount":{"one":"{count} tag","other":"{count} tags"},"library.annotations":"Annotations","library.login":"Login","library.theme":"Theme","library.sort.apply":"Apply","library.sort.manual":"Manual order","library.sort.shelfFirst":"Bookshelf first","library.sort.shelfOrder":"Bookshelf order","library.sort.pdfFirst":"PDF first","library.sort.label":"Sort by","library.sort.titleAsc":"Title (A–Z)","library.sort.titleDesc":"Title (Z–A)","library.sort.createdDesc":"Recently added","library.sort.updatedDesc":"Recently updated","library.pagination":"Library pages","library.searchPlaceholder":"Search by book title, author, or tag...","library.all":"All","library.noTag":"No tag","library.showMoreTags":"Show more","library.showFewerTags":"Show fewer","library.top":"Top","library.shelf":"Shelf","library.cover":"Cover","library.usernamePrompt":"Please enter your username:","library.usernameSaved":"Username saved: {username}","library.usernameCleared":"Username cleared","library.install":"Install","library.installing":"Installing app...","library.installSucceeded":"App installed successfully!","library.installCancelled":"Install cancelled","library.loading":"Loading library","library.empty":"No books in your library yet.","library.emptyTitle":"Your library is empty","library.emptyServerDescription":"Add EPUB files to the watched library folder. They will appear here automatically.","library.emptySsgDescription":"Add EPUB files to the source and generate the static site again.","library.noResultsTitle":"No matching books","library.noResultsDescription":"Try a different title, author, or tag.","library.loadError":"Unable to load your library. Please refresh and try again.","library.progress.scanning":"Scanning library","library.progress.processing":"Updating library","library.progress.extracting":"Extracting book information","library.progress.converting":"Building reading cache","library.progress.complete":"Library updated","library.progress.degraded":"Library updated with failures","library.progress.reconnecting":"Reconnecting to library updates…","library.progress.summary":"Processed {completed} of {total} books","library.progress.extractingSummary":"Examined {completed} of {total} books","library.progress.convertingSummary":"Cached {completed} of {total} books","library.progress.removed":{"one":"Removed {count} book","other":"Removed {count} books"},"library.progress.latest":"Latest: {book}","library.progress.failureDetails":"Failure details","library.progress.close":"Close","book.library":"Library","book.breadcrumb":"Breadcrumb","book.navigation":"Book navigation","book.theme":"Theme","book.unknownAuthor":"Unknown author","book.startReading":"Start reading","book.continueReading":"Continue reading","book.moreReadingActions":"More reading actions","book.clearReadingProgress":"Clear reading progress","book.clear":"Clear","book.clearReadingProgressConfirm":"Clear reading progress for this book?","book.clearReadingProgressSucceeded":"All reading progress for this book has been deleted!","book.clearReadingProgressFailed":"Unable to clear reading progress. Please try again.","book.annotations":"Annotations","book.addToShelf":"Add to Shelf","book.removeFromShelf":"Remove from Shelf","book.addedToShelf":"Book added to shelf!","book.removedFromShelf":"Book removed from shelf!","book.goToChapter":"Go to chapter","book.noContents":"This book has no table of contents","book.tableOfContents":"Table of contents","book.totalChapters":"Total: {count}","book.top":"Top","book.shelf":"Shelf","book.home":"Home","book.cover":"Cover","book.cloudSyncUser":"Cloud sync · {username}","book.cloudSyncUserAria":"Cloud-synced reading position for {username}","book.sharedUser":"shared","book.addToShelfTitle":"Add to Shelf","book.closeGroupChooser":"Close group chooser","book.shelfHome":"Shelf Home","book.confirm":"Confirm","book.error.database_unavailable":"The reading progress service is temporarily unavailable.","book.error.server_error":"The reading progress service encountered an error.","book.error.not_found":"The reading progress service was not found.","bookshelf.addGroup":"Add Group","bookshelf.sync":"Sync","bookshelf.export":"Export","bookshelf.import":"Import","bookshelf.title":"Bookshelf","bookshelf.group":"Group","bookshelf.addBook":"Add Book","bookshelf.searchBooks":"Search books","bookshelf.searchPlaceholder":"Search by title or author","bookshelf.searchNoResults":"No books match “{query}”.","bookshelf.noBooksToAdd":"Every available book is already on your bookshelf.","bookshelf.removeBook":"Remove “{title}”","bookshelf.confirmRemoveBook":"Remove “{title}” from this location?","bookshelf.bookAdded":"Added “{title}”.","bookshelf.bookRemoved":"Removed “{title}”.","bookshelf.bookAlreadyAdded":"This book is already on your bookshelf.","bookshelf.rename":"Rename","bookshelf.deleteGroup":"Delete Group","bookshelf.close":"Close","bookshelf.home":"Back to bookshelf","bookshelf.loading":"Loading bookshelf","bookshelf.all":"All","bookshelf.noTag":"No tag","bookshelf.empty":"Your bookshelf is empty","bookshelf.groupEmpty":"This group is empty","bookshelf.groupItems":"{books} books, {groups} subgroups","bookshelf.groupBooks":"{books} books","bookshelf.groupSubgroups":"{groups} subgroups","bookshelf.emptyGroup":"Empty group","bookshelf.currentStats":"Current: {books} book(s), {groups} group(s) | Total: {totalBooks} book(s), {totalGroups} group(s)","bookshelf.groupNamePrompt":"Enter group name:","bookshelf.renameGroupPrompt":"Enter new group name:","bookshelf.confirmDeleteGroup":"Are you sure you want to delete the group \"{name}\"?","bookshelf.groupDeleted":"Deleted group \"{name}\".","bookshelf.nestedGroupWarning":"Please delete all nested groups first before deleting this group.","bookshelf.importSucceeded":"Bookshelf data imported successfully!","bookshelf.importInvalid":"Invalid bookshelf data format.","bookshelf.importParseFailed":"Failed to parse the JSON file.","bookshelf.usernamePrompt":"Please enter your username for sync:","bookshelf.loginRequired":"Please log in before using your cloud bookshelf.","bookshelf.syncing":"Syncing...","bookshelf.syncNewUser":"Sync ({username}): New user created, data uploaded successfully!","bookshelf.syncUpdated":"Sync ({username}): Data updated from server!","bookshelf.syncCurrent":"Sync ({username}): No changes, already up to date!","bookshelf.syncUnavailable":"Sync ({username}): Not allowed to sync, check your configuration!","bookshelf.syncUploaded":"Sync ({username}): Data uploaded successfully!","bookshelf.syncFailed":"Sync ({username}) failed. Please try again.","bookshelf.error.username_required":"A username is required to sync your bookshelf.","bookshelf.error.invalid_json":"The sync request was invalid.","bookshelf.error.no_sync_data":"No bookshelf data was provided for sync.","bookshelf.error.not_found":"The sync endpoint was not found.","bookshelf.error.annotation_not_found":"The requested item was not found.","bookshelf.error.invalid_chapter_index":"The requested chapter is invalid.","bookshelf.error.batch_requires_post":"This request must use POST.","bookshelf.error.database_unavailable":"The sync service is temporarily unavailable.","bookshelf.error.reading_progress_not_found":"Reading progress was not found.","bookshelf.error.server_error":"The sync service encountered an error.","bookshelf.error.unknown":"The bookshelf could not be synchronized.","dialog.title":"Confirm","dialog.confirm":"Confirm","dialog.cancel":"Cancel","dialog.value":"Value","annotations.tab":"Annotations","annotations.enabled":"Enable annotations","annotations.enabledNotice":"Annotations enabled","annotations.disabledNotice":"Annotations disabled","annotations.storageLocation":"Storage location","annotations.localStorage":"Local storage","annotations.cloudStorage":"Cloud storage","annotations.cloudUnavailable":"Cloud storage is unavailable","annotations.checking":"Checking…","annotations.connectedUser":"Connected ({username})","annotations.connectedShared":"Connected (shared)","annotations.connectedAccount":"Connected to your account","annotations.disconnected":"Disconnected","annotations.usernamePrompt":"You are not logged in.\n\n- Click OK to enter a username (annotations will be isolated by user)\n- Click Cancel to use shared mode (all users share the same annotations)","annotations.login":"Sign in","annotations.username":"Username","annotations.usingSharedStorage":"Using shared cloud storage (no user isolation)","annotations.loggedInAs":"Logged in as {username} (annotations isolated)","annotations.defaultColor":"Default color","annotations.defaultColorTip":"Click a color to set it as the default.","annotations.colors":"Colors","annotations.colorReorderTip":"Drag colors to reorder them.","annotations.addColor":"Add color","annotations.deleteColor":"Delete color","annotations.hexColor":"Hex color","annotations.hexPlaceholder":"#RRGGBB","annotations.invalidHex":"Enter a valid hex color such as #RRGGBB.","annotations.noteOptional":"Note (optional)…","annotations.note":"Note:","annotations.addDescription":"Add description…","annotations.add":"Add","annotations.save":"Save","annotations.cancel":"Cancel","annotations.close":"Close","annotations.copy":"Copy","annotations.delete":"Delete","annotations.deleteAnnotation":"Delete annotation","annotations.details":"Annotation details","annotations.color":"Color:","annotations.created":"Created: {date}","annotations.updated":"Updated: {date}","annotations.clickToCopy":"Click to copy","annotations.copied":"Copied","annotations.textCopied":"Text copied","annotations.unableToCopy":"Unable to copy","annotations.notFound":"Annotation not found","annotations.confirmDelete":"Delete this annotation?","annotations.deleted":"Annotation deleted","annotations.loadFailed":"Failed to load annotation: {error}","annotations.addFailed":"Failed to add: {error}","annotations.updateFailed":"Failed to update: {error}","annotations.deleteFailed":"Failed to delete: {error}","annotations.restoreFailed":"Some annotations could not be restored. Please reload the chapter.","annotations.loadAllFailed":"Failed to load annotations: {error}","annotations.dataMigration":"Data migration","annotations.migrationDescription":"Switching storage location requires data migration","annotations.countingData":"Counting data…","annotations.currentData":{"one":"Current data: {count} annotation","other":"Current data: {count} annotations"},"annotations.skip":"Skip","annotations.migrate":"Migrate","annotations.migrating":"Migrating…","annotations.migratingProgress":"Migrating… {current}/{total}","annotations.storageLocationChanged":"Storage location changed","annotations.exportData":"Export data","annotations.exportBook":"Export book","annotations.exportAll":"Export all","annotations.exported":{"one":"Exported {count} annotation","other":"Exported {count} annotations"},"annotations.exportFailed":"Export failed: {error}","annotations.hubTitle":"Annotations","annotations.allAnnotatedBooks":"All annotated books","annotations.closeHub":"Close annotations","annotations.loading":"Loading annotations…","annotations.retry":"Retry","annotations.loadHubFailed":"Unable to load annotations","annotations.loadHubFailedDetail":"Please try again.","annotations.annotatedBooks":"Annotated books","annotations.noAnnotationsTitle":"No annotations yet","annotations.noAnnotationsDescription":"Select text while reading to save your first annotation.","annotations.noBookAnnotationsTitle":"No annotations in this book","annotations.noBookAnnotationsDescription":"This book may have been removed or its annotations were deleted.","annotations.annotationCount":{"one":"{count} annotation","other":"{count} annotations"},"annotations.bookCount":{"one":"{count} book","other":"{count} books"},"annotations.updatedAt":"Updated {date}","annotations.chapterNumber":"Chapter {number}","annotations.bookFallback":"Book","annotations.authorSeparator":" & ","annotations.bylineSeparator":" · ","annotations.error.not_found":"The annotation service was not found.","annotations.error.username_required":"A username is required for this annotation request.","annotations.error.invalid_json":"The annotation request was invalid.","annotations.error.no_sync_data":"No annotation data was provided.","annotations.error.annotation_not_found":"The annotation was not found.","annotations.error.invalid_chapter_index":"The requested chapter is invalid.","annotations.error.batch_requires_post":"This batch request must use POST.","annotations.error.database_unavailable":"The annotation service is temporarily unavailable.","annotations.error.reading_progress_not_found":"Reading progress was not found.","annotations.error.server_error":"The annotation service encountered an error.","annotations.error.network":"A network error occurred while contacting annotations.","annotations.error.timeout":"The annotation request timed out.","footer.product":"EPUB Library","footer.poweredBy":"Powered by","footer.poweredBySuffix":"·","version.updateAvailable":"Update available: v{version}","errors.generic":"Something went wrong.","errors.network":"A network error occurred.","annotations.shareActions":"Share annotations","annotations.copyShare":"Copy Markdown","annotations.exportShare":"Export Markdown","annotations.annotationActions":"Annotation actions","annotations.copyAnnotation":"Copy this annotation","annotations.annotationCopied":"Annotation copied as Markdown.","annotations.annotationCopyFailed":"Unable to copy this annotation.","annotations.shareAuthors":"Authors","annotations.shareCount":"Annotations","annotations.shareNote":"Note","annotations.shareCopied":"Annotation summary copied locally.","annotations.shareCopyFailed":"Unable to copy the annotation summary.","annotations.shareExported":"Annotation summary exported locally.","annotations.shareExportFailed":"Unable to export the annotation summary.","annotations.shareFileFallback":"Annotations","settings.navigationBehavior":"Navigation bar behavior","settings.navigationBehaviorHelp":"Choose when the top navigation stays visible while you read.","settings.navigationBehavior.normal":"Normal scroll","settings.navigationBehavior.sticky":"Always sticky","settings.navigationBehavior.autoHide":"Hide down, show up","settings.keyboardNavigation":"Keyboard navigation","settings.arrowKeyNavigation":"Use Left and Right Arrow keys to navigate","settings.spaceKeyNavigation":"Use Space for the next page or chapter","reader.locateCurrentChapter":"Locate current chapter","reader.locateCurrentSection":"Locate current section","annotations.addImageNote":"Add image note","annotations.imageNote":"Image note","annotations.showMoreColors":"Show {count} more colors","annotations.showFewerColors":"Show fewer colors","annotations.selectionActions":"Selected text actions","annotations.highlight":"Highlight","annotations.noteAction":"Note","annotations.dictionary":"Dictionary","annotations.encyclopedia":"Encyclopedia","dictionary.title":"Dictionary","dictionary.encyclopediaTitle":"Encyclopedia","dictionary.loading":"Looking up…","dictionary.close":"Close","dictionary.notFound":"No entry found.","dictionary.notConfigured":"No local dictionary is installed.","dictionary.choose":"Dictionary","dictionary.unavailable":"This service is temporarily unavailable.","dictionary.source":"Open source","book.readingTime":"Read {duration}","readingSessions.pending":"Reading time will be saved when you are back online.","readingSessions.error":"Unable to save reading time. Retrying automatically.","readingSessions.discarded":"Reading time could not be saved. Continue reading and try again later.","pdf.formatBadge":"PDF","pdf.noContents":"This PDF has no table of contents","pdf.page":"Page {number}","pdf.pageOf":"Page {number} of {total}","pdf.pageLoadError":"This page could not be loaded. Please try again.","pdf.loadingPage":"Loading page…","pdf.browserUnsupported":"This browser is too old to display PDF pages. Please update it, or open this book in a recent version of Chrome, Edge, Firefox, or Safari.","pdf.textUnavailable":"Text selection, annotations, dictionary, and encyclopedia are unavailable because this PDF has no usable text layer.","pdf.selectionWithinPageRequired":"Select text within one PDF page to use annotations, dictionary, or encyclopedia.","pdf.passwordRequired":"This PDF is password protected. Enter its password in the reader to display the page.","pdf.search":"Search PDF","pdf.searchPlaceholder":"Search PDF","pdf.searchNoResults":"No matching pages.","pdf.closeSearch":"Close PDF search","pdf.zoomOut":"Zoom out","pdf.zoomIn":"Zoom in","pdf.fitWidth":"Fit width","pdf.fitPage":"Fit page","pdf.goToPage":"Go to page","pdf.rotate":"Rotate page","pdf.print":"Print PDF","pdf.download":"Download PDF","pdf.searchFailed":"PDF search failed.","settings.desktopLayout":"Desktop layout","settings.autoHideDesktopChapterSidebar":"Auto-hide chapter sidebar","settings.autoHideDesktopChapterSidebarHelp":"Move the pointer to the left edge, or use Tab, to show the chapter sidebar.","settings.autoHideDesktopToolbar":"Auto-hide reading toolbar","settings.autoHideDesktopToolbarHelp":"Move the pointer to the right edge, or use Tab, to show the toolbar.","settings.clickPageHelp":"In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions.","locale.name.es":"Español","locale.name.de":"Deutsch","locale.name.fr":"Français","locale.name.ru":"Русский","locale.name.it":"Italiano","locale.name.pt-BR":"Português (Brasil)","locale.name.ar":"العربية","locale.name.id":"Bahasa Indonesia","locale.name.hi":"हिन्दी","locale.name.vi":"Tiếng Việt","locale.name.th":"ไทย","locale.name.ms":"Bahasa Melayu","library.recentReading.title":"Continue reading","library.recentReading.chapter":"Chapter {index}","library.recentReading.page":"Page {index}","library.recentReading.justNow":"Just now","library.recentReading.minutesAgo":"{count}m ago","library.recentReading.hoursAgo":"{count}h ago","library.recentReading.daysAgo":"{count}d ago","library.recentReading.monthsAgo":"{count}mo ago","kindle.allBooks":"All books","kindle.emptyRecent":"Open a book to start reading.","kindle.fullLibrary":"Open full library","kindle.theme":"Theme","kindle.noResults":"No matching books.","kindle.pdfUnsupported":"This PDF book can't be opened in Kindle mode yet.","kindle.serif":"Serif","kindle.sans":"Sans serif","vocabulary.navigation":"Vocabulary","vocabulary.allWords":"All vocabulary","vocabulary.bookTitle":"Book vocabulary","vocabulary.close":"Close","vocabulary.retry":"Retry","vocabulary.empty":"No words yet.","vocabulary.loading":"Loading vocabulary…","vocabulary.loadError":"Could not load vocabulary.","vocabulary.saveError":"Could not save the change. Try again.","vocabulary.once":"Looked up once","vocabulary.repeated":"Looked up {count} times","vocabulary.firstSeen":"First lookup · {date}","vocabulary.lastSeen":"Latest lookup · {date}","vocabulary.openSource":"Open the latest lookup location","vocabulary.mastery":"Mastery","vocabulary.new":"New","vocabulary.learning":"Learning","vocabulary.mastered":"Mastered","vocabulary.remove":"Remove from this book","vocabulary.delete":"Delete word","vocabulary.confirmRemove":"Remove “{word}” from this book’s vocabulary?","vocabulary.confirmDelete":"Delete “{word}” and its lookup history across all books?","vocabulary.search":"Search words","vocabulary.noMatches":"No words match.","vocabulary.emptyGuide":"Select text and use the dictionary while reading. Your lookups will appear here.","vocabulary.sources":"Sources","vocabulary.more":"More actions","vocabulary.saving":"Saving…","vocabulary.saved":"Mastery saved.","vocabulary.recorded":"Added to your vocabulary.","vocabulary.recordError":"Could not add this lookup to your vocabulary.","vocabulary.previousPage":"Previous","vocabulary.nextPage":"Next","vocabulary.pagination":"Vocabulary pages","vocabulary.scopeRead":"Read vocabulary","vocabulary.scopeWrite":"Manage vocabulary","book.search":"Search this book","book.searchPlaceholder":"Search this book","book.searchHint":"Type a word or phrase to search this book.","book.searching":"Searching…","book.searchNoResults":"No matches found.","book.searchResultCount":"Results: {count}","book.searchPrevPage":"Previous page","book.searchNextPage":"Next page","book.searchPageStatus":"Page {page} of {pages}","book.searchPageOutOfRange":"That page has no results","book.searchFailed":"Search failed. Try again.","book.searchUnavailable":"Search is temporarily unavailable. Try again later.","book.closeSearch":"Close search"});</script>
+    <script>window.EpubBrowserBasePath="/";window.EpubBrowserMode="ssg"</script><script>window.EpubBrowserI18n.init();</script>
+    
+    
+    <noscript><link rel="manifest" href="/assets/manifest.en.json"></noscript>
+    <link class="eb" href="resources/1/1/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link class="eb" href="resources/1/1/page_styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/assets/immutable/vendor/fontawesome/css/all.min.59cdcd0cf392.css">
+    <link rel="stylesheet" href="/assets/immutable/theme.c03f373b63a1.css">
+    <link rel="stylesheet" href="/assets/immutable/notification.3af6bb473911.css">
+    <link rel="stylesheet" href="/assets/immutable/dialog.11578e5f1426.css">
+    <link rel="stylesheet" href="/assets/immutable/chapter.d6bffadc60de.css">
+    
+    
+    <link rel="stylesheet" href="/assets/immutable/breadcrumb.cf77915b2643.css">
+    <link rel="stylesheet" href="/assets/immutable/loading.4191d9fecbbb.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation.8b634162a3e8.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation-hub.bed06f149212.css">
+    
+    <link rel="stylesheet" href="/assets/immutable/vendor/glightbox/glightbox.min.6d3f62d4d179.css">
+    <link rel="icon" type="image/png" href="/assets/immutable/favicon.dd042ee39766.png">
+    <link rel="apple-touch-icon" href="/assets/immutable/icon-192.15435b416555.png">
+    <link rel="stylesheet" href="/assets/immutable/bookshelf.9fd53d54c1ae.css">
+
+    <script src="/assets/immutable/theme-bootstrap.cb8f81a354a2.js"></script>
+
+</head>
+
+<body>
+
+    <a class="skip-link" href="#eb-content" data-i18n="reader.skipToContent">Skip to reading content</a>
+
+    <div class="reading-progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav class="toc-floating reader-drawer" id="bookHomeFloating" aria-label="Book chapters" data-i18n-aria-label="reader.bookChapters" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.bookChapters">Chapters</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="bookHomeLocateCurrent" type="button" aria-label="Locate current chapter" data-i18n-aria-label="reader.locateCurrentChapter">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <a class="toc-book-home" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome">
+                    <i class="fas fa-book" aria-hidden="true"></i><span data-i18n="reader.openBookHome">Open book home</span>
+                </a>
+                <button class="toc-close" id="bookHomeClose" type="button" aria-label="Close book home" data-i18n-aria-label="reader.closeBookHome">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="bookHomeTocList">
+            <!-- 动态生成的书籍目录将放在这里 -->
+        </ul>
+    </nav>
+
+    <nav class="toc-floating reader-drawer" id="tocFloating" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.thisChapterContents">This chapter</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="tocLocateCurrent" type="button" aria-label="Locate current section" data-i18n-aria-label="reader.locateCurrentSection">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <button class="toc-close" id="tocClose" aria-label="Close table of contents" data-i18n-aria-label="reader.closeTableOfContents">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="tocList">
+            <!-- 动态生成的目录将放在这里 -->
+        </ul>
+    </nav>
+    
+    
+
+    <div class="reader-drawer-backdrop" id="readerDrawerBackdrop" aria-hidden="true"></div>
+
+    <header class="chapter-top-bar app-header">
+        <nav class="app-nav" aria-label="Reading navigation" data-i18n-aria-label="reader.navigation">
+            <a class="app-nav-brand" href="/" aria-label="EPUB Browser" data-i18n-aria-label="common.brand"><img class="app-nav-brand-mark" src="/assets/immutable/logo-mark-color.ef9a3679a944.png" width="32" height="32" alt=""><span data-i18n="common.brand">EPUB Browser</span></a>
+            <div class="app-nav-links">
+                <button type="button" class="app-nav-link" id="bookshelfBtn" aria-haspopup="dialog" aria-controls="bookshelfModal"><i class="fas fa-bookmark" aria-hidden="true"></i><span data-i18n="reader.shelf">Shelf</span></button>
+                <button type="button" class="app-nav-link" id="chapterAnnotationsBtn" data-annotation-hub data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" aria-haspopup="dialog"><i class="fas fa-highlighter" aria-hidden="true"></i><span data-i18n="reader.annotations">Annotations</span></button>
+                
+                
+                
+            </div>
+            <div class="app-nav-actions">
+                <div class="library-language app-nav-locale">
+    <button type="button" class="app-nav-action app-nav-locale-toggle" id="localeToggle" aria-haspopup="menu" aria-expanded="false" aria-label="Language" data-i18n-aria-label="common.language"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only" id="localeCurrentLabel" data-i18n="locale.name.en">English</span></button>
+    <select class="sr-only" id="localeSelect" tabindex="-1" aria-hidden="true"><option value="en" data-i18n="locale.name.en">English</option><option value="zh-CN" data-i18n="locale.name.zh-CN">简体中文</option><option value="zh-TW" data-i18n="locale.name.zh-TW">繁體中文</option><option value="ko" data-i18n="locale.name.ko">한국어</option><option value="ja" data-i18n="locale.name.ja">日本語</option><option value="es" data-i18n="locale.name.es">Español</option><option value="de" data-i18n="locale.name.de">Deutsch</option><option value="fr" data-i18n="locale.name.fr">Français</option><option value="ru" data-i18n="locale.name.ru">Русский</option><option value="it" data-i18n="locale.name.it">Italiano</option><option value="pt-BR" data-i18n="locale.name.pt-BR">Português (Brasil)</option><option value="ar" data-i18n="locale.name.ar">العربية</option><option value="id" data-i18n="locale.name.id">Bahasa Indonesia</option><option value="hi" data-i18n="locale.name.hi">हिन्दी</option><option value="vi" data-i18n="locale.name.vi">Tiếng Việt</option><option value="th" data-i18n="locale.name.th">ไทย</option><option value="ms" data-i18n="locale.name.ms">Bahasa Melayu</option></select>
+</div>
+                <button class="theme-toggle app-nav-action app-nav-theme" id="themeToggle" type="button" aria-label="Theme" data-i18n-aria-label="reader.theme"><i class="fas fa-moon" aria-hidden="true"></i><span class="app-nav-action-label" data-i18n="reader.theme">Theme</span></button>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="reader-toolbar top-controls chapter-tools" role="toolbar" aria-label="Reading tools" data-i18n-aria-label="reader.navigation">
+            <button class="control-btn" id="bookHomeToggle" type="button" aria-label="Open book chapters" data-i18n-aria-label="reader.openBookChapters" aria-controls="bookHomeFloating" aria-expanded="false"><i class="fas fa-book"></i><span class="control-name" data-i18n="reader.bookChapters">Chapters</span></button>
+            <button class="control-btn" id="tocToggle" type="button" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false"><i class="fas fa-list"></i><span class="control-name" data-i18n="reader.thisChapterContents">This chapter</span></button>
+            <button class="control-btn" id="settingsControlBtn" type="button" aria-label="Settings" data-i18n-aria-label="reader.settings" aria-controls="settingsModal" aria-expanded="false"><i class="fas fa-cog"></i><span class="control-name" data-i18n="reader.settings">Settings</span></button>
+            <div class="pagination-toolbar-controls" id="paginationInfo" role="group" aria-label="Page navigation" data-i18n-aria-label="reader.navigation">
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_16.html" id="readerPreviousChapter" class="control-btn prev-chapter" aria-label="Previous chapter" data-i18n-aria-label="reader.previous" aria-disabled="false"><i class="fas fa-arrow-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previous">Previous chapter</span></a>
+                <button class="control-btn" id="prevPage" type="button" aria-label="Previous page" data-i18n-aria-label="reader.previousPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previousPage">Previous page</span></button>
+                <button class="control-btn" id="reloadPages" type="button" aria-label="Reload pages" data-i18n-aria-label="reader.reloadPages" data-pagination-toolbar-control hidden><i class="fas fa-rotate-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.reloadPages">Reload pages</span></button>
+                <button class="control-btn" id="nextPage" type="button" aria-label="Next page" data-i18n-aria-label="reader.nextPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.nextPage">Next page</span></button>
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_18.html" id="readerNextChapter" class="control-btn next-chapter" aria-label="Next chapter" data-i18n-aria-label="reader.next" aria-disabled="false"><i class="fas fa-arrow-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.next">Next chapter</span></a>
+                <span class="pagination-page-status" id="currentPage" aria-live="polite">1</span>
+                <span class="pagination-page-status" id="totalPages" aria-label="Total pages" data-i18n-aria-label="reader.totalPages">1</span>
+                <button class="control-btn" id="pageJumpToggle" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump" aria-controls="paginationPageJumpPopover" aria-expanded="false" data-pagination-toolbar-control hidden><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i><span class="control-name" data-i18n="reader.jump">Jump</span></button>
+                <section class="pagination-page-jump-popover" id="paginationPageJumpPopover" role="dialog" aria-modal="false" aria-labelledby="paginationPageJumpTitle" aria-describedby="paginationPageJumpRange" aria-hidden="true" hidden>
+                    <strong class="pagination-page-jump-title" id="paginationPageJumpTitle" data-i18n="reader.jump">Jump</strong>
+                    <p class="pagination-page-jump-range" id="paginationPageJumpRange"></p>
+                    <label class="pagination-page-jump-label" for="pageJumpInput" data-i18n="reader.currentPage">Current page</label>
+                    <div class="pagination-page-jump-form">
+                        <input type="number" id="pageJumpInput" min="1" max="1" value="1" inputmode="numeric" aria-label="Current page" data-i18n-aria-label="reader.currentPage">
+                        <button class="pagination-jump-submit" id="goToPage" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump"><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i></button>
+                    </div>
+                </section>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="eb-content-container" id="eb-content-container" data-id="eb-content-container">
+            <div class="content-loading is-visible" id="contentLoading" aria-live="polite" aria-label="Loading content" data-i18n-aria-label="reader.loadingContent">
+                <div class="loading-spinner"></div>
+            </div>
+            <article class="eb-content" id="eb-content" lang="bn" dir="auto" data-eb-styles data-chapter-index="17" data-chapter-title="দুই" data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" data-total-chapters="471" data-highlight-script="/assets/immutable/vendor/highlight/highlight.min.c4a399dd6f48.js" data-highlight-light="/assets/immutable/vendor/highlight/github.min.3a9a5def8b9c.css" data-highlight-dark="/assets/immutable/vendor/highlight/github-dark.min.9f208d022102.css">
+            
+<h2 class="block_9" lang="en" id="toc_id_18">দুই</h2>
+	<p class="block_11" lang="en">জেবেল আল-নুর। আহমদ মুসার অফিস কক্ষ। পায়চারি করছিল আহমদ মুসা। সুন্দর, প্রশস্ত কপাল তাঁর কুঞ্চিত। তীক্ষ্ণ চোখ দু’টি তাঁর মনের গভীরে আত্মস্থ। মনে তাঁর চিন্তার ঝড়। প্রায় তিন সপ্তাহ হয় ইসরাইলের পরিচিত কোড মেসেজ বন্ধ হয়ে গেছে। তার জায়গায় শোনা যাচ্ছে অপরিচিত ও দুর্বোধ্য সংকেত। ঐ দুর্বোধ্য সংকেতের পাঠোদ্ধার করা যায়নি। সাইমুমের সকল প্রচেষ্টা ব্যর্থ হয়েছে। কিন্তু স্পষ্ট বুঝা যাচ্ছে যে, সংকেতগুলো ইসরাইলের নতুন কোড মেসেজ। ওরা তাদের পুরাতন কোড মেসেজের পরিবর্তন করেছে। আরব বিশ্বে নতুন করে স্পাই রিং গড়ে তোলারই এটা হয়ত পূর্ব প্রস্তুতি। ইসরাইলের এই নতুন উদ্যোগ বান্‌চাল করে দেবার জন্য ওদের নতুন কোড মেসেজের পাঠোদ্বার অত্যন্ত গুরুত্বপূর্ণ। কিন্তু কিভাবে তা সম্ভব? চিন্তা করে চলে আহমদ মুসা। একটি সহজ পথ আছে ঐ দূর্বোধ্য সংকেতগুলো পাঠোদ্ধার করার এবং তা হল ইসরাইলী কোড মেসেজের ডিসইফার যোগাড় করা। আহমদ মুসার চোখ উজ্জ্বল হয়ে উঠলো এবং তার চোখে মুখে ফুটে উঠলো স্পষ্ট সিদ্ধান্তের ছাপ। সে গিয়ে চেয়ারে বসে পড়ল। তার কন্ঠে স্বগত উচ্চারিত হল, হ্যা, যেমন করেই হোক ইসরাইলের কবল থেকে তাদের ডিসাইফার যোগাড় করতে হবে। টেবিলে রক্ষিত লাল টেলিফোনটি তুলে নিয়ে আহমদ মুসা রেডিও রুমে কামালকে ডেকে বললো, তেলআবিবে লাইন নিয়ে মাহমুদকে ডাক। আমি আসছি।</p>
+	<p class="block_11" lang="en">কথা শেষ করে টেলিফোনের রিসিভার যথাস্থানে রেখে দিয়ে আহমদ মুসা উঠে দাঁড়াল। দ্রুত পদক্ষেপে এগিয়ে চলল সে রেডিও রুমের দিকে। রেডিও রুমে ঢুকতেই কামাল আহমদ মুসাকে সালাম জানিয়ে বলল, মাহমুদ ভাই আসছে জনাব। আহমদ মুসা ওয়ারলেস সেটের সামনে গিয়ে বসলো। মুহূর্ত কয়েকের মধ্যেই ওপার থেকে মাহমুদের কথা শুনতে পাওয়া গেল। সালাম ও কুশলাদির পর আহমদ মুসা বললো, ইসরাইলিরা কোড বদলিয়েছে লক্ষ্য করেছ?</p>
+	<p class="block_11" lang="en">-জি হাঁ। ওপার থেকে বলল, মাহমুদ।</p>
+	<p class="block_11" lang="en">-কি ভাবছ এ সম্পর্কে?</p>
+	<p class="block_11" lang="en">-আপনার নির্দেশের অপেক্ষায় আছি।</p>
+	<p class="block_11" lang="en">-হ্যাঁ শোন, ওদের নয়া কোডের পাঠোদ্ধার করার সকল প্রচেষ্টা আমাদের ব্যর্থ হয়েছে। ওদের ডিসাইফার ছাড়া এর পাঠোদ্ধার সম্ভব নয়। সুতরাং ওটা তোমাকে যোগাড় করতেই হবে।</p>
+	<p class="block_11" lang="en">-বুঝেছি জনাব।</p>
+	<p class="block_11" lang="en">-যে কোন মুল্যের বিনিময়ে ডিসাইফার আমাদের চাই মাহমুদ। বর্তমান মুহূর্তে এটাই আমাদের জন্য সর্বাধিক গুরুত্বপূর্ণ কাজ।</p>
+	<p class="block_11" lang="en">-দোয়া করুন জনাব। আমি এখনি কাজ শুরু করছি।</p>
+	<p class="block_11" lang="en">-আল্লাহ তোমাদের সফল করুন। খোদা হাফেজ।</p>
+	<p class="block_11" lang="en">- খোদা হাফেজ।</p>
+	<p class="block_11" lang="en">আহমদ মুসা ধীরে ধীরে ওয়ারলেস রুম থেকে বেরিয়ে এলো। সামনের গলিপথটি পেরিয়ে একটি উন্মুক্ত স্থানে এসে দাঁড়াল। কাছেই পাহাড়ের একটি ছোট টিলা। আহমদ মুসা টিলায় উঠে একেবারে মাথায় গিয়ে বসলো। চারিদিকে মাথা উঁচু করে দাঁড়িয়ে আছে পাহাড়ের উন্নত চুড়াগুলো। চারদিক নিস্তব্দ-নিঝুম। দক্ষিণ-পূর্বদিকের আকাশের এক জায়গায় উজ্জ্বল হয়ে আছে। আহমদ মুসা বুঝল, ওটা আম্মানের আকাশ। আকাশের দিকে মুখ তুল আহমদ মুসা। জোৎস্নাহীন আকাশের তারাগুলো বেশ ভালো লাগছে দেখতে। এক সময় আদম সুরতের পায়ের নীচে লুব্ধকে এসে আটকে যায় তার চোখ। ওর আলোতে যেন সূর্যের দীপ্তী। সূর্যের মত চোখ বিদ্ধকারী তীক্ষ্ণতা ওতে নেই, আছে স্নিগ্ধতা, আছে প্রশান্তি। পলকহীনভাবে আহমদ মুসা চেয়ে থাকে ওর দিকে। লুব্ধক যেন নেমে আসে তার কাছে, একেবারে কাছে। লুব্ধকের দেশে পৌঁছে যায় আহমদ মুসা। লুব্ধকের দেশ থেকে সে উর্ধ্বে চেয়ে দেখল মিট মিটে তারার আলো ভেসে আসছে উপরের উর্ধলোক থেকেও। আহমদ মুসার মনে প্রশ্ন জাগে, ঐ তারার জগতের ওপারে আবার কি আছে? উত্তর এসে তার কানে বাজল, শূন্য, শূন্য, আদি অন্তহীন মহাশূন্য। সম্মুখে পশ্চাতে, ডানে বামে, উপরে নীচে সব দিকেই অন্তহীন মহাশূন্য। এই মহাশুন্যের নিকট অন্ধকারে তারকা সূর্যগুলো দীপ শিখা জ্বালিয়ে রেখেছে। মহাশুন্যের অন্তহীন ব্যাপকতার মাঝে আহমদ মুসা ভয়ে বিষ্ময়ে অভিভূত হয়ে পড়ে। তার মনে প্রশ্ন জাগে, এই মহা সৃষ্টির স্রষ্টা আল্লাহর শক্তি তাহলে কত বিরাট, কত বড় বিজ্ঞানী তিনি? আহমদ মুসার হৃদয় ও মন নুয়ে পড়ে স্রষ্টার উদ্দেশ্যে। আহমদ মুসা লুব্ধকের জগৎ থেকে দৃষ্টিপাত করে নীচে-বহু নীচে দেখা যায় সূর্যকে। মহাশুন্যের নিকষ কালো বুকে সূর্যকে অতি ক্ষুদ্র এক আলোকবিন্দুর মত মনে হচ্ছে। পৃথিবীর কোন অস্তিত্বই খুঁজে পাওয়া যাচ্ছে না। আর ক্ষুদ্রাতিক্ষুদ্র মানুষ? মহাশুন্যের বিশাল ব্যাপকতার মাঝে মানুষের অস্তিত্ব সত্যই কিছু আছে কি প্রশ্ন জাগে আহমদ মুসার মনে। অথচ এই মানুষই আল্লাহর বড় প্রিয় এবং আশরাফুল মুখলুকাত-সৃষ্টির শ্রেষ্ঠ। আল্লাহর এ কোন কুদরত। আবেগে উত্তেজনায় দু’ চোখ বেয়ে অশ্রু গড়িয়ে পড়ে আহমদ মুসার। হযরত দাউদ (আঃ)-এর মত তার বিস্ময় বিক্ষুব্ধ চিত্ত থেকে স্বগত উচ্চারিত হয়- হে বিশ্ব নিয়ন্তা প্রভু, মনুষ্য কে যে তুমি তার বিষয় চিন্তা কর? এবং মনুষ্য সন্তানই বা কি যে তুমি তার প্রতি মনোযোগী হও?</p>
+	<p class="block_11" lang="en">আহমদ মুসার সেক্রেটারী আলী বেন শাকের এসে আহমদ মুসার পেছনে দাঁড়াল। অতি ধীর কন্ঠে বলল, অনেক রাত হয়েছে জনাব। খুব শীত পড়ছে। আপনার বিশ্রাম প্রয়োজন।</p>
+	<p class="block_11" lang="en">ধীরে ধীরে মুখ ফিরাল আহমদ মুসা। এই সময় বিরাট এক নক্ষত্র পতন হল। আহমদ মুসার দু’দন্ড বেয়ে ঝরে পড়া অশ্রু চিক চিক করে উঠল। শাকেরের দৃষ্টি এড়াল না তা। সে বিস্মিত কন্ঠে বলল, আপনি কাঁদছেন জনাব?</p>
+	<p class="block_11" lang="en">আহমদ মুসার মুখে ফুটে উঠলো এক টুকরো প্রশান্ত হাসি। সে বলল, এ হারানোর কান্না নয় শাকের, পাওয়ার কান্না। আমার আল্লাহকে আমি এমন নিবিড়ভাবে কোনদিন পাইনি। আকাশের দিকে চেয়ে দেখ, তারায় তারায় শুধু তাঁরই হাতছানি। নিঃসীম মহকাশের আলো আঁধারীর মাঝে তাঁরই শুধুই লুকোচুরি খেলা। বলতে বলতে আহমদ মুসা উঠে দাঁড়াল।</p>
+	<p class="block_11" lang="en">শাকের মন দিয়ে আহমদ মুসার কথা গুলো শুনলো। কিছুই বলল না মুখে। কথা বাড়ানো উচিত নয়। তাদের প্রিয় নেতার বিশ্রাম এ সময় অত্যন্ত জরুরী। আগে আগে চলল আহমদ মুসা, পিছনে শাকের। আহমদ মুসাকে শয়ন কক্ষে পৌঁছে দিয়ে শাকের তার ঘরের দিকে পা বাড়ালো।</p>
+	<p class="block_11" lang="en">তেলআবিব। মাহমুদ চিন্তান্বিত মুখে ওয়ারলেস রুম থেকে বেরিয়ে এল। মাথায় তার একরাশ চিন্তার জট। ধীরে ধীরে এসে ড্রইং রুমের সোফায় বসল। ইসরাইলীদের হাত থেকে ডিসাইফার উদ্ধার করা চাটটিখানি কথা নয়। মাহমুদ সমস্ত ব্যাপারটা একবার চিন্তা করে দেখল। ডিসাইফার হাতে পেতে হলে অনেকটা পথ তাকে পাড়ি দিতে হবে। প্রথমে তাকে খুঁজে দেখতে হবে, ডিসাইফারের খোঁজ কোন কোন ব্যক্তির কাছে পাওয়া যেতে পারে। দ্বিতীয়তঃ ঐ সব ব্যক্তির মধ্যে কার কাছ থেকে ডিসাইফারের খবর বের করে নেয়া সহজ হবে, তা নির্ধারণ করতে হবে। তৃতীয়তঃ ডিসাইফার উদ্ধারের ব্যবস্থা করা। মাহমুদ গোটা পরিকল্পনাটিকে আর একবার আগাগোড়া ভেবে দেখল। তারপর প্রথম বিষয়টির প্রতি মনোনিবেশ করল সে। সে চিন্তা করে দেখল, ডিসাইফার কোন গোপন স্থানে রক্ষিত আছে, তা কাদের পক্ষে জানা সম্ভব তাদের মধ্যে প্রধান হলেন-এক, মন্ত্রি; দুই, দেশরক্ষা সেক্রেটারী; তিন, মোসাদ প্রধান এবং চার, সিনবেথ প্রধান ইত্যাদি। এদের মধ্যে দেশরক্ষা মন্ত্রীকে হিসেবের বাইরে রাখা উচিত। এখন অবশিষ্টদের মধ্যে কার নিকট থেকে তথ্য বের করা সহজ হবে? মাহমুদ ভাবল, এটা ‍সুক্ষ্ণ বিচার-বিবেচনার প্রশ্ন। ডসিয়ার আলোচনা ছাড়া এ প্রশ্নের সমাধান অসম্ভব। সোফা ছেড়ে মাহমুদ উঠে দাঁড়াল।</p>
+	<p class="block_11" lang="en">গৃহাভ্যন্তরে প্রবেশ করে একটি গোপন সিঁড়িপথ বেয়ে সে প্রবেশ করল ভূ-গর্ভস্থ একটি কক্ষে। রেকর্ড রুম। মাহমুদ ডসিয়ার সেকশনে গিয়ে বসল। টেনে নিল ‘সিনবেথ’ প্রধানের ডসিয়ার ফাইল। গভীর মনোযাগ নিবিষ্ট করে সে ফাইলটিতে। ফাইল শেষ করে হাতে তুলে নিল মোসাদ প্রধানের ডসিয়ার। শেষ করে ওটাও রেখে দিল সে ফাইল কেবিনে। দেশ রক্ষা সেক্রেটারী এরহান শার্লটকের কোন ডসিয়ার সাইমুমের এ স্থানীয় রেকর্ড রুমে নেই। এরহান শার্লটক স্বরাষ্ট্র বিভাগ থেকে সদ্য আগত এবং স্বরাষ্ট্র বিভাগেও তার চাকুরির মেয়াদ বেশী দিনের নয়। হয়তো এ কারণেই অপ্রয়োজনীয় বিবেচনায় তার ডসিয়ারই তৈরি হয়নি। সিনবেথ প্রধানের ডসিয়ার থেকে তার যে চরিত্র পরিচয় পাওয়া গেল তা হল তিনি ঠান্ডা মাথা, নির্লিপ্ত মেজাজ, তীক্ষ্ণ বুদ্ধি কর্তব্যপরায়ণ ও বিশ্বাসী। মাহমুদ ধীরে ধীরে মাথা নাড়ল, এ বড় শক্ত চীজ। এ ভাঙ্গবে কিন্তু মচকাবে না। মোসাদ প্রধানও মোটামুটি একই চরিত্রের। তবে সিনবেথ প্রধান অপেক্ষা অধিকতর কূটবুদ্ধি ও হিংস্র। তাঁর চরিত্রের বড় একটি দুর্বল দিক হলো, নারীর প্রতি মাত্রাতিরিক্ত মোহ। ঘৃণায় মাহমুদের মুখ কুঞ্চিত হলো। সাইমুম এ ধরনের অস্ত্র প্রয়োগকে ঘৃণা করে। উঠে দাঁড়াল মাহমুদ। বেরিয়ে এল রেকর্ড রুম থেকে। সমস্যার সমাধান হল না। এরহান শার্লটক সম্পর্কে জানা দরকার। এমিলয়ার কাছ থেকে জানা যাবে? হঠাৎ একটি নাম তার স্মৃতির আকাশে ঝিলিক দিয়ে গেল, ‘এমিলিয়া’! নামটি স্মরণ হওয়ার সাথে সাথে মাহমুদের গোটা দেহের অণুতে-পরমাণুতে বিদ্যুৎ শিহরণ খেলে গেল। আনন্দের শিহরণ খেলে গেল দেহের প্রতিটি শিরা উপশিরায়। মাহমদ অবাক হল এমিলিয়া তার দেহের অণুতে-পরমাণুতে এমনিভাবে মিশে গেছে?</p>
+	<p class="block_11" lang="en">হাঁ, এমিলিয়ার কাছে এরহান শার্লটক সম্পর্কে জানা যেতে পারে, কিংবা জানার ব্যাপারে প্রয়োজনীয় সাহায্যও সে করতে পারে। মাহমুদ সোফায় এসে বসল। হাত ঘড়ির দিকে চেয়ে দেখল, রাত ১টা। এমিলিয়া ঘুমিয়ে আছে। বেচারীকে এ রাতে ঘুম থেকে জাগানো কি ঠিক হবে? কিন্তু এছাড়া উপায় কি? ডিসাইফারের ব্যাপারে কালকের মধ্যে একটা সুরাহা করা তার চাই। মাহমুদ উঠে দাঁড়াল। পা বাড়াল ড্রেসিং রুমের দিকে।</p>
+	<p class="block_11" lang="en">পাঁচ মিনিটের মধ্যে মাহমুদ বেরিয়ে এল। পরনে কাল ট্রাউজারের উপর লম্বা কাল ওভারকোট। মাথায় ফেলট হ্যাট। একটু দুর থেকে দেখলে মনে হবে রাত্রিকালের টহলদারি ইসরাইলী পুলিশ।</p>
+	<p class="block_11" lang="en">রাত দুপুরের তেলআবিব। জনবিরল রাস্তা। দু’একটি গাড়ীর আনা গোনা চলছে। মাহমুদের গাড়ী এসে একটি পাবলিক টেলিফোন বুথের সামনে দাঁড়াল। টেলিফোন বুথে প্রবেশ করে একটি নম্বরে সে ডায়াল করল। মুখে এক টুকরো হাসি। ও প্রান্তে টেলিফোন বেজে চলেছে। কিন্তু নো রিপ্লাই। মাহমুদ নাছোড় বান্দা। বেজেই চলছে টেলিফোন। কিছুক্ষণ পর ও প্রান্ত থেকে রিসিভার ওঠানোর শব্দ শোনা গেল। তারপর ভেসে এল একটি শব্দ হ্যালো---। নিদ্রাজড়িত কণ্ঠ। বলছে এমিলিয়া। নিশ্চিত হয়ে মাহমুদ রিসিভার রেখে দিল কোন উত্তর না দিয়েই। রাগে বিরক্তিতে এমিলিয়ার সুন্দর মুখটি এখন কেমন হয়েছে, মানস চক্ষেই আঁচ করত পারল মাহমুদ। কিন্তু বেচারীকে এভাবে না জাগিয়ে উপায় ছিল না।</p>
+	<p class="block_11" lang="en">এমিলিয়ার বাড়ী থেকে একটু দুরে একটি অন্ধকার গলিতে গাড়ী পার্ক করে রেখে এমিলিয়াদের বাড়ীর পেছন এসে দাঁড়াল মাহমুদ। তারপর পাচিল টপকে ভিতরে বাগানে গিয়ে পড়ল সে। একটুক্ষণ দাঁড়িয়ে চারিদিকটা একবার দেখে নিয়ে মাহমুদ সামনে পা বাড়াল। গিয়ে দাঁড়াল এমিলিয়া যে ঘরে থাকত, ঠিক তার নীচে। উপরে চেয়ে দেখল, এমিলিয়ার দু’টি জানালাই বন্ধ। মাহমুদ মত পরিবর্তন করল, না আজ জানালা দিয়ে নয় দরজা দিয়ে সে প্রবেশ করবে। গভীর রাত। কেউ জেগে নেই। পকেট থেকে সিল্কের কর্ড বের করে ছুড়ে মারল সে ছাদে। অভ্রান্ত লক্ষ্য। কর্ডের মাথার হুকটি বেঁধে গেল ছাদের সাইড ওয়ালে। মাহমুদ কর্ড বেয়ে উঠে গেল ছাদে। মাহমুদ খুশি হল, ছাদ থেকে নীচে নামবার সিঁড়ির দরজা খোলা আছে। সে অতি সন্তর্পণে সিঁড়ি বেয়ে বারান্দায় গিয়ে দাঁড়াল। চারতলার বারান্দা। চারতলার অংশে মোট তিনটি ঘর। একটি এমিলিয়ার বেডরুম, অন্যটি ড্রয়িংরুম এবং তৃতীয়টিতে থাকে এমিলিয়ার খাস পরিচারিকা সোনি। সর্বদক্ষিণের ঘরটি এমিলিয়ার শয়নকক্ষ। শয়নকক্ষের দরজায় গিয়ে মাহমুদ দাঁড়াল। হাঁটুর নীচ পর্যন্ত নামানো মাহমুদের ওভারকোট। ফেল্ট হ্যাট মুখের অর্ধাংশ ঢেকে রেখেছে। মাহমুদ ধীরে ধীরে ‘নক’ করল দরজায়। একবার-দুইবার-তিনবার। তুতীয়বারের পর এমিলিয়ার কণ্ঠ শোনা গেল। ‘কে?’ সোনি? মাহমুদ আবার সামান্য বিরতিতে টোকা দিল। আবার এমিলিয়ার কণ্ঠঃ কে? এবার তার কন্ঠে যেন উদ্বেগ। মাত্র কয়েক মুহুর্ত, তারপর ধীরে ধীরে দরজা খুলে গেল। ভিতরে হালকা নিল আলো। উদ্যত রিভলভার হাতে দাঁড়িয়ে আছে এমিলিয়া। রিভলভারের চকচকে নল মাহমুদের বুক লক্ষ্য করে সাপের জিহ্বার মত যেন লকলক করছে। ট্রিগারে রাখা এমিলিয়ার তর্জনিটি উত্তেজনায় কাঁপছে, যে কোন মুহুর্তে ট্রিগারে চাপ দিয়ে বসবে। চিৎকার করে এমিলিয়া কিছু বলতে যাচ্ছিল। মাহমুদ তর্জনিটি ঠোটে ঠেকিয়ে চুপ করার ইংগিত করল এবং পর মুহূর্তেই মাথা থেকে ফেল্ট হ্যাট ছুড়ে ফেলে দিল মাহমুদ। মাহমুদকে চিনতে পেরেই এমিলিয়া রিভলভার ছুড়ে ফেলে দিয়ে দু’হাতে মুখ ঢেকে বসে পড়ল। মাহমুদ একটু এগিয়ে এমিলিয়াকে বলল, ভয় পেয়েছ? এমিলিয়া মুখ তুলল। তার মুখে আনন্দ ও বিষ্ময় দুটোই। বলল, যদি গুলী করতাম।</p>
+	<p class="block_11" lang="en">মাহমুদ ঘরে প্রবেশ করে বলল, কি হত আর, এভাবে মৃত্যু থাকলে মরে যেতাম।।</p>
+	<p class="block_11" lang="en">এমিলিয়া দরজাটি বন্ধ করে দিয়ে এসে মাহমুদের ওভারকোট-এর বোতাম খুলতে খুলতে বলল, ইস! তাহলে কি হত?</p>
+	<p class="block_11" lang="en">-হত আর কি, ডেভিট বেন গুরিয়ানের নাতনী তুমি। ভাবতে, এক দুস্বপ্ন দেখছিলে।</p>
+	<p class="block_11" lang="en">-না, আমি শুধু ডেভিড বেনগুরিয়ানের নাতনী নই। আমি আমি.........। কথা শেষ না করেই থামল, এমিলিয়া। মুখ তার আরক্ত হয়ে উঠেছে। বলল, ঐ রিভলভারের একটি গুলি আমার বুকেও ঢুকত।</p>
+	<p class="block_11" lang="en">-কিন্তু নিয়ম তো এ নয় এমি!</p>
+	<p class="block_11" lang="en">-কেন?</p>
+	<p class="block_11" lang="en">-তোমার জীবনের মালিক তুমি নও, তোমার স্রষ্টা আল্লাহ। সুতরাং ইচ্ছা করলেই তুমি তোমার জীবনের উপর স্বেচ্ছাচার চালাতে পার না। -এ অধিকার তোমার নেই।</p>
+	<p class="block_11" lang="en">-কিন্তু ঐ দুর্বহ বেদনার ভার বহন করা......।</p>
+	<p class="block_11" lang="en">-তবু তাই করতে হয়। শত দুঃখ বেদনার পারাবার পাড়ি দিয়ে আল্লাহর বান্দা হিসেবে তুমি তোমার জীবনকে সার্থক করে তুলবে-এটাই জীবনের স্বাভাবিক দাবী।</p>
+	<p class="block_11" lang="en">-বড় কঠিন এটা।</p>
+	<p class="block_11" lang="en">-কঠিন, কিন্তু স্বাভাবিক।</p>
+	<p class="block_11" lang="en">মাহমুদের গা থেকে ওভারকোট খুলে নিয়ে রেখে দিয়ে এমিলিয়া বলল, একটু বিশ্রাম নাও। তোমাকে খুব ক্লান্ত দেখাচ্ছে। বলে সে মাহমুদকে ইজি চেয়ার এগিয়ে দিল।</p>
+	<p class="block_11" lang="en">মাহমুদ বলল, তুমিও বস।</p>
+	<p class="block_11" lang="en">-বসছি। বলল এমি। কিন্তু সে বসল না। ইজি চেয়ারের পিছনে দাড়াল এমিলিয়া। তার হাতের আঙ্গুলগুলো মাহমুদের জামার কলার নিয়ে খেলা করতে লাগল। ফিস্‌ ফিস্‌ করে এক সময় বলল, রাতে ক’ঘন্টা ঘুমাও।</p>
+	<p class="block_11" lang="en">-কোনদিন সারারাত, কোনদিন এক ঘন্টাও না।</p>
+	<p class="block_11" lang="en">-এমন করলে শরীর ভাল থাকে বুঝি?</p>
+	<p class="block_11" lang="en">-না থাকুক। অসুখ করলে শুয়ে থাকা যায়, পরিচর্যা পাওয়া যায়।</p>
+	<p class="block_11" lang="en">-কে পরিচর্যা করে?</p>
+	<p class="block_11" lang="en">-অসুখ করেনি কোনদিন। সামান্য যা করেছে আপন পরিচর্যায় তা সেরে গেছে। তাই বলতে পারিনে।</p>
+	<p class="block_11" lang="en">-যদি হয়?</p>
+	<p class="block_11" lang="en">-আমার সহকর্মীরা আছে।</p>
+	<p class="block_11" lang="en">-কেন, আমাকে ডাকবে না?</p>
+	<p class="block_11" lang="en">-ডাকলে তুমি যাবে?</p>
+	<p class="block_11" lang="en">-তোমার কি মনে হয়?</p>
+	<p class="block_11" lang="en">মাহমুদ কোন জবাব দিল না। পরে ধীরে ধীরে বলল, তোমাকে ডাকবার দিন এখনো আসেনি এমি। যেদিন ফিলিস্তিনী মজলুম মুসলিম ভাই বোনেরা তাদের স্বদেশ ভূমি ও তাদের বাড়ীঘর ফিরে পাবে, যেদিন তারা হারোনোর বেদনা ভুলে গিয়ে পাওয়ার আনন্দে উদ্বেল হয়ে উঠবে, সেইদিন আমার সংসারের রাণী সেজে যাবে আমার ঘরে। জ্বলবে আমার আঁধার ঘরে আলো। হাসি আনন্দে মুখর করে তুলবে আমার বোবা গৃহাঙ্গন। মাহমুদের কণ্ঠ ভারি হয়ে উঠল যেন ক্রমে।</p>
+	<p class="block_11" lang="en">-সেদিন কতদুরে মাহমুদ?</p>
+	<p class="block_11" lang="en">-আমি জানি না এমি।</p>
+	<p class="block_11" lang="en">অনেক্ষণ ধরে কেউ কোন কথা বলল না। প্রথমে নিরবতা ভাঙ্গল এমিলিয়া। বলল, এতরাতে তোমাকে কি খাওয়াই বলত?</p>
+	<p class="block_11" lang="en">-না, তোমাকে ওসব পাগলামি করতে দেব না। এটা সময় নয় খাওয়ার।</p>
+	<p class="block_11" lang="en">-ফল মিষ্টি খেতে দোষ নেই। মাত্র দু’মিনিট। আমি আসছি। একটু পর রেফ্রিজারেটর থেকে আঙ্গুর, কেক প্রভৃতি কয়েক ধরনের খাবার এনে এমিলিয়া হাযির করল। মাহমুদ এমিলিয়াকেও বসাল। খেতে খেতে মাহমুদ বলল, খুব ভয় পেয়েছিলে, না?</p>
+	<p class="block_11" lang="en">মুখে পুরে দেয়া কেকের টুকরা ভাল করে গিলে নিয়ে এমিলিয়া বলল, ঐ টেলিফোনটাও তাহলে তুমিই করেছিলে না?</p>
+	<p class="block_11" lang="en">মাহমুদ হাসতে লাগল।</p>
+	<p class="block_11" lang="en">এমিলিয়া বলল-ঐ ভূতুড়ে টেলিফোন পাওয়ার পরই রাত দুপুরে যদি দরজায় টোকা শোনা যায় এবং জিজ্ঞেস করেও তার কাছ থেকে যদি জবাব না পাওয়া যায়, আর দরজা খুলে যদি দেখা যায় ফেল্ট হ্যাটে মুখ ঢাকা কাল আলখেল্লা মোড়া এক মনুষ্যমুর্তি, তাহলে ভয় করবে না বুঝি? একটু থেমে সে আবার বলল, টেলিফোন ছেড়ে দিয়েছিলে কেন? বলে আসলেই পারতে।</p>
+	<p class="block_11" lang="en">-হ্যাঁ তোমাকে টেলিফোনে বলে-কয়ে আসি, আর তোমাদের টিকটিকি মহাশয়রা আমার অভ্যর্থনায় তোমাদের বাড়ীর গেটে দাঁড়িয়ে থাকুক।</p>
+	<p class="block_11" lang="en">-তা’হলে টেলিফোন করলে কেন?</p>
+	<p class="block_11" lang="en">-তোমার ঘুম ভাঙ্গানোর জন্য, এখানে এসে তো ডাকতে পারতাম না।</p>
+	<p class="block_11" lang="en">-উহ! তোমার এত বুদ্ধি।</p>
+	<p class="block_11" lang="en">-তোমার সাবধানতা দেখে আমি খুশী হয়েছি এমি, ভবিষ্যতেও তুমি এমনি সাবধান থেকো।</p>
+	<p class="block_11" lang="en">খাওয়া শেষ হয়ে গেল। মাহমুদ ঘড়ি দেখল, রাত প্রায় দু’টা। প্লেটগুলো নিয়ে উঠে দাঁড়াল এমি। মাহমুদ বলল, তোমার সাথে জরুরী কিছু কথা আছে।</p>
+	<p class="block_11" lang="en">এমি বলল-আসছি।</p>
+	<p class="block_11" lang="en">এমি প্লেটগুলো রেখে এসে সামনের চেয়ারটিতে বসে বলল-বল।</p>
+	<p class="block_11" lang="en">মাহমুদ তার ইজি চেয়ারটি টেনে নিয়ে এমিলিয়ার আরও কাছে গিয়ে বসল। এমিলিয়ার চোখে চোখ রেখে অতি নীচু গলায় বলল-তোমার কিছু সহযোগিতা চাই এমি।</p>
+	<p class="block_11" lang="en">এমিলিয়ার চোখ দু’টি উজ্জ্বল হয়ে উঠল। বলল, বল, আমি রাজি।</p>
+	<p class="block_11" lang="en">-দেশরক্ষা সেক্রেটারী এরহান শার্লটককে তুমি চেন?</p>
+	<p class="block_11" lang="en">-চিনি।</p>
+	<p class="block_11" lang="en">-কেমন চেন?</p>
+	<p class="block_11" lang="en">-ভালভাবে চিনি। ওর মেয়ে, আমার ক্লাশমেট। ওদের বাসায় মাঝে মাঝে যাই। এরহান চাচাজী আমাকে খুব স্নেহ করেন।</p>
+	<p class="block_11" lang="en">এরহান শার্লটকের মেজাজ ও চরিত্র সম্পর্কে কিছু বলতে পার?</p>
+	<p class="block_11" lang="en">-সৎ, সচ্চরিত্র, কর্তব্যপরায়ণ ও বিশ্বাসী কর্মচারী বলে উনার খুব সুনাম আছে। আর মেজাজ-মেজাজ একটু খিট খিটে ধরনের বলেই আমার মনে হয়।</p>
+	<p class="block_11" lang="en">-কেন?</p>
+	<p class="block_11" lang="en">-সামান্য কারণেও ওঁকে মাঝে মাঝে আমি খুব বেশী রেগে যেতে দেখিছি।</p>
+	<p class="block_11" lang="en">-যেমন?</p>
+	<p class="block_11" lang="en">-কারও কোথাও থেকে আসতে একটু দেরী হওয়া, ইত্যাদি।</p>
+	<p class="block_11" lang="en">মাহমুদ আর কিছু বলল না। পাওয়া সুত্রগুলো নিয়ে চিন্তার অতলে ডুব দিল সে। চোখ দু’টি তার বুজে গেল। যা সে জানতে চেয়েছিল, তা সে পেয়েছে। শার্লটকের এ খিটখিটে মেজাজের অর্থ তাঁর প্রতিরোধ শক্তি কম। এ ধরনের লোকের কাছ থেকে ভয় দেখিয়ে কিংবা চাপ দিয়ে কথা আদায় করা যায়। ডিসাইফারের খবর শার্লটকের কাছ থেকেই যোগাড় করতে হবে। মাহমুদ চোখ খুলল। দেখল এমিলিয়া পলকহীন দৃষ্টিতে তার দিকে তাকিয়ে আছে। বলল মাহমুদ ভাবছিলাম এমি।</p>
+	<p class="block_11" lang="en">-কি ভাবছিলে?</p>
+	<p class="block_11" lang="en">-তোমার শার্লটক চাচাজির মুখ থেকে আমাদের একটা কথা বের করে নিতে হবে, তা সম্ভব কি না তাই চিন্তা করছিলাম।</p>
+	<p class="block_11" lang="en">-কি কথা জানতে পারি কি? মাফ করো, আমি নিছক জানার আগ্রহ নিয়ে এ কথা বলছি না, যদি কোন সাহায্য করতে পারি সেই উদ্দেশ্যে।</p>
+	<p class="block_11" lang="en">-আমি তা বুঝতে পেরেছি এমি। একটু থামল মাহমুদ।</p>
+	<p class="block_11" lang="en">তারপর আবার বলল, ডিসাইফার চিন?</p>
+	<p class="block_11" lang="en">-কোড এক্সপ্লানেশন যাতে লেখা সেই বই কিংবা কোড মেসেজের ব্যাখ্যাকারী বই তো?</p>
+	<p class="block_11" lang="en">-হ্যাঁ, ঠিক চিনেছ। দিন পনের হয় ইসরাইল তাদের পুরনো কোডের পরিবর্তন করে নতুন কোডের প্রবর্তন করেছে। এই নতুন কোডের যে ডিসাইফার বুক ইসরাইলের আছে সেটা আমাদের প্রয়োজন। এই ডিসাইফার কোথায় রাখা হয়েছে, সেটাই আমরা জানতে চাই তোমার চাচাজানের কাছ থেকে।</p>
+	<p class="block_11" lang="en">-তিনি কি বলবেন?</p>
+	<p class="block_11" lang="en">-সহজে কি বলবেন? বলতে বাধ্য হবেন।</p>
+	<p class="block_11" lang="en">-ডিসাইফারের কিছু সন্ধান বোধ হয় আমি জানি।</p>
+	<p class="block_11" lang="en">-জান তুমি? মাহমুদের কন্ঠে ঝরে পড়ল একরাশ বিস্ময়।</p>
+	<p class="block_11" lang="en">-হাঁ, আমি জানি।</p>
+	<p class="block_11" lang="en">মাহমুদের বিস্ময় তখনও কাটেনি। মুহূর্ত কয়েক পর সে ধীর কন্ঠে বলল, কি জান, কতটুকু জান এমি?</p>
+	<p class="block_11" lang="en">-না বলব না। মুখ টিপে হাসল এমিলিয়া।</p>
+	<p class="block_11" lang="en">-তা হলে তোমাকেই হাইজাক করতে হয় দেখছি। মাহমুদও হাসল।</p>
+	<p class="block_11" lang="en">-আমি রাজি। অন্তত......</p>
+	<p class="block_11" lang="en">-অন্তত আমার আস্তানাটা দেখতে পারবে, তাইতো? হেসে বলল মাহমুদ।</p>
+	<p class="block_11" lang="en">দূরের কোন পেটা ঘড়িতে রাত দু’টো বেজে গেল। মাহমুদ সচকিতভাবে ঘড়ির দিকে চাইল। বলল-না এমি আর অপেক্ষা করতে পারি না, তোমার কষ্ট হচ্ছে।</p>
+	<p class="block_11" lang="en">-কষ্ট? আমার হচ্ছে? একটু থামল এমিলিয়া। বেদনার্ত হয়ে উঠল তার দু’টি চোখ। বলল সে, যার অপেক্ষায় হৃদয়-মন ব্যাকুল হয়ে থাকে, তাকে পাশে পাওয়ার সৌভাগ্য কষ্টকরই বটে।</p>
+	<p class="block_11" lang="en">-তা নয়, আমি বলছিলাম.......</p>
+	<p class="block_11" lang="en">মাহমুদের কথা কেড়ে নিয়ে এমিলিয়া বলল, না আর কোন কথা নয়। তোমার সময় নষ্ট হচ্ছে। বলে সে মাহমুদের সামনে উঠে এসে তার পিছনে দাঁড়াল। দু’টি কনুই মাহমুদের ইজি চেয়ারে ঠেস দিল। এমিলিয়ার তপ্ত নিঃশ্বাস মাহমুদ স্পষ্ট অনুভব করতে পারছিল তার কানে-গন্ডে।</p>
+	<p class="block_11" lang="en">মাহমুদ কিছু বলতে যাচ্ছিল। এমিলিয়া তাকে বাধা দিয়ে বলল, শুন, দেশরক্ষা সেক্রেটারী শার্লটক চাচাজানের মেয়ে মারিয়া স্মার্থা আমার ঘনিষ্ঠ বান্ধবী। ও “মোসাদ”-এ ট্রেনিং নিচ্ছে। ওর কাছেই আমি ডিসাইফারের একটি কপি গত পরশু দেখেছি। বইটি আমাকে দেখিয়ে সে বলেছে, অতি গোপনীয় বইটি বিশেষ নির্দেশক্রমে সে মাত্র কয়েকদিনের জন্য আনতে পেরেছে। থামল এমিলিয়া।</p>
+	<p class="block_11" lang="en">মাহমুদ এমিলিয়ার একটি হাত ধরে টেনে নিয়ে পাশে বসাল। বলল, বইটি আমার চাই এমি এবং কালই।</p>
+	<p class="block_11" lang="en">-আমাকে চুরি করতে বলছ বইটি? হাসল এমিলিয়া। মাহমুদ বলল, না তোমার বান্ধবীকে আমরা বিপদে ফেলতে চাই না। তাছাড়া চুরি করলে ওরা জানতে পারবে, তাতে আমাদের খুব বেশী লাভ হবে না।</p>
+	<p class="block_11" lang="en">-তা হলে......?</p>
+	<p class="block_11" lang="en">-বইটির পৃষ্ঠা সংখ্যা কত হতে পারে?</p>
+	<p class="block_11" lang="en">-দেড়শ’র বেশী হবে না।</p>
+	<p class="block_11" lang="en">-আচ্ছা, তুমি যদি ওখানে গিয়ে বইটি দেখ বা পড়, তাহলে তোমার বান্ধবী আপত্তি করবে?</p>
+	<p class="block_11" lang="en">-না।</p>
+	<p class="block_11" lang="en">মাহমুদ মুহূর্ত কয়েক ভাবল। তারপর পকেট থেকে ক্ষুদ্র সিগারেট লাইটার বের করে এমিলিয়ার হাতে দিল।</p>
+	<p class="block_11" lang="en">এমিলিয়া বলল, এ সিগারেট লাইটার দিয়ে কি হবে?</p>
+	<p class="block_11" lang="en">-সিগারেট লাইটার নয়। এটা একটা ক্যামেরা। ঐ যে মাথায় ক্ষুদ্র সাদা সুইচ দেখছ, ওটাতে যতবার চাপ দিবে, উঠবে একটি করে ফটো।</p>
+	<p class="block_11" lang="en">-বুঝেছি, বই-এর প্রতিটি পাতার ফটো নিব আমি। হাসল এমিলিয়া।</p>
+	<p class="block_11" lang="en">-ঠিক, তোমার বান্ধবীর অলক্ষ্যে করতে হবে এ কাজ। পারবে না?</p>
+	<p class="block_11" lang="en">-তোমার নির্দেশ হলে, এর চেয়েও কঠিন কাজ আমি করব। শান্ত ও দৃঢ় কণ্ঠ এমিলিয়ার।</p>
+	<p class="block_11" lang="en">-নির্দেশ নয় এমি, এটা আমার অনুরোধ। সকলের তরফ থেকে আমার এ অনুরোধ। আর জান, এটা অন্যায়ও নয় এমি। ফিলিস্তিনের প্রকৃত ইহুদি বাসিন্দাদের বিরুদ্ধে আমাদের কোন ক্ষোভ নেই, অভিযোগ নেই। বাস্তুহারা মুসলিম ফিলিস্তিনিরা তাদের হারানো রাষ্ট্র ফিরে পেতে চায়, যেখানে নাগরিক হিসেবে ইহুদিদেরও থাকবে সমান অধিকার।</p>
+	<p class="block_11" lang="en">-আমি জানি মাহমুদ। বল আমাকে কি করতে হবে।</p>
+	<p class="block_11" lang="en">-বলছি শুন, এই একটি লাইটার ক্যামেরায় যা রীল আছে, তাতে ৫০টি ফটো উঠবে। এ ধরনের আরও দু’টি ক্যামেরা আমরা তোমাকে পৌঁছাব। এখন বল তোমার পরিকল্পনা-কিভাবে এগুবে।</p>
+	<p class="block_11" lang="en">-তুমি যেমন বলবে।</p>
+	<p class="block_11" lang="en">-আমি তোমার মূল কর্তব্য বলে দিয়েছি। এখন তোমার নিজের বুদ্ধির উপর নির্ভর করে কাজ করতে হবে। কোন অবস্তাতেই তোমাকে ধরা পড়া চলবে না। একান্তই যদি কোন প্রতিকূল পরিস্থিতির সৃষ্টি হয়, তাহলে লাইটার ক্যামেরার নীচের তলায় একটি লাল সুইচ আছে, ওটাতে চাপ দিয়ে গোটা ক্যামেরাটাই জ্বালিয়ে দিবে।</p>
+	<p class="block_11" lang="en">-বুঝেছি।</p>
+	<p class="block_11" lang="en">-তুমি যে ক্যামেরাটি পেলে ওটা ১নম্বর। ২ এবং ৩ নম্বর কাল পাবে। ক্রমিক হিসেবে ব্যবহার করবে। আচ্ছা, কাল কখন যেতে পারবে স্মার্থাদের ওখান?</p>
+	<p class="block_11" lang="en">-সকাল ন’টায় যাব।</p>
+	<p class="block_11" lang="en">-সকাল ঠিক আটটায় তোমাদের বাড়ীর গেটে ফুল-বিক্রেতা আসবে। তার কাছে থাকবে সুন্দর সুন্দর ফুলের তোড়া। তুমি দু’টি তোড়া কিনে নিবে। তারপর-তারপর কি করবে বলত? হেসে বলল মাহমুদ।</p>
+	<p class="block_11" lang="en">-ফুলের তোড়া ভেঙ্গে ক্যামেরা দু’টো বের করে নেবো। কিন্তু ফুলের তোড়া কি ভাঙ্গতে ইচ্ছে করবে? এমিলিয়া হাসল।</p>
+	<p class="block_11" lang="en">-ভাঙ্গতে হবে না। মাঝখানের মাত্র একটি ফুল তুললেই ক্যামেরা পেয়ে যাবে। থামল মাহমুদ। তারপর বলল, আবার তুমি কখন ফিরতে পারবে সেখান থেকে?</p>
+	<p class="block_11" lang="en">-ঠিক করে তো বলা কঠিন।</p>
+	<p class="block_11" lang="en">-বিকেলের আগে তো নিশ্চয়ই।</p>
+	<p class="block_11" lang="en">-তাহবে।</p>
+	<p class="block_11" lang="en">-কালকেই কিন্তু আমাদের ক্যামেরা ফিরে চাই।</p>
+	<p class="block_11" lang="en">-তুমি আসবে নিতে?</p>
+	<p class="block_11" lang="en">-আসতে বল?</p>
+	<p class="block_11" lang="en">-বলতে কি তা পারব? ব্যক্তিগত ভালো লাগা-না লাগার মূল্য কি কিছু আছে? এমিলিয়ার কণ্ঠ ভারী শোনাল।</p>
+	<p class="block_11" lang="en">মাহমুদ এমিলিয়ার চোখে চোখ রাখল। এমিলিয়া চোখ নামিয়ে নিলে। মৃদু হাসল মাহমুদ। তারপর বলল, জাতীয় কর্তব্য যেখানে মুখ্য হয়ে ওঠে, ব্যক্তি সত্ত্বা সেখানে অবশ্যই গৌণ হয়ে পড়ে। কিন্তু সম্পূর্ণভাবে তা যে মুছে যায় না- একথা আজ আমি মর্মে মর্মে অনুভব করছি। জাতীয় দায়িত্বের শত কাজের ভীড়েও আমি তোমার কথা ভাবি, ভাবতে ভাল লাগে। যখন তোমার কাছে আসার প্রশ্ন ওঠে, তখন মন নেচে ওঠে আনন্দে। আমার এ ব্যক্তিগত ভালো লাগাকে মূল্য না দিয়ে পারছি কই এমি?</p>
+	<p class="block_11" lang="en">-ব্যক্তিসত্ত্বার এ দাবী কি অন্যায়?</p>
+	<p class="block_11" lang="en">-ব্যক্তি ও জাতীয় সত্ত্বা উভয়েরই সমান মর্যাদা। একটির স্বার্থে অপরটিকে অস্বীকার করা যায় না। আমার বিশ্বাস, ব্যক্তি সত্ত্বার দাবী যতক্ষণ জাতীয় নীতি-নিয়মের সীমা লংঘন না করছে, ততক্ষণ সে দাবী অন্যায় নয়। থামল মাহমুদ।</p>
+	<p class="block_11" lang="en">এমিলিয়া নিরব। মাহমুদ বলল, কথা বলছ না যে।</p>
+	<p class="block_11" lang="en">-খুব ভয় করে আমার, হয়ত কত অন্যায় করে যাচ্ছি। দেখ ছোট বেলা থেকে নিজের ব্যক্তিগত ভালো লাগা না লাগাকে বড় করে দেখার শিক্ষা পেয়েছি। তাই ভুল-ভ্রান্তিকে ক্ষমা করো।</p>
+	<p class="block_11" lang="en">-তুমি ইতিমধ্যে অনেক পরিবর্তন এনেছ। তুমি শুধু আমাকে নয়, আমাদের সবাইকেই বিস্মিত করেছ। থামল মাহমুদ। বলল আবার, আগামী সন্ধ্যা ৭ টায় অক্সফোর্ড বুক ফাউন্ডেশন থেকে কিছু বই নিয়ে একজন লোক এসে তোমাদের গেটে দাঁড়াবে এবং তুমি কিছু বই চেয়েছ বলে তোমাকে সংবাদ দিতে বলবে। তুমি তাকে ডেকে নেবে। ক্যামেরা তিনটি একটি থ্রিক্যাসল সিগারেট প্যাকেটে পুরে রাখবে। বুক ফাউন্ডেশনের প্রতিনিধি এসে বসার পর সেও একটি থ্রিক্যাসল সিগারেটের প্যাকেট টেবিলে রাখবে। সিগারেট-প্যাকেটের এক কোণে আমার হস্তাক্ষর থাকবে-CM. থ্রিক্যাসল সিগারেট প্যাকেটে যদি আমার হস্তাক্ষর দেখতে পাও, তাহলে লোকটিকে খাঁটি জানবে এবং বইপত্র দেখার ফাঁকে ঐ প্যাকেটটি তুলে নিয়ে তোমারটি রেখে দিবে।</p>
+	<p class="block_11" lang="en">-তোমার হস্তাক্ষর CM-এর অর্থ কি?</p>
+	<p class="block_11" lang="en">-কর্ণেল মাহমুদ।</p>
+	<p class="block_11" lang="en">-আর ইউ কর্ণেল। বিস্ময়ে এমিলিয়া চোখ দু’টি বড় বড় করল।</p>
+	<p class="block_11" lang="en">-কেন বিশ্বাস হয় না?</p>
+	<p class="block_11" lang="en">-তুমি রীতিমত তা’হলে সেনাবাহিনীর লোক? কিন্তু ....</p>
+	<p class="block_11" lang="en">-কিন্তু কোন্‌ সেনাবাহিনীর এই তো? হাসল মাহমুদ। একটু থেমে আবার বলল, থাক ওসব কথা আজ। এবার উঠি এমি। বলে উঠে দাঁড়াল মাহমুদ।</p>
+	<p class="block_11" lang="en">-যাচ্ছ?</p>
+	<p class="block_11" lang="en">-হাঁ, যাই।</p>
+	<p class="block_11" lang="en">-আবার কবে দেখা হবে?</p>
+	<p class="block_11" lang="en">-আল্লাহ জানেন।</p>
+	<p class="block_11" lang="en">মাহমুদ ঘর থেকে বেরিয়ে ছাদে উঠে এল। সাথে সাথে উঠে এল। এমিলিয়াও ছাদের কার্ণিশ থেকে সিল্কের কর্ড ঝুলছে। মাহমুদ গিয়ে দাঁড়াল সেখানে।</p>
+	<p class="block_11" lang="en">এমিলিয়া এসে দাঁড়াল মাহমুদের পাশে একান্ত ঘনিষ্ঠ হয়ে। বলল, একটা কথা বলব?</p>
+	<p class="block_11" lang="en">-অন্তত তোমার টেলিফোন নম্বরটুকু পেতে পারি না?</p>
+	<p class="block_11" lang="en">মাহমুদ মুহূর্ত কয়েক চিন্তা করে বলল, আমার অপারগতার কথা তো তুমি জান এমি।</p>
+	<p class="block_11" lang="en">-আমি কথা দিচ্ছি, আমি কখনও টেলিফোন করব না। শুধু আমি নিশ্চিন্ত থাকতে চাই যে, প্রয়োজন হলে তোমার সাথে যোগাযোগ করতে পারব।</p>
+	<p class="block_11" lang="en">-তোমার অনুরোধ রক্ষা করতে না পারা আমার জন্য বড় কষ্টের এমি। কিন্তু আমি অপারগ। তুমি সব জান। আমাকে ক্ষমা করো তুমি।</p>
+	<p class="block_11" lang="en">এমিলিয়া মুখ নীচু করে দাঁড়িয়েছিল। কোন কথা বলল না। তেমনি মুখ নিচু করে দাঁড়িয়ে রইল।</p>
+	<p class="block_11" lang="en">মাহমুদ ফিরে এমিলিয়ার মুখোমুখি দাঁড়াল। ওর চোখে অশ্রু। বোধ হয় অশ্রু গোপন করার জন্য এমিলিয়া দু’হাতে মুখ ঢাকল।</p>
+	<p class="block_11" lang="en">ভাব্‌ছিল মাহমুদ। ভাবছিল এমিলিয়াকে টেলিফোন নম্বর দেয়া যায় কি না। কিন্তু ভেবে দেখল, এমিলিয়াকে সকল সন্দেহের উর্ধে হলেও এ ধরনের কাজ হবে সম্পূর্ণ নীতি-বিরুদ্ধে। প্রিয়তমার চোখের পানিতে সে তার নীতি ও দায়িত্ববোধ বিসর্জ্জন দিতে পারে না। মাহমুদ বলল, বড্ড খারাপ লাগছে এমি। বিদায় বেলায় আজ তোমার চোখে অশ্রু দেখে গেলাম।</p>
+	<p class="block_11" lang="en">এমিলিয়া একটু হেঁট হয়ে রুমালে দু’টি চোখ মুছে নিয়ে সোজা হয়ে দাঁড়াল। কোন কথা বলল না।</p>
+	<p class="block_11" lang="en">মাহমুদ বলল, আসি এমি কথা দিয়ে যাচ্ছি, এরপর বাইরের কোন টেলিফোন থেকে মাঝে মাঝে তোমার সাথে কথা বলব। বলে মাহমুদ দোলায়মান কর্ডের দিকে এগুলো।</p>
+	<p class="block_11" lang="en">এমিলিয়া মাহমুদের একটি হাত চেপে ধরে বলল, কষ্ট নিও না, আমার দুর্বলতাকে ক্ষমা করো।</p>
+	<p class="block_11" lang="en">মাহমুদ ফিরে দাঁড়াল। এমিলিয়ার আনত মুখটিকে তুলে ধরে বলল, তাহলে হাসতে হবে। বলে হাসতে লাগল।</p>
+	<p class="block_11" lang="en">-জোর করে বুঝি হাসাবে তুমি। হেসে ফেলল এমিলিয়াও।</p>
+	<p class="block_11" lang="en">-কাঁদাবে যে হাসাবে তো সেই। আসি। খোদা করুন আগামীকালের অপারেশনে তুমি সফল হও। খোদা হাফেজ।</p>
+	<p class="block_11" lang="en">-খোদা হাফেজ। বলল এমিলিয়া।</p>
+	<p class="block_11" lang="en">মাহমুদ সিল্কের কর্ড ধরে ঝুলে পড়ল।</p>
+	<p class="block_5" lang="en" id="calibre_pb_17">&#160;</p>
+
+            </article>
+        </div>
+
+    </div>
+
+    <div class="settings-overlay" id="settingsOverlay" data-id="settingsOverlay" aria-hidden="true"></div>
+    <div class="settings-modal" id="settingsModal" data-id="settingsModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="settingsModalTitle">
+        <div class="settings-header">
+            <h2 class="settings-header-title" id="settingsModalTitle">
+                <i class="fas fa-cog" aria-hidden="true"></i>
+                <span data-i18n="reader.settings">Settings</span>
+            </h2>
+            <button class="settings-close-btn" id="settingsCloseBtn" type="button" aria-label="Close settings" data-i18n-aria-label="reader.closeSettings">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="settings-tabs">
+            <button class="settings-tab active" data-tab="font">
+                <i class="fas fa-font"></i>
+                <span data-i18n="settings.appearance">Appearance</span>
+            </button>
+            <button class="settings-tab" data-tab="reading">
+                <i class="fas fa-book-reader"></i>
+                <span data-i18n="settings.reading">Reading</span>
+            </button>
+        </div>
+        <div class="settings-content">
+            <div class="settings-tab-panel active" id="font-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.fontFamily">Font family</label>
+        <div class="font-family-selector">
+            <select id="fontFamilySelect">
+                <option value="ebook-default" selected data-i18n="settings.bookDefault">Book default</option>
+                <option value="system-ui, -apple-system, sans-serif" data-i18n="settings.systemDefault">System default</option>
+                <option value="custom" data-i18n="settings.customByInput">Custom by input</option>
+            </select>
+        </div>
+        <div class="custom-font-input" id="customFontInput" style="display: none;">
+            <input type="text" id="customFontFamily" placeholder="Input font name here" data-i18n-placeholder="settings.customFontPlaceholder">
+            <small data-i18n="settings.customFontTip">Tip: Font family applies globally. Ensure it’s installed in the system.</small>
+            <button class="css-btn primary" id="applyFontSettings">
+                <i class="fas fa-check"></i> <span data-i18n="settings.apply">Apply</span>
+            </button>
+        </div>
+                </div>
+                
+                <div class="settings-group">
+                    <label class="settings-label" for="fontSizeSlider" data-i18n="settings.fontSize">Font size</label>
+                    <div class="font-size-control">
+                        <input type="range" id="fontSizeSlider" min="1" max="12" value="3" step="1" data-sizes-rem="0.9,1.1,1.3,1.5,1.7,1.9,2.2,2.5,2.8,3.2,3.6,4">
+                        <div class="font-size-scale" aria-hidden="true"><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark major"></span></div>
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <div class="settings-label-row">
+                        <label class="settings-label" for="pageWidthSlider" data-i18n="settings.pageWidth">Page width</label>
+                        
+                    </div>
+                    <div class="page-width-control">
+                        <input type="range" id="pageWidthSlider" min="1" max="4" value="3" step="1" aria-label="Page width" data-i18n-aria-label="settings.pageWidth">
+                        <div class="page-width-scale" aria-hidden="true">
+                            
+                            <span data-i18n="settings.pageWidthNarrow">Narrow</span>
+                            <span data-i18n="settings.pageWidthComfortable">Comfortable</span>
+                            <span data-i18n="settings.pageWidthWide">Wide</span>
+                            <span data-i18n="settings.pageWidthExtraWide">Extra wide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-group settings-group-custom-css">
+                    <div class="settings-section-heading">
+                        <span class="settings-section-title" data-i18n="settings.customStyles">Custom styles</span>
+                        <span class="settings-section-optional" data-i18n="settings.optional">Optional</span>
+                    </div>
+                    <p class="settings-section-description" data-i18n="settings.customStylesDescription">Use CSS to fine-tune this book’s typography and layout.</p>
+                    <div class="css-editor">
+                        <textarea id="customCssInput" placeholder="Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}" data-i18n-placeholder="settings.customCssPlaceholder"></textarea>
+                        <div class="css-controls">
+                            <button class="css-btn primary" id="saveCssBtn">
+                                <i class="fas fa-save"></i> <span data-i18n="settings.save">Save</span>
+                            </button>
+                            <button class="css-btn primary" id="saveAsDefaultBtn">
+                                <i class="fas fa-star"></i> <span data-i18n="settings.saveAsDefault">Save as default</span>
+                            </button>
+                            <button class="css-btn secondary" id="resetCssBtn">
+                                <i class="fas fa-undo"></i> <span data-i18n="settings.reset">Reset</span>
+                            </button>
+                            <button class="css-btn secondary" id="loadDefaultBtn">
+                                <i class="fas fa-download"></i> <span data-i18n="settings.loadDefault">Load default</span>
+                            </button>
+                            <button class="css-btn secondary" id="previewCssBtn">
+                                <i class="fas fa-eye"></i> <span data-i18n="settings.preview">Preview</span>
+                            </button>
+                        </div>
+                        <div class="css-info">
+                            <p><i class="fas fa-info-circle"></i> <span data-i18n="settings.defaultStyleTip">Tip: The default style will be applied to all books unless a custom style is set for specific books.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-tab-panel" id="reading-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.readingMode">Reading mode</label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="showReadingProgressBarToggle" checked>
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.showReadingProgressBar">Show reading progress bar</span>
+                    </label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="paginationModeToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.paginationMode">Use page-turning mode</span>
+                    </label>
+                    <div class="settings-option-with-tip">
+                        <label class="settings-switch">
+                            <input type="checkbox" id="clickPageToggle" disabled aria-disabled="true">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="reader.clickToTurn">Click to turn page</span>
+                        </label>
+                        <button type="button" class="settings-info-tip" data-settings-tip data-tip="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-data-tip="settings.clickPageHelp" aria-label="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-aria-label="settings.clickPageHelp">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <label class="settings-switch pagination-incompatible-setting">
+                        <input type="checkbox" id="continuousScrollToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.continuousScroll">Enable continuous scroll</span>
+                        <span class="continuous-scroll-tip" id="continuousScrollTip" tabindex="0" data-settings-tip data-tip="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-data-tip="settings.continuousScrollTip" aria-label="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-aria-label="settings.continuousScrollTip">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </span>
+                    </label>
+                </div>
+                <fieldset class="settings-group desktop-layout-settings">
+                    <legend class="settings-section-title" data-i18n="settings.desktopLayout">Desktop layout</legend>
+                    <div class="desktop-layout-options">
+                        <label class="settings-switch desktop-layout-option desktop-setting-only">
+                            <input type="checkbox" id="desktopChapterSidebarToggle">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.desktopChapterSidebar">Show chapter sidebar</span>
+                        </label>
+                        <div class="desktop-layout-option settings-option-with-tip desktop-setting-only">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopChapterSidebarToggle" disabled aria-disabled="true">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopChapterSidebar">Auto-hide chapter sidebar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-data-tip="settings.autoHideDesktopChapterSidebarHelp" aria-label="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-aria-label="settings.autoHideDesktopChapterSidebarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="desktop-layout-option settings-option-with-tip">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopToolbarToggle">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopToolbar">Auto-hide reading toolbar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-data-tip="settings.autoHideDesktopToolbarHelp" aria-label="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-aria-label="settings.autoHideDesktopToolbarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group keyboard-navigation-settings">
+                    <legend class="settings-section-title" data-i18n="settings.keyboardNavigation">Keyboard navigation</legend>
+                    <div class="keyboard-navigation-options">
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="arrowKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.arrowKeyNavigation">Use Left and Right Arrow keys to navigate</span>
+                        </label>
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="spaceKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.spaceKeyNavigation">Use Space for the next page or chapter</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group navigation-behavior-settings pagination-incompatible-setting" aria-describedby="navigationBehaviorHelp">
+                    <legend class="settings-section-title" data-i18n="settings.navigationBehavior">Navigation bar behavior</legend>
+                    <p class="settings-section-description" id="navigationBehaviorHelp" data-i18n="settings.navigationBehaviorHelp">Choose when the top navigation stays visible while you read.</p>
+                    <div class="navigation-behavior-options">
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="normal" checked><span data-i18n="settings.navigationBehavior.normal">Normal scroll</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="sticky"><span data-i18n="settings.navigationBehavior.sticky">Always sticky</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="auto-hide"><span data-i18n="settings.navigationBehavior.autoHide">Hide down, show up</span></label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <div class="reading-controls" data-id="reading-controls">
+        <button class="control-btn" id="scrollToTopBtn" type="button" aria-label="Top" data-i18n-aria-label="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span class="control-name" data-i18n="reader.top">Top</span>
+        </button>
+        <a class="control-btn" id="bookHomeShortcut" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome" title="Open book home" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span class="control-name" data-i18n="reader.openBookHome">Book home</span>
+        </a>
+    </div>
+
+    <!-- 移动端控件 -->
+    <div class="mobile-controls" data-id="mobile-controls">
+        <button class="control-btn" id="mobileTocBtn" type="button" aria-label="This chapter contents" title="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" data-i18n-title="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false">
+            <i class="fas fa-list"></i>
+            <span data-i18n="reader.thisChapterContents">This chapter</span>
+        </button>
+        <button class="control-btn" id="mobileBookHomeBtn" type="button" aria-label="Open book chapters" title="Open book chapters" data-i18n-aria-label="reader.openBookChapters" data-i18n-title="reader.openBookChapters">
+            <i class="fas fa-book"></i>
+            <span data-i18n="reader.bookChapters">Chapters</span>
+        </button>
+        
+        
+        
+        
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_16.html" aria-label="Previous chapter" title="Previous chapter" data-i18n-aria-label="reader.previous" data-i18n-title="reader.previous"> <div class="control-btn" aria-label="Previous chapter" data-i18n-aria-label="reader.previous"> <i class="fas fa-arrow-left"></i><span data-i18n="reader.previous">Previous chapter</span></div></a>
+        <a href="/" aria-label="Home" title="Home" data-i18n-aria-label="reader.home" data-i18n-title="reader.home">
+            <div class="control-btn" aria-label="Home" data-i18n-aria-label="reader.home">
+                <i class="fas fa-home"></i>
+                <span data-i18n="reader.home">Home</span>
+            </div>
+        </a>
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_18.html" aria-label="Next chapter" title="Next chapter" data-i18n-aria-label="reader.next" data-i18n-title="reader.next"> <div class="control-btn" aria-label="Next chapter" data-i18n-aria-label="reader.next"> <i class="fas fa-arrow-right"></i><span data-i18n="reader.next">Next chapter</span></div></a>
+        <button class="control-btn" id="mobilePageJumpBtn" type="button" aria-label="Jump" title="Jump" data-i18n-aria-label="reader.jump" data-i18n-title="reader.jump">
+            <i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i>
+            <span data-i18n="reader.jump">Jump</span>
+        </button>
+        <button class="control-btn" id="mobileSettingsBtn" type="button" aria-label="Settings" title="Settings" data-i18n-aria-label="reader.settings" data-i18n-title="reader.settings" aria-controls="settingsModal" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+            <span data-i18n="reader.settings">Settings</span>
+        </button>
+        <a class="control-btn" id="mobileBookHomeShortcut" href="index.html" aria-label="Open book home" title="Open book home" data-i18n-aria-label="reader.openBookHome" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span data-i18n="reader.openBookHome">Book home</span>
+        </a>
+        <button class="control-btn" id="mobileTopBtn" type="button" aria-label="Top" title="Top" data-i18n-aria-label="reader.top" data-i18n-title="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span data-i18n="reader.top">Top</span>
+        </button>
+    </div>
+
+    <!-- 书架弹窗 -->
+    <div class="bookshelf-modal" id="bookshelfModal" role="dialog" aria-modal="true" aria-labelledby="bookshelfModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addShelfGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addShelfBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    
+                    <button class="bookshelf-action-btn" id="exportShelfBtn">
+                        <i class="fas fa-upload" aria-hidden="true"></i> <span data-i18n="bookshelf.export">Export</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="importShelfBtn">
+                        <i class="fas fa-download" aria-hidden="true"></i> <span data-i18n="bookshelf.import">Import</span>
+                    </button>
+                    <input type="file" id="importShelfFile" accept=".json" style="display: none;">
+                </div>
+                <h2 class="bookshelf-title" id="bookshelfModalTitle"><i class="fas fa-home" aria-hidden="true"></i> <span data-i18n="bookshelf.title">Bookshelf</span></h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="bookshelfCloseBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="bookshelfLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="bookshelfBody">
+            </div>
+            <div class="bookshelf-footer" id="bookshelfFooter">
+                <span id="bookshelfStats"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分组弹窗 -->
+    <div class="bookshelf-modal" id="groupModal" role="dialog" aria-modal="true" aria-labelledby="groupModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addGroupSubGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addGroupBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="renameGroupBtn">
+                        <i class="fas fa-edit" aria-hidden="true"></i> <span data-i18n="bookshelf.rename">Rename</span>
+                    </button>
+                    <button class="bookshelf-action-btn bookshelf-delete-btn" id="deleteGroupBtn">
+                        <i class="fas fa-trash" aria-hidden="true"></i> <span data-i18n="bookshelf.deleteGroup">Delete Group</span>
+                    </button>
+                </div>
+                <h2 class="bookshelf-title" id="groupModalTitle" data-i18n="bookshelf.group">Group</h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="groupCloseBtn" aria-label="Back to bookshelf" data-i18n-aria-label="bookshelf.home">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button class="bookshelf-close-btn" id="groupCloseAllBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="groupLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="groupBody">
+            </div>
+            <div class="bookshelf-footer" id="groupFooter">
+                <span id="groupStats"></span>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="eb-footer" data-id="eb-footer" data-version-check data-current-version="2.17.1" data-release-api="">
+    <p><span data-i18n="footer.product">EPUB Library</span> &copy; 2026 | <span data-i18n="footer.poweredBy">Powered by</span> <a href="https://github.com/dfface/epub-browser" target="_blank" rel="noopener noreferrer">epub-browser</a><!-- i18n-allow-literal: product name --> <span data-i18n="footer.poweredBySuffix">&middot;</span> <span class="eb-footer-version" aria-label="Version 2.17.1" data-i18n-aria-label="common.version" data-i18n-params='{"version":"2.17.1"}'>v2.17.1</span><span class="eb-footer-update" data-version-update hidden><span aria-hidden="true"> &middot; </span><a target="_blank" rel="noopener noreferrer"></a></span></p>
+</footer>
+
+    
+    <script src="/assets/immutable/notification.ea0bd58fa985.js" defer></script>
+    
+    <script src="/assets/immutable/locale-nav.1dfbcbe0b37e.js" defer></script>
+    <script src="/assets/immutable/theme.fca510090d70.js" defer></script>
+    <script src="/assets/immutable/dialog.a3f376ac6a44.js" defer></script>
+    <script src="/assets/immutable/version-check.47351de03846.js" defer></script>
+    <script src="/assets/immutable/vendor/glightbox/glightbox.min.c67c59cdf980.js" defer></script>
+    <script src="/assets/immutable/lightbox-adapter.9c8cb9207923.js" defer></script>
+    <script src="/assets/immutable/vendor/web-highlighter/web-highlighter.min.7360ce01d835.js" defer></script>
+    <script src="/assets/immutable/chapter-prefetch.8dc88587bd93.js" defer></script>
+    <script src="/assets/immutable/chapter-window.8d2c13e8f216.js" defer></script>
+    <script src="/assets/immutable/viewport-anchor.021abaa5aa16.js" defer></script>
+    <script src="/assets/immutable/continuous-buffer.27eaf6de1887.js" defer></script>
+    <script src="/assets/immutable/reading-progress.653eacfc5c3b.js" defer></script>
+    <script src="/assets/immutable/reader-layout.c935b79be9f3.js" defer></script>
+    
+    
+    <script src="/assets/immutable/chapter.d142eca8903e.js" defer></script>
+    <script src="/assets/immutable/annotation-position.df7b410bbafb.js" defer></script>
+    <script src="/assets/immutable/annotation.b20d5ca76780.js" defer></script>
+    <script src="/assets/immutable/annotation-hub.ad5eeecee8bd.js" defer></script>
+    <script src="/assets/immutable/vendor/sortablejs/sortable.min.6d0a831fc19b.js" defer></script>
+    
+    
+    <script src="/assets/immutable/bookshelf.b75fb5bdddd2.js" defer></script>
+    
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.initScriptChapter) window.initScriptChapter();
+    });
+    </script>
+</body>
+</html>

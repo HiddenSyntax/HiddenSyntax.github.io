@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244548">
+    <meta name="description" content="৪ - সাইমুম সিরিজ - EPUB Browser">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EPUB Browser">
+    <title>৪ - সাইমুম সিরিজ</title>
+    
+    <script>document.documentElement.classList.add("i18n-boot");setTimeout(function(){document.documentElement.classList.remove("i18n-boot");},3000);</script><script src="/assets/immutable/i18n/i18n-core.978da4e85125.js"></script><script>window.EpubBrowserI18n.registerDictionary("en",{"common.brand":"EPUB Browser","common.language":"Language","common.chinese":"Chinese","common.english":"English","locale.name.en":"English","locale.name.zh-CN":"简体中文","locale.name.zh-TW":"繁體中文","locale.name.ko":"한국어","locale.name.ja":"日本語","common.version":"Version {version}","theme.light":"Light","theme.dark":"Dark","theme.sepia":"Sepia","theme.forest":"Forest","theme.ocean":"Ocean","theme.peach":"Peach","theme.lavender":"Lavender","theme.day":"Day theme","theme.night":"Night theme","theme.automatic":"Automatically switch between day and night themes based on the device","theme.automaticHelp":"Automatic switching hides the toolbar theme button. Choose your day and night themes here.","theme.invalid":"Invalid appearance settings.","theme.saveFailed":"Unable to save appearance settings.","reader.library":"Library","reader.breadcrumb":"Breadcrumb","reader.navigation":"Reading navigation","reader.theme":"Theme","reader.turning":"Turning","reader.scrolling":"Scrolling","reader.book":"Book","reader.home":"Home","reader.top":"Top","reader.settings":"Settings","reader.shelf":"Shelf","reader.annotations":"Annotations","reader.tableOfContents":"Table of contents","reader.bookChapters":"Chapters","reader.thisChapterContents":"This chapter","reader.openBookChapters":"Open book chapters","reader.skipToContent":"Skip to reading content","reader.previous":"Previous chapter","reader.next":"Next chapter","reader.previousPage":"Previous page","reader.nextPage":"Next page","reader.currentPage":"Current page","reader.totalPages":"Total pages","reader.jump":"Jump","reader.clickToTurn":"Click to turn page","reader.pureReading":"Pure reading mode","reader.reloadPages":"Reload pages","reader.setPageHeight":"Set page height","reader.loadingContent":"Loading content","reader.openBookHome":"Open book home","reader.closeBookHome":"Close book home","reader.closeSettings":"Close settings","reader.closeTableOfContents":"Close table of contents","reader.pageHeight":"Page height","reader.turningModeEnabled":"Page turning mode enabled","reader.exitTurningConfirm":"Exit page turning mode?","reader.exitTurning":"Exit page turning","reader.progressLoadedPage":"Progress loaded: Page {page}","reader.progressLoadedPercent":"Progress loaded: {percent}%","reader.pageRange":"1-{total}","reader.validNumber":"Valid number","reader.firstChapter":"First chapter","reader.lastChapter":"Last chapter","reader.first":"First","reader.last":"Last","reader.onlyPageMode":"Only in page mode","reader.pureModeOn":"Pure mode on","reader.pureModeOff":"Pure mode off","reader.reloaded":"Reloaded","reader.clickPageOn":"Click page on","reader.clickPageOff":"Click page off","reader.tocLoadFailed":"Load failed","reader.tocNoTitle":"No title","reader.annotationNotFound":"Could not locate this annotation. Opened its chapter instead.","reader.annotationLoadFailed":"Could not load this annotation. Opened its chapter instead.","reader.loadingNextChapter":"Loading next chapter","reader.loadingPreviousChapter":"Loading previous chapter","reader.chapterLoadFailed":"Could not load this chapter. Please try again.","reader.chapterNumber":"Chapter {number}","reader.continuousScrollRequiresScrolling":"Continuous scroll requires Scrolling mode","reader.continuousScrollEnabledReloading":"Continuous scroll enabled - reloading...","reader.continuousScrollDisabledReloading":"Continuous scroll disabled - reloading...","settings.appearance":"Appearance","settings.reading":"Reading","settings.fontFamily":"Font family","settings.fontSize":"Font size","settings.pageWidth":"Page width","settings.pageWidthNarrow":"Narrow","settings.pageWidthComfortable":"Comfortable","settings.pageWidthWide":"Wide","settings.pageWidthExtraWide":"Extra wide","settings.bookDefault":"Book default","settings.systemDefault":"System default","settings.customByInput":"Custom by input","settings.customFontPlaceholder":"Input font name here","settings.customFontTip":"Tip: Font family applies globally. Ensure it’s installed in the system.","settings.apply":"Apply","settings.readingMode":"Reading mode","settings.showReadingProgressBar":"Show reading progress bar","settings.paginationMode":"Use page-turning mode","settings.exitPaginationMode":"Exit page-turning mode","settings.desktopChapterSidebar":"Show chapter sidebar","settings.continuousScroll":"Enable continuous scroll","settings.continuousScrollTip":"Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off.","settings.customStyles":"Custom styles","settings.optional":"Optional","settings.customStylesDescription":"Use CSS to fine-tune this book’s typography and layout.","settings.customCssPlaceholder":"Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}","settings.save":"Save","settings.saveAsDefault":"Save as default","settings.reset":"Reset","settings.loadDefault":"Load default","settings.preview":"Preview","settings.defaultStyleTip":"Tip: The default style will be applied to all books unless a custom style is set for specific books.","settings.saved":"Saved","settings.defaultSaved":"Default saved","settings.noDefault":"No default","settings.loaded":"Loaded","settings.resetDone":"Reset","settings.applied":"Applied","settings.saveAsDefaultConfirm":"Save as default?","settings.loadDefaultConfirm":"Load default?","settings.resetConfirm":"Reset?","settings.continuousScrollUnavailable":"Continuous scroll is only available in Scrolling mode. Switch to Scrolling mode first to enable this feature.","library.title":"Library","library.pageTitle":"EPUB Library","library.description":"EPUB Library - A web-based EPUB reader","library.information":"Library information","library.navigation":"Primary navigation","library.bookCount":{"one":"{count} book","other":"{count} books"},"library.tagCount":{"one":"{count} tag","other":"{count} tags"},"library.annotations":"Annotations","library.login":"Login","library.theme":"Theme","library.sort.apply":"Apply","library.sort.manual":"Manual order","library.sort.shelfFirst":"Bookshelf first","library.sort.shelfOrder":"Bookshelf order","library.sort.pdfFirst":"PDF first","library.sort.label":"Sort by","library.sort.titleAsc":"Title (A–Z)","library.sort.titleDesc":"Title (Z–A)","library.sort.createdDesc":"Recently added","library.sort.updatedDesc":"Recently updated","library.pagination":"Library pages","library.searchPlaceholder":"Search by book title, author, or tag...","library.all":"All","library.noTag":"No tag","library.showMoreTags":"Show more","library.showFewerTags":"Show fewer","library.top":"Top","library.shelf":"Shelf","library.cover":"Cover","library.usernamePrompt":"Please enter your username:","library.usernameSaved":"Username saved: {username}","library.usernameCleared":"Username cleared","library.install":"Install","library.installing":"Installing app...","library.installSucceeded":"App installed successfully!","library.installCancelled":"Install cancelled","library.loading":"Loading library","library.empty":"No books in your library yet.","library.emptyTitle":"Your library is empty","library.emptyServerDescription":"Add EPUB files to the watched library folder. They will appear here automatically.","library.emptySsgDescription":"Add EPUB files to the source and generate the static site again.","library.noResultsTitle":"No matching books","library.noResultsDescription":"Try a different title, author, or tag.","library.loadError":"Unable to load your library. Please refresh and try again.","library.progress.scanning":"Scanning library","library.progress.processing":"Updating library","library.progress.extracting":"Extracting book information","library.progress.converting":"Building reading cache","library.progress.complete":"Library updated","library.progress.degraded":"Library updated with failures","library.progress.reconnecting":"Reconnecting to library updates…","library.progress.summary":"Processed {completed} of {total} books","library.progress.extractingSummary":"Examined {completed} of {total} books","library.progress.convertingSummary":"Cached {completed} of {total} books","library.progress.removed":{"one":"Removed {count} book","other":"Removed {count} books"},"library.progress.latest":"Latest: {book}","library.progress.failureDetails":"Failure details","library.progress.close":"Close","book.library":"Library","book.breadcrumb":"Breadcrumb","book.navigation":"Book navigation","book.theme":"Theme","book.unknownAuthor":"Unknown author","book.startReading":"Start reading","book.continueReading":"Continue reading","book.moreReadingActions":"More reading actions","book.clearReadingProgress":"Clear reading progress","book.clear":"Clear","book.clearReadingProgressConfirm":"Clear reading progress for this book?","book.clearReadingProgressSucceeded":"All reading progress for this book has been deleted!","book.clearReadingProgressFailed":"Unable to clear reading progress. Please try again.","book.annotations":"Annotations","book.addToShelf":"Add to Shelf","book.removeFromShelf":"Remove from Shelf","book.addedToShelf":"Book added to shelf!","book.removedFromShelf":"Book removed from shelf!","book.goToChapter":"Go to chapter","book.noContents":"This book has no table of contents","book.tableOfContents":"Table of contents","book.totalChapters":"Total: {count}","book.top":"Top","book.shelf":"Shelf","book.home":"Home","book.cover":"Cover","book.cloudSyncUser":"Cloud sync · {username}","book.cloudSyncUserAria":"Cloud-synced reading position for {username}","book.sharedUser":"shared","book.addToShelfTitle":"Add to Shelf","book.closeGroupChooser":"Close group chooser","book.shelfHome":"Shelf Home","book.confirm":"Confirm","book.error.database_unavailable":"The reading progress service is temporarily unavailable.","book.error.server_error":"The reading progress service encountered an error.","book.error.not_found":"The reading progress service was not found.","bookshelf.addGroup":"Add Group","bookshelf.sync":"Sync","bookshelf.export":"Export","bookshelf.import":"Import","bookshelf.title":"Bookshelf","bookshelf.group":"Group","bookshelf.addBook":"Add Book","bookshelf.searchBooks":"Search books","bookshelf.searchPlaceholder":"Search by title or author","bookshelf.searchNoResults":"No books match “{query}”.","bookshelf.noBooksToAdd":"Every available book is already on your bookshelf.","bookshelf.removeBook":"Remove “{title}”","bookshelf.confirmRemoveBook":"Remove “{title}” from this location?","bookshelf.bookAdded":"Added “{title}”.","bookshelf.bookRemoved":"Removed “{title}”.","bookshelf.bookAlreadyAdded":"This book is already on your bookshelf.","bookshelf.rename":"Rename","bookshelf.deleteGroup":"Delete Group","bookshelf.close":"Close","bookshelf.home":"Back to bookshelf","bookshelf.loading":"Loading bookshelf","bookshelf.all":"All","bookshelf.noTag":"No tag","bookshelf.empty":"Your bookshelf is empty","bookshelf.groupEmpty":"This group is empty","bookshelf.groupItems":"{books} books, {groups} subgroups","bookshelf.groupBooks":"{books} books","bookshelf.groupSubgroups":"{groups} subgroups","bookshelf.emptyGroup":"Empty group","bookshelf.currentStats":"Current: {books} book(s), {groups} group(s) | Total: {totalBooks} book(s), {totalGroups} group(s)","bookshelf.groupNamePrompt":"Enter group name:","bookshelf.renameGroupPrompt":"Enter new group name:","bookshelf.confirmDeleteGroup":"Are you sure you want to delete the group \"{name}\"?","bookshelf.groupDeleted":"Deleted group \"{name}\".","bookshelf.nestedGroupWarning":"Please delete all nested groups first before deleting this group.","bookshelf.importSucceeded":"Bookshelf data imported successfully!","bookshelf.importInvalid":"Invalid bookshelf data format.","bookshelf.importParseFailed":"Failed to parse the JSON file.","bookshelf.usernamePrompt":"Please enter your username for sync:","bookshelf.loginRequired":"Please log in before using your cloud bookshelf.","bookshelf.syncing":"Syncing...","bookshelf.syncNewUser":"Sync ({username}): New user created, data uploaded successfully!","bookshelf.syncUpdated":"Sync ({username}): Data updated from server!","bookshelf.syncCurrent":"Sync ({username}): No changes, already up to date!","bookshelf.syncUnavailable":"Sync ({username}): Not allowed to sync, check your configuration!","bookshelf.syncUploaded":"Sync ({username}): Data uploaded successfully!","bookshelf.syncFailed":"Sync ({username}) failed. Please try again.","bookshelf.error.username_required":"A username is required to sync your bookshelf.","bookshelf.error.invalid_json":"The sync request was invalid.","bookshelf.error.no_sync_data":"No bookshelf data was provided for sync.","bookshelf.error.not_found":"The sync endpoint was not found.","bookshelf.error.annotation_not_found":"The requested item was not found.","bookshelf.error.invalid_chapter_index":"The requested chapter is invalid.","bookshelf.error.batch_requires_post":"This request must use POST.","bookshelf.error.database_unavailable":"The sync service is temporarily unavailable.","bookshelf.error.reading_progress_not_found":"Reading progress was not found.","bookshelf.error.server_error":"The sync service encountered an error.","bookshelf.error.unknown":"The bookshelf could not be synchronized.","dialog.title":"Confirm","dialog.confirm":"Confirm","dialog.cancel":"Cancel","dialog.value":"Value","annotations.tab":"Annotations","annotations.enabled":"Enable annotations","annotations.enabledNotice":"Annotations enabled","annotations.disabledNotice":"Annotations disabled","annotations.storageLocation":"Storage location","annotations.localStorage":"Local storage","annotations.cloudStorage":"Cloud storage","annotations.cloudUnavailable":"Cloud storage is unavailable","annotations.checking":"Checking…","annotations.connectedUser":"Connected ({username})","annotations.connectedShared":"Connected (shared)","annotations.connectedAccount":"Connected to your account","annotations.disconnected":"Disconnected","annotations.usernamePrompt":"You are not logged in.\n\n- Click OK to enter a username (annotations will be isolated by user)\n- Click Cancel to use shared mode (all users share the same annotations)","annotations.login":"Sign in","annotations.username":"Username","annotations.usingSharedStorage":"Using shared cloud storage (no user isolation)","annotations.loggedInAs":"Logged in as {username} (annotations isolated)","annotations.defaultColor":"Default color","annotations.defaultColorTip":"Click a color to set it as the default.","annotations.colors":"Colors","annotations.colorReorderTip":"Drag colors to reorder them.","annotations.addColor":"Add color","annotations.deleteColor":"Delete color","annotations.hexColor":"Hex color","annotations.hexPlaceholder":"#RRGGBB","annotations.invalidHex":"Enter a valid hex color such as #RRGGBB.","annotations.noteOptional":"Note (optional)…","annotations.note":"Note:","annotations.addDescription":"Add description…","annotations.add":"Add","annotations.save":"Save","annotations.cancel":"Cancel","annotations.close":"Close","annotations.copy":"Copy","annotations.delete":"Delete","annotations.deleteAnnotation":"Delete annotation","annotations.details":"Annotation details","annotations.color":"Color:","annotations.created":"Created: {date}","annotations.updated":"Updated: {date}","annotations.clickToCopy":"Click to copy","annotations.copied":"Copied","annotations.textCopied":"Text copied","annotations.unableToCopy":"Unable to copy","annotations.notFound":"Annotation not found","annotations.confirmDelete":"Delete this annotation?","annotations.deleted":"Annotation deleted","annotations.loadFailed":"Failed to load annotation: {error}","annotations.addFailed":"Failed to add: {error}","annotations.updateFailed":"Failed to update: {error}","annotations.deleteFailed":"Failed to delete: {error}","annotations.restoreFailed":"Some annotations could not be restored. Please reload the chapter.","annotations.loadAllFailed":"Failed to load annotations: {error}","annotations.dataMigration":"Data migration","annotations.migrationDescription":"Switching storage location requires data migration","annotations.countingData":"Counting data…","annotations.currentData":{"one":"Current data: {count} annotation","other":"Current data: {count} annotations"},"annotations.skip":"Skip","annotations.migrate":"Migrate","annotations.migrating":"Migrating…","annotations.migratingProgress":"Migrating… {current}/{total}","annotations.storageLocationChanged":"Storage location changed","annotations.exportData":"Export data","annotations.exportBook":"Export book","annotations.exportAll":"Export all","annotations.exported":{"one":"Exported {count} annotation","other":"Exported {count} annotations"},"annotations.exportFailed":"Export failed: {error}","annotations.hubTitle":"Annotations","annotations.allAnnotatedBooks":"All annotated books","annotations.closeHub":"Close annotations","annotations.loading":"Loading annotations…","annotations.retry":"Retry","annotations.loadHubFailed":"Unable to load annotations","annotations.loadHubFailedDetail":"Please try again.","annotations.annotatedBooks":"Annotated books","annotations.noAnnotationsTitle":"No annotations yet","annotations.noAnnotationsDescription":"Select text while reading to save your first annotation.","annotations.noBookAnnotationsTitle":"No annotations in this book","annotations.noBookAnnotationsDescription":"This book may have been removed or its annotations were deleted.","annotations.annotationCount":{"one":"{count} annotation","other":"{count} annotations"},"annotations.bookCount":{"one":"{count} book","other":"{count} books"},"annotations.updatedAt":"Updated {date}","annotations.chapterNumber":"Chapter {number}","annotations.bookFallback":"Book","annotations.authorSeparator":" & ","annotations.bylineSeparator":" · ","annotations.error.not_found":"The annotation service was not found.","annotations.error.username_required":"A username is required for this annotation request.","annotations.error.invalid_json":"The annotation request was invalid.","annotations.error.no_sync_data":"No annotation data was provided.","annotations.error.annotation_not_found":"The annotation was not found.","annotations.error.invalid_chapter_index":"The requested chapter is invalid.","annotations.error.batch_requires_post":"This batch request must use POST.","annotations.error.database_unavailable":"The annotation service is temporarily unavailable.","annotations.error.reading_progress_not_found":"Reading progress was not found.","annotations.error.server_error":"The annotation service encountered an error.","annotations.error.network":"A network error occurred while contacting annotations.","annotations.error.timeout":"The annotation request timed out.","footer.product":"EPUB Library","footer.poweredBy":"Powered by","footer.poweredBySuffix":"·","version.updateAvailable":"Update available: v{version}","errors.generic":"Something went wrong.","errors.network":"A network error occurred.","annotations.shareActions":"Share annotations","annotations.copyShare":"Copy Markdown","annotations.exportShare":"Export Markdown","annotations.annotationActions":"Annotation actions","annotations.copyAnnotation":"Copy this annotation","annotations.annotationCopied":"Annotation copied as Markdown.","annotations.annotationCopyFailed":"Unable to copy this annotation.","annotations.shareAuthors":"Authors","annotations.shareCount":"Annotations","annotations.shareNote":"Note","annotations.shareCopied":"Annotation summary copied locally.","annotations.shareCopyFailed":"Unable to copy the annotation summary.","annotations.shareExported":"Annotation summary exported locally.","annotations.shareExportFailed":"Unable to export the annotation summary.","annotations.shareFileFallback":"Annotations","settings.navigationBehavior":"Navigation bar behavior","settings.navigationBehaviorHelp":"Choose when the top navigation stays visible while you read.","settings.navigationBehavior.normal":"Normal scroll","settings.navigationBehavior.sticky":"Always sticky","settings.navigationBehavior.autoHide":"Hide down, show up","settings.keyboardNavigation":"Keyboard navigation","settings.arrowKeyNavigation":"Use Left and Right Arrow keys to navigate","settings.spaceKeyNavigation":"Use Space for the next page or chapter","reader.locateCurrentChapter":"Locate current chapter","reader.locateCurrentSection":"Locate current section","annotations.addImageNote":"Add image note","annotations.imageNote":"Image note","annotations.showMoreColors":"Show {count} more colors","annotations.showFewerColors":"Show fewer colors","annotations.selectionActions":"Selected text actions","annotations.highlight":"Highlight","annotations.noteAction":"Note","annotations.dictionary":"Dictionary","annotations.encyclopedia":"Encyclopedia","dictionary.title":"Dictionary","dictionary.encyclopediaTitle":"Encyclopedia","dictionary.loading":"Looking up…","dictionary.close":"Close","dictionary.notFound":"No entry found.","dictionary.notConfigured":"No local dictionary is installed.","dictionary.choose":"Dictionary","dictionary.unavailable":"This service is temporarily unavailable.","dictionary.source":"Open source","book.readingTime":"Read {duration}","readingSessions.pending":"Reading time will be saved when you are back online.","readingSessions.error":"Unable to save reading time. Retrying automatically.","readingSessions.discarded":"Reading time could not be saved. Continue reading and try again later.","pdf.formatBadge":"PDF","pdf.noContents":"This PDF has no table of contents","pdf.page":"Page {number}","pdf.pageOf":"Page {number} of {total}","pdf.pageLoadError":"This page could not be loaded. Please try again.","pdf.loadingPage":"Loading page…","pdf.browserUnsupported":"This browser is too old to display PDF pages. Please update it, or open this book in a recent version of Chrome, Edge, Firefox, or Safari.","pdf.textUnavailable":"Text selection, annotations, dictionary, and encyclopedia are unavailable because this PDF has no usable text layer.","pdf.selectionWithinPageRequired":"Select text within one PDF page to use annotations, dictionary, or encyclopedia.","pdf.passwordRequired":"This PDF is password protected. Enter its password in the reader to display the page.","pdf.search":"Search PDF","pdf.searchPlaceholder":"Search PDF","pdf.searchNoResults":"No matching pages.","pdf.closeSearch":"Close PDF search","pdf.zoomOut":"Zoom out","pdf.zoomIn":"Zoom in","pdf.fitWidth":"Fit width","pdf.fitPage":"Fit page","pdf.goToPage":"Go to page","pdf.rotate":"Rotate page","pdf.print":"Print PDF","pdf.download":"Download PDF","pdf.searchFailed":"PDF search failed.","settings.desktopLayout":"Desktop layout","settings.autoHideDesktopChapterSidebar":"Auto-hide chapter sidebar","settings.autoHideDesktopChapterSidebarHelp":"Move the pointer to the left edge, or use Tab, to show the chapter sidebar.","settings.autoHideDesktopToolbar":"Auto-hide reading toolbar","settings.autoHideDesktopToolbarHelp":"Move the pointer to the right edge, or use Tab, to show the toolbar.","settings.clickPageHelp":"In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions.","locale.name.es":"Español","locale.name.de":"Deutsch","locale.name.fr":"Français","locale.name.ru":"Русский","locale.name.it":"Italiano","locale.name.pt-BR":"Português (Brasil)","locale.name.ar":"العربية","locale.name.id":"Bahasa Indonesia","locale.name.hi":"हिन्दी","locale.name.vi":"Tiếng Việt","locale.name.th":"ไทย","locale.name.ms":"Bahasa Melayu","library.recentReading.title":"Continue reading","library.recentReading.chapter":"Chapter {index}","library.recentReading.page":"Page {index}","library.recentReading.justNow":"Just now","library.recentReading.minutesAgo":"{count}m ago","library.recentReading.hoursAgo":"{count}h ago","library.recentReading.daysAgo":"{count}d ago","library.recentReading.monthsAgo":"{count}mo ago","kindle.allBooks":"All books","kindle.emptyRecent":"Open a book to start reading.","kindle.fullLibrary":"Open full library","kindle.theme":"Theme","kindle.noResults":"No matching books.","kindle.pdfUnsupported":"This PDF book can't be opened in Kindle mode yet.","kindle.serif":"Serif","kindle.sans":"Sans serif","vocabulary.navigation":"Vocabulary","vocabulary.allWords":"All vocabulary","vocabulary.bookTitle":"Book vocabulary","vocabulary.close":"Close","vocabulary.retry":"Retry","vocabulary.empty":"No words yet.","vocabulary.loading":"Loading vocabulary…","vocabulary.loadError":"Could not load vocabulary.","vocabulary.saveError":"Could not save the change. Try again.","vocabulary.once":"Looked up once","vocabulary.repeated":"Looked up {count} times","vocabulary.firstSeen":"First lookup · {date}","vocabulary.lastSeen":"Latest lookup · {date}","vocabulary.openSource":"Open the latest lookup location","vocabulary.mastery":"Mastery","vocabulary.new":"New","vocabulary.learning":"Learning","vocabulary.mastered":"Mastered","vocabulary.remove":"Remove from this book","vocabulary.delete":"Delete word","vocabulary.confirmRemove":"Remove “{word}” from this book’s vocabulary?","vocabulary.confirmDelete":"Delete “{word}” and its lookup history across all books?","vocabulary.search":"Search words","vocabulary.noMatches":"No words match.","vocabulary.emptyGuide":"Select text and use the dictionary while reading. Your lookups will appear here.","vocabulary.sources":"Sources","vocabulary.more":"More actions","vocabulary.saving":"Saving…","vocabulary.saved":"Mastery saved.","vocabulary.recorded":"Added to your vocabulary.","vocabulary.recordError":"Could not add this lookup to your vocabulary.","vocabulary.previousPage":"Previous","vocabulary.nextPage":"Next","vocabulary.pagination":"Vocabulary pages","vocabulary.scopeRead":"Read vocabulary","vocabulary.scopeWrite":"Manage vocabulary","book.search":"Search this book","book.searchPlaceholder":"Search this book","book.searchHint":"Type a word or phrase to search this book.","book.searching":"Searching…","book.searchNoResults":"No matches found.","book.searchResultCount":"Results: {count}","book.searchPrevPage":"Previous page","book.searchNextPage":"Next page","book.searchPageStatus":"Page {page} of {pages}","book.searchPageOutOfRange":"That page has no results","book.searchFailed":"Search failed. Try again.","book.searchUnavailable":"Search is temporarily unavailable. Try again later.","book.closeSearch":"Close search"});</script>
+    <script>window.EpubBrowserBasePath="/";window.EpubBrowserMode="ssg"</script><script>window.EpubBrowserI18n.init();</script>
+    
+    
+    <noscript><link rel="manifest" href="/assets/manifest.en.json"></noscript>
+    <link class="eb" href="resources/1/2/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link class="eb" href="resources/1/2/page_styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/assets/immutable/vendor/fontawesome/css/all.min.59cdcd0cf392.css">
+    <link rel="stylesheet" href="/assets/immutable/theme.c03f373b63a1.css">
+    <link rel="stylesheet" href="/assets/immutable/notification.3af6bb473911.css">
+    <link rel="stylesheet" href="/assets/immutable/dialog.11578e5f1426.css">
+    <link rel="stylesheet" href="/assets/immutable/chapter.d6bffadc60de.css">
+    
+    
+    <link rel="stylesheet" href="/assets/immutable/breadcrumb.cf77915b2643.css">
+    <link rel="stylesheet" href="/assets/immutable/loading.4191d9fecbbb.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation.8b634162a3e8.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation-hub.bed06f149212.css">
+    
+    <link rel="stylesheet" href="/assets/immutable/vendor/glightbox/glightbox.min.6d3f62d4d179.css">
+    <link rel="icon" type="image/png" href="/assets/immutable/favicon.dd042ee39766.png">
+    <link rel="apple-touch-icon" href="/assets/immutable/icon-192.15435b416555.png">
+    <link rel="stylesheet" href="/assets/immutable/bookshelf.9fd53d54c1ae.css">
+
+    <script src="/assets/immutable/theme-bootstrap.cb8f81a354a2.js"></script>
+
+</head>
+
+<body>
+
+    <a class="skip-link" href="#eb-content" data-i18n="reader.skipToContent">Skip to reading content</a>
+
+    <div class="reading-progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav class="toc-floating reader-drawer" id="bookHomeFloating" aria-label="Book chapters" data-i18n-aria-label="reader.bookChapters" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.bookChapters">Chapters</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="bookHomeLocateCurrent" type="button" aria-label="Locate current chapter" data-i18n-aria-label="reader.locateCurrentChapter">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <a class="toc-book-home" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome">
+                    <i class="fas fa-book" aria-hidden="true"></i><span data-i18n="reader.openBookHome">Open book home</span>
+                </a>
+                <button class="toc-close" id="bookHomeClose" type="button" aria-label="Close book home" data-i18n-aria-label="reader.closeBookHome">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="bookHomeTocList">
+            <!-- 动态生成的书籍目录将放在这里 -->
+        </ul>
+    </nav>
+
+    <nav class="toc-floating reader-drawer" id="tocFloating" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.thisChapterContents">This chapter</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="tocLocateCurrent" type="button" aria-label="Locate current section" data-i18n-aria-label="reader.locateCurrentSection">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <button class="toc-close" id="tocClose" aria-label="Close table of contents" data-i18n-aria-label="reader.closeTableOfContents">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="tocList">
+            <!-- 动态生成的目录将放在这里 -->
+        </ul>
+    </nav>
+    
+    
+
+    <div class="reader-drawer-backdrop" id="readerDrawerBackdrop" aria-hidden="true"></div>
+
+    <header class="chapter-top-bar app-header">
+        <nav class="app-nav" aria-label="Reading navigation" data-i18n-aria-label="reader.navigation">
+            <a class="app-nav-brand" href="/" aria-label="EPUB Browser" data-i18n-aria-label="common.brand"><img class="app-nav-brand-mark" src="/assets/immutable/logo-mark-color.ef9a3679a944.png" width="32" height="32" alt=""><span data-i18n="common.brand">EPUB Browser</span></a>
+            <div class="app-nav-links">
+                <button type="button" class="app-nav-link" id="bookshelfBtn" aria-haspopup="dialog" aria-controls="bookshelfModal"><i class="fas fa-bookmark" aria-hidden="true"></i><span data-i18n="reader.shelf">Shelf</span></button>
+                <button type="button" class="app-nav-link" id="chapterAnnotationsBtn" data-annotation-hub data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" aria-haspopup="dialog"><i class="fas fa-highlighter" aria-hidden="true"></i><span data-i18n="reader.annotations">Annotations</span></button>
+                
+                
+                
+            </div>
+            <div class="app-nav-actions">
+                <div class="library-language app-nav-locale">
+    <button type="button" class="app-nav-action app-nav-locale-toggle" id="localeToggle" aria-haspopup="menu" aria-expanded="false" aria-label="Language" data-i18n-aria-label="common.language"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only" id="localeCurrentLabel" data-i18n="locale.name.en">English</span></button>
+    <select class="sr-only" id="localeSelect" tabindex="-1" aria-hidden="true"><option value="en" data-i18n="locale.name.en">English</option><option value="zh-CN" data-i18n="locale.name.zh-CN">简体中文</option><option value="zh-TW" data-i18n="locale.name.zh-TW">繁體中文</option><option value="ko" data-i18n="locale.name.ko">한국어</option><option value="ja" data-i18n="locale.name.ja">日本語</option><option value="es" data-i18n="locale.name.es">Español</option><option value="de" data-i18n="locale.name.de">Deutsch</option><option value="fr" data-i18n="locale.name.fr">Français</option><option value="ru" data-i18n="locale.name.ru">Русский</option><option value="it" data-i18n="locale.name.it">Italiano</option><option value="pt-BR" data-i18n="locale.name.pt-BR">Português (Brasil)</option><option value="ar" data-i18n="locale.name.ar">العربية</option><option value="id" data-i18n="locale.name.id">Bahasa Indonesia</option><option value="hi" data-i18n="locale.name.hi">हिन्दी</option><option value="vi" data-i18n="locale.name.vi">Tiếng Việt</option><option value="th" data-i18n="locale.name.th">ไทย</option><option value="ms" data-i18n="locale.name.ms">Bahasa Melayu</option></select>
+</div>
+                <button class="theme-toggle app-nav-action app-nav-theme" id="themeToggle" type="button" aria-label="Theme" data-i18n-aria-label="reader.theme"><i class="fas fa-moon" aria-hidden="true"></i><span class="app-nav-action-label" data-i18n="reader.theme">Theme</span></button>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="reader-toolbar top-controls chapter-tools" role="toolbar" aria-label="Reading tools" data-i18n-aria-label="reader.navigation">
+            <button class="control-btn" id="bookHomeToggle" type="button" aria-label="Open book chapters" data-i18n-aria-label="reader.openBookChapters" aria-controls="bookHomeFloating" aria-expanded="false"><i class="fas fa-book"></i><span class="control-name" data-i18n="reader.bookChapters">Chapters</span></button>
+            <button class="control-btn" id="tocToggle" type="button" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false"><i class="fas fa-list"></i><span class="control-name" data-i18n="reader.thisChapterContents">This chapter</span></button>
+            <button class="control-btn" id="settingsControlBtn" type="button" aria-label="Settings" data-i18n-aria-label="reader.settings" aria-controls="settingsModal" aria-expanded="false"><i class="fas fa-cog"></i><span class="control-name" data-i18n="reader.settings">Settings</span></button>
+            <div class="pagination-toolbar-controls" id="paginationInfo" role="group" aria-label="Page navigation" data-i18n-aria-label="reader.navigation">
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_157.html" id="readerPreviousChapter" class="control-btn prev-chapter" aria-label="Previous chapter" data-i18n-aria-label="reader.previous" aria-disabled="false"><i class="fas fa-arrow-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previous">Previous chapter</span></a>
+                <button class="control-btn" id="prevPage" type="button" aria-label="Previous page" data-i18n-aria-label="reader.previousPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previousPage">Previous page</span></button>
+                <button class="control-btn" id="reloadPages" type="button" aria-label="Reload pages" data-i18n-aria-label="reader.reloadPages" data-pagination-toolbar-control hidden><i class="fas fa-rotate-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.reloadPages">Reload pages</span></button>
+                <button class="control-btn" id="nextPage" type="button" aria-label="Next page" data-i18n-aria-label="reader.nextPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.nextPage">Next page</span></button>
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_159.html" id="readerNextChapter" class="control-btn next-chapter" aria-label="Next chapter" data-i18n-aria-label="reader.next" aria-disabled="false"><i class="fas fa-arrow-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.next">Next chapter</span></a>
+                <span class="pagination-page-status" id="currentPage" aria-live="polite">1</span>
+                <span class="pagination-page-status" id="totalPages" aria-label="Total pages" data-i18n-aria-label="reader.totalPages">1</span>
+                <button class="control-btn" id="pageJumpToggle" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump" aria-controls="paginationPageJumpPopover" aria-expanded="false" data-pagination-toolbar-control hidden><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i><span class="control-name" data-i18n="reader.jump">Jump</span></button>
+                <section class="pagination-page-jump-popover" id="paginationPageJumpPopover" role="dialog" aria-modal="false" aria-labelledby="paginationPageJumpTitle" aria-describedby="paginationPageJumpRange" aria-hidden="true" hidden>
+                    <strong class="pagination-page-jump-title" id="paginationPageJumpTitle" data-i18n="reader.jump">Jump</strong>
+                    <p class="pagination-page-jump-range" id="paginationPageJumpRange"></p>
+                    <label class="pagination-page-jump-label" for="pageJumpInput" data-i18n="reader.currentPage">Current page</label>
+                    <div class="pagination-page-jump-form">
+                        <input type="number" id="pageJumpInput" min="1" max="1" value="1" inputmode="numeric" aria-label="Current page" data-i18n-aria-label="reader.currentPage">
+                        <button class="pagination-jump-submit" id="goToPage" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump"><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i></button>
+                    </div>
+                </section>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="eb-content-container" id="eb-content-container" data-id="eb-content-container">
+            <div class="content-loading is-visible" id="contentLoading" aria-live="polite" aria-label="Loading content" data-i18n-aria-label="reader.loadingContent">
+                <div class="loading-spinner"></div>
+            </div>
+            <article class="eb-content" id="eb-content" lang="bn" dir="auto" data-eb-styles data-chapter-index="158" data-chapter-title="৪" data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" data-total-chapters="471" data-highlight-script="/assets/immutable/vendor/highlight/highlight.min.c4a399dd6f48.js" data-highlight-light="/assets/immutable/vendor/highlight/github.min.3a9a5def8b9c.css" data-highlight-dark="/assets/immutable/vendor/highlight/github-dark.min.9f208d022102.css">
+            
+<h2 class="block_8" lang="en" id="toc_id_50">৪</h2>
+	<p class="block_9" lang="en">এলিসা গ্রেস ওমর বায়ার দরজার সামনে এসে দাঁড়াল। বরাবরের মতই দরজা বন্ধ। আজ আর ঠেলা দিয়ে দেখল না, দরজা বন্ধ কিনা। ভাবল দরজা অবশ্যই বন্ধ আছে।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস প্রথম দিন থেকেই দেখছে মিঃ বায়া সব সময় তার দরজা বন্ধ রাখে, যতক্ষণ ঘরে থাকে। অথচ বাইরে বেরুলে দরজা বন্ধ করে না। এলিসা গ্রেস এ ব্যাপারটার অর্থ বুঝে না। অথচ তাঁদের তদারককারী মিঃ বেনহাম চান ওমর বায়ার দরজা খোলা থাকুক। যাতে বুঝা যায়, তাঁর মধ্যে কোন ভয় বা উদ্বেগ নেই বা কোন প্রকার সন্দেহ সে কাউকে করে না।</p>
+	<p class="block_9" lang="en">মিঃ বেনহাম অর্থাৎ বিজ্ঞানী বেনহাম ওমর বায়ার ফ্ল্যাটের পাশের আর একটা ফ্ল্যাটে থাকেন। এলিসা গ্রেসের কাছে তাঁর পরিচয় সে ব্ল্যাক ক্রসেরই একজন নেতা।</p>
+	<p class="block_9" lang="en">বিজ্ঞানী বেনহামের থাকার ঘরটি ওমর বায়ার ঘরের সোজা দক্ষিনে প্রাচীরের মধ্যেই। একটু দুরে, তা না হলে ওমর বায়ার ঘরের জানালা দিয়ে মিঃ বেনহামের ঘরের লোকজনকে দেখা যেত। বিজ্ঞানী বেনহাম তাঁর ভিশনের অংশ হিসাবেই পরিকল্পিতভাবে ঐ ফ্ল্যাটের ঐ ঘর বেছে নিয়েছে।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস ভাবছিল, মিঃ বেনহাম চান ওমর বায়া দরজা খুলে রাখুক। কিন্তু তিনি এও চান যে, এই কথা ওমর বায়াকে না বলা হোক। নির্দেশ হয়েছে, এলিসাকে পরোক্ষ চেষ্টা করতে হবে যাতে সে দরজা খোলা রাখে। সরাসরি তাঁকে দরজা খোলা রাখতে বললে ওমর বায়া আরও সন্দিগ্ধ হয়ে পড়তে পারে।</p>
+	<p class="block_9" lang="en">এলিসা ওমর বায়ার দরজায় নক করল। বরাবরের মতই তিনবার নক করল সে।</p>
+	<p class="block_9" lang="en">দরজা খুলে গেল। দরজা খুলে দিল ওমর বায়া। তাঁর গায়ে চাদর জড়ানো।</p>
+	<p class="block_9" lang="en">খালি গায়ে কিংবা শুধু গেঞ্জি গায়ে এলিসা কোন সময়ই ওমর বায়াকে দেখেনি। এলিসার মনে হয়েছে ওমর বায়া খুব লাজুক।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেসের হাতে ছিল দুধের গ্লাস।</p>
+	<p class="block_9" lang="en">দুধের গ্লাস নিয়ে এলিসা গ্রেস ঘরে প্রবেশ করল। দরজা খুলে দিয়েই ওমর বায়া গিয়ে চেয়ারে বসেছে।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস দুধের গ্লাস টেবিলে রাখল। প্রথম দিকে দুধের গ্লাস ওমর বায়ার হাতে দেয়ার চেষ্টা করত। কিন্তু ওমর বায়া কোন জিনিসই হাত পেতে নেয় না। এলিসা এখন আর চেষ্টা করে না হাতে দেয়ার।</p>
+	<p class="block_9" lang="en">‘একটা কথা বলতে পারি?’ চলে যাবার জন্যে হাঁটতে শুরু করেও আবার ঘুরে দাড়িয়ে বলল এলিসা।</p>
+	<p class="block_9" lang="en">‘বলুন’। বলল ওমর বায়া।</p>
+	<p class="block_9" lang="en">‘সব সময় ঘরের দরজা লক করে রাখেন কেন?’</p>
+	<p class="block_9" lang="en">‘ও কিছু না। অভ্যাস বলতে পারেন’।</p>
+	<p class="block_9" lang="en">‘না আমাকে ভয় করেন?’</p>
+	<p class="block_9" lang="en">‘আপনাকে?’</p>
+	<p class="block_9" lang="en">‘তাছাড়া আর কে? আমি ছাড়া এখানে আর যারা আছে চাকর বা পরিচারিকারা তাঁদের তো ভয় করার কোন প্রশ্নই উঠে না’।</p>
+	<p class="block_9" lang="en">‘না আপনাকে ভয় পাই না’।</p>
+	<p class="block_9" lang="en">‘তাহলে?’</p>
+	<p class="block_9" lang="en">‘ওই তো বললাম, অভ্যাস’।</p>
+	<p class="block_9" lang="en">‘না, অভ্যাস নয়, অভ্যাস হলে বেরিয়ে যাবার সময় ঘর বন্ধ করেন না কেন?’</p>
+	<p class="block_9" lang="en">সংগে সংগে উত্তর দিল না ওমর বায়া। একটু পরে ধীরে ধীরে বলল, ‘ভয়ের কারন আমি নিজেই। অর্থাৎ আমি আমাকেই ভয় পাই’।</p>
+	<p class="block_9" lang="en">‘কেন?’</p>
+	<p class="block_9" lang="en">‘অনেক কারন থাকতে পারে। একটা কারন হলো, আমি নিজে দুর্বল’।</p>
+	<p class="block_9" lang="en">‘কোন দিক দিয়ে?’</p>
+	<p class="block_9" lang="en">‘মনের দিক দিয়ে’।</p>
+	<p class="block_9" lang="en">‘মনের দিক দিয়ে আপনি দুর্বল নন আমি জানি। তবে হ্যাঁ, আপনি আমাকে ভয় করেন। এটা মনের ভয়’।</p>
+	<p class="block_9" lang="en">‘আপনাকে ভয় করি তার প্রমাণ?’</p>
+	<p class="block_9" lang="en">‘চাকর-পরিচারিকাদের কাছ থেকে হাত পেতে জিনিস নেন কিন্তু আমার কাছ থেকে নেন না। গায়ে চাদর চাপানো বা জামা পড়া ছাড়াই চাকর-পরিচারিকাদের সাথে আপনি দেখা করেন, কিন্তু আমার সাথে করেন না’।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস কথা শেষ করলে ওমর বায়া নীরব থাকল। ওমর বায়া মুখ নিচু করল। বেশ সময় নিয়ে বলল, ‘কিন্তু আপনাকে কেন ভয় করব আমি?’</p>
+	<p class="block_9" lang="en">‘সে প্রশ্নতাই তো আমি করেছি’।</p>
+	<p class="block_9" lang="en">‘এর উত্তর আমি জানি না’। মুখ নিচু রেখেই ধীরে ধীরে বলল ওমর বায়া।</p>
+	<p class="block_9" lang="en">‘কারন আপনি সম্ভবত আপনাকেও জানেন না’। বলে এলিসা গ্রেস বেরিয়ে এল ঘর থেকে।</p>
+	<p class="block_9" lang="en">যাবার সময় এলিসা নিজেই নব টিপে দরজা নক করে গেল।</p>
+	<p class="block_9" lang="en">এলিসার শেষ কথাটা মনের কোথায় যেন কাঁটার মতো বিধতে লাগল ওমর বায়ার। ওমর বায়া কি সত্যি নিজেকে জানে না! না জানলে এতো নির্যাতন এবং এই বন্দী জীবন যাপন করছে সে কেন? ওদের কথায় সে রাজি হতে পারছে না কেন? একটিই কারন, ওমর বায়া নিজেকে, নিজেদের ইতিহাস, ঐতিহ্য এবং বোধ, বিশ্বাসকে জানে বলেই। তবে হ্যাঁ এলিসা গ্রেস সম্পর্কে সে নিজের মনের গভীর থেকে ভয় পায়। প্রথম দৃষ্টিতেই এলিসা গ্রেসকে সে শুধু অপরূপা নয়, আরও বেশি কিছু যেন মনে করেছে। অবশ্য সে সংগে সংগেই বুঝেছে এলিসা শত্রুর অতি ধারাল এক তরবারি। এই দ্বন্দের পরিণতির দিকে তাকালে ওমর বায়া ভয় পায়। এই ভয়ই ওমর বায়ার কাছে এলিসা গ্রেসকে অন্য সব থেকে আলাদা করেছে। যার কারনে এলিসা গ্রেসের সাথে তাঁর আচরণও আলাদা হয়েছে।</p>
+	<p class="block_9" lang="en">ঘর থেকে বেরিয়ে এলিসার আজ বেশ ভালো লাগছে, কতকগুলো কথা বলা গেছে তাঁকে। কথাগুলো ভালই বলতে পেরেছে এলিসা। তাঁর ওপর নির্দেশ পরোক্ষ চেষ্টার মাধ্যমে ওমর বায়ার সাথে সম্পর্ক স্বাভাবিক করে তুলতে হবে।</p>
+	<p class="block_9" lang="en">এসব কথা ভাবতে গিয়ে এলিসা গ্রেসের অবাক লাগছে। সত্যিই ওমর বায়া তাঁর কাছে এক অদ্ভুত যুবক। মাঝে মাঝে তাঁর সন্দেহ হয়, ওর মধ্যে কোন আবেগ, কোন সজীব মন আছে কিনা। কোন যুবক যে এমন স্বাত্তিক বা এমন চরিত্রের হতে পারে, তা কল্পনারও বাইরে ছিল তার। কিন্তু আজকের আলোচনায় এলিসার মনে হয়েছে ওমর বায়ার বাইরের কঠিন আবরণের নিচে সুন্দর সবুজ একটা মন আছে। বাইরের এ কঠিন আবরন ভাঙ্গাই আমার এ্যাসাইনমেন্ট, আমার দায়িত্ব।</p>
+	<p class="block_9" lang="en">এ সময় মিশেল লিটল নামক সেই মাংশ পিণ্ডটি হাঁপাতে হাঁপাতে এসে বলল, তাল পাতার সেপাই কি যেন নাম, হ্যাঁ, বেনহাম আপনাকে ডাকছে।</p>
+	<p class="block_9" lang="en">মিঃ লিটল মোটেই দেখতে পারে না বিজ্ঞানী বেনহামকে। সে বেনহামকে পাথরের মানুষ মনে করে। লিটলের মন্তব্য, বেনহামের চোখ দেখলে মনে হয় সবাইকে সে ঘৃণা করে, যেমনটা দেখা যায় ইহুদীদের চোখে। ব্ল্যাক ক্রসের কোন নেতাই তাঁর মত নয়।</p>
+	<p class="block_9" lang="en">ব্ল্যাক ক্রস চরিত্রগতভাবে ইহুদী বিদ্বেষী। ক্লিনহেড জাতীয়তাবাদীরা ব্ল্যাক ক্রসের সাথে মিলিত হবার পর ব্ল্যাক ক্রসের এই প্রবণতা আরও বেড়েছে। মশিয়ে লিটল এই মনোভাবেরই প্রতিধ্বনি করে।</p>
+	<p class="block_9" lang="en">মশিয়ে লিটল-এর এই মনোভাব এলিসা গ্রেসকেও স্পর্শ করেছে। সেও বেনহামকে খুব একটা পছন্দ করে না। তাকে দেখলেই এলিসার মনে হয় কি এক ষড়যন্ত্র তার চোখে-মুখে। সে যা বলে, তার পেছনে যেন আরও কথা থাকে। ব্ল্যাক ক্রসের লোকরা নিষ্ঠুর খুনী। কিন্তু এই কাজে তারা রাখ-ঢাক করে না। তাদেরকে বুঝা যায়, কিন্তু বেনহাম দূর্বোধ্য। ব্ল্যাক ক্রসের হয়েও সে এমন কেন।</p>
+	<p class="block_9" lang="en">বেনহামের পরিচয় এলিসা এবং অন্য কেউ জানে না। ব্ল্যাক ক্রসের একজন হিসাবে ওমর বায়ার তদারকির জন্যে পৃথক একটা ভিলায় তাকে রাখা হয়েছে।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস গিয়ে বিজ্ঞানী বেনহামের দরজায় নক করল।</p>
+	<p class="block_9" lang="en">ভেতর থেকে ভারী কণ্ঠের আওয়াজ এল, ‘এস।’</p>
+	<p class="block_9" lang="en">দরজায় চাপ দিল এলিসা গ্রেস। খুলে গেল দরজা।</p>
+	<p class="block_9" lang="en">বিজ্ঞানী বেনহাম ছিল পড়ার টেবিলে। একটা মোটা বইয়ের উপর ঝুঁকে পড়েছিল সে।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস ঘরে ঢুকে একটু দাঁড়াল। বিজ্ঞানী বেনহামের চোখ বইয়ের উপর নিবদ্ধ।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস বসবে কি বসবে না চিন্তা করছিল।</p>
+	<p class="block_9" lang="en">এই সময় বিজ্ঞানী বেনহাম মাথা না তুলেই বলল, ‘তোমাকে ধন্যবাদ এলিসা গ্রেস।’</p>
+	<p class="block_9" lang="en">‘আমি কিছু বুঝতে পারছি না স্যার।’ বলল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">‘তুমি ওমর বায়াকে অনেক কাছে এনেছ।’</p>
+	<p class="block_9" lang="en">‘কখন, কিভাবে স্যার?’</p>
+	<p class="block_9" lang="en">‘না, তুমি আজ চমৎকার কথা বলেছ ওমর বায়ার সাথে।’</p>
+	<p class="block_9" lang="en">‘আজকের কথা?’</p>
+	<p class="block_9" lang="en">‘হ্যাঁ।’</p>
+	<p class="block_9" lang="en">‘আপনি কি করে জানলেন স্যার?’ এলিসা গ্রেসের চোখে-মুখে বিস্ময়।</p>
+	<p class="block_9" lang="en">‘শুনেছি। সে কথা যাক। তুমি কেমন বুঝছ ওমর বায়াকে?’</p>
+	<p class="block_9" lang="en">‘খুব শক্ত স্যার।’</p>
+	<p class="block_9" lang="en">‘যেমন?’</p>
+	<p class="block_9" lang="en">‘সে সব সময় দরজা বন্ধ করে রাখে, এমনকি আমার হাতে থেকে কোন জিনিস পর্যন্ত নেয় না। চোখের দিকে তাকিয়ে কথা বলে না।’</p>
+	<p class="block_9" lang="en">‘কিন্তু আজকের তার সব কথার মধ্যে দিয়ে তাকে অতটা শক্ত মনে হয়নি।’</p>
+	<p class="block_9" lang="en">‘সব কথা আপনি শুনেছেন স্যার?’ আবারও বিস্ময় ফুটে উঠল এলিসার কথায়।</p>
+	<p class="block_9" lang="en">কিন্তু বিস্মিত এলিসা গ্রেস একটু মাথা খাটালেই বুঝতে পারতো, এই জানার মধ্যে কোন বাহাদুরি নেই। ওমর বায়ার টেবিলের তলায় অত্যন্ত পাওয়ারফুল কিন্তু অত্যন্ত ক্ষুদ্র একটা ট্রান্সমিটার বসানো হয়েছে।</p>
+	<p class="block_9" lang="en">‘তুমি কিভাবে এগোবে মনে করছ?’ এলিসার প্রশ্নের দিকে কান না দিয়েই বলল মি. বেনহাম।</p>
+	<p class="block_9" lang="en">‘চেষ্টা করছি। আগের চেয়ে অনেকখানি ওপেন হয়েছে সে। কিন্তু ঘর বন্ধ করে একা থাকতেই ভালোবাসে। তার এ একাকীত্ব দূর করতে না পারলে তার মনকে সম্পুর্ণ ফ্রি করা যাবে না।’</p>
+	<p class="block_9" lang="en">‘তাঁর এ একাকীত্ব দূর করার জন্যে তো তুমি।’</p>
+	<p class="block_9" lang="en">‘কিন্তু কিভাবে? ঐভাবে যদি সে দরজা বন্ধ করে থাকে। কোন চাপ দিতেও তো আপনি নিষেধ করেছেন।’</p>
+	<p class="block_9" lang="en">‘অবশ্যই চাপ দেয়া চলবে না। স্বাভাবিক চেষ্টার মাধ্যমেই তোমাকে ওর ঘনিষ্ঠ হতে হবে। ওকে হাসি-খুশিতে ভরে দিয়ে মনের দিক দিয়ে সম্পুর্ণ ফ্রি করে তুলতে হবে।’</p>
+	<p class="block_9" lang="en">‘সর্বক্ষণ মেশার সুযোগ না পেলে এটা সম্ভব কিভাবে?’</p>
+	<p class="block_9" lang="en">‘সর্বক্ষণ মেশার সুযোগ তোমাকেই সৃষ্টি করতে হবে।’</p>
+	<p class="block_9" lang="en">‘জানি। আজ তো ওকে দরজা খুলে রাখার কথা বলেছি।’</p>
+	<p class="block_9" lang="en">‘তোমার উপস্থাপনা খুব সুন্দর হয়েছে। ওর কাছে এই কথা তুলে ধরার দরকার ছিল। দেখবে আগামী দু’দিনের মধ্যে ওর দরজা আপনাতেই খুলে যাব।’</p>
+	<p class="block_9" lang="en">‘দু’দিনের মধ্যে?’</p>
+	<p class="block_9" lang="en">‘হ্যাঁ, দু’দিনের মধ্যে।’</p>
+	<p class="block_9" lang="en">‘আর কি ঘটবে?’</p>
+	<p class="block_9" lang="en">‘পরবর্তী দু’দিনের মধ্যে তোমার হাত থেকে সরাসরি জিনিসপত্রও নেবে। তবে শর্ত একটা। আজ থেকে দু’দিন পর রাতে যখন দুধ দিতে যাবে, তখন তার হাতে দুধ দিতে চেষ্টা করবে। যখন দুধ নেবে না, তখন তোমাকে তাকে কিছু বলতে হবে।’</p>
+	<p class="block_9" lang="en">‘এটাও দু’দিনের মধ্যে? আপনি কি মনোবিজ্ঞানী স্যার?’ এলিসার চোখে বিস্ময় মিশ্রিত অনুসন্ধান।</p>
+	<p class="block_9" lang="en">‘তারপর তুমি কি করবে?’ এবারও বেনহাম এলিসার প্রশ্ন পাশ কাটিয়ে গেল।</p>
+	<p class="block_9" lang="en">‘সর্বক্ষণ মেশার সুযোগ পেলে তাকে মনের দিক দিয়ে প্রফুল্ল ও ফ্রি করে তোলা যাবে।’</p>
+	<p class="block_9" lang="en">‘আমাদের চাওয়া কিন্তু আরও অনেক বেশি।’</p>
+	<p class="block_9" lang="en">‘কি সেটা?’</p>
+	<p class="block_9" lang="en">‘চারদিন পরে বলব। তবে এটুকু জেনে রেখ, তুমি যা বলবে সে তাই করবে, এ পর্যায়ে তাকে নিয়ে আসতে হবে।’</p>
+	<p class="block_9" lang="en">কথা শেষ করে বিজ্ঞানী বেনহাম বইটা টেনে নিয়ে তাতে আবার মনোনিবেশ করল।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস কিছুক্ষণ দাঁড়িয়ে থাকল। তারপর বুঝল, কথা শেষ।</p>
+	<p class="block_9" lang="en">ঘর থেকে বেরিয়ে এল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">ঘর থেকে বেরিয়ে নিজেদের ফ্ল্যাটে ফিরে আসতে আসতে ভাবল এলিসা গ্রেস, সৌজন্যবর্জিত লোকটা নিশ্চয় বেশি কথা বলে না।</p>
+	<p class="block_9" lang="en">কিন্তু দু’দিন পর রাত দশটায় এলিসা গ্রেস হাতে দুধের গ্লাস নিয়ে যখন ওমর বায়ার দরজায় গিয়ে চাপ দিল দরজা খুলে গেল, তখন এলিসা গ্রেস সত্যিই বিস্মিত হলো। মি. বেনহামের কথা অক্ষরে অক্ষরে ফলে গেছে অন্তত এই ক্ষেত্রে।</p>
+	<p class="block_9" lang="en">ঈষৎ ফাঁক হওয়া দরজায় দাঁড়িয়ে এলিসা গ্রেস বলল, আসতে পারি?’</p>
+	<p class="block_9" lang="en">‘আসুন।’ বলল ওমর বায়া।</p>
+	<p class="block_9" lang="en">ভেতরে প্রবেশ করল এলিসা গ্রেস। এগোলো ওমর বায়ার দিকে।</p>
+	<p class="block_9" lang="en">আজ দুধের গ্লাসটা টেবিলে না রেখে ওমর বায়ার দিকে বাড়িয়ে দিল।</p>
+	<p class="block_9" lang="en">ওমর বায়া তার হাত না বাড়িয়ে বলল, ‘টেবিলে রাখুন।’ এলিসা গ্রেসের দিকে না তাকিয়ে কথাগুলো বলল ওমর বায়া।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস দুধের গ্লাস রাখল টেবিলে। তারপর বলল, ‘আপনি আমার হাত থেকে কিছু নেন না, আমাকে অথবা আপনি নিজেকেই ভয় করেন বলে। এ ভয় কি যাবে না?’</p>
+	<p class="block_9" lang="en">‘সেদিনও আপনি এ কথাই বলেছেন। আসলে ভয় আমি কাউকে করি না। এটা আমার বিশ্বাস ও সংস্কৃতির প্রশ্ন। যা আপনি বুঝবেন না।’</p>
+	<p class="block_9" lang="en">‘ধন্যবাদ। কোন সংস্কৃতিই কিন্তু মানুষকে ছোট করতে বলে না।’</p>
+	<p class="block_9" lang="en">‘এটা ছোট করা নয়, আরও মর্যাদা দেয়া।’</p>
+	<p class="block_9" lang="en">‘প্রত্যাখ্যানকে কি মর্যাদা বুঝায়?’</p>
+	<p class="block_9" lang="en">‘অন্যায়কে প্রত্যাখ্যানের অর্থ অবশ্যই ন্যায়কে মর্যাদা দান।’</p>
+	<p class="block_9" lang="en">‘বা! আপনি সুন্দর কথা বলেন। আজ আর কথা বাড়াব না। চলি। শুভরাত্রি।’ বলে এলিসা গ্রেস বেরিয়ে এল ঘর থেকে।</p>
+	<p class="block_9" lang="en">দু’দিন পর রাত দশটায় দুধের গ্লাস হাতে এলিসা গ্রেস ঘরে প্রবেশ করল। দু’দিন আগের সেই সময় থেকে ওমর বায়ার দরজা আর লক হয় না।</p>
+	<p class="block_9" lang="en">বিজ্ঞানী বেনহাম কথিত দ্বিতীয় পর্যায়ের দ্বিতীয় দিন। তার বক্তব্য অনুসারে আজ ওমর বায়ার এলিসার হাত থেকে জিনিস অর্থাৎ এখন দুধের গ্লাস নেবার কথা।</p>
+	<p class="block_9" lang="en">দোদুল্যমান মন নিয়ে এলিসা গ্রেস দুধের গ্লাস নিয়ে এগোলো ওমর বায়ার দিকে। বলা যায় কম্পমান হাতেই সে দুধের গ্লাস বাড়িয়ে দিল ওমর বায়ার দিকে।</p>
+	<p class="block_9" lang="en">দুধের গ্লাস সামনে যেতেই ওমর বায়া চকিতে একবার তাকাল এলিসা গ্রেসের দিকে। তারপর ডান হাত বাড়িয়ে ওমর বায়া এলিসাকে অবাক করে দিয়ে তার হাত থেকে দুধের গ্লাস নিয়ে নিল।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেসের চোখ বিস্ময়ে ছানাবড়া হয়ে উঠল। ওমর বায়ার দৃষ্টি নিচু না থাকলে সেও এলিসার বিস্ময় বিমূঢ় চেহারা দেখতে পেত।</p>
+	<p class="block_9" lang="en">এলিসার মুখে কোন কথা যোগাচ্ছিল না। সে ভাবছিল, মি. বেনহামের দু’টি কথাই একেবারে অক্ষরে অক্ষরে ফলে গেল। এটা কি করে সম্ভব। অনুমান করে বা কার্যকারণ দেখে অথবা মানস-প্রবণতা লক্ষ্য করে কেউ ভবিষ্যৎ বাণী করতে পারে কিন্তু এভাবে দিনক্ষণ বলা সম্ভব নয়। কিন্তু এই অসম্ভব কাজ মি. বেনহাম সম্ভব করলেন কিভাবে?</p>
+	<p class="block_9" lang="en">প্রাথমিক বিস্ময়ের ধাক্কা কাটিয়ে এলিসা গ্রেস বলল, ‘ধন্যবাদ।’</p>
+	<p class="block_9" lang="en">‘কেন?’</p>
+	<p class="block_9" lang="en">‘আমি খুশি হয়েছি।’</p>
+	<p class="block_9" lang="en">‘কেন?’</p>
+	<p class="block_9" lang="en">‘আপনার হাতে কিছু তুলে দেবার সৌভাগ্য হলো।’</p>
+	<p class="block_9" lang="en">‘এতে অস্বাভাবিকতার কি আছে?’</p>
+	<p class="block_9" lang="en">ওমর বায়ার কথায় বিস্মিত হলো এলিসা গ্রেস। ওমর বায়ার সেদিনের এবং আজকের কথার মধ্যে কত পার্থক্য! সেদিন যাকে ওমর</p>
+	<p class="block_9" lang="en">বায়া তার বিশ্বাস ও সংস্কৃতির অংগ বলল, আজ সে ওমর বায়াই তার বিশ্বাস ও সংস্কৃতি ভংগ হওয়ার মধ্যে কোন অস্বাভাবিকতা দেখছে না। মাত্র দু’দিনে কি পরিবর্তন! কোন যাদুমন্ত্র যেন ভোজবাজী ঘটিয়েছে।</p>
+	<p class="block_9" lang="en">‘ধন্যবাদ। অস্বাভাবিকতা নেই বরং এটা স্বাভাবিক।’ বলল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">ওমর বায়া দুধ খেয়ে গ্লাস ফেরত দিল এলিসা গ্রেসের হাতে। এই প্রথম ওমর বায়া এলিসা গ্রেসের হাতে সরাসরি কিছু দিল।</p>
+	<p class="block_9" lang="en">বিস্মিত এলিসা গ্রেস ওমর বায়ার দিকে চোখ তুলে বলল, ‘ধন্যবাদ।’</p>
+	<p class="block_9" lang="en">গ্লাস হাতে নিয়ে ঘরের চারদিকে একবার দৃষ্টি বুলিয়ে বলল, ‘কোন অসুবিধা হচ্ছে না তো আপনার?’</p>
+	<p class="block_9" lang="en">‘অসুবিধা নেই, কষ্ট আছে।’</p>
+	<p class="block_9" lang="en">‘কি কষ্ট?’ উদ্বিগ্ন কন্ঠে জিজ্ঞেস করল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">‘ব্ল্যাক ক্রস আমাকে বিনা কারণে বন্দী করে রেখেছে। অথচ ওদের কোন স্বার্থ নেই।’</p>
+	<p class="block_9" lang="en">ওমর বায়ার কথা শুনে এলিসা গ্রেসের উদ্বেগ কেটে গেল। হেসে উঠল। হাসল প্রাণ খুলে।</p>
+	<p class="block_9" lang="en">‘হাসছি আপনার অমূলক কষ্টের কথা শুনে। আপনি বরং বাইরে থাকার চেয়ে এখানে ভালো আছেন। ব্ল্যাক ক্রস আপনাকে নিরাপদে রেখেছে। বাইরে থাকলে ওকুয়া’র ভয়ে হয় পালিয়ে বেড়াতে হতো, নয়তো ওদের হাতে বন্দী হতে হতো।’</p>
+	<p class="block_9" lang="en">‘এখনো তো আমি বন্দী আছি।’</p>
+	<p class="block_9" lang="en">‘সত্যিই কি এখন আপনার বন্দী থাকার মত মনে হয়?’</p>
+	<p class="block_9" lang="en">‘তা হয় না। এজন্যে ধন্যবাদ ব্ল্যাক ক্রসকে। কিন্তু তবুও তো আমি বন্দী।’</p>
+	<p class="block_9" lang="en">‘ব্ল্যাক ক্রস আপনার সমস্যা সমাধানের চেষ্টা করছে। আপনি শীঘ্রই ছাড়া পেয়ে যাবেন। ব্ল্যাক ক্রসকে বন্ধু ভাবুন।’</p>
+	<p class="block_9" lang="en">‘হ্যাঁ, আমিও এখন এ রকম ভাবছি।’</p>
+	<p class="block_9" lang="en">‘তাহলে বলুন আপনি বন্দী এ চিন্তা মনে রাখবেন না। আপনি কষ্ট পেলে আমার কষ্ট লাগে।’</p>
+	<p class="block_9" lang="en">ওমর বায়া চোখ তুলে তাকাল এলিসা গ্রেসের দিকে। তার মনে হলো, এত সুন্দর কথা কারো কাছ থেকে সে শোনেনি। এমন সুন্দরও কাউকে সে দেখেনি।</p>
+	<p class="block_9" lang="en">চোখ নামিয়ে নিল ওমর বায়া। কোন কথা বলল না।</p>
+	<p class="block_9" lang="en">‘আসি আজকের মত। রাত আপনার জন্য আরামদায়ক হোক। শুভ রাত্রি।’</p>
+	<p class="block_9" lang="en">বলে এলিসা গ্রেস বেরিয়ে এল ঘর থেকে।</p>
+	<p class="block_9" lang="en">আসতে আসতে ভাবল এলিসা গ্রেস এমন সুন্দর, সংযমী মানুষও দুনিয়াতে আছে। ওর বাইরের রূপ যত কালো, ভেতরটা ততই সুন্দর। তার ভেতরের পবিত্র সৌন্দর্যের কাছে এলিসার আগুনের মত জ্বালাময়ী সৌন্দর্য খুবই নিস্প্রভ।</p>
+	<p class="block_9" lang="en">এলিসা তার ঘরে এসে বসতেই টেলিফোন বেজে উঠল।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস ধরল টেলিফোন।</p>
+	<p class="block_9" lang="en">‘হ্যালো।’</p>
+	<p class="block_9" lang="en">‘ধন্যবাদ এলিসা।’ ওপার থেকে বিজ্ঞানী বেনহামের কণ্ঠ।</p>
+	<p class="block_9" lang="en">‘ওয়েলকাম স্যার। কোন আদেশ?’</p>
+	<p class="block_9" lang="en">‘না এলিসা কোন আদেশ নয়। কাল সকালে এস, নির্দেশ তখন দেব। এখন টেলিফোন করেছি তোমাকে ধন্যবাদ দেয়ার জন্যে। আমরা তোমার কাছে যা আশা করেছি, তুমি তার চেয়েও ভালো করছ। তোমার ফিনিশিং আজ চমৎকার হয়েছে। তোমাকে পারিশ্রমিক আমরা দ্বিগুণ করে দেব।’</p>
+	<p class="block_9" lang="en">‘ধন্যবাদ স্যার।’</p>
+	<p class="block_9" lang="en">‘বেশ রাখি। কাল এস।’</p>
+	<p class="block_9" lang="en">টেলিফোন রেখে দিল বেনহাম।</p>
+	<p class="block_9" lang="en">আবার মনে খোঁচা খেল এলিসা গ্রেস। লোকটার কোন সৌজন্য বোধ নেই। এরা অধস্তনদের সামান্য ‘শুভ রাত্রি’ বলতেও জানে না।</p>
+	<p class="block_9" lang="en">টেলিফোন রাখল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">আবার মনে এসে সেই বিস্ময়ই বাসা বাঁধল। লোকটা সর্বদ্রষ্টা নাকি! যা বলে তাই ঘটে, আবার ওখানে যা কথা হয় সবই শুনতেও পায়।</p>
+	<p class="block_9" lang="en">পরদিন ভোর।</p>
+	<p class="block_9" lang="en">সেদিন একটু ভোরেই উঠেছিল এলিসা গ্রেস। জগিং করে ফিরছিল সে।</p>
+	<p class="block_9" lang="en">লম্বা করিডোরটায় পা দিয়েই দেখল, ওমর বায়া বাইরে থেকে তার ঘরে ঢুকে গেল।</p>
+	<p class="block_9" lang="en">ওমর বায়ার ঘরের সামনে দিয়েই যেতে হবে এলিসা গ্রেসের ঘরে।</p>
+	<p class="block_9" lang="en">ওমর বায়ার দরজার সামনে এসে দাঁড়াল এলিসা গ্রেস। এগোলো দরজার দিকে। কৌতুহলবশতই দরজার নব ঘুরাল। খুলে গেল দরজা।</p>
+	<p class="block_9" lang="en">একটা সুরেলা কন্ঠ ভেসে এল ভেতর থেকে। ওমর বায়া কিছু পড়ছে বা বলছে।</p>
+	<p class="block_9" lang="en">খুব আস্তে দরজা আরেকটু ফাঁক করে ভেতরে উঁকি দিল এলিসা গ্রেস। দেখতে পেল, ওমর বায়া কার্পেটের ওপর তার বড় তোয়ালেটা ফেলে দক্ষিণ-পূর্বমুখী হয়ে দাঁড়িয়ে আছে। তার হাত দু’টি আড়াআড়ি করে বুকের ওপর রাখা। অনুচ্চ কন্ঠে সুর করে কি যেন পড়ছে সে। বেশ মিষ্টি সুর। ভালো লাগছে শুনতে।</p>
+	<p class="block_9" lang="en">কিছুক্ষণ দাঁড়িয়ে থাকার পর হাঁটুতে দু’হাত রেখে কোমর পর্যন্ত বাঁকিয়ে কিছুক্ষণ অপেক্ষা করল ওমর বায়া। তারপর উঠে দাঁড়াল। পরক্ষণেই নিচু হয়ে মাটিতে মাথা রাখল। একটু পরেই উঠল। পরক্ষণেই আবার মাথা রাখল মাটিতে। পরে উঠে দাঁড়াল আবার।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস বুঝল, ওমর বায়া প্রার্থনা করছে। কিন্তু কি ধরণের প্রার্থনা এটা?</p>
+	<p class="block_9" lang="en">হঠাৎ এলিসা গ্রেসের মনে পড়ল বেশ অনেকদিন আগে দেখা টিভি’র একটা দৃশ্যের কথা। সে দৃশ্যে এভাবেই লোকদেরকে প্রার্থনা করতে দেখেছিল। তার মনে পড়েছে, এটা মুসলমানদের প্রার্থনার দৃশ্য।</p>
+	<p class="block_9" lang="en">মনে এক প্রচণ্ড ধাক্কা খেল এলিসা গ্রেস। ওমর বায়া তাহলে কি মুসলমান? তার মাতৃধর্মের লোক?’</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস আস্তে আস্তে নব ঘুরিয়ে দরজা বন্ধ করে দিয়ে সরে এল দরজা থেকে।</p>
+	<p class="block_9" lang="en">মনে একটা তোলপাড় তখন এলিসা গ্রেসের।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস একজন মিশ্র রক্তের মেয়ে।</p>
+	<p class="block_9" lang="en">এলিসার নানী আরেফা নূর তার বালিকা বয়সে আলিজিরিয়ায় ফরাসী শাসন প্রতিষ্ঠার শুরুর দিকে একজন ফরাসী যুবক কর্তৃক অপহৃত হয়ে আসে রোমে। সেখান থেকে ফ্রান্সে। এলিসা গ্রেসীর মা আনিসা গ্রেস ছিল সেই আরেফা নূরের একমাত্র মেয়ে।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেসের মনে পড়ল তার মায়ের কথা। তার মা আনিসা গ্রেস মারা গেছে অনেক দিন আগে। নানী আরিফা নূরকে এলিসা দেখেনি। কিন্তু তার সম্পর্কে সব সময় অনেক গল্প শুনেছে এলিসা। তার মায়ের কাছ থেকেই শুনেছে তার নানীর ধর্ম ছিল ইসলাম। তার মাও তার নানীর ধর্মকে নিজের ধর্ম বলে মনে করতেন। তার মা কোন দিনই গীর্জায় যায়নি। সুতরাং তার মাতৃধর্ম ইসলাম বা মুসলমান ধর্ম। ওমর বায়া সেই ধর্মেরই অনুসারী।</p>
+	<p class="block_9" lang="en">এলীশা গ্রেস ধীরে ধীরে শিথিল পায়ে তার ঘরে ফিরে এল। নিজেকে সোফায় ছুঁড়ে দিয়ে গা এলিয়ে দিল সোফার বুকে।</p>
+	<p class="block_9" lang="en">চোখ বুজে এল তার।</p>
+	<p class="block_9" lang="en">মনটা ছুটে গেল তার অনেক দুরের অতীতে। যখন ব্রিষ্ট নগরীর একটা ছোট্ট ফ্লাটে তার আব্বা, আম্মা এবং বড় এক ভাই নিয়ে ছিল তার পৃথিবী। মায়ের এ্যালবামে ছিল তার নানীর একটা ফটো। অবসর পেলেই তার মা বের করতেন তার নানীর সেই ফটো। মায়ের কাছে কত গল্প শুনেছে তার নানীর। ওমর বায়া যেমন বন্দী হয়েছে, তেমনি তার নানী ফুলের মত এক বালিকা অপহৃত হয়েছিল আলজিরিয়া দখলকারী ফরাসী সৈন্যদের একজনের হাতে। সেই সৈনিক ছিলেন তার নানা।</p>
+	<p class="block_9" lang="en">তার নানী সবই পেয়েছিলেন, কিন্তু চোখের পানি তার কোনদিন শুকায়নি। তার নানা তার নানীকে সব স্বাধীনতায় দিয়েছিল। নানী তার নিজের ধর্ম যথাসাধ্য পালন করতেন, নানা তাতে বাধা দেননি। কিন্তু নানী তার জন্মভূমি এবং তার আপনজনদের দেখার সুযোগ কোন দিন পাননি। এই বেদনাই অশ্রু হয়ে ঝরেছে তার চোখে আমৃত্যু।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস তার মায়ের কাছে তার নানীর বলা অনেক কাহিনী শুনেছে। শীতের দীর্ঘ রাতে মায়ের বুকে মুখ রেখে এলিসা গ্রেস শুনতো সে কাহিনীগুলো। তার নানী আরেফা নূর আলজিয়ার্সের একটি বিখ্যাত ও প্রভাবশালী পরিবারের সন্তান। কিন্তু ফরাসীরা আলজিরিয়া দখলের পর এই পরিবার ফরাসীদের বিরুদ্ধে লড়াই করেছে এই অভিযোগে নানাভাবে ক্ষতিগ্রস্থ হয়। এ সত্ত্বেও আলজিয়ার্স শহরতলীর এক বাড়িতে সব হারানোর পরেও তাদের পরিবার স্নেহ ঘেরা এক সুন্দর পরিবেশে স্বর্গীয় সুখে বাস করতো। আব্বা-আম্মা ছাড়াও তাঁর নানীর ছিল দু’বোন এবং চার ভাই। এই সময়ই একদিন দূর্ভাগ্য নেমে এল তার নানীর জীবনে।</p>
+	<p class="block_9" lang="en">সেদিন তার চার ভাইয়ের কেউই বাড়িতে ছিল না। হঠাৎ তার মা অসুস্থ হয়ে পড়ে। তার আব্বার বাইরে যাওয়া নিরাপদ ছিল না। তার বড় দু’বোনকেও লুকিয়ে রাখা হয়েছে। সুতরাং বাইরে যাবার কেউ ছিল না। তখন তার বয়স ছিল পনের। মুমূর্ষু মাকে রক্ষার জন্যে মায়ের অশ্রুরুদ্ধ নিষেধ সত্ত্বেও পাগলের মত বেরিয়ে আসে বাড়ি থেকে ওষুধ সংগ্রহের জন্যে।</p>
+	<p class="block_9" lang="en">সেই যে সে বেরিয়ে আসে আর ফিরতে পারেনি। শহরের সব ওষুধ দোকান বন্ধ করে হয়েছিল, যাতে বৈরী ও বিদ্রোহীরা কোন ওষুধ না পায়। ওষুধ পাওয়া যেত শুধু ফরাসী সৈন্যের চৌকিগুলোতে।</p>
+	<p class="block_9" lang="en">সে ফরাসী সৈন্যের চৌকি কোথায় চিনতো না। অনেক খোঁজা-খুঁজির পর সে রাস্তায় পাহারারত একজন সৈন্যকে জিজ্ঞেস করে ওষুধ কোথায় পাওয়া যাবে।</p>
+	<p class="block_9" lang="en">শুনেই সৈনিকটি বলে যে, সে ওষুধের সরবরাহ কেন্দ্র দেখিয়ে দিতে পারে এবং তাঁকে গাড়িতে উঠতে বলে। সে অস্বীকার করে গাড়িতে উঠতে এবং বলে যে, কেন্দ্রটি কোথায় তা বললেই চলবে।</p>
+	<p class="block_9" lang="en">কিন্তু সৈনিকটি জোর করে তাকে গাড়িতে তুলে নেয়। সে চিৎকার করে সাহায্য চায়। কিন্তু কেউ সাহায্য করতে আসেনি। গাড়ি চলতে শুরু করলে একজন বৃদ্ধ ছুটে এসেছিল এবং গাড়ির সামনে দাঁড়িয়ে গাড়ির গতিরোধের চেষ্টা করেছিল। বৃদ্ধের ওপর দিয়েই গাড়ি চালিয়ে দেয় সৈনিকটি। গাড়ির চাকা পিষ্ট করে বৃদ্ধের দেহ।</p>
+	<p class="block_9" lang="en">এরপর শুরু হয় অসহায় সেই বালিকার জীবন-পরিক্রমার এক দীর্ঘ কাহিনী।</p>
+	<p class="block_9" lang="en">এসব কাহিনী বলতে বলতে এলিসার মা কেঁদে ফেলত। নানীর সে কাহিনী কাঁদাত এলিসা গ্রেসকেও। তার সামনে ভেসে উঠতো তার অদেখা নানীর অশ্রু সজল ছবি, ভেসে উঠতো তার সামনে রোম এবং আলজিয়ার্সের কল্পিত দৃশ্য। সে প্রশ্ন করে একদিন তার মাকে, আলজিয়ার্সে নানীর কেউ নেই? তাদেরকে পৌছে দেয়া যায় না নানীর কথা যে, নানী মৃত্যু পর্যন্ত ভোলেনি তাদের কথা এবং আমরাও তাদের স্মরণ করি।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেসের মা কাঁদতে কাঁদতেই জবাব দিয়েছিল, সে চেষ্টা করেছি কিন্তু খোঁজ পাওয়া যায়নি। ফরাসী শাসনে সেখানে নিরন্তর যে ঘূর্ণিঝড় বয়েছে, তাতে আলজিরিয়ার সবকিছুই লণ্ডভণ্ড হয়ে যায়। সে ঝড়ে ওরা কোথায় হারিয়ে গেছে কে জানে!</p>
+	<p class="block_9" lang="en">নানীর কাহিনী শোনা সেই বয়স বহু দিন আগে চলে গেছে এলিসার। কাহিনী বলা সেই মাও গত হয়েছে অনেক দিন। জীবন যুদ্ধের ভিড়ে এই অতীতকে এলিসা গ্রেস খুব কমই স্মরণ করতে পারে। আজ ওমর বায়ার ঘটনা সময়ের দেয়াল ভেঙে দিয়েছে। অতীত বর্তমানের রূপ নিয়ে এসে ভিড় জমিয়েছে তার চোখের সামনে। মায়ের বুকের সেই উষ্ণ পরশ যেন সে অনুভব করছে, মায়ের সেই কন্ঠ যেন শুনতে পাচ্ছে। দেখতে পাচ্ছে যেন মায়ের নীরব অশ্রুও।</p>
+	<p class="block_9" lang="en">চোখ দিয়ে অশ্রু গড়াচ্ছিল এলিসা গ্রেসের।</p>
+	<p class="block_9" lang="en">টেলিফোন বেজে উঠল।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস উঠে চোখের পানি মুছে গিয়ে টেলিফোন ধরল।</p>
+	<p class="block_9" lang="en">টেলিফোন বিজ্ঞানী বেনহামের। বেনহাম তাঁকে নির্দেশ দিল তার কাছে আসার জন্যে।</p>
+	<p class="block_9" lang="en">‘আসছি স্যার!” বলে টেলিফোন রাখল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">টেলিফোন রেখেই এলিসার মনে পড়ল ওমর বায়ার কথা। নিশ্চয় ওমর বায়া সম্পর্কেই নতুন নির্দেশ শুনতে হবে মি. বেনহামের কাছ থেকে।</p>
+	<p class="block_9" lang="en">এই ব্যাপারে এলিসা গ্রেস আগে যতোটা উৎসাহ বোধ করেছে, এই মুহূর্তে তা যেন পাচ্ছে না। তার মনে হচ্ছে তার হতভাগিনী নানীরই যেন এক প্রতিচ্ছবি ওমর বায়া।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস প্রস্তুত হলো মি. বেনহামের কাছে যাবার জন্যে। কান্না ও মলিনতার ছায়া চোখ-মুখ থেকে মুছে ফেলার জন্যে হালকা মেকআপ নিল। তারপর জোর করেই হাসল কিছুক্ষণ সজীব হয়ে উঠার জন্যে। ব্ল্যাক ক্রসের লোকদের সাথে তার প্রায়ই দেখা হয়। এলিসা ব্রিষ্টের সবচেয়ে অভিজাত ডিপার্টমেন্টাল ষ্টোরের সেলস গার্ল। ষ্টোরের মালিক ব্ল্যাক ক্রসের একজন অর্থ যোগানদাতা। সেই সূত্রেই ব্ল্যাক ক্রস নেতাদের সেখানে যাতায়াত। ষ্টোর মালিকের অনুরোধেই এলিসা গ্রেস ব্ল্যাক ক্রসের কিছু কিছু কাজ করে দেয়। সে অনেক ব্ল্যাক ক্রস নেতাকে দেখেছে কিন্তু বেনহামের মত বাজ চক্ষু আর অভদ্র কাউকে দেখেনি।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস বেরিয়ে গেল কক্ষ থেকে।</p>
+	<p class="block_9" lang="en">নক করল মি. বেনহামের দরজায়।</p>
+	<p class="block_9" lang="en">‘এস।’ সংক্ষিপ্ত এক কাঠ-খোট্টা কণ্ঠ ভেসে এল ভেতর থেকে। বেনহামের কন্ঠ।</p>
+	<p class="block_9" lang="en">ঘরে প্রবেশ করল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">আগের মতই ঘরের মাঝাখানে গিয়ে দাঁড়াল। বসার চিন্তা আজ আর করল না সে। সৌজন্য বোধহীন অভদ্র লোকটা বসতে বলবে না।</p>
+	<p class="block_9" lang="en">মিনিট খানেক পরে বই থেকে মাথা তুলে বলল, ‘কেমন, সে এখন দরজা খুলে রাখে, তোমার হাত থেকে জিনিসও নেয় তাই না?’</p>
+	<p class="block_9" lang="en">‘জি, স্যার।’</p>
+	<p class="block_9" lang="en">‘হ্যাঁ, আমরা যা চাই, সবই তাকে করতে হবে।’</p>
+	<p class="block_9" lang="en">‘সেগুলো কি স্যার?’ প্রথম বারের মত আজ এলিসা গ্রেসের মনে কৌতূহল দেখা দিল জানতে যে, ওমর বায়াকে নিয়ে তারা কি করতে চায়।</p>
+	<p class="block_9" lang="en">‘সবই জানতে পারবে, সব তো তোমাকেই করতে হবে। এখন তোমার প্রয়োজন তাকে জয় করা।’</p>
+	<p class="block_9" lang="en">‘সে তো এখন কথা শুনছেই স্যার।’</p>
+	<p class="block_9" lang="en">‘না আমরা শুধু এতটুকু চাই না। তুমি যা বলবে তা সে অন্ধভাবে করবে, এ পর্যায়ে তাকে নিয়ে আসতে হবে।’</p>
+	<p class="block_9" lang="en">‘সেটা কি সম্ভব স্যার? তাকে আমি একদম অন্য ধরণের মানুষ দেখছি।’</p>
+	<p class="block_9" lang="en">‘তুমি কি ভাবতে পেরেছিলে যে সে আপনাতেই দরজা খুলে রাখবে, তোমার হাত থেকে ঐভাবে এত সহজেই জিনিস নিতে রাজি হবে?’</p>
+	<p class="block_9" lang="en">‘না স্যার, তা ভাবিনি। এখনও আমি বুঝতে পারছি না কিভাবে এমনটা ঘটল।’</p>
+	<p class="block_9" lang="en">‘যেমন ভাবে ঘটেছে, তেমন ভাবেই সব ঘটবে। শুধু চাই, তুমি তাকে হাসি-খুশি রাখবে, তার মনকে ফ্রি রাখবে, যাতে কোন প্রকার নেতিবাচক কিছু তার মনে বাসা বাঁধতে না পারে।’</p>
+	<p class="block_9" lang="en">‘চেষ্টা করব স্যার।’</p>
+	<p class="block_9" lang="en">‘চেষ্টার জন্যে আমরা বেশি সময় দিতে পারব না। আমরা চাই তাড়াতাড়ি রেজাল্ট।’</p>
+	<p class="block_9" lang="en">‘কিন্তু কিভাবে?’</p>
+	<p class="block_9" lang="en">‘সেটাও কি বলে দিতে হবে? তোমার মত সুন্দরীকে কেন আনা হয়েছে তুমি জান।’</p>
+	<p class="block_9" lang="en">মাথা নিচু করল এলিসা গ্রেস। এক ঝলক রক্ত এসে জমা হলো তার চোখে মুখে। লজ্জা এবং অপমান দু’য়েরই প্রকাশ এতে আছে।</p>
+	<p class="block_9" lang="en">মাথা নিচু রেখেই বলল এলিসা, ‘জানি স্যার।’ কণ্ঠটা স্বাভাবিক রাখলেও এই কথা বলার সময় তার অন্তরটা কেঁপে উঠেছিল। কারও শয্যাসঙ্গী হওয়া তার জন্যে নতুন নয়। কিন্তু তার মাতৃধর্মের এবং তার হতভাগিনী নানীর প্রতিচ্ছবি ওমর বায়া ইতিমধ্যেই তার অন্তরের অনেক উঁচু আসনে অধিষ্ঠিত হয়েছে। এমন লোকের সাথে প্রতারণা করা যায় না।</p>
+	<p class="block_9" lang="en">‘বেশ।’ বলল মি. বেনহাম। তারপর একটু থেমেই আবার শুরু করল, তোমার সাফল্য লাভের অর্থ তার মানসিক প্রতিরোধ ধসে পড়া। সে শুধু তোমাকে ভালোবাসবে না, বন্ধু ভাববে ব্ল্যাক ক্রসকে। এর পরের কাজটা আমাদের। তারপর তুমি যা বলবে সে তা করবে, এই আমরা চাই।’</p>
+	<p class="block_9" lang="en">কথা শেষ করেই মি. বেনহাম বই টেনে নিয়ে তার ওপর ঝুঁকে পড়ল।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস বুঝল এটাই কথা শেষ হওয়ার সংকেত এবং চলে যাবার নির্দেশও এটা।</p>
+	<p class="block_9" lang="en">এলিসা বেরিয়ে আসার জন্যে পা বাড়িয়েছিল। পেছনে টেলিফোন বেজে উঠল। মাথা ঘুরিয়ে দেখল মি. বেনহাম টেলিফোনের রিসিভার তুলে নিচ্ছে।</p>
+	<p class="block_9" lang="en">চলে আসার জন্যে আবার পা চালাল এলিসা গ্রেস। বেরিয়ে আসতে আসতে শুনল মি. বেনহামের কণ্ঠঃ ‘হ্যালো, মি. পিয়েরে পল, আপনাকে খুঁজে পাচ্ছি না, সুখবর আছে।’</p>
+	<p class="block_9" lang="en">সুখবর শোনার জন্যে হঠাৎ করেই কৌতুহল জাগলো এলিসার মনে।</p>
+	<p class="block_9" lang="en">দরজা বন্ধ হয়ে গেলে দরজার সামনে দাঁড়াল এলিসা। বেশ পুরনো দরজা। ঢিলা ও আলগা হয়ে যাওয়ায় ভেতরের কথা বেশ শোনা যাচ্ছে।</p>
+	<p class="block_9" lang="en">শুনতে পেল বেনহামের কণ্ঠঃ ‘আমাদের ‘ইলেক্ট্রয়েন্স ফ্যালোগ্রাম’ এবং ‘ইলেক্ট্র মিয়োগ্রাম’ কাজ শুরু করেছে। ইতিমধ্যেই ওমর বায়ার ব্রেন আমাদের ‘ইলেক্ট্রয়েন্স ফ্যালোগ্রাম’ ও ‘ইলেক্ট্র মিয়োগ্রাম’-এর দু’টো ডিটেকশন গ্রহণ করেছে এবং কাজে পরিণত করেছে। সে দরজা বন্ধ করে রাখতো এখন রাখে না, আগে এলিসাকে এড়িয়ে চলতে চাইত, তার হাত থেকে কিছু নিত না, এখন নিতে শুরু করেছে। ... হ্যাঁ হ্যাঁ, শুভ বিগিনিং। আমরা যতটা কঠিন মনে করেছিলাম, কাজটা ততটা কঠিন হবে না। আজ এলিসাকে যে নির্দেশ দিয়েছি তা হয়ে গেলে ওমর বায়ার মন ও মাথাকে সম্পূর্ণ ফ্রি পাব। সে মাথা ও মন দিয়ে আমাদের ‘ইলেক্ট্রয়েন্স ফ্যালোগ্রাম’ এবং ‘ইলেক্ট্র মিয়োগ্রাম’ আমরা যা চাচ্ছি তা সহজেই করে ফেলবে। তবে এলিসা গ্রেসকে ওমর বায়ার সাথে ক্যামেরুন পর্যন্ত নিতে হবে।’</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস আর দাঁড়াতে পারল না। মাথা ঘুরছে তার। ওদের টার্গেট কি, কি করতে চায় ওরা ওমর বায়াকে নিয়ে! ‘ইলেক্ট্রয়েন্স ফ্যালোগ্রাম’ এবং ‘ইলেক্ট্র মিয়োগ্রাম’ কি? ওরা কি কোন অজানা অস্ত্র প্রয়োগ করছে ওমর বায়ার ওপর? এলিসা গ্রেস কি সে অস্ত্রের বাহন?</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস তার ফ্ল্যাটে ফিরে ছুটে গেল তার নিজের কক্ষে। বুক সেলফ থেকে বের করল ‘ইনসাইক্লোপেডিয়া অব সাইন্স’। বইটি নিয়ে বসল গিয়ে সোফায়।</p>
+	<p class="block_9" lang="en">বের করলো ‘ইলেক্ট্রয়েন্স ফ্যালোগ্রাম’ এবং ‘ইলেক্ট্র মিয়োগ্রাম’ শব্দ দু’টি ইনসাইক্লোপেডিয়া থেকে।</p>
+	<p class="block_9" lang="en">গোগ্রাসে পড়ল। পড়ার সঙ্গে সঙ্গে উদ্বেগের কালোছায়া নামল এলিসা গ্রেসের চোখে-মুখে। ইলেক্ট্রয়েন্স ফ্যালোগ্রাম এমন একটা কৌশল যা কম্পিউটার নিয়ন্ত্রিত সিলিকন চিপ ব্যবহার করে অনেক দূর থেকে একজন মানুষের মস্তিষ্কের বিদ্যুৎ-তরঙ্গের প্রকৃতি পরিবর্তন করে তার মাথায় ইচ্ছামত ধারণা ও চিন্তা প্রবিষ্ট করা যায়। ইলেক্ট্র মিয়োগ্রামও অনুরূপ একটি অস্ত্র যা ব্যবহার করে মানুষের চোখে দর্শন-ধর্ম নিয়ন্ত্রণ করার মাধ্যমে কোন বিশেষ চিন্তা বা কাজের জন্যে তার মন ও মস্তিষ্ককে প্রস্তুত করা যায়।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস বইটি ছুঁড়ে ফেলে দিল সোফার ওপর। বুকটা কাঁপছে তার। তার কাছে পরিষ্কার হয়ে গেল যে, ব্ল্যাক ক্রস এক জটিল বৈজ্ঞানিক উপায়ে ওমর বায়ার মন ও মস্তিষ্ককে পরিবর্তন করছে। ইতিমধ্যেই কিছুটা করে ফেলেছে তারা। এখন সে বুঝতে পারছে, বেনহাম কেমন করে দিনক্ষণসহ অমন ভবিষ্যত বাণী করতে পেরেছিল। আসলে ওটা ছিল ‘ইলেক্ট্রয়েন্স ফ্যালোগ্রাম’ ও ‘ইলেক্ট্র মিয়োগ্রাম’-এর কাজ।</p>
+	<p class="block_9" lang="en">শিউরে উঠল এলিসা গ্রেস। ব্ল্যাক ক্রসের ষড়যন্ত্র বাস্তবায়িত হলে দেহের দিক থেকে ওমর বায়া ঠিকই থাকবে, কিন্তু মন-মানসিকতার দিক দিয়ে সে হয়ে যাবে ভিন্ন মানুষ। আর এই জঘন্য কাজে এলিসা গ্রেস মূল্যবান বাহন হিসেবে কাজ করছে। এখন সে পরিষ্কার বুঝতে পারছে, ওমর বায়ার মনকে প্রফুল্য ও ফ্রি রাখার প্রয়োজন পড়েছে এজন্যে যে যাতে তার মন ও মস্তিষ্ক ইলেক্ট্রনিক ট্রান্সমিশনের মাধ্যমে আসা অনুপ্রবেশকারী চিন্তা ও ধারণার বিরুদ্ধে কোন প্রতিরোধ দাঁড় করাতে পারবে না।</p>
+	<p class="block_9" lang="en">দু’হাতে মাথা চেপে ধরে সোফায় গা এলিয়ে দিল এলিসা গ্রেস। মন তার বিদ্রোহ করে উঠল, না সে ওমর বায়ার এত বড় সর্বনাশ হতে দিতে পারে না। হৃদয়ের কোথায় যেন ওমর বায়ার জন্যে তীব্র এক বেদনা অনুভব করল সে।</p>
+	<p class="block_9" lang="en">কিন্তু কি করবে সে? কি করে রক্ষা করবে তাকে? ব্ল্যাক ক্রস যা চায় তাই করে। তার হাত থেকে কেউ রক্ষা পেয়েছে বলে সে জানে না। ব্ল্যাক ক্রসের বিরুদ্ধে টু-শব্দ করার সাহসও কারও নেই। এলিসা তো দুর্বল মেয়ে মানুষ। তার ওপর সে এখানে দায়িত্ব নিয়ে এসেছে ব্ল্যাক ক্রস ওমর বায়ার ব্যাপারে যা করতে বলে তাই করার। এক পা এদিক-সেদিক করলে তার নিজের জীবনই বিপন্ন হবে। ব্ল্যাক ক্রসের কাছে বিশ্বাসঘাতকতার শাস্তি মৃত্যু ছাড়া আর কিছু নেই। ভাবতে গিয়ে হৃদয়টা কেঁপে উঠল এলিসার।</p>
+	<p class="block_9" lang="en">ঘরে ঢুকল একজন পরিচারিকা। বলল, ‘ম্যাডাম, সাহেবের নাস্তা রেডি।’</p>
+	<p class="block_9" lang="en">‘যাও আসছি।’ বলল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">চলে গেল পরিচারিকা।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস সোজা হয়ে বসল সোফায়। তার মনে হলো, যে নাস্তা সে নিয়ে যাবে তা তো নাস্তা নয়। ভালো খাবার, সুন্দর পরিবেশ এবং সুন্দর নারীর ভোগ দিয়ে ওমর বায়ার ওরা সর্বনাশ করছে।</p>
+	<p class="block_9" lang="en">তবু নাস্তা তাকে নিয়ে যেতে হবে। কিন্তু অভিনয়ের প্রবৃত্তি আর যে তার হচ্ছে না। মন বলছে সত্য কথাটা ওমর বায়াকে বলা উচিত। কিন্তু কিভাবে বলবে? ও ঘরে এ ব্যাপারে টু শব্দও করা যাবে না। নিশ্চয় শব্দ ট্রান্সমিটার বসানো আছে। ওখানকার প্রতিটি কথা চলে যায় বেনহামের কাছে। ওখানে এলিসাকে অভিনয়ের কথাই বলকে হবে। ওমর বায়াকে ঘরের বাইরে অন্য কোথাও সব কথা বলতে হবে। একথা চিন্তা করতে গিয়েও আবার ভয় হলো এলিসা গ্রেসের। আসল ঘটনা জানার পর যদি ওমর বায়ার কথায় বা কাজে কোন প্রতিক্রিয়া প্রকাশ পায়, তাহলে তার এবং ওমর বায়ার দু’জনেরই বিপদ হবে।</p>
+	<p class="block_9" lang="en">তাহলে কি করবে সে?</p>
+	<p class="block_9" lang="en">হঠাৎ এলিসার মাথায় বুদ্ধি এল, ওমর বায়াকে সব কথা না বলে এলিসা সম্পর্কেই ওমর বায়াকে সন্দেহপ্রবণ করে তুলতে হবে, তাহলেই তার মধ্যে ভয় ও সন্দেহ দানা বাঁধবে এবং সৃষ্টি হবে তার মধ্যে একটা সতর্ক মনোভাব যা তার জন্যে একটা প্রতিরোধ শক্তি হিসেবে কাজ করবে। কিন্তু পরক্ষণেই এলিসা আবার ভাবল, ওমর বায়া তাকে ভুল বুঝলে সে সহ্য করবে কেমন করে। সমগ্র অন্তর দিয়ে এবং নিজের জীবন দিয়ে যার সে ভালো চায়, তাঁর ঘৃণা নিয়ে সে বাঁচবে কেমন করে? প্রেম এলিসা অনেকের সাথেই করেছে, ভেঙেছেও। কিন্তু এলিসা কাউকে তার হৃদয় দেয়নি, সুতরাং হৃদয় ভাঙার বেদনাও তার নেই। আজ অভিনয় করতে এসে, তার এই মূহুর্তে মনে হচ্ছে, সেই হৃদয়টাই সে হারিয়ে ফেলেছে তার মাতৃধর্মের কালো যুবক ওমর বায়ার মধ্যে। এই হৃদয়টাকে সে আজ ভাঙবে কেমন করে? তাছাড়া ওমর বায়া তাকে সন্দেহ করলে বেনহামের নির্দেশ সে পালন করবে কেমন করে? সন্দেহ নিয়ে ওমর বায়া তার শয্যাসঙ্গী হতে চাইবে না!</p>
+	<p class="block_9" lang="en">কিন্তু এলিসা গ্রেস আর কোন বিকল্প পেল না। পরোক্ষভাবে এলিসা সম্পর্কে সন্দেহ সৃষ্টি করাই ওমর বায়াকে রক্ষার সবচেয়ে নিরাপদ পথ। উঠল এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">বেরুল ঘর থেকে ওমর বায়ার কাছে নাস্তা নিয়ে যাওয়ার জন্যে। ঠিক করল নাস্তা দেয়ার সময় অভিনয়ের সময়েই সে ওমর বায়াকে আমন্ত্রণ করবে ঘরের বাইরে এক সাথে বেড়ানোর। এ প্রস্তাব ওমর বায়া নিশ্চয় গ্রহণ করবে। অন্যদিকে বেনহামও এতে খুশি হবে যে, আমি ওমর বায়াকে আরও কাছে আনার চেষ্টা করছি।</p>
+	<p class="block_9" lang="en">সেদিনই সন্ধ্যার পর। এলিসা ও ওমর বায়া পাশাপাশি হাঁটছিল আবছা আবছা আলো-আঁধারীর মধ্যে, সুইমিং পুলের পাশ দিয়ে। হাঁটতে হাঁটতে এলিসা গ্রেস ওমর বায়াকে লক্ষ্য করে বলল, ‘একটা কথা বলি?’</p>
+	<p class="block_9" lang="en">‘কথা তো বলছেনই। আবার কি কথা? বলুন।’</p>
+	<p class="block_9" lang="en">‘আপনি খুব সরল।’</p>
+	<p class="block_9" lang="en">‘কেমন?’</p>
+	<p class="block_9" lang="en">‘চিন্তা-ভাবনা না করেই সবাইকে আপনি বিশ্বাস করেন।’</p>
+	<p class="block_9" lang="en">‘এ কথার অর্থ?’</p>
+	<p class="block_9" lang="en">‘আমি যা বলি তা কি আপনি বিশ্বাস করেন?’</p>
+	<p class="block_9" lang="en">‘হ্যাঁ, আপনি বললে করি।’</p>
+	<p class="block_9" lang="en">‘কিন্তু আমার কথা আমার নয়, একথা আপনার জানা উচিত। আমি তো অন্যের পুতুল।’</p>
+	<p class="block_9" lang="en">‘আপনাকে ধন্যবাদ।’ বলে চুপ করল ওমর বায়া।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেসও নীরব। সে কি বলবে ঠিক করতে পারছে না। সে বুঝতে পারল, ওমর বায়া তার কথা বুঝতে পেরেছে এবং গ্রহণও করেছে। অর্থাৎ এখন ওমর বায়ার কাছে এলিসা গ্রেসের কানাকড়িও মূল্য নেই। মনটা এলিসার হু হু করে কেঁদে উঠতে চাইল।</p>
+	<p class="block_9" lang="en">কিছুক্ষণ পর কথা বলল ওমর বায়াই, ‘ওরা পুতুল নাচিয়ে কি করতে চায়?’</p>
+	<p class="block_9" lang="en">ওমর বায়ার ‘পুতুল’ শব্দ উচ্চারণ ভীষণ খোঁচা দিল এলিসা গ্রেসের হৃদয়ে। ঠোঁট কামড়ে নিজেকে সামলে নিয়ে বলল, ‘পুতুল তো নাচার জন্যে। যারা নাচায় তাদের কথা সে বলবে কেমন করে?’ কথাগুলো এলিসার গলায় আটকে যাচ্ছিল। কিন্তু এই মিথ্যাগুলো না বলে তার তো উপায় নেই।</p>
+	<p class="block_9" lang="en">‘ঠিক বলেছেন।’</p>
+	<p class="block_9" lang="en">ফিরছিল তারা ঘরের দিকে।</p>
+	<p class="block_9" lang="en">ঘরের ছায়ায় অন্ধকারটা একটু গাঢ়। এলিসা হঠাৎ থমকে দাঁড়িয়ে ওমর বায়ার একটা হাত চেপে ধরে বলল, ‘আপনি আমার কথাগুলো হালকাভাবে নেননি তো? বিশ্বাস করেছেন তো?’ একটা অবরুদ্ধ আবেগ ভেঙ্গে পড়তে চাইল এলিসার কন্ঠে।</p>
+	<p class="block_9" lang="en">‘বলেছি তো আপনার কথা আমি বিশ্বাস করি।’</p>
+	<p class="block_9" lang="en">‘কিন্তু আমার সব কথা তো আমার কথা নয়।’</p>
+	<p class="block_9" lang="en">‘সেটা আমি বুঝতে পেরেছি। কিন্তু আপনার প্রতি বিশ্বাস আমার বেড়েছে।’</p>
+	<p class="block_9" lang="en">‘কেন?’</p>
+	<p class="block_9" lang="en">‘কারণ, কোন পুতুল যখন স্বেচ্ছায় প্রকাশ করে সে কারো পুতুল, তখন সে আর পুতুল থাকে না। আপনি আমার কাছে পুতুল নন।’</p>
+	<p class="block_9" lang="en">‘এমনভাবে বলবেন না। সইতে পারব না আমি। আমি সত্যিই অসহায় এক পুতুল।’</p>
+	<p class="block_9" lang="en">বলে ওমর বায়ার হাত ছেড়ে দিয়ে দু’হাতে মুখ ঢেকে দৌড় দিল করিডোরের দিকে।</p>
+	<p class="block_9" lang="en">করিডোর পেরিয়ে সে এসে প্রবেশ করল নিজের ঘরে। নিজেকে ছুঁড়ে দিল সে বিছানায়। বালিশে মুখ গুজল সে। হৃদয় ছাপিয়ে কান্না আসছে তার। সে যা চেয়েছিল তা হলো না। ওমর বায়া তাকে ঘৃণা করে, সন্দেহ করে দূরে সরিয়ে দিল না। কেন দিল না? এলিসা গ্রেস পাপে ভরা একটা খোলস। ওমর বায়ার মত মাতৃধর্মের মহান লোকদের তার দেবার কিছু নেই। সে ঘৃণা করলে, সন্দেহ করলে দায়িত্বের ভার থেকে কিছুটা বাঁচত সে। এখন সে কি করবে? কি করার ক্ষমতা আছে তার?</p>
+	<p class="block_9" lang="en">টেলিফোন বেজে উঠল।</p>
+	<p class="block_9" lang="en">উঠে, চোখ মুছে ধরল টেলিফোন এলিসা গ্রেস।</p>
+	<p class="block_9" lang="en">‘হ্যালো, এলিসা। কনগ্রাচুলেশন।’</p>
+	<p class="block_9" lang="en">‘বুঝতে পারছি না স্যার।’</p>
+	<p class="block_9" lang="en">‘তুমি ওমর বায়াকে নিয়ে বেড়াতে গিয়েছিলে শুনলাম।’</p>
+	<p class="block_9" lang="en">‘জ্বি স্যার।’</p>
+	<p class="block_9" lang="en">‘ওয়েলকাম এলিসা। তুমি বিজয়ের দ্বারপ্রান্তে।’</p>
+	<p class="block_9" lang="en">‘চেষ্টা করছি স্যার।’ খুব কষ্ট করেই উচ্চারণ করল শব্দ দু’টি এলিসা।</p>
+	<p class="block_9" lang="en">‘তুমি সফল হবে। তোমার মত মেয়ে সফল হবার জন্যেই।’ বেনহামের কথা শেষ হবার সাথে সাথেই ওপার থেকে কট করে শব্দ হলো। টেলিফোন রেখে দিয়েছে বেনহাম।</p>
+	<p class="block_9" lang="en">এলিসা গ্রেস টেলিফোন রাখল।</p>
+	<p class="block_9" lang="en">টেলিফোন রেখেই দু’হাতে মাথা চেপে ধরল। অস্ফুট কন্ঠে বলল, ‘সফলতা, ওটা সফলতা! ওটা সফলতা হলে আমার মৃত্যু কোনটা হবে!’</p>
+	<p class="block_9" lang="en">বলতে বলতে শ্লথ পা দু’টি টেনে নিয়ে ধপ করে বসে পড়ল সোফায়।</p>
+	<p class="block_9" lang="en">তার মনে হলো চারদিক অন্ধকার।</p>
+	<p class="block_9" lang="en">আলো নেই, পথ নেই কোথাও।</p>
+	<p class="block_9" lang="en">মনে পড়ল ছোটবেলার কথা।</p>
+	<p class="block_9" lang="en">মা বলতেন, তাঁদের আল্লাহ এক এবং সর্বশক্তিমান।</p>
+	<p class="block_9" lang="en">মাতৃধর্মের সেই আল্লাহ কি আসবেন এলিসাকে সাহায্য করতে, তার জন্যে না হলেও অন্তত ওমর বায়ার স্বার্থে!</p>
+	<p class="block_10" lang="en" id="calibre_pb_57">&#160;</p>
+
+            </article>
+        </div>
+
+    </div>
+
+    <div class="settings-overlay" id="settingsOverlay" data-id="settingsOverlay" aria-hidden="true"></div>
+    <div class="settings-modal" id="settingsModal" data-id="settingsModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="settingsModalTitle">
+        <div class="settings-header">
+            <h2 class="settings-header-title" id="settingsModalTitle">
+                <i class="fas fa-cog" aria-hidden="true"></i>
+                <span data-i18n="reader.settings">Settings</span>
+            </h2>
+            <button class="settings-close-btn" id="settingsCloseBtn" type="button" aria-label="Close settings" data-i18n-aria-label="reader.closeSettings">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="settings-tabs">
+            <button class="settings-tab active" data-tab="font">
+                <i class="fas fa-font"></i>
+                <span data-i18n="settings.appearance">Appearance</span>
+            </button>
+            <button class="settings-tab" data-tab="reading">
+                <i class="fas fa-book-reader"></i>
+                <span data-i18n="settings.reading">Reading</span>
+            </button>
+        </div>
+        <div class="settings-content">
+            <div class="settings-tab-panel active" id="font-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.fontFamily">Font family</label>
+        <div class="font-family-selector">
+            <select id="fontFamilySelect">
+                <option value="ebook-default" selected data-i18n="settings.bookDefault">Book default</option>
+                <option value="system-ui, -apple-system, sans-serif" data-i18n="settings.systemDefault">System default</option>
+                <option value="custom" data-i18n="settings.customByInput">Custom by input</option>
+            </select>
+        </div>
+        <div class="custom-font-input" id="customFontInput" style="display: none;">
+            <input type="text" id="customFontFamily" placeholder="Input font name here" data-i18n-placeholder="settings.customFontPlaceholder">
+            <small data-i18n="settings.customFontTip">Tip: Font family applies globally. Ensure it’s installed in the system.</small>
+            <button class="css-btn primary" id="applyFontSettings">
+                <i class="fas fa-check"></i> <span data-i18n="settings.apply">Apply</span>
+            </button>
+        </div>
+                </div>
+                
+                <div class="settings-group">
+                    <label class="settings-label" for="fontSizeSlider" data-i18n="settings.fontSize">Font size</label>
+                    <div class="font-size-control">
+                        <input type="range" id="fontSizeSlider" min="1" max="12" value="3" step="1" data-sizes-rem="0.9,1.1,1.3,1.5,1.7,1.9,2.2,2.5,2.8,3.2,3.6,4">
+                        <div class="font-size-scale" aria-hidden="true"><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark major"></span></div>
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <div class="settings-label-row">
+                        <label class="settings-label" for="pageWidthSlider" data-i18n="settings.pageWidth">Page width</label>
+                        
+                    </div>
+                    <div class="page-width-control">
+                        <input type="range" id="pageWidthSlider" min="1" max="4" value="3" step="1" aria-label="Page width" data-i18n-aria-label="settings.pageWidth">
+                        <div class="page-width-scale" aria-hidden="true">
+                            
+                            <span data-i18n="settings.pageWidthNarrow">Narrow</span>
+                            <span data-i18n="settings.pageWidthComfortable">Comfortable</span>
+                            <span data-i18n="settings.pageWidthWide">Wide</span>
+                            <span data-i18n="settings.pageWidthExtraWide">Extra wide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-group settings-group-custom-css">
+                    <div class="settings-section-heading">
+                        <span class="settings-section-title" data-i18n="settings.customStyles">Custom styles</span>
+                        <span class="settings-section-optional" data-i18n="settings.optional">Optional</span>
+                    </div>
+                    <p class="settings-section-description" data-i18n="settings.customStylesDescription">Use CSS to fine-tune this book’s typography and layout.</p>
+                    <div class="css-editor">
+                        <textarea id="customCssInput" placeholder="Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}" data-i18n-placeholder="settings.customCssPlaceholder"></textarea>
+                        <div class="css-controls">
+                            <button class="css-btn primary" id="saveCssBtn">
+                                <i class="fas fa-save"></i> <span data-i18n="settings.save">Save</span>
+                            </button>
+                            <button class="css-btn primary" id="saveAsDefaultBtn">
+                                <i class="fas fa-star"></i> <span data-i18n="settings.saveAsDefault">Save as default</span>
+                            </button>
+                            <button class="css-btn secondary" id="resetCssBtn">
+                                <i class="fas fa-undo"></i> <span data-i18n="settings.reset">Reset</span>
+                            </button>
+                            <button class="css-btn secondary" id="loadDefaultBtn">
+                                <i class="fas fa-download"></i> <span data-i18n="settings.loadDefault">Load default</span>
+                            </button>
+                            <button class="css-btn secondary" id="previewCssBtn">
+                                <i class="fas fa-eye"></i> <span data-i18n="settings.preview">Preview</span>
+                            </button>
+                        </div>
+                        <div class="css-info">
+                            <p><i class="fas fa-info-circle"></i> <span data-i18n="settings.defaultStyleTip">Tip: The default style will be applied to all books unless a custom style is set for specific books.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-tab-panel" id="reading-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.readingMode">Reading mode</label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="showReadingProgressBarToggle" checked>
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.showReadingProgressBar">Show reading progress bar</span>
+                    </label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="paginationModeToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.paginationMode">Use page-turning mode</span>
+                    </label>
+                    <div class="settings-option-with-tip">
+                        <label class="settings-switch">
+                            <input type="checkbox" id="clickPageToggle" disabled aria-disabled="true">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="reader.clickToTurn">Click to turn page</span>
+                        </label>
+                        <button type="button" class="settings-info-tip" data-settings-tip data-tip="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-data-tip="settings.clickPageHelp" aria-label="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-aria-label="settings.clickPageHelp">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <label class="settings-switch pagination-incompatible-setting">
+                        <input type="checkbox" id="continuousScrollToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.continuousScroll">Enable continuous scroll</span>
+                        <span class="continuous-scroll-tip" id="continuousScrollTip" tabindex="0" data-settings-tip data-tip="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-data-tip="settings.continuousScrollTip" aria-label="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-aria-label="settings.continuousScrollTip">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </span>
+                    </label>
+                </div>
+                <fieldset class="settings-group desktop-layout-settings">
+                    <legend class="settings-section-title" data-i18n="settings.desktopLayout">Desktop layout</legend>
+                    <div class="desktop-layout-options">
+                        <label class="settings-switch desktop-layout-option desktop-setting-only">
+                            <input type="checkbox" id="desktopChapterSidebarToggle">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.desktopChapterSidebar">Show chapter sidebar</span>
+                        </label>
+                        <div class="desktop-layout-option settings-option-with-tip desktop-setting-only">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopChapterSidebarToggle" disabled aria-disabled="true">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopChapterSidebar">Auto-hide chapter sidebar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-data-tip="settings.autoHideDesktopChapterSidebarHelp" aria-label="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-aria-label="settings.autoHideDesktopChapterSidebarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="desktop-layout-option settings-option-with-tip">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopToolbarToggle">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopToolbar">Auto-hide reading toolbar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-data-tip="settings.autoHideDesktopToolbarHelp" aria-label="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-aria-label="settings.autoHideDesktopToolbarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group keyboard-navigation-settings">
+                    <legend class="settings-section-title" data-i18n="settings.keyboardNavigation">Keyboard navigation</legend>
+                    <div class="keyboard-navigation-options">
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="arrowKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.arrowKeyNavigation">Use Left and Right Arrow keys to navigate</span>
+                        </label>
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="spaceKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.spaceKeyNavigation">Use Space for the next page or chapter</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group navigation-behavior-settings pagination-incompatible-setting" aria-describedby="navigationBehaviorHelp">
+                    <legend class="settings-section-title" data-i18n="settings.navigationBehavior">Navigation bar behavior</legend>
+                    <p class="settings-section-description" id="navigationBehaviorHelp" data-i18n="settings.navigationBehaviorHelp">Choose when the top navigation stays visible while you read.</p>
+                    <div class="navigation-behavior-options">
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="normal" checked><span data-i18n="settings.navigationBehavior.normal">Normal scroll</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="sticky"><span data-i18n="settings.navigationBehavior.sticky">Always sticky</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="auto-hide"><span data-i18n="settings.navigationBehavior.autoHide">Hide down, show up</span></label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <div class="reading-controls" data-id="reading-controls">
+        <button class="control-btn" id="scrollToTopBtn" type="button" aria-label="Top" data-i18n-aria-label="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span class="control-name" data-i18n="reader.top">Top</span>
+        </button>
+        <a class="control-btn" id="bookHomeShortcut" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome" title="Open book home" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span class="control-name" data-i18n="reader.openBookHome">Book home</span>
+        </a>
+    </div>
+
+    <!-- 移动端控件 -->
+    <div class="mobile-controls" data-id="mobile-controls">
+        <button class="control-btn" id="mobileTocBtn" type="button" aria-label="This chapter contents" title="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" data-i18n-title="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false">
+            <i class="fas fa-list"></i>
+            <span data-i18n="reader.thisChapterContents">This chapter</span>
+        </button>
+        <button class="control-btn" id="mobileBookHomeBtn" type="button" aria-label="Open book chapters" title="Open book chapters" data-i18n-aria-label="reader.openBookChapters" data-i18n-title="reader.openBookChapters">
+            <i class="fas fa-book"></i>
+            <span data-i18n="reader.bookChapters">Chapters</span>
+        </button>
+        
+        
+        
+        
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_157.html" aria-label="Previous chapter" title="Previous chapter" data-i18n-aria-label="reader.previous" data-i18n-title="reader.previous"> <div class="control-btn" aria-label="Previous chapter" data-i18n-aria-label="reader.previous"> <i class="fas fa-arrow-left"></i><span data-i18n="reader.previous">Previous chapter</span></div></a>
+        <a href="/" aria-label="Home" title="Home" data-i18n-aria-label="reader.home" data-i18n-title="reader.home">
+            <div class="control-btn" aria-label="Home" data-i18n-aria-label="reader.home">
+                <i class="fas fa-home"></i>
+                <span data-i18n="reader.home">Home</span>
+            </div>
+        </a>
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_159.html" aria-label="Next chapter" title="Next chapter" data-i18n-aria-label="reader.next" data-i18n-title="reader.next"> <div class="control-btn" aria-label="Next chapter" data-i18n-aria-label="reader.next"> <i class="fas fa-arrow-right"></i><span data-i18n="reader.next">Next chapter</span></div></a>
+        <button class="control-btn" id="mobilePageJumpBtn" type="button" aria-label="Jump" title="Jump" data-i18n-aria-label="reader.jump" data-i18n-title="reader.jump">
+            <i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i>
+            <span data-i18n="reader.jump">Jump</span>
+        </button>
+        <button class="control-btn" id="mobileSettingsBtn" type="button" aria-label="Settings" title="Settings" data-i18n-aria-label="reader.settings" data-i18n-title="reader.settings" aria-controls="settingsModal" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+            <span data-i18n="reader.settings">Settings</span>
+        </button>
+        <a class="control-btn" id="mobileBookHomeShortcut" href="index.html" aria-label="Open book home" title="Open book home" data-i18n-aria-label="reader.openBookHome" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span data-i18n="reader.openBookHome">Book home</span>
+        </a>
+        <button class="control-btn" id="mobileTopBtn" type="button" aria-label="Top" title="Top" data-i18n-aria-label="reader.top" data-i18n-title="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span data-i18n="reader.top">Top</span>
+        </button>
+    </div>
+
+    <!-- 书架弹窗 -->
+    <div class="bookshelf-modal" id="bookshelfModal" role="dialog" aria-modal="true" aria-labelledby="bookshelfModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addShelfGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addShelfBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    
+                    <button class="bookshelf-action-btn" id="exportShelfBtn">
+                        <i class="fas fa-upload" aria-hidden="true"></i> <span data-i18n="bookshelf.export">Export</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="importShelfBtn">
+                        <i class="fas fa-download" aria-hidden="true"></i> <span data-i18n="bookshelf.import">Import</span>
+                    </button>
+                    <input type="file" id="importShelfFile" accept=".json" style="display: none;">
+                </div>
+                <h2 class="bookshelf-title" id="bookshelfModalTitle"><i class="fas fa-home" aria-hidden="true"></i> <span data-i18n="bookshelf.title">Bookshelf</span></h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="bookshelfCloseBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="bookshelfLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="bookshelfBody">
+            </div>
+            <div class="bookshelf-footer" id="bookshelfFooter">
+                <span id="bookshelfStats"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分组弹窗 -->
+    <div class="bookshelf-modal" id="groupModal" role="dialog" aria-modal="true" aria-labelledby="groupModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addGroupSubGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addGroupBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="renameGroupBtn">
+                        <i class="fas fa-edit" aria-hidden="true"></i> <span data-i18n="bookshelf.rename">Rename</span>
+                    </button>
+                    <button class="bookshelf-action-btn bookshelf-delete-btn" id="deleteGroupBtn">
+                        <i class="fas fa-trash" aria-hidden="true"></i> <span data-i18n="bookshelf.deleteGroup">Delete Group</span>
+                    </button>
+                </div>
+                <h2 class="bookshelf-title" id="groupModalTitle" data-i18n="bookshelf.group">Group</h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="groupCloseBtn" aria-label="Back to bookshelf" data-i18n-aria-label="bookshelf.home">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button class="bookshelf-close-btn" id="groupCloseAllBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="groupLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="groupBody">
+            </div>
+            <div class="bookshelf-footer" id="groupFooter">
+                <span id="groupStats"></span>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="eb-footer" data-id="eb-footer" data-version-check data-current-version="2.17.1" data-release-api="">
+    <p><span data-i18n="footer.product">EPUB Library</span> &copy; 2026 | <span data-i18n="footer.poweredBy">Powered by</span> <a href="https://github.com/dfface/epub-browser" target="_blank" rel="noopener noreferrer">epub-browser</a><!-- i18n-allow-literal: product name --> <span data-i18n="footer.poweredBySuffix">&middot;</span> <span class="eb-footer-version" aria-label="Version 2.17.1" data-i18n-aria-label="common.version" data-i18n-params='{"version":"2.17.1"}'>v2.17.1</span><span class="eb-footer-update" data-version-update hidden><span aria-hidden="true"> &middot; </span><a target="_blank" rel="noopener noreferrer"></a></span></p>
+</footer>
+
+    
+    <script src="/assets/immutable/notification.ea0bd58fa985.js" defer></script>
+    
+    <script src="/assets/immutable/locale-nav.1dfbcbe0b37e.js" defer></script>
+    <script src="/assets/immutable/theme.fca510090d70.js" defer></script>
+    <script src="/assets/immutable/dialog.a3f376ac6a44.js" defer></script>
+    <script src="/assets/immutable/version-check.47351de03846.js" defer></script>
+    <script src="/assets/immutable/vendor/glightbox/glightbox.min.c67c59cdf980.js" defer></script>
+    <script src="/assets/immutable/lightbox-adapter.9c8cb9207923.js" defer></script>
+    <script src="/assets/immutable/vendor/web-highlighter/web-highlighter.min.7360ce01d835.js" defer></script>
+    <script src="/assets/immutable/chapter-prefetch.8dc88587bd93.js" defer></script>
+    <script src="/assets/immutable/chapter-window.8d2c13e8f216.js" defer></script>
+    <script src="/assets/immutable/viewport-anchor.021abaa5aa16.js" defer></script>
+    <script src="/assets/immutable/continuous-buffer.27eaf6de1887.js" defer></script>
+    <script src="/assets/immutable/reading-progress.653eacfc5c3b.js" defer></script>
+    <script src="/assets/immutable/reader-layout.c935b79be9f3.js" defer></script>
+    
+    
+    <script src="/assets/immutable/chapter.d142eca8903e.js" defer></script>
+    <script src="/assets/immutable/annotation-position.df7b410bbafb.js" defer></script>
+    <script src="/assets/immutable/annotation.b20d5ca76780.js" defer></script>
+    <script src="/assets/immutable/annotation-hub.ad5eeecee8bd.js" defer></script>
+    <script src="/assets/immutable/vendor/sortablejs/sortable.min.6d0a831fc19b.js" defer></script>
+    
+    
+    <script src="/assets/immutable/bookshelf.b75fb5bdddd2.js" defer></script>
+    
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.initScriptChapter) window.initScriptChapter();
+    });
+    </script>
+</body>
+</html>

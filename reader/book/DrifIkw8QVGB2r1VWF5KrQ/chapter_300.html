@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244548">
+    <meta name="description" content="৪ - সাইমুম সিরিজ - EPUB Browser">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EPUB Browser">
+    <title>৪ - সাইমুম সিরিজ</title>
+    
+    <script>document.documentElement.classList.add("i18n-boot");setTimeout(function(){document.documentElement.classList.remove("i18n-boot");},3000);</script><script src="/assets/immutable/i18n/i18n-core.978da4e85125.js"></script><script>window.EpubBrowserI18n.registerDictionary("en",{"common.brand":"EPUB Browser","common.language":"Language","common.chinese":"Chinese","common.english":"English","locale.name.en":"English","locale.name.zh-CN":"简体中文","locale.name.zh-TW":"繁體中文","locale.name.ko":"한국어","locale.name.ja":"日本語","common.version":"Version {version}","theme.light":"Light","theme.dark":"Dark","theme.sepia":"Sepia","theme.forest":"Forest","theme.ocean":"Ocean","theme.peach":"Peach","theme.lavender":"Lavender","theme.day":"Day theme","theme.night":"Night theme","theme.automatic":"Automatically switch between day and night themes based on the device","theme.automaticHelp":"Automatic switching hides the toolbar theme button. Choose your day and night themes here.","theme.invalid":"Invalid appearance settings.","theme.saveFailed":"Unable to save appearance settings.","reader.library":"Library","reader.breadcrumb":"Breadcrumb","reader.navigation":"Reading navigation","reader.theme":"Theme","reader.turning":"Turning","reader.scrolling":"Scrolling","reader.book":"Book","reader.home":"Home","reader.top":"Top","reader.settings":"Settings","reader.shelf":"Shelf","reader.annotations":"Annotations","reader.tableOfContents":"Table of contents","reader.bookChapters":"Chapters","reader.thisChapterContents":"This chapter","reader.openBookChapters":"Open book chapters","reader.skipToContent":"Skip to reading content","reader.previous":"Previous chapter","reader.next":"Next chapter","reader.previousPage":"Previous page","reader.nextPage":"Next page","reader.currentPage":"Current page","reader.totalPages":"Total pages","reader.jump":"Jump","reader.clickToTurn":"Click to turn page","reader.pureReading":"Pure reading mode","reader.reloadPages":"Reload pages","reader.setPageHeight":"Set page height","reader.loadingContent":"Loading content","reader.openBookHome":"Open book home","reader.closeBookHome":"Close book home","reader.closeSettings":"Close settings","reader.closeTableOfContents":"Close table of contents","reader.pageHeight":"Page height","reader.turningModeEnabled":"Page turning mode enabled","reader.exitTurningConfirm":"Exit page turning mode?","reader.exitTurning":"Exit page turning","reader.progressLoadedPage":"Progress loaded: Page {page}","reader.progressLoadedPercent":"Progress loaded: {percent}%","reader.pageRange":"1-{total}","reader.validNumber":"Valid number","reader.firstChapter":"First chapter","reader.lastChapter":"Last chapter","reader.first":"First","reader.last":"Last","reader.onlyPageMode":"Only in page mode","reader.pureModeOn":"Pure mode on","reader.pureModeOff":"Pure mode off","reader.reloaded":"Reloaded","reader.clickPageOn":"Click page on","reader.clickPageOff":"Click page off","reader.tocLoadFailed":"Load failed","reader.tocNoTitle":"No title","reader.annotationNotFound":"Could not locate this annotation. Opened its chapter instead.","reader.annotationLoadFailed":"Could not load this annotation. Opened its chapter instead.","reader.loadingNextChapter":"Loading next chapter","reader.loadingPreviousChapter":"Loading previous chapter","reader.chapterLoadFailed":"Could not load this chapter. Please try again.","reader.chapterNumber":"Chapter {number}","reader.continuousScrollRequiresScrolling":"Continuous scroll requires Scrolling mode","reader.continuousScrollEnabledReloading":"Continuous scroll enabled - reloading...","reader.continuousScrollDisabledReloading":"Continuous scroll disabled - reloading...","settings.appearance":"Appearance","settings.reading":"Reading","settings.fontFamily":"Font family","settings.fontSize":"Font size","settings.pageWidth":"Page width","settings.pageWidthNarrow":"Narrow","settings.pageWidthComfortable":"Comfortable","settings.pageWidthWide":"Wide","settings.pageWidthExtraWide":"Extra wide","settings.bookDefault":"Book default","settings.systemDefault":"System default","settings.customByInput":"Custom by input","settings.customFontPlaceholder":"Input font name here","settings.customFontTip":"Tip: Font family applies globally. Ensure it’s installed in the system.","settings.apply":"Apply","settings.readingMode":"Reading mode","settings.showReadingProgressBar":"Show reading progress bar","settings.paginationMode":"Use page-turning mode","settings.exitPaginationMode":"Exit page-turning mode","settings.desktopChapterSidebar":"Show chapter sidebar","settings.continuousScroll":"Enable continuous scroll","settings.continuousScrollTip":"Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off.","settings.customStyles":"Custom styles","settings.optional":"Optional","settings.customStylesDescription":"Use CSS to fine-tune this book’s typography and layout.","settings.customCssPlaceholder":"Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}","settings.save":"Save","settings.saveAsDefault":"Save as default","settings.reset":"Reset","settings.loadDefault":"Load default","settings.preview":"Preview","settings.defaultStyleTip":"Tip: The default style will be applied to all books unless a custom style is set for specific books.","settings.saved":"Saved","settings.defaultSaved":"Default saved","settings.noDefault":"No default","settings.loaded":"Loaded","settings.resetDone":"Reset","settings.applied":"Applied","settings.saveAsDefaultConfirm":"Save as default?","settings.loadDefaultConfirm":"Load default?","settings.resetConfirm":"Reset?","settings.continuousScrollUnavailable":"Continuous scroll is only available in Scrolling mode. Switch to Scrolling mode first to enable this feature.","library.title":"Library","library.pageTitle":"EPUB Library","library.description":"EPUB Library - A web-based EPUB reader","library.information":"Library information","library.navigation":"Primary navigation","library.bookCount":{"one":"{count} book","other":"{count} books"},"library.tagCount":{"one":"{count} tag","other":"{count} tags"},"library.annotations":"Annotations","library.login":"Login","library.theme":"Theme","library.sort.apply":"Apply","library.sort.manual":"Manual order","library.sort.shelfFirst":"Bookshelf first","library.sort.shelfOrder":"Bookshelf order","library.sort.pdfFirst":"PDF first","library.sort.label":"Sort by","library.sort.titleAsc":"Title (A–Z)","library.sort.titleDesc":"Title (Z–A)","library.sort.createdDesc":"Recently added","library.sort.updatedDesc":"Recently updated","library.pagination":"Library pages","library.searchPlaceholder":"Search by book title, author, or tag...","library.all":"All","library.noTag":"No tag","library.showMoreTags":"Show more","library.showFewerTags":"Show fewer","library.top":"Top","library.shelf":"Shelf","library.cover":"Cover","library.usernamePrompt":"Please enter your username:","library.usernameSaved":"Username saved: {username}","library.usernameCleared":"Username cleared","library.install":"Install","library.installing":"Installing app...","library.installSucceeded":"App installed successfully!","library.installCancelled":"Install cancelled","library.loading":"Loading library","library.empty":"No books in your library yet.","library.emptyTitle":"Your library is empty","library.emptyServerDescription":"Add EPUB files to the watched library folder. They will appear here automatically.","library.emptySsgDescription":"Add EPUB files to the source and generate the static site again.","library.noResultsTitle":"No matching books","library.noResultsDescription":"Try a different title, author, or tag.","library.loadError":"Unable to load your library. Please refresh and try again.","library.progress.scanning":"Scanning library","library.progress.processing":"Updating library","library.progress.extracting":"Extracting book information","library.progress.converting":"Building reading cache","library.progress.complete":"Library updated","library.progress.degraded":"Library updated with failures","library.progress.reconnecting":"Reconnecting to library updates…","library.progress.summary":"Processed {completed} of {total} books","library.progress.extractingSummary":"Examined {completed} of {total} books","library.progress.convertingSummary":"Cached {completed} of {total} books","library.progress.removed":{"one":"Removed {count} book","other":"Removed {count} books"},"library.progress.latest":"Latest: {book}","library.progress.failureDetails":"Failure details","library.progress.close":"Close","book.library":"Library","book.breadcrumb":"Breadcrumb","book.navigation":"Book navigation","book.theme":"Theme","book.unknownAuthor":"Unknown author","book.startReading":"Start reading","book.continueReading":"Continue reading","book.moreReadingActions":"More reading actions","book.clearReadingProgress":"Clear reading progress","book.clear":"Clear","book.clearReadingProgressConfirm":"Clear reading progress for this book?","book.clearReadingProgressSucceeded":"All reading progress for this book has been deleted!","book.clearReadingProgressFailed":"Unable to clear reading progress. Please try again.","book.annotations":"Annotations","book.addToShelf":"Add to Shelf","book.removeFromShelf":"Remove from Shelf","book.addedToShelf":"Book added to shelf!","book.removedFromShelf":"Book removed from shelf!","book.goToChapter":"Go to chapter","book.noContents":"This book has no table of contents","book.tableOfContents":"Table of contents","book.totalChapters":"Total: {count}","book.top":"Top","book.shelf":"Shelf","book.home":"Home","book.cover":"Cover","book.cloudSyncUser":"Cloud sync · {username}","book.cloudSyncUserAria":"Cloud-synced reading position for {username}","book.sharedUser":"shared","book.addToShelfTitle":"Add to Shelf","book.closeGroupChooser":"Close group chooser","book.shelfHome":"Shelf Home","book.confirm":"Confirm","book.error.database_unavailable":"The reading progress service is temporarily unavailable.","book.error.server_error":"The reading progress service encountered an error.","book.error.not_found":"The reading progress service was not found.","bookshelf.addGroup":"Add Group","bookshelf.sync":"Sync","bookshelf.export":"Export","bookshelf.import":"Import","bookshelf.title":"Bookshelf","bookshelf.group":"Group","bookshelf.addBook":"Add Book","bookshelf.searchBooks":"Search books","bookshelf.searchPlaceholder":"Search by title or author","bookshelf.searchNoResults":"No books match “{query}”.","bookshelf.noBooksToAdd":"Every available book is already on your bookshelf.","bookshelf.removeBook":"Remove “{title}”","bookshelf.confirmRemoveBook":"Remove “{title}” from this location?","bookshelf.bookAdded":"Added “{title}”.","bookshelf.bookRemoved":"Removed “{title}”.","bookshelf.bookAlreadyAdded":"This book is already on your bookshelf.","bookshelf.rename":"Rename","bookshelf.deleteGroup":"Delete Group","bookshelf.close":"Close","bookshelf.home":"Back to bookshelf","bookshelf.loading":"Loading bookshelf","bookshelf.all":"All","bookshelf.noTag":"No tag","bookshelf.empty":"Your bookshelf is empty","bookshelf.groupEmpty":"This group is empty","bookshelf.groupItems":"{books} books, {groups} subgroups","bookshelf.groupBooks":"{books} books","bookshelf.groupSubgroups":"{groups} subgroups","bookshelf.emptyGroup":"Empty group","bookshelf.currentStats":"Current: {books} book(s), {groups} group(s) | Total: {totalBooks} book(s), {totalGroups} group(s)","bookshelf.groupNamePrompt":"Enter group name:","bookshelf.renameGroupPrompt":"Enter new group name:","bookshelf.confirmDeleteGroup":"Are you sure you want to delete the group \"{name}\"?","bookshelf.groupDeleted":"Deleted group \"{name}\".","bookshelf.nestedGroupWarning":"Please delete all nested groups first before deleting this group.","bookshelf.importSucceeded":"Bookshelf data imported successfully!","bookshelf.importInvalid":"Invalid bookshelf data format.","bookshelf.importParseFailed":"Failed to parse the JSON file.","bookshelf.usernamePrompt":"Please enter your username for sync:","bookshelf.loginRequired":"Please log in before using your cloud bookshelf.","bookshelf.syncing":"Syncing...","bookshelf.syncNewUser":"Sync ({username}): New user created, data uploaded successfully!","bookshelf.syncUpdated":"Sync ({username}): Data updated from server!","bookshelf.syncCurrent":"Sync ({username}): No changes, already up to date!","bookshelf.syncUnavailable":"Sync ({username}): Not allowed to sync, check your configuration!","bookshelf.syncUploaded":"Sync ({username}): Data uploaded successfully!","bookshelf.syncFailed":"Sync ({username}) failed. Please try again.","bookshelf.error.username_required":"A username is required to sync your bookshelf.","bookshelf.error.invalid_json":"The sync request was invalid.","bookshelf.error.no_sync_data":"No bookshelf data was provided for sync.","bookshelf.error.not_found":"The sync endpoint was not found.","bookshelf.error.annotation_not_found":"The requested item was not found.","bookshelf.error.invalid_chapter_index":"The requested chapter is invalid.","bookshelf.error.batch_requires_post":"This request must use POST.","bookshelf.error.database_unavailable":"The sync service is temporarily unavailable.","bookshelf.error.reading_progress_not_found":"Reading progress was not found.","bookshelf.error.server_error":"The sync service encountered an error.","bookshelf.error.unknown":"The bookshelf could not be synchronized.","dialog.title":"Confirm","dialog.confirm":"Confirm","dialog.cancel":"Cancel","dialog.value":"Value","annotations.tab":"Annotations","annotations.enabled":"Enable annotations","annotations.enabledNotice":"Annotations enabled","annotations.disabledNotice":"Annotations disabled","annotations.storageLocation":"Storage location","annotations.localStorage":"Local storage","annotations.cloudStorage":"Cloud storage","annotations.cloudUnavailable":"Cloud storage is unavailable","annotations.checking":"Checking…","annotations.connectedUser":"Connected ({username})","annotations.connectedShared":"Connected (shared)","annotations.connectedAccount":"Connected to your account","annotations.disconnected":"Disconnected","annotations.usernamePrompt":"You are not logged in.\n\n- Click OK to enter a username (annotations will be isolated by user)\n- Click Cancel to use shared mode (all users share the same annotations)","annotations.login":"Sign in","annotations.username":"Username","annotations.usingSharedStorage":"Using shared cloud storage (no user isolation)","annotations.loggedInAs":"Logged in as {username} (annotations isolated)","annotations.defaultColor":"Default color","annotations.defaultColorTip":"Click a color to set it as the default.","annotations.colors":"Colors","annotations.colorReorderTip":"Drag colors to reorder them.","annotations.addColor":"Add color","annotations.deleteColor":"Delete color","annotations.hexColor":"Hex color","annotations.hexPlaceholder":"#RRGGBB","annotations.invalidHex":"Enter a valid hex color such as #RRGGBB.","annotations.noteOptional":"Note (optional)…","annotations.note":"Note:","annotations.addDescription":"Add description…","annotations.add":"Add","annotations.save":"Save","annotations.cancel":"Cancel","annotations.close":"Close","annotations.copy":"Copy","annotations.delete":"Delete","annotations.deleteAnnotation":"Delete annotation","annotations.details":"Annotation details","annotations.color":"Color:","annotations.created":"Created: {date}","annotations.updated":"Updated: {date}","annotations.clickToCopy":"Click to copy","annotations.copied":"Copied","annotations.textCopied":"Text copied","annotations.unableToCopy":"Unable to copy","annotations.notFound":"Annotation not found","annotations.confirmDelete":"Delete this annotation?","annotations.deleted":"Annotation deleted","annotations.loadFailed":"Failed to load annotation: {error}","annotations.addFailed":"Failed to add: {error}","annotations.updateFailed":"Failed to update: {error}","annotations.deleteFailed":"Failed to delete: {error}","annotations.restoreFailed":"Some annotations could not be restored. Please reload the chapter.","annotations.loadAllFailed":"Failed to load annotations: {error}","annotations.dataMigration":"Data migration","annotations.migrationDescription":"Switching storage location requires data migration","annotations.countingData":"Counting data…","annotations.currentData":{"one":"Current data: {count} annotation","other":"Current data: {count} annotations"},"annotations.skip":"Skip","annotations.migrate":"Migrate","annotations.migrating":"Migrating…","annotations.migratingProgress":"Migrating… {current}/{total}","annotations.storageLocationChanged":"Storage location changed","annotations.exportData":"Export data","annotations.exportBook":"Export book","annotations.exportAll":"Export all","annotations.exported":{"one":"Exported {count} annotation","other":"Exported {count} annotations"},"annotations.exportFailed":"Export failed: {error}","annotations.hubTitle":"Annotations","annotations.allAnnotatedBooks":"All annotated books","annotations.closeHub":"Close annotations","annotations.loading":"Loading annotations…","annotations.retry":"Retry","annotations.loadHubFailed":"Unable to load annotations","annotations.loadHubFailedDetail":"Please try again.","annotations.annotatedBooks":"Annotated books","annotations.noAnnotationsTitle":"No annotations yet","annotations.noAnnotationsDescription":"Select text while reading to save your first annotation.","annotations.noBookAnnotationsTitle":"No annotations in this book","annotations.noBookAnnotationsDescription":"This book may have been removed or its annotations were deleted.","annotations.annotationCount":{"one":"{count} annotation","other":"{count} annotations"},"annotations.bookCount":{"one":"{count} book","other":"{count} books"},"annotations.updatedAt":"Updated {date}","annotations.chapterNumber":"Chapter {number}","annotations.bookFallback":"Book","annotations.authorSeparator":" & ","annotations.bylineSeparator":" · ","annotations.error.not_found":"The annotation service was not found.","annotations.error.username_required":"A username is required for this annotation request.","annotations.error.invalid_json":"The annotation request was invalid.","annotations.error.no_sync_data":"No annotation data was provided.","annotations.error.annotation_not_found":"The annotation was not found.","annotations.error.invalid_chapter_index":"The requested chapter is invalid.","annotations.error.batch_requires_post":"This batch request must use POST.","annotations.error.database_unavailable":"The annotation service is temporarily unavailable.","annotations.error.reading_progress_not_found":"Reading progress was not found.","annotations.error.server_error":"The annotation service encountered an error.","annotations.error.network":"A network error occurred while contacting annotations.","annotations.error.timeout":"The annotation request timed out.","footer.product":"EPUB Library","footer.poweredBy":"Powered by","footer.poweredBySuffix":"·","version.updateAvailable":"Update available: v{version}","errors.generic":"Something went wrong.","errors.network":"A network error occurred.","annotations.shareActions":"Share annotations","annotations.copyShare":"Copy Markdown","annotations.exportShare":"Export Markdown","annotations.annotationActions":"Annotation actions","annotations.copyAnnotation":"Copy this annotation","annotations.annotationCopied":"Annotation copied as Markdown.","annotations.annotationCopyFailed":"Unable to copy this annotation.","annotations.shareAuthors":"Authors","annotations.shareCount":"Annotations","annotations.shareNote":"Note","annotations.shareCopied":"Annotation summary copied locally.","annotations.shareCopyFailed":"Unable to copy the annotation summary.","annotations.shareExported":"Annotation summary exported locally.","annotations.shareExportFailed":"Unable to export the annotation summary.","annotations.shareFileFallback":"Annotations","settings.navigationBehavior":"Navigation bar behavior","settings.navigationBehaviorHelp":"Choose when the top navigation stays visible while you read.","settings.navigationBehavior.normal":"Normal scroll","settings.navigationBehavior.sticky":"Always sticky","settings.navigationBehavior.autoHide":"Hide down, show up","settings.keyboardNavigation":"Keyboard navigation","settings.arrowKeyNavigation":"Use Left and Right Arrow keys to navigate","settings.spaceKeyNavigation":"Use Space for the next page or chapter","reader.locateCurrentChapter":"Locate current chapter","reader.locateCurrentSection":"Locate current section","annotations.addImageNote":"Add image note","annotations.imageNote":"Image note","annotations.showMoreColors":"Show {count} more colors","annotations.showFewerColors":"Show fewer colors","annotations.selectionActions":"Selected text actions","annotations.highlight":"Highlight","annotations.noteAction":"Note","annotations.dictionary":"Dictionary","annotations.encyclopedia":"Encyclopedia","dictionary.title":"Dictionary","dictionary.encyclopediaTitle":"Encyclopedia","dictionary.loading":"Looking up…","dictionary.close":"Close","dictionary.notFound":"No entry found.","dictionary.notConfigured":"No local dictionary is installed.","dictionary.choose":"Dictionary","dictionary.unavailable":"This service is temporarily unavailable.","dictionary.source":"Open source","book.readingTime":"Read {duration}","readingSessions.pending":"Reading time will be saved when you are back online.","readingSessions.error":"Unable to save reading time. Retrying automatically.","readingSessions.discarded":"Reading time could not be saved. Continue reading and try again later.","pdf.formatBadge":"PDF","pdf.noContents":"This PDF has no table of contents","pdf.page":"Page {number}","pdf.pageOf":"Page {number} of {total}","pdf.pageLoadError":"This page could not be loaded. Please try again.","pdf.loadingPage":"Loading page…","pdf.browserUnsupported":"This browser is too old to display PDF pages. Please update it, or open this book in a recent version of Chrome, Edge, Firefox, or Safari.","pdf.textUnavailable":"Text selection, annotations, dictionary, and encyclopedia are unavailable because this PDF has no usable text layer.","pdf.selectionWithinPageRequired":"Select text within one PDF page to use annotations, dictionary, or encyclopedia.","pdf.passwordRequired":"This PDF is password protected. Enter its password in the reader to display the page.","pdf.search":"Search PDF","pdf.searchPlaceholder":"Search PDF","pdf.searchNoResults":"No matching pages.","pdf.closeSearch":"Close PDF search","pdf.zoomOut":"Zoom out","pdf.zoomIn":"Zoom in","pdf.fitWidth":"Fit width","pdf.fitPage":"Fit page","pdf.goToPage":"Go to page","pdf.rotate":"Rotate page","pdf.print":"Print PDF","pdf.download":"Download PDF","pdf.searchFailed":"PDF search failed.","settings.desktopLayout":"Desktop layout","settings.autoHideDesktopChapterSidebar":"Auto-hide chapter sidebar","settings.autoHideDesktopChapterSidebarHelp":"Move the pointer to the left edge, or use Tab, to show the chapter sidebar.","settings.autoHideDesktopToolbar":"Auto-hide reading toolbar","settings.autoHideDesktopToolbarHelp":"Move the pointer to the right edge, or use Tab, to show the toolbar.","settings.clickPageHelp":"In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions.","locale.name.es":"Español","locale.name.de":"Deutsch","locale.name.fr":"Français","locale.name.ru":"Русский","locale.name.it":"Italiano","locale.name.pt-BR":"Português (Brasil)","locale.name.ar":"العربية","locale.name.id":"Bahasa Indonesia","locale.name.hi":"हिन्दी","locale.name.vi":"Tiếng Việt","locale.name.th":"ไทย","locale.name.ms":"Bahasa Melayu","library.recentReading.title":"Continue reading","library.recentReading.chapter":"Chapter {index}","library.recentReading.page":"Page {index}","library.recentReading.justNow":"Just now","library.recentReading.minutesAgo":"{count}m ago","library.recentReading.hoursAgo":"{count}h ago","library.recentReading.daysAgo":"{count}d ago","library.recentReading.monthsAgo":"{count}mo ago","kindle.allBooks":"All books","kindle.emptyRecent":"Open a book to start reading.","kindle.fullLibrary":"Open full library","kindle.theme":"Theme","kindle.noResults":"No matching books.","kindle.pdfUnsupported":"This PDF book can't be opened in Kindle mode yet.","kindle.serif":"Serif","kindle.sans":"Sans serif","vocabulary.navigation":"Vocabulary","vocabulary.allWords":"All vocabulary","vocabulary.bookTitle":"Book vocabulary","vocabulary.close":"Close","vocabulary.retry":"Retry","vocabulary.empty":"No words yet.","vocabulary.loading":"Loading vocabulary…","vocabulary.loadError":"Could not load vocabulary.","vocabulary.saveError":"Could not save the change. Try again.","vocabulary.once":"Looked up once","vocabulary.repeated":"Looked up {count} times","vocabulary.firstSeen":"First lookup · {date}","vocabulary.lastSeen":"Latest lookup · {date}","vocabulary.openSource":"Open the latest lookup location","vocabulary.mastery":"Mastery","vocabulary.new":"New","vocabulary.learning":"Learning","vocabulary.mastered":"Mastered","vocabulary.remove":"Remove from this book","vocabulary.delete":"Delete word","vocabulary.confirmRemove":"Remove “{word}” from this book’s vocabulary?","vocabulary.confirmDelete":"Delete “{word}” and its lookup history across all books?","vocabulary.search":"Search words","vocabulary.noMatches":"No words match.","vocabulary.emptyGuide":"Select text and use the dictionary while reading. Your lookups will appear here.","vocabulary.sources":"Sources","vocabulary.more":"More actions","vocabulary.saving":"Saving…","vocabulary.saved":"Mastery saved.","vocabulary.recorded":"Added to your vocabulary.","vocabulary.recordError":"Could not add this lookup to your vocabulary.","vocabulary.previousPage":"Previous","vocabulary.nextPage":"Next","vocabulary.pagination":"Vocabulary pages","vocabulary.scopeRead":"Read vocabulary","vocabulary.scopeWrite":"Manage vocabulary","book.search":"Search this book","book.searchPlaceholder":"Search this book","book.searchHint":"Type a word or phrase to search this book.","book.searching":"Searching…","book.searchNoResults":"No matches found.","book.searchResultCount":"Results: {count}","book.searchPrevPage":"Previous page","book.searchNextPage":"Next page","book.searchPageStatus":"Page {page} of {pages}","book.searchPageOutOfRange":"That page has no results","book.searchFailed":"Search failed. Try again.","book.searchUnavailable":"Search is temporarily unavailable. Try again later.","book.closeSearch":"Close search"});</script>
+    <script>window.EpubBrowserBasePath="/";window.EpubBrowserMode="ssg"</script><script>window.EpubBrowserI18n.init();</script>
+    
+    
+    <noscript><link rel="manifest" href="/assets/manifest.en.json"></noscript>
+    <link class="eb" href="resources/1/4/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <link class="eb" href="resources/1/4/page_styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/assets/immutable/vendor/fontawesome/css/all.min.59cdcd0cf392.css">
+    <link rel="stylesheet" href="/assets/immutable/theme.c03f373b63a1.css">
+    <link rel="stylesheet" href="/assets/immutable/notification.3af6bb473911.css">
+    <link rel="stylesheet" href="/assets/immutable/dialog.11578e5f1426.css">
+    <link rel="stylesheet" href="/assets/immutable/chapter.d6bffadc60de.css">
+    
+    
+    <link rel="stylesheet" href="/assets/immutable/breadcrumb.cf77915b2643.css">
+    <link rel="stylesheet" href="/assets/immutable/loading.4191d9fecbbb.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation.8b634162a3e8.css">
+    <link rel="stylesheet" href="/assets/immutable/annotation-hub.bed06f149212.css">
+    
+    <link rel="stylesheet" href="/assets/immutable/vendor/glightbox/glightbox.min.6d3f62d4d179.css">
+    <link rel="icon" type="image/png" href="/assets/immutable/favicon.dd042ee39766.png">
+    <link rel="apple-touch-icon" href="/assets/immutable/icon-192.15435b416555.png">
+    <link rel="stylesheet" href="/assets/immutable/bookshelf.9fd53d54c1ae.css">
+
+    <script src="/assets/immutable/theme-bootstrap.cb8f81a354a2.js"></script>
+
+</head>
+
+<body>
+
+    <a class="skip-link" href="#eb-content" data-i18n="reader.skipToContent">Skip to reading content</a>
+
+    <div class="reading-progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <nav class="toc-floating reader-drawer" id="bookHomeFloating" aria-label="Book chapters" data-i18n-aria-label="reader.bookChapters" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.bookChapters">Chapters</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="bookHomeLocateCurrent" type="button" aria-label="Locate current chapter" data-i18n-aria-label="reader.locateCurrentChapter">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <a class="toc-book-home" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome">
+                    <i class="fas fa-book" aria-hidden="true"></i><span data-i18n="reader.openBookHome">Open book home</span>
+                </a>
+                <button class="toc-close" id="bookHomeClose" type="button" aria-label="Close book home" data-i18n-aria-label="reader.closeBookHome">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="bookHomeTocList">
+            <!-- 动态生成的书籍目录将放在这里 -->
+        </ul>
+    </nav>
+
+    <nav class="toc-floating reader-drawer" id="tocFloating" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-hidden="true">
+        <div class="toc-header">
+            <h3 data-i18n="reader.thisChapterContents">This chapter</h3>
+            <div class="toc-header-actions">
+                <button class="toc-current-chapter" id="tocLocateCurrent" type="button" aria-label="Locate current section" data-i18n-aria-label="reader.locateCurrentSection">
+                    <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                </button>
+                <button class="toc-close" id="tocClose" aria-label="Close table of contents" data-i18n-aria-label="reader.closeTableOfContents">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <ul class="toc-list" id="tocList">
+            <!-- 动态生成的目录将放在这里 -->
+        </ul>
+    </nav>
+    
+    
+
+    <div class="reader-drawer-backdrop" id="readerDrawerBackdrop" aria-hidden="true"></div>
+
+    <header class="chapter-top-bar app-header">
+        <nav class="app-nav" aria-label="Reading navigation" data-i18n-aria-label="reader.navigation">
+            <a class="app-nav-brand" href="/" aria-label="EPUB Browser" data-i18n-aria-label="common.brand"><img class="app-nav-brand-mark" src="/assets/immutable/logo-mark-color.ef9a3679a944.png" width="32" height="32" alt=""><span data-i18n="common.brand">EPUB Browser</span></a>
+            <div class="app-nav-links">
+                <button type="button" class="app-nav-link" id="bookshelfBtn" aria-haspopup="dialog" aria-controls="bookshelfModal"><i class="fas fa-bookmark" aria-hidden="true"></i><span data-i18n="reader.shelf">Shelf</span></button>
+                <button type="button" class="app-nav-link" id="chapterAnnotationsBtn" data-annotation-hub data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" aria-haspopup="dialog"><i class="fas fa-highlighter" aria-hidden="true"></i><span data-i18n="reader.annotations">Annotations</span></button>
+                
+                
+                
+            </div>
+            <div class="app-nav-actions">
+                <div class="library-language app-nav-locale">
+    <button type="button" class="app-nav-action app-nav-locale-toggle" id="localeToggle" aria-haspopup="menu" aria-expanded="false" aria-label="Language" data-i18n-aria-label="common.language"><i class="fas fa-globe" aria-hidden="true"></i><span class="sr-only" id="localeCurrentLabel" data-i18n="locale.name.en">English</span></button>
+    <select class="sr-only" id="localeSelect" tabindex="-1" aria-hidden="true"><option value="en" data-i18n="locale.name.en">English</option><option value="zh-CN" data-i18n="locale.name.zh-CN">简体中文</option><option value="zh-TW" data-i18n="locale.name.zh-TW">繁體中文</option><option value="ko" data-i18n="locale.name.ko">한국어</option><option value="ja" data-i18n="locale.name.ja">日本語</option><option value="es" data-i18n="locale.name.es">Español</option><option value="de" data-i18n="locale.name.de">Deutsch</option><option value="fr" data-i18n="locale.name.fr">Français</option><option value="ru" data-i18n="locale.name.ru">Русский</option><option value="it" data-i18n="locale.name.it">Italiano</option><option value="pt-BR" data-i18n="locale.name.pt-BR">Português (Brasil)</option><option value="ar" data-i18n="locale.name.ar">العربية</option><option value="id" data-i18n="locale.name.id">Bahasa Indonesia</option><option value="hi" data-i18n="locale.name.hi">हिन्दी</option><option value="vi" data-i18n="locale.name.vi">Tiếng Việt</option><option value="th" data-i18n="locale.name.th">ไทย</option><option value="ms" data-i18n="locale.name.ms">Bahasa Melayu</option></select>
+</div>
+                <button class="theme-toggle app-nav-action app-nav-theme" id="themeToggle" type="button" aria-label="Theme" data-i18n-aria-label="reader.theme"><i class="fas fa-moon" aria-hidden="true"></i><span class="app-nav-action-label" data-i18n="reader.theme">Theme</span></button>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="reader-toolbar top-controls chapter-tools" role="toolbar" aria-label="Reading tools" data-i18n-aria-label="reader.navigation">
+            <button class="control-btn" id="bookHomeToggle" type="button" aria-label="Open book chapters" data-i18n-aria-label="reader.openBookChapters" aria-controls="bookHomeFloating" aria-expanded="false"><i class="fas fa-book"></i><span class="control-name" data-i18n="reader.bookChapters">Chapters</span></button>
+            <button class="control-btn" id="tocToggle" type="button" aria-label="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false"><i class="fas fa-list"></i><span class="control-name" data-i18n="reader.thisChapterContents">This chapter</span></button>
+            <button class="control-btn" id="settingsControlBtn" type="button" aria-label="Settings" data-i18n-aria-label="reader.settings" aria-controls="settingsModal" aria-expanded="false"><i class="fas fa-cog"></i><span class="control-name" data-i18n="reader.settings">Settings</span></button>
+            <div class="pagination-toolbar-controls" id="paginationInfo" role="group" aria-label="Page navigation" data-i18n-aria-label="reader.navigation">
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_299.html" id="readerPreviousChapter" class="control-btn prev-chapter" aria-label="Previous chapter" data-i18n-aria-label="reader.previous" aria-disabled="false"><i class="fas fa-arrow-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previous">Previous chapter</span></a>
+                <button class="control-btn" id="prevPage" type="button" aria-label="Previous page" data-i18n-aria-label="reader.previousPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-left" aria-hidden="true"></i><span class="control-name" data-i18n="reader.previousPage">Previous page</span></button>
+                <button class="control-btn" id="reloadPages" type="button" aria-label="Reload pages" data-i18n-aria-label="reader.reloadPages" data-pagination-toolbar-control hidden><i class="fas fa-rotate-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.reloadPages">Reload pages</span></button>
+                <button class="control-btn" id="nextPage" type="button" aria-label="Next page" data-i18n-aria-label="reader.nextPage" data-pagination-toolbar-control hidden><i class="fas fa-chevron-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.nextPage">Next page</span></button>
+                <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_301.html" id="readerNextChapter" class="control-btn next-chapter" aria-label="Next chapter" data-i18n-aria-label="reader.next" aria-disabled="false"><i class="fas fa-arrow-right" aria-hidden="true"></i><span class="control-name" data-i18n="reader.next">Next chapter</span></a>
+                <span class="pagination-page-status" id="currentPage" aria-live="polite">1</span>
+                <span class="pagination-page-status" id="totalPages" aria-label="Total pages" data-i18n-aria-label="reader.totalPages">1</span>
+                <button class="control-btn" id="pageJumpToggle" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump" aria-controls="paginationPageJumpPopover" aria-expanded="false" data-pagination-toolbar-control hidden><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i><span class="control-name" data-i18n="reader.jump">Jump</span></button>
+                <section class="pagination-page-jump-popover" id="paginationPageJumpPopover" role="dialog" aria-modal="false" aria-labelledby="paginationPageJumpTitle" aria-describedby="paginationPageJumpRange" aria-hidden="true" hidden>
+                    <strong class="pagination-page-jump-title" id="paginationPageJumpTitle" data-i18n="reader.jump">Jump</strong>
+                    <p class="pagination-page-jump-range" id="paginationPageJumpRange"></p>
+                    <label class="pagination-page-jump-label" for="pageJumpInput" data-i18n="reader.currentPage">Current page</label>
+                    <div class="pagination-page-jump-form">
+                        <input type="number" id="pageJumpInput" min="1" max="1" value="1" inputmode="numeric" aria-label="Current page" data-i18n-aria-label="reader.currentPage">
+                        <button class="pagination-jump-submit" id="goToPage" type="button" aria-label="Jump" data-i18n-aria-label="reader.jump"><i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i></button>
+                    </div>
+                </section>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="eb-content-container" id="eb-content-container" data-id="eb-content-container">
+            <div class="content-loading is-visible" id="contentLoading" aria-live="polite" aria-label="Loading content" data-i18n-aria-label="reader.loadingContent">
+                <div class="loading-spinner"></div>
+            </div>
+            <article class="eb-content" id="eb-content" lang="bn" dir="auto" data-eb-styles data-chapter-index="300" data-chapter-title="৪" data-book-hash="DrifIkw8QVGB2r1VWF5KrQ" data-total-chapters="471" data-highlight-script="/assets/immutable/vendor/highlight/highlight.min.c4a399dd6f48.js" data-highlight-light="/assets/immutable/vendor/highlight/github.min.3a9a5def8b9c.css" data-highlight-dark="/assets/immutable/vendor/highlight/github-dark.min.9f208d022102.css">
+            
+<h2 class="block_12" lang="en" id="toc_id_40">৪</h2>
+	<p class="block_13" lang="en">আহমদ মুসা ডাইনিং থেকে ড্রইংরুমে প্রবেশ করে শোফায় বসতে বসতে বলল, ‘হাসান তারিক, মিঃ সার্গিও, ভ্যানিসা এস আমরা একটু বসি। গন্তব্য নিয়ে একটা আলোচনা সেরে নেই।’</p>
+	<p class="block_13" lang="en">ড্রইং রুমের চারদিকে চোখ বুলাচ্ছিল হাসান তারিক। সে বসতে বসতে বলল, ‘ভাইয়া, যাত্রা শুরুর আগে এ কাজটা অবশ্যই আমাদের সারতে হবে। কিন্তু তার আগে একটা কথা বলি ভাইয়া, মিঃ সার্গিওদের গোটা ড্রইং রুমটাই যেন একটা বিরাট এ্যানটিকস। বিশাল শোকেসটার এ্যানটিকসগুলোর মত সোফা, কার্পেট, ওয়ালম্যাট, ছবি সবকিছুই দেখার মত এ্যানটিক্স।’</p>
+	<p class="block_13" lang="en">‘হাসান তারিক ভাইয়া ঠিকই বলেছেন। এগুলো সবই আমাদের পুরানো বাড়ি থেকে আনা সম্পদ; আমাদের জীবন্ত অতীত।’</p>
+	<p class="block_13" lang="en">‘তার মানে এগুলোর কোন কোনটির বয়স পাঁচশ’ ছ’শ বছরও হতে পারে?’ জিজ্ঞাসা আহমদ মুসার কণ্ঠে।</p>
+	<p class="block_13" lang="en">‘অবশ্যই ভাইয়া। আপনি শোকেসের বড় যে তরবারিটা দেখছেন ওটা এই দ্বীপে আমাদের আদি পূর্ব পুরুষ মিঃ গনজালোর। প্রত্যেকটা এ্যানটিকসের সাথেই তার বয়স ও পরিচয় সম্পর্কে একটা নোট আছে।’</p>
+	<p class="block_13" lang="en">‘বেশ মজার তো! দেখতে তো হয়।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘দেখবেন? আসুন, খুব খুশি হবো।’ বলতে বলতে উঠে দাঁড়ালো ভ্যানিসা।</p>
+	<p class="block_13" lang="en">আহমদ মুসা উঠে দাঁড়াল।</p>
+	<p class="block_13" lang="en">সবাই উঠল।</p>
+	<p class="block_13" lang="en">সত্যিই দেখার মত অনেক জিনিস।</p>
+	<p class="block_13" lang="en">আহমদ মুসা এটা ওটা দেখে হাতে তুলে নিল একটা স্বর্ণমুদ্রা। মুদ্রার আরবী বর্ণমালা তার দৃষ্টি আকর্ষণ করল। চোখের সামনে তুলে ধরল সে মুদ্রাটা। মুখটা উজ্জ্বল হয়ে উঠল আহমদ মুসার। ক্যালিগ্রাফিক আরবী বর্ণমালায় মুদ্রার উপর অংশের প্রান্ত ঘেঁষে অর্ধচন্দ্রাকারে লেখা ‘আব্দুর রহমান আল নাসির লি দ্বীনিল্লাহ’। আর নিচের অংশে ‘৩১১ হিজরী’। টাকাটা দ্রুত উল্টাল আহমদ মুসা। দেখল টাকার গোটা বুক জুড়ে কাবার ছবি। কাবার ছবি ঘিরে টাকার প্রান্ত ঘেঁষে বৃত্তাকারে লেখা, ‘লা-ইলাহা ইল্লাল্লাহু মুহাম্মাদুর রাসুলুল্লাহ।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা বুঝল মুদ্রাটি স্পেনের। স্পেনের সুলতান তৃতীয় আবদুর রহমান এ মুদ্রা চালু করেছিলেন হিজরী ৩১১ সালে। তাঁর উপাধি ছিল ‘আল নাসির লি দ্বীনিল্লাহ’। তিনি স্পেনের সিংহাসনে আরোহণ করেন ৩০০ হিজরীতে। তিনি দীর্ঘ ৬৬ বছর স্পেন শাসন করেন। ইংরেজী সাল হিসেবে ৯১২ খৃষ্টাব্দ থেকে ৯৭৬ খৃষ্টাব্দ পর্যন্ত তার শাসনকাল বিস্তৃত ছিল। তিনি তার সিংহাসনে আরোহণের একাদশ বছরে এই স্বর্ণমুদ্রা চালু করেন। তার শাসকাল স্পেনে মুসলিম শাসনের স্বর্ণযুগ।</p>
+	<p class="block_13" lang="en">সেই সোনালী দৃশ্যটা স্বর্ণমুদ্রার মধ্যে দিয়ে যেন দেখতে পেল আহমদ মুসা। অপ্রতিরোধ্য এক আবেগে হৃদয়টা তার মোচড় দিয়ে উঠল। হাতের মুদ্রাটা যেন মুদ্রা নয়, একটা সোনালী ইতিহাস। হাতসহ মুদ্রাটা উঠে এল ঠোঁটে। আহমদ মুসা একটা চুম্বন এঁকে দিল মুদ্রার বুকে।</p>
+	<p class="block_13" lang="en">আহমদ মুসার দুচোখের কোণায় অশ্রু টলমল করে উঠেছে।</p>
+	<p class="block_13" lang="en">ভ্যানিসা লক্ষ্য করছিল আহমদ মুসাকে। বিস্ময় ও কৌতুহল ফুটে উঠেছে ভ্যানিসার চোখে-মুখে। বলল, ‘ভাইয়া আপনার চোখে অশ্রু কেন? মুদ্রায় আপনি চুমু খেলেন। মুদ্রাটা কি ভাইয়া?’</p>
+	<p class="block_13" lang="en">সম্বিত ফিরে পেল আহমদ মুসা। ফিরে এল ইতিহাসের জগত থেকে বাস্তবে। তাড়াতাড়ি রুমাল দিয়ে চোখ মুছে ফেলে ম্লান হেসে বলল, ‘স্যরি। মুদ্রাটা আমাকে এক সোনালী অতীতে নিয়ে গিয়েছিল। মুদ্রাকে আমি চুমু খাইনি, মুদ্রার মাধ্যমে আমি চুমু খেয়েছি সেই ইতিহাসকে।’</p>
+	<p class="block_13" lang="en">‘মুদ্রাটা আমরা সব সময় দেখে আসছি। ওর দুর্বোধ্য লেখা আমরা পড়তে পারিনি। আমরা শুনেছি স্বর্ণমুদ্রাটা এই দ্বীপে আসা আমাদের আদি পুরুষ সাথে করে এনেছিলেন। মুদ্রাটা তিনি যত্নের সাথে সংরক্ষণ করে এসেছেন। আমরাও তাই করি। না বুঝেই করি। কিন্তু আপনি কি বুঝলেন যে চুমু খেলেন? ভ্যানিসার মত আমারও এটা জিজ্ঞাসা।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">আহমদ মুসার ভ্রু-কুঞ্চিত হয়ে উঠেছে। বলল, ‘এই দ্বীপে আসা আপনাদের প্রথম পূর্ব পুরুষ এই মুদ্রাকে যত্ন করতেন? কিন্তু কেন?’</p>
+	<p class="block_13" lang="en">‘আপনি যত্নের চেয়ে বেশি কিছু করেছেন। চুমু খেয়েছেন। কিন্তু কেন? এ ‘কেন’র জবাব পেলে ঐ ‘কেন’-রও জবাব হয়তো পাওয়া যাবে।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘পাওয়া যাবে কি?’ বলে আহমদ মুসা একটু থামল। হাতের মুদ্রাটা হাসান তারিকের হাতে দিল। তারপর আবার কথা বলে উঠল, ‘মুদ্রার উপর স্পেনের মুসলিম সুলতান তৃতীয় আবদুর রহমানের নাম ‘আবদুর রহমান আল নাসির লি দ্বীনিল্লাহ’ লেখা রয়েছে। তিনি ৩১১ হিজরী অব্দে এই মুদ্রা চালু করেন। মুদ্রার আরেক পাশে রয়েছে আমাদের পবিত্র তীর্থ কেন্দ্র ‘কাবা শরীফে’র ছবি। সেই সাথে তার পাশে রয়েছে আমাদের কালেমা উৎকীর্ণ। এই মুদ্রার মধ্যে আকস্মিক আমাদের সোনালী ইতিহাসের মুখোমুখি হয়ে অভিভূত হয়ে পড়েছিলাম।’</p>
+	<p class="block_13" lang="en">‘বুঝেছি ভাইয়া। কিন্তু আমি বুঝতে পারছি না আপনার মতো লোকের হৃদয় এত নরম, এত সংবেদনশীল কিভাবে?’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘কেন, অন্যায়ের বিরুদ্ধে যারা সংগ্রাম করবে, তাদের মন থাকতে নেই নাকি? তোমরাও তো অন্যায়ের বিরুদ্ধে লড়ছ। তোমাদের মন নেই?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘আছে ভাইয়া। কিন্তু আমাদের অতীত আমাকে কাঁদায়নি, এভাবে আমাকে অভিভূত করেনি কোনদিনই।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">কথাটা শেষ করে একটু থেমেই আবার বলে উঠল, ‘মুদ্রাটা দেখছি আপনাদের ইতিহাস-আবেগের সাথে জড়িত। তাহলে আমাদের সেই মহান পূর্বপুরুষ এই মুদ্রাকে ওভাবে যত্ন করতেন কেন? যক্ষের ধনের মত অমন করে আগলে রেখে দিলেন কেন?’</p>
+	<p class="block_13" lang="en">‘হতে পারে এই মুদ্রার সাথে তাঁর কোন কাহিনী বা স্মৃতি জড়িত।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘এটা হতে পারে।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">আহমদ মুসা কিছু বলল না। তার চোখে মুখে ভাবনার ছায়া। মনোযোগ দিল সে শোকেসের অন্যান্য এ্যানটিকসের দিকে। হাত বাড়িয়ে সে হাতে তুলে নিল খাপবদ্ধ একটা লম্বা তরবারি।</p>
+	<p class="block_13" lang="en">তরবারি হাতে নিয়ে সোজা হয়ে দাঁড়াতে দাঁড়াতে বলল, ‘তরবারির এই পুরু ও সুন্দর চামড়ার খাপটাও কি সেই সময়ের মিঃ সার্গিও।’</p>
+	<p class="block_13" lang="en">‘না ভাইসাহেব, তরবারিটার সংরক্ষণের জন্যে খাপটা পরবর্তীকালে তৈরি।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘খাপটা খুলতে পারি সার্গিও?’ জিজ্ঞেস করল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘অবশ্যই।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">তরবারির খাপ খুলে ফেলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">দীর্ঘ ও মজবুত তরবারিটাও।</p>
+	<p class="block_13" lang="en">তরবারির সেই আগের রং নেই। কিছুটা ম্লান হয়ে গেছে ঔজ্জ্বল্য। কিন্তু মরিচা স্পর্শ করেনি তরবারিকে।</p>
+	<p class="block_13" lang="en">তরবারির মেটালটা ঘনিষ্ঠভাবে পরীক্ষা করতে গিয়ে বাঁটের পরেই তরবারির গোড়ার উপর নজর পড়তেই আবার ভ্রু কুঁচকে গেল আহমদ মুসার। আবার সেই আরবী বর্ণমালা। তরবারির গোড়ায় খোদাই করে লেখা পড়ল আহমদ মুসাঃ ‘গাজী আলী বিন জামাল।’ নিশ্চয় মালিকের নাম, ভাবল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">তরবারি থেকে মুখ তুলল আহমদ মুসা। তাকাল সার্গিওর দিকে। বলল, ‘এ তরবারিটার মালিক কে সার্গিও?’</p>
+	<p class="block_13" lang="en">‘কেন, এ দ্বীপে আমাদের পরিবারের প্রথম মানুষ ‘গনজালো গাব্রালা।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘কিন্তু তরবারিতে লেখা তো ভিন্ন নাম।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘কি নাম?’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘গাজী আলী বিন জামাল এবং এ নামটাও আরবীতে লেখা।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">বিস্ময়ে মুখ হা হয়ে গেছে সার্গিও এবং ভ্যানিসা দুজনেরই।</p>
+	<p class="block_13" lang="en">কিছুক্ষণ তারা কথা বলতেই পারল না।</p>
+	<p class="block_13" lang="en">পরে ধীরে ধীরে বলল সার্গিও, ‘কিন্তু ভাই সাহেব, এই তরবারি আমাদের পূর্ব পুরুষ গনজালোর, এ ব্যাপারে কোন সন্দেহ নেই। শত শত বছর ধরে আমাদের পরিবার এই কথা বলে আসছে এবং একে সংরক্ষণ করে আসছে। ভিন্ন লোকের একটা জিনিসকে, তা যতই মূল্যবান হোক, আমাদের পরিবার নিজের বলে দাবী করবে কেন?’</p>
+	<p class="block_13" lang="en">‘আপনার কথা ঠিক মিঃ সার্গিও। ব্যাপারটা এ রকমও হতে পারে। আপনার পূর্বপুরুষ গনজালো গাব্রালা স্পেনের স্বর্ণমুদ্রাকে যে কারণে সংরক্ষণ করেছেন, তেমন কোন কারণেই হয়তো তিনি এই তরবারিকেও সংরক্ষণ করেছেন।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘টাকা বিনিময়ের মাধ্যম মাত্র। আর তরবারি ব্যবহারের জিনিস। দুটোর মালিকানা এক রকমের নয়। সুতরাং তরবারির সাথে টাকার বিষয়ের কোন তুলনা হয় না ভাই সাহেব।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘তা ঠিক। কিন্তু তাহলে এর ব্যাখ্যা কি হতে পারে?’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘হতে পারে তিনি তরবারিটা তার মালিকের কাছ থেকে কিনেছেন বা পেয়েছেন।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা কোন উত্তর দিল না।</p>
+	<p class="block_13" lang="en">ভাবছিল সে।</p>
+	<p class="block_13" lang="en">একটু পরেই বলল, ‘আরেকটা রহস্যেরও কিনারা করতে পারছি না সার্গিও। সিলভার ভ্যালির প্রধান নদী নিউ টাগুস। কিন্তু টাগুস নামে একটা নদী আছে স্পেনেও। স্পেনের রাজধানী মাদ্রিদের দক্ষিণে স্পেনের ঐতিহাসিক শহর টলেডো। এই টলেডো শহরের মুসলিম বিশ্ববিদ্যালয় বিশ্ব-বিখ্যাত ছিল। টলেডো শহরটি টাগুস নদীর তীরে অবস্থিত। আমার মনে হচ্ছে এই ‘নিউ টাগুস’ নদীর নাম টলেডোর ‘টাগুস’ নদীর নাম অনুসারেই রাখা হয়েছে। এটাও একটা রহস্য।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা থামতেই ভ্যানিসা বলে উঠল, ‘আপনি বলতে পারেন ব্যাপারটা ‘নিউইয়র্ক’ ‘নিউজার্সি’ ‘নিউ অরলিন্স’ ‘নিউ হ্যাম্পশায়ার’ ইত্যাদির মত। ‘ইংল্যান্ডের ইয়র্ক’ ‘অরলিন্স’ ‘হ্যাম্পশায়ারের’ লোকরা আমেরিকায় গিয়ে তাদের এসব নামের আগে ‘নিউ’, যোগ করে তাদের নতুন বসতি এলাকার নামকরণ করেছে।’</p>
+	<p class="block_13" lang="en">‘হ্যাঁ ভানিসা, এ রকমই মনে হয়।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">হেসে উঠল ভ্যানিসা। বলল, ‘ভাইয়া, আপনি আসার সাথে সাথে আমাদের একমাত্র স্বর্ণমুদ্রাটা মুসলমানদের হয়ে গেল, আমাদের পারিবারিক গর্বের বস্তু তরবারিটাও মুসলমানদের হয়ে গেল, আমাদের প্রধান নদীর নামটাও এক সময়ের মুসলিম দেশ স্পেনের হয়ে গেল, শুধু আমরাই এখন মুসলমান হওয়ার বাকি।’</p>
+	<p class="block_13" lang="en">বলে আবার হাসতে লাগল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘কেন, আমাদের উপর এ ইলজাম পর্তুগীজ সরকার বহুদিন থেকেই করছে।’ বলল সার্গিও। তারও মুখে হাসি।</p>
+	<p class="block_13" lang="en">কিন্তু আহমদ মুসার মুখে হাসি নেই। সে ভাবছিল। এক সময় সে বলে উঠল, ‘মিঃ সার্গিও, তোমাদের কবরস্তানের উত্তর-দক্ষিণমুখী কবরগুলো ভাঙা কেন, প্রথম কবরটির পাশে তোমাদের কি সব জিনিস সমাধিস্থ করা হয়েছে তা কি অনুসন্ধান করে আমি দেখতে পারি?’</p>
+	<p class="block_13" lang="en">‘হ্যাঁ ভাইসাহেব। এ কথা আগেই আপনি আমাকে বলেছিলেন। আমি আম্মার সাথে বিষয়টা নিয়ে আলোচনা করেছি। তিনি অনুমতি দিয়েছেন একটা শর্তে। সেটা হলো, দেখার পর জিনিসগুলো আবার ওখানেই রেখে দিতে হবে।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘আলহামদুলিল্লাহ। তোমার আম্মার কাছে আমি কৃতজ্ঞ মিঃ সার্গিও। তাঁকে নিশ্চয়তা দিবেন একটা জিনিসও নষ্ট করা হবে না।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা থামতেই সার্গিও বলে উঠল, ‘কাজ তাহলে আমাদের বাড়ল ভাইসাহেব। সমাধীক্ষিত্রের খোড়াখুড়িতে বেশ সময় যাবে। আসুন, ম্যাপটা পরীক্ষা করে আমাদের গন্তব্য ও রুট সম্পর্কে সিদ্ধান্ত নিয়ে ফেলি।’</p>
+	<p class="block_13" lang="en">বলে সার্গিও সোফায় টেবিলের কাছে ফিরে এল।</p>
+	<p class="block_13" lang="en">আহমদ মুসারাও।</p>
+	<p class="block_13" lang="en">সার্গিও সোফায় ফিরে গিয়ে টেবিলে রাখা ‘তেরসিয়েরা’ দ্বীপের মানচিত্রটা কাছে টেনে নিল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা গিয়ে সার্গিওর পাশে বসল।</p>
+	<p class="block_13" lang="en">সার্গিওর সাথে আহমদ মুসাও মানচিত্রের উপর ঝুঁকে পড়ল।</p>
+	<p class="block_13" lang="en">কিন্তু মানচিত্রটা পর্তুগীজ ভাষায়।</p>
+	<p class="block_13" lang="en">হোঁচট খেল আহমদ মুসার চোখ।</p>
+	<p class="block_13" lang="en">বলল আহমদ মুসা, ‘আমি পর্তুগীজ ভাষা বুঝতে পারি, পড়তে পারি না।’</p>
+	<p class="block_13" lang="en">বলেই হঠাৎ আহমদ মুসা সোজা হয়ে বসল। আনন্দ প্রকাশ পেল তার চোখে-মুখে। বলে উঠল, ‘মাফ চাচ্ছি মিঃ সার্গিও। ভুলে যাব, কথাটা বলে ফেলি। পর্তুগীজ ভাষার একটা চিঠি উদ্ধার করেছি WFA-এর একজন মৃতলোকের পকেট থেকে। চিঠিটা গুরুত্বপূর্ণ হতে পারে। কিন্তু কাউকে দিয়ে চিঠিটা পড়িয়ে নেবার সুযোগ করতে পারিনি এখন।’</p>
+	<p class="block_13" lang="en">‘চিঠিটা এখন আপনার কাছে আছে?’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘হ্যাঁ আছে।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘তাহলে দিন চিঠিটা। এখনি পড়ে ফেলি। না হলে আবার ভুলে যেতে পারি আমরা।’</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ মিঃ সার্গিও।’ বলে আহমদ মুসা মানিব্যাগের পকেট থেকে চিঠিটা বের করে সার্গিওর হাতে দিল।</p>
+	<p class="block_13" lang="en">সার্গিও চিঠিটা একবার উল্টেপাল্টে দেখল। বলল, ‘চিঠিটা লিখেছে একজন মা সাও জর্জ দ্বীপের ‘হারতা’ থেকে তার ছেলে ‘এ্যান্টেনিও সোরেস’কে। মা থাকেন ‘হারতা’র ১১নং গনজালো রোডে। কিন্তু ছেলের কোন ঠিকানা চিঠিতে নেই। নিশ্চয় ইনভেলাপে চিঠিটা এসেছে। ঠিকানাটা ইনভেলাপেই ছিল।</p>
+	<p class="block_13" lang="en">‘যাক, হারতার অন্তত একটা ঠিকানা পাওয়া গেল। এবার পড়ুন চিঠিটা মিঃ সার্গিও।’ সার্গিও পড়তে শুরু করলঃ</p>
+	<p class="block_13" lang="en">“বেটা এ্যান্টেনিও সোরেস,</p>
+	<p class="block_13" lang="en">আশা করি ইশ্বরের কৃপায় তুমি ভাল আছ। এক মাস হলো তুমি চাকুরী নিয়ে পর্তুগাল গেছ। কিন্তু মনে হচ্ছে এক যুগ পার হয়ে গেছে। হয়তো এমন হতো না বেটা, কিন্তু অবস্থার কারণেই তোমাকে খুব বেশি মনে পড়ছে।</p>
+	<p class="block_13" lang="en">যাদের সাথে তুমি পরিচয় করে দিয়ে গেছ, যারা তোমাকে চাকুরী দিয়েছে তারা লোক ভালো নয় সোরেস। তারা দুর্বিণীত, দুঃশ্চরিত্র এবং তাদের প্রতিটি আচরণই সন্দেহজনক। ওরা মনে হয় মানুষ পাচারকারী ধরনের কেউ হবে। কিংবা সন্ত্রাসী কোন দলও হতে পারে। ওরা ওদের সাংঘাতিক সব অস্ত্রশস্ত্র রেখে ঢেকে রাখারও প্রয়োজন বোধ করে না। কদিন আগে একজন লোককে আনল। এশিয়ান হবে। অসুস্থ। তার উপর খুব অত্যাচার হয়েছে মনে হলো। একদিন পরেই তাকে সাও তোরাহ দ্বীপে নিয়ে যায়। এই সাও তোরাহ দ্বীপের কথা ওদের মুখে প্রায় শুনি। দ্বীপটি কোথায়? ওদের কথা-বার্তা শুনে মনে হয় সাও তোরায় বড় কোন ব্যাপার আছে।</p>
+	<p class="block_13" lang="en">আমার এসব ভাল লাগছে না বেটা। তুমি তাড়াতাড়ি এস। দরকার হলে চাকুরী ছেড়ে দিয়ে এস। ওদের হাত থেকে আমাদের বাঁচাও, তোমার বোনকে বাঁচাও। তোমার চিঠি নয়, তোমার আসার অপেক্ষায় রইলাম।”</p>
+	<p class="block_13" lang="en">তোমার ‘মা’</p>
+	<p class="block_13" lang="en">চিঠি পড়া শেষ হলো।</p>
+	<p class="block_13" lang="en">মুখ ম্লান হয়ে উঠেছে আহমদ মুসার। বেদনার একটা চাদর যেন তার চোখ-মুখ ঢেকে দিয়েছে। বলল, ‘স্যরি। মা ছেলের পথ চেয়ে বসে থাকবে, বিপদগ্রস্ত বোনের অস্থির দু’টি চোখ ভাইয়ের অপেক্ষা করবে। কিন্তু পরিবারের যিনি হাল ধরবেন, সেই ভাই আর কোন দিনই বাড়িতে পৌছবে না। বেচারা নিহত হয়েছে।’</p>
+	<p class="block_13" lang="en">থামল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">তার কণ্ঠ কান্নার মত ভারী।</p>
+	<p class="block_13" lang="en">‘দুঃখের এদিকটা বাদ দিলে চিঠিটা খুবই মূল্যবান ভাইয়া। জানা গেল, সাও তোরাহতে তাদের লোক পাচার অব্যাহত আছে। সাও তোরাহ থেকে ওরা সরে পড়বে, এ ভয় মনে হয় নেই। আমাদের অভিযান দ্রুত করতে হবে ভাইয়া।’ বলল হাসান তারিক।</p>
+	<p class="block_13" lang="en">‘সত্যিই মনটা খারাপ হয়ে গেল ভাইসাহেব। থাক, আসুন ম্যাপটা দেখি।’ বলে সার্গিও আবার ম্যাপের উপর ঝুঁকে পড়ল।</p>
+	<p class="block_13" lang="en">আহমদ মুসাও।</p>
+	<p class="block_13" lang="en">কিন্তু মুখ তার আগের মতই বেদনার্ত।</p>
+	<p class="block_13" lang="en">হাতের পেন্সিলের ডগা দিয়ে মানচিত্রের স্থান বিশেষ স্পর্শ করে বলল সার্গিও, ‘আমরা উত্তরের পার্বত্য পথে উপত্যকা থেকে বের হচ্ছি। তারপর দ্বীপ থেকে বের হবার আমাদের সামনে দুটি পথ খোলা থাকবে। একটা হলো আমাদের পূর্বপুরুষের ভিটা পর্যন্ত যে পথ দিয়ে আপনারা এসেছিলেন সেই পথে। অন্যটি আমাদের পারিবারিক সমাধীক্ষিত্র থেকে সোজা পশ্চিম দিকে জলা ভূমিটাকে ডাইনে রেখে দ্বীপের উপকূল পর্যন্ত এগুনো। সে উপকূলে আমাদের একটা ঘাঁটি আছে, মোটর বোটেরও ব্যবস্থা আছে। কিন্তু এই পথটা অপেক্ষাকৃত দুর্গম। এই ট্রাকটা আমরা ছাড়া আর কেউ ব্যবহার করে না এবং এর সন্ধানও কেউ জানে না। এখন...........।’</p>
+	<p class="block_13" lang="en">সার্গিওর কথার মাঝখানেই আহমদ মুসা বলে উঠল, ‘পশ্চিমের এই দূর্গম পথটাই আমাদের জন্যে নিরাপদ। চোখ বন্ধ করে আমরা এ পথ বাছাই করতে পারি।’</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ ভাইসাহেব। এখন বলুন গন্তব্য কোথায় হবে। সেই অনুসারে আমাদের ঘাঁটিকে ইনষ্ট্রাকশন দিতে হবে আয়োজন করার।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">আহমদ মুসা মানচিত্র থেকে মুখ তুলল। বলল, ‘সেটাও চোখ বন্ধ করে বলা যায়। আমরা সাও জর্জ দ্বীপের ‘হারতা’ যাচ্ছি।’</p>
+	<p class="block_13" lang="en">সার্গিও মুখ তুলল আহমদ মুসার দিকে। বলল, ‘ফ্লোরেস দ্বীপের সান্তক্রুজ কেন নয় ভাইসাহেব। ওখান থেকে সাও তোরাহ যাওয়া সহজ হবে।’</p>
+	<p class="block_13" lang="en">‘এমনিতেই আগে থেকে আমরা হারতাকে প্রথম বেজ ক্যাম্প হিসেবে বাছাই করেছিলাম সাও তোরাহ সম্পর্কে খবর সংগ্রহের জন্যে। এখন সেখানে যাওয়া ফরজ হয়ে গেছে।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘ফরজ কি?’ জিজ্ঞাসা সার্গিওর।</p>
+	<p class="block_13" lang="en">হাসল আহমদ মুসা। বলল, ‘ফরজ অর্থ হলো, অবশ্য কর্তব্য।’</p>
+	<p class="block_13" lang="en">‘হারতা যাওয়া অবশ্য কর্তব্য হলো কেন?’ জিজ্ঞেস করল সার্গিও।</p>
+	<p class="block_13" lang="en">‘আমি এ্যান্টেনিও সোরেসের বাড়ি যেতে চাই।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘এ্যান্টেনিও সোরেসের বাড়ি কেন?’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘এ্যান্টেনিও সোরেসের মা-বোনদের অপেক্ষার অবসান ঘটাতে হবে।’ বলল আহমদ মুসা। তার মুখ গম্ভীর।</p>
+	<p class="block_13" lang="en">সবাই তাকাল আহমদ মুসার দিকে। কিন্তু কেউ কোন কথা বলল না।</p>
+	<p class="block_13" lang="en">সবাই নিরব।</p>
+	<p class="block_13" lang="en">একটু পর সার্গিও বলল, ‘সিদ্ধান্ত এটাই হলো। তাহলে ওঠা যাক। তৈরি হয়ে তো এখনই যাত্রা করতে হবে।</p>
+	<p class="block_13" lang="en">সবাই উঠল।</p>
+	<p class="block_13" lang="en">উঠতে উঠতে ভ্যানিসা আহমদ মুসাকে লক্ষ্য করে বলল, ‘আমার খুবই ইচ্ছা হচ্ছে হারতা যাবার।’</p>
+	<p class="block_13" lang="en">‘না বোন, তুমি এবং সার্গিও কাউকেই এখন এই কাজে জড়াব না। তোমরা যে পবিত্র সংগ্রাম করছ তাকে সব আনন্দিত উপসর্গ থেকে নিরাপদ রাখতে হবে। তোমাদের স্বাধীনতা আন্দোলনকে যদি কোনওভাবে মুসলমান তথা মৌলবাদ তথা সন্ত্রাসীদের সাথে যুক্ত করতে পারে, তাহলে তোমাদের অপূরণীয় ক্ষতি হবে। এই ক্ষতি তোমরা আমরা কেউই চাই না।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘যুক্তি আপনার ঠিক। কিন্তু মনকে মানাবার মত নয়।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘তবু মনকে মানাতেই হবে ভাই।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘আপনার নির্দেশ অবশ্যই শিরোধার্য।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘কিন্তু একটা শর্তে।’ বলে উঠল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘কি শর্ত?’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘আপনারা ভালো থাকলে সেটা আমাদের জানার দরকার নেই। কিন্তু বিপদে পড়লে সেটা যেন আমরা জানতে পারি।’ ভ্যানিসা বলল। তার মুখ ম্লান, কণ্ঠ ভারী।</p>
+	<p class="block_13" lang="en">‘চেষ্টা করবো ভ্যানিসা তোমার শর্ত মানতে।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ ভাইসাহেব। চলুন।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">সবাই আবার হাঁটতে শুরু করল।</p>
+	<p class="block_13" lang="en">হঠাৎ ধাতব চিৎকার উঠল শাবলের আঘাতটা মাটির গভীরে গিয়ে আছড়ে পড়তেই।</p>
+	<p class="block_13" lang="en">ধাতব চিৎকার উঠার সাথে সাথেই আনন্দে হুররা দিয়ে উঠল সার্গিও।</p>
+	<p class="block_13" lang="en">শাবল চালাচ্ছিল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">ঘেমে সে একাকার হয়ে গেছে।</p>
+	<p class="block_13" lang="en">প্রায় সাতফুট মাটির নিচে গিয়ে এই প্রথম ধাতব শব্দ পাওয়া গেল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা, হাসান তারিক ও সার্গিও পর্যায়ক্রমে খননের কাজ করছিল।</p>
+	<p class="block_13" lang="en">অন্ধকারে চাঁদের আলোটুকুকে সম্বল করে মাটি খুঁড়তে হচ্ছিল।</p>
+	<p class="block_13" lang="en">বাইরের আলো জ্বালানো যাচ্ছে না।</p>
+	<p class="block_13" lang="en">তারা আসার পথে আজর ওয়াইজম্যানের বাহিনীর মুখে পড়ে গিয়েছিল। সমাধীক্ষিত্রের এক বাঁক দক্ষিণে একটা প্রশস্ত চড়াইয়ে যখন আহমদ মুসারা উঠছিল সেই সময় দুটি হেলিকপ্টার বোঝাই সশস্ত্র লোক ওখানে ল্যান্ড করতে আসে। পাথরের আড়ালে লুকিয়ে ওরা হেলিকপ্টারের ফ্লাশ ও ধরা পড়া থেকে নিজেদের রক্ষা করে। সশস্ত্র লোকরা চড়াই-এ নামার পর আহমদ মুসাদের পাশ দিয়েই দক্ষিণে চলে যায়। দুটি হেলিকপ্টারের একটি ওদের কাভার দিয়ে দক্ষিণে অগ্রসর হয়, অন্যটি গিরিপথের ট্রাক ধরে উত্তরে চলতে শুরু করে। দুটি হেলিকপ্টারই গোটা এই পথের উপর টহল দিয়ে ফিরছে। আলো দেখলেই ওরা এসে ঝাঁপিয়ে পড়বে। তাই খননের কাজটা তাদেরকে অন্ধকারের মধ্যেই করতে হচ্ছে।</p>
+	<p class="block_13" lang="en">কোথায় খুঁড়বে এ নিয়েও তারা বিপদে পড়েছিল। এ ব্যাপারে মা-দাদীও খুব বেশী সাহায্য করতে পারেনি। শুধু বলেছিল, জিনিসগুলো প্রথম কবরের পাশে পুঁতে রাখা হয়েছে। সমস্যায় পড়তে হয় প্রথম কবর কোথায় তা নিয়ে। উত্তর-দক্ষিণ কবর যখন, তখন তা মুসলমানের হওয়ার সম্ভাবনা। এই সম্ভাবনা সামনে রেখে আহমদ মুসা সিদ্ধান্ত নেয় পশ্চিম প্রান্তের সর্ব উত্তর থেকে কবর শুরু হয়েছে। সুতরাং সর্ব উত্তরেরটাই প্রথম কবর।</p>
+	<p class="block_13" lang="en">তারপর সমস্যা দেখা দেয় কবরের কোন পাশে জিনিসগুলো পুঁতে রাখা হয়েছে। প্রথম ও দ্বিতীয় কবরের অবস্থান পর্যবেক্ষণ করে আহমদ মুসা সিদ্ধান্ত নেয় এই দু কবরের মাঝখানে যে স্পেস তাতে তেমন কোন বড় জিনিস পুতে রাখার মত নয়। সুতরাং অবশেষে সে পশ্চিম ও উত্তর পাশেই অবস্থান বিচারে ধরে কবরের সিথানের দিকেই জিনিসগুলো পুঁতে রাখা হয়েছে।</p>
+	<p class="block_13" lang="en">সিথানের দিকে সাত ফিট খননের পর শাবলের আঘাত থেকে ধাতব শব্দ উঠায় পুঁতে রাখা ষ্টিলের বাক্স পাওয়া গেছে বলে সবাই খুশি হয়ে উঠল।</p>
+	<p class="block_13" lang="en">‘কবরের লেভেল থেকেও অনেক নিচে পুঁতে রেখেছে বাক্সটা। অথচ মৃতদের সাথে সংশিস্নষ্ট কোন জিনিস কবরে বা কবরের লেভেলেই রাখা হয়।’ বলল গর্তের ভেতর থেকে শাবল চালাতে চালাতেই।</p>
+	<p class="block_13" lang="en">‘যারা এটা রেখেছেন তারা চাননি যে, এটা কেউ খুঁজে পাক।’ হাসান তারিক বলল।</p>
+	<p class="block_13" lang="en">‘আজ ভাইয়া না থাকলে আমাদের শত চেষ্টা ব্যর্থ হতো। আমরা এই বাক্সটা খুঁজে পেতাম না।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">ভ্যানিসার কথা শেষ হতেই গর্ত থেকে আহমদ মুসা বলল, ‘এবার এস হাসান তারিক। আলগা হয়েছে বাক্সটা। এখন তোলা যাবে।’</p>
+	<p class="block_13" lang="en">হাসান তারিক লাফ দিয়ে নামল নিচে।</p>
+	<p class="block_13" lang="en">সার্গিও এগিয়ে গেল।</p>
+	<p class="block_13" lang="en">বাক্সটা উপরে উঠে এল।</p>
+	<p class="block_13" lang="en">৬ বর্গফুটের বিশাল বাক্সটা।</p>
+	<p class="block_13" lang="en">বাক্সটা টেনে তার পাশেই পাহাড়ের এক গুহায় নিয়ে গেল।</p>
+	<p class="block_13" lang="en">পুরু পলিথিনে মোড়া বাক্সটা।</p>
+	<p class="block_13" lang="en">‘মিঃ সার্গিও, যারা বাক্সটাকে কবর দিয়েছিল, তারা বাক্সটাকে কেউ খুঁজে পাক তা চাননি। কিন্তু বাক্সটাকেও তারা নষ্ট করতে চাননি। এয়ারটাইট পলিথিনের মোড়ক একেবারে অক্ষত রেখেছে বাক্সটাকে।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘তার মানে আমাদের পূর্ব পুরুষরা পারিবারিক এই সম্পদকে লুকিয়ে রেখেছেন, চিরতরে কবরস্থ করেননি!’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘অর্থাৎ তারা চেয়েছিলেন কোন এক সময় পরিবারের কেউ এটা খুঁজে পাক?’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">‘তাই মনে হয়।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘কিন্তু আজকে কি সেই ‘কোন এক সময়’ বলা যায়?’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">‘স্বয়ং আহমদ মুসা বাক্সটাকে মাটির নিচ থেকে তুলেছেন। আমি মনে করি এর চেয়ে বড় ঐতিহাসিক সময় ভবিষ্যতে আর আসবে না।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">ভ্যানিসার মুখ খুশিতে উজ্জ্বল হয়ে উঠেছে। বলল, ‘আমিও তাই মনে করছি। আমাদের পরিবারের জন্যে এটা সৌভাগ্য।’</p>
+	<p class="block_13" lang="en">বাক্স লক করা ছিল না।</p>
+	<p class="block_13" lang="en">ডালা খোলা হলো বাক্সের। আহমদ মুসাই খুলল।</p>
+	<p class="block_13" lang="en">তিনদিকে বন্ধ বৈদ্যুতিক লন্ঠন জ্বালানো হয়েছিল। যাতে বাইরে আলো দেখা না যায়।</p>
+	<p class="block_13" lang="en">বাক্সের ডালা খোলা হলো। আলোকসম্পাতে বাক্সের অভ্যন্তরে দেখা গেল, একটা কাল কাপড়ে বাক্সের ভেতরটা ঢাকা। কাল কাপড়ের উপরে পড়ে আছে একটা ইনভেলাপ।</p>
+	<p class="block_13" lang="en">‘ইনভেলাপটা তুলে নিয়ে আহমদ মুসা সার্গিওর হাতে দিয়ে বলল, ‘সবার উপর যখন এই ইনভেলাপটা, তখন এই বাক্স সম্পর্কেই এই ইনভেলাপে কিছু লেখা আছে। পরিবারে পক্ষ থেকে এটা পড়ার হক তোমার।’</p>
+	<p class="block_13" lang="en">ইনভেলাপটা হাতে নিল সার্গিও।</p>
+	<p class="block_13" lang="en">শত বছরের পুরানো ইনভেলাপ। শক্ত হয়ে গেছে। ধীরে ধীরে ইনভেলাপটা খুলে তার ভেতর থেকে চিঠি বের করল সার্গিও।</p>
+	<p class="block_13" lang="en">ধীরে ধীরে চিঠির ভাঁজ খুলল।</p>
+	<p class="block_13" lang="en">সময়ের তুলনায় চিঠির কাগজের অবস্থা অনেক ভালো। এয়ারটাইট অবস্থায় থাকার কারণেই ক্ষতি হয়নি কাগজের। চিঠির ভাঁজ খুললেও কাগজের কোন ক্ষতি হলো না। চিঠি পড়তে লাগল সার্গিওঃ</p>
+	<p class="block_13" lang="en">“পরিবারের মহান সদস্যদের প্রতি,</p>
+	<p class="block_13" lang="en">আমার দৃঢ় বিশ্বাস মাটির তলা থেকে বাক্সবন্দী এই সম্পদ আমাদের বংশধরেরাই একদিন উত্তোলন করবে। এই বিশ্বাস থেকেই এই সম্বোধন করলাম।</p>
+	<p class="block_13" lang="en">পরিবারের একটি ইতিহাস, একটি পরিচয় আজ বাক্সবন্দী হয়ে আমার হাতে মাটি চাপা পড়ল। পরিবারের এক সময়ের পরিচয়ের চেয়ে পরিবারের অস্তিত্ব বড়। আবার একটি পরিবারের অস্তিত্বের চেয়ে দেশের অস্তিত্ব অনেক বড়। এই বিবেচনাতেই পরিবারের একটি পরিচয় সমাধিস্থ করলাম।</p>
+	<p class="block_13" lang="en">দেশের স্বাধীনতা আন্দোলন আজ সংকটে। পর্তুগীজ সরকার সুস্পষ্ট অভিযোগ তুলেছে, স্বাধীনতা সংগ্রামে নেতৃত্বদানকারী গনজালো পরিবার এবং স্বয়ং গনজালো মুসলমান ছিলেন। গনজালো পরিবারের খৃষ্টান পরিচয় একটা ছদ্মবেশ মাত্র। এই ছদ্মবেশ নিয়ে আজোরস দ্বীপপুঞ্জকে তারা কুক্ষিগত করতে চায়, মৌলবাদী একটি দেশে পরিণত করতে চায়। পর্তুগীজ সরকারের এই প্রচার আমাদের উপর বজ্রাঘাত হানে। এর উপযুক্ত উত্তর না দিলে প্রিয় মাতৃভূমি আজোরসের স্বাধীনতা সংগ্রামকে ভয়ানকভাবে ক্ষতিগ্রস্ত করবে। কিন্তু পর্তুগীজ সরকারের অভিযোগ সম্পর্কে আমাদের কিছু জানা নেই। আমরা কি জবাব দেব? পরিবারের পুরানো কাগজপত্র ও এ্যানটিকসগুলো পরীক্ষা করতে লাগলাম। পুরানো পোশাকাদি ও দলিলপত্র এবং প্রাপ্ত একটা ডাইরী থেকে নিশ্চিত প্রমাণিত হলো সম্মানিত পুর্বপুরুষ গনজালোসহ আমাদের পুর্ব পুরুষরা মুসলমান ছিলেন। এটা জানার পর পরিবারের স্বার্থে দেশের স্বার্থে প্রথম প্রয়োজন হয়ে পড়ল পারিবারিক এই অতীত থেকে নিজেদের বিচ্ছিন্ন করা এবং তারপর পর্তুগীজ সরকারের জবাবে বলা যে, গনজালো পরিবার পর্তুগীজ সরকারের দুরভিসন্ধিমূলক অভিযোগকে প্রত্যাখ্যান করছে। গনজালোরা আজোরস দ্বীপপুঞ্জে সবচেয়ে পুরানো এবং ঐতিহ্যবাহী খৃষ্টান পরিবার। অজানা ও অপ্রমাণিত কোন অতীত সম্পর্কে তারা কিছু জানতে চায় না, তার প্রয়োজনও নেই। মহান যিশুর রাজ্য হিসেবেই আজোরস তার স্বাধীনতার জন্যে সংগ্রাম করছে। পর্তুগীজ সরকার মিথ্যা কোন অভিযোগ এনে বা বিভ্রান্তি ছড়িয়ে এই আন্দোলন বানচাল করতে পারবে না।</p>
+	<p class="block_13" lang="en">এই বক্তব্য দেয়ার জন্যেই সিদ্ধান্ত নেয়া হলো পূর্বপুরুষ মুসলমান হওয়ার সব প্রমাণ নষ্ট করে ফেলা হবে। এই সিদ্ধান্ত অনুসারে এক এক করে বাছাই করে স্তুপিকৃত করা হলো পুড়িয়ে ফেলার জন্যে। কিন্তু পুড়ানো গেল না। আম্মা, দাদী কান্না শুরু করলেন। আমিও পারলাম না আগুন দিতে। মনে হচ্ছিল, পূর্ব পুরুষদের গায়েই যেন আগুন দিতে যাচ্ছি। অবশেষে ঠিক হলো আজোরসে আমাদের প্রথম পুরুষের কবরের পাশে এগুলো সমাধিস্থ করা হবে। সমাধিস্থ করতে গিয়ে দেখা গেল, প্রথম দিকের সব কবরই উত্তর-দক্ষিণ। অর্থাৎ তারা মুসলমান ছিলেন। অতীতে বহুবার এই সমাধীক্ষিত্রে গেছি, কিন্তু বিষয়টা কেউ আমরা খেয়াল করিনি। এই দৃশ্য আমাদের আতংকিত করে তুলল। এই দৃশ্যের ছবি যদি পর্তুগীজ সরকারের হাতে যায়, আর একবার যদি তা পত্র-পত্রিকায় আসে, তাহলে কথা বলারও আর মুখ থাকবে না। গনজালো পরিবার আকাশ থেকে একেবারে ধুলায় পড়ে যাবে। সঙ্গে সঙ্গেই সিদ্ধান্ত নেয়া হলো প্রথম দিকের সব কবর নিশ্চিহ্ন করে দেয়ার। সেই দিনই এই সিদ্ধান্ত বাস্তবায়িত করা হলো।</p>
+	<p class="block_13" lang="en">এভাবেই গনজালো পরিবার তার অতীতকে মুছে ফেলল এক অপরিহার্য প্রয়োজনে।</p>
+	<p class="block_13" lang="en">আর এ কথাগুলো আমরা রেখে গেলাম ভবিষ্যতের এক প্রয়োজনকে সামনে রেখে।’</p>
+	<p class="block_13" lang="en">-গনজালোর ইতিহাস।”</p>
+	<p class="block_13" lang="en">পড়া শেষ করল সার্গিও।</p>
+	<p class="block_13" lang="en">সবাই মূর্তির মত স্থির বসে পড়া শুনছিল। পড়া শেষ হলেও তারা তেমনি স্থির বসে রইল। নড়তেও তারা যেন ভুলে গেছে।</p>
+	<p class="block_13" lang="en">কারো মুখেই কোন কথা নেই।</p>
+	<p class="block_13" lang="en">পড়ার পর সার্গিও নিজেও বাকহীন।</p>
+	<p class="block_13" lang="en">অনেকক্ষণ পর নিরবতা ভাঙল ভ্যানিসা। বলল, ‘বলেছিলাম না, ভাইয়ার আগমনে স্বর্ণমুদ্রা, তরবারি, সিলভার উপত্যকার নদীও মুসলমান হয়ে গেছে, এখন আমরাই শুধু মুসলমান হতে বাকি। সেই বাকিটাও এখন জানা হয়ে গেল, আমরা মুসলমানদের বংশধর। মুসলমানদের রক্ত আমাদের ধমনীতে, মানে আমরাও মুসলমান।’</p>
+	<p class="block_13" lang="en">‘এভাবে কথা বলো না ভ্যানিসা। এক সময় হয়তো আমাদের পরিবার মুসলমান ছিল, কিন্তু এখন খৃষ্টান। এটাই আজকের বাস্তবতা।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘জানি ভাইয়া। এই বাস্তবতাই তো বাস্তব এক অতীতকে কবরস্থ করেছে।’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">‘তোমাদের ভাইবোনের বিরোধ এখন থাক। আমরা একটা মৃতলাশের পোষ্টমর্টেম করছি মাত্র। এর শুধুই ঐতিহাসিক মূল্য আছে। অতীতের ঘাঁটাঘাঁটি যদি বিরোধের বিষয় হয়ে দাঁড়ায়, তাহলে আর অগ্রসর না হওয়াই ভাল।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘স্যরি ভাইসাহেব। আমি ভ্যানিসার আবেগকে একটু থামিয়ে দিতে চেয়েছি। আর কিছু নয়। আমাদের পরিবারের এই ইতিহাস উদ্ধার আমার জন্যেই বরাদ্দ ছিল, এটা আমি মনে করি এবং এর জন্যে আমি গর্বিত। এই তো আমার এক পুর্বপুরুষের বক্তব্য পড়লাম, পারিবারিক অস্তিত্ব রক্ষার জন্যে ইতিহাস বিসর্জন দিতে হবে। কিন্তু আমি মনে করি, ইতিহাস পরিত্যাগ করে পরিবার, জাতি কিছুই বাঁচতে পারে না। ইতিহাস বেঁচে থাকলে সে ইতিহাস নতুন করে জাতি, পরিবার গড়তে পারে। আমার জাতির সদ্য উদ্ধারকৃত ইতিহাস আমাকে নতুন শক্তি দিয়েছে ভাইসাহেব।’ সার্গিও বলল। তার কণ্ঠ আবেগে ভারী।</p>
+	<p class="block_13" lang="en">সার্গিও থামতেই ভ্যানিসা বলল, ‘ধন্যবাদ ভাইয়া। আমার কথাই বললেন আপনি। তবে যে আমাকে বকলেন!’</p>
+	<p class="block_13" lang="en">হাসল সার্গিও। বলল, ‘সব কথা সব সময় বলার প্রয়োজন হয় না।’</p>
+	<p class="block_13" lang="en">‘কিন্তু আপনি বললেন ভাইয়া।’</p>
+	<p class="block_13" lang="en">‘আমি প্রয়োজনে বলেছি ভ্যানিসা।’ হাসতে হাসতে বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘তাহলে মিঃ সার্গিও, একটু দেখুন বাক্সে কি আছে।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">সার্গিও অনুসন্ধান শুরু করল।</p>
+	<p class="block_13" lang="en">এক এক করে সার্গিও বাক্সের জিনিসগুলো বের করতে লাগল।</p>
+	<p class="block_13" lang="en">বেরুতে লাগল নানা ধরনের সাধারণ ও সামরিক পোশাক, যা স্পেনের সাধারণ মুসলিম মুর এবং সৈনিক ও শাসকরা পরত। আরবী টারবানও পাওয়া গেল। পাওয়া গেল নানা ধরনের মুসলিম শিরস্ত্রাণসহ একটা তুর্কি টুপি। কয়েকটা আরবী ক্যালিওগ্রাফি, কিছু ওয়াল হ্যাং, কিছু আরবী গ্রন্থসহ কোরআন শরীফ, মক্কা শরীফ ও মদিনা শরীফের বাঁধানো ফটো এবং আরও কিছু টুকিটাকিসহ একটি ডাইরীও পাওয়া গেল।</p>
+	<p class="block_13" lang="en">সব জিনিস বের করার পর সার্গিও বলল, ‘সব দেখলেন ভাইসাহেব। আমি যতটা বুঝেছি, সবটা জিনিসই মুসলিম কালচারের স্মারক। অবশ্য বইগুলো ও ডাইরীতে কি আছে আমি জানি না। এখন বলুন, আরও বেশি জানার কি সাহায্য আমাদের করতে পারেন।’</p>
+	<p class="block_13" lang="en">‘বইগুলোর মধ্যে একটি হলো কোরআন শরীফ। অন্যগুলো আরবীতে লেখা ইতিহাস ও হাদিসগ্রন্থ। আমার মতে আরও বেশি জানার ক্ষেত্রে ডাইরীটাই আমাদের সাহায্য করবে।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">সার্গিও ডাইরীটা হাতে নিয়ে তা খুলল। ভেতরটা একবার দেখেই বলে উঠল, ‘আমার অপরিচিত ভাষা ভাইসাহেব। আপনি দেখুন।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা ডাইরীটা হাতে নিয়ে বলল, ‘ডাইরীটাও আরবী ভাষায় লেখা। তবে একটা ভূমিকা আছে, সেটা লেখক স্পেনীয় ভাষায় লিখেছেন।’</p>
+	<p class="block_13" lang="en">‘পড়ুন ভাইসাহেব।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘ডাইরীটা পড়তে সময় লাগবে। অতটা সময় আমরা এখন দিতে পারবো না। ওদের হেলিকপ্টার এদিকে একটু ঘন ঘনই আসছে। মনে হয় ওরা জানতে পেরেছে আমরা সিলভার উপত্যকায় নেই। সুতরাং রাতের আঁধারেই যতটা সম্ভব পশ্চিমে সরে পড়া দরকার।’ বলে একটু থামল আহমদ মুসা। তারপর ডাইরীটা লণ্ঠনের আলোর দিকে একটু সরিয়ে বলল, ‘আমি শুরু থেকে পড়ছি।’</p>
+	<p class="block_13" lang="en">বলে পড়তে শুরু করল আহমদ মুসাঃ</p>
+	<p class="block_13" lang="en">“আমি গাজী আলী জামাল। আমাদের বাড়ি স্পেনের টলেডো শহরে। আমাদের সুন্দর বাড়িটা ছিল টাগুস নদীর তীরে। শুরু থেকেই আমরা সামরিক পরিবার। স্পেনের সুলতান তৃতীয় আবদুর রহমানের সময়ে আমাদের পরিবারের একজন স্পেনের নৌবাহিনীতে চাকুরী নেয়। সুলতান হাজিব আল মনসুরের সময়ে আমাদের পরিবারের একজন একটি রণতরীর কমান্ডার পদে উন্নীত হন। পরিবারের ঐতিহ্য অনুসারে আমিও স্পেনের নৌবাহিনীতে যোগদান করি। কিন্তু স্পেনের নৌবাহিনী তখন কংকালে পরিণত হয়েছে। স্পেনের মুসলিম সাম্রাজ্য গ্রানাডার মধ্যে সীমাবদ্ধ হয়ে পড়লে স্পেনের নৌবাহিনী ভেঙে পড়ে। ১৪২৩ সালে সুলতান তৃতীয় ইউসুফের মৃত্যু হলে স্পেনের নৌবাহিনীর কংকালটাও শেষ হয়ে যায়। ভারাক্রান্ত মনে আমি এর আগেই সৈনিক হিসেবে মাতৃভূমির সেবার আর কোন সুযোগ না দেখে তুরষ্কের সুলতান দ্বিতীয় মুরাদের নৌবাহিনীতে যোগদান করি। তুরষ্কের সামরিক শক্তি তখন উদীয়মান। ইউরোপের সার্বিয়া, আলবেনিয়া, বুলগেরিয়া, গ্রীস তখন তুর্কিবাহিনীর পদভারে কম্পিত। তুর্কি নৌবাহিনী ভূমধ্যসাগরে অপ্রতিদ্বন্দ্বী হয়ে উঠেছে। ১৪২২ সালে তুর্কি বাহিনী কর্তৃক কনষ্ট্যান্টিনোপল অবরোধের ঐতিহাসিক ঘটনাতেও আমি অংশগ্রহণ করি। কিন্তু শীঘ্রই আমি তুর্কি নৌবাহিনীতে চাকুরীর ব্যাপারে বীতশ্রদ্ধ হয়ে পড়ি। একটি ঘটনা থেকে এর সূত্রপাত ঘটে। সময়টা হবে ১৪২৩ সালের শেষের দিকে। তুরষ্কের, সুলতান দ্বিতীয় মুরাদের সিংহাসন আরোহনের তৃতীয় বছর এবং সুলতান তৃতীয় ইউসুফের মৃত্যু-পরবর্তী স্পেনীয় গ্রানাডা রাজ্যের বিপর্যয়ের কাল। সেই সময় তুর্কি নৌবাহিনীর তিনটি জাহাজের একটা বহর আসছিল মরক্কোর ক্যাসাবস্নাংকা থেকে। আমরা ভূমধ্যসাগরের মেজরকা দ্বীপ থেকে ৫০ মাইল দূরে অবস্থান করছি। আমরা দেখলাম, স্পেনের মুসলিম রাজ্য গ্রানাডার পতাকাবাহী একটা বাণিজ্য জাহাজকে ঘিরে ফেললো ক্ষুদ্র দুটি রণতরী। একটি ফ্রান্সের মারসাই, অপরটিতে স্পেনের খৃষ্টান রাজা বারসেলোনার পতাকা। আমি আমাদের নৌবহরের কমান্ডার ইশমত পাশাকে অনুরোধ করলাম গ্রানাডার জাহাজটিকে বাঁচাবার জন্যে। কমান্ডার বললেন, গ্রানাডাকে সাহায্য করার কোন রাজনৈতিক সিদ্ধান্ত আমাদের নেই। আমি বললাম, এটা গ্রানাডাকে সাহায্য করার ব্যাপার নয়, বিষয়টা রাজনৈতিক দস্যুদের হাত থেকে একটা বাণিজ্য জাহাজকে রক্ষা করার। কমান্ডার বলল, বাণিজ্য জাহাজটি গ্রানাডার উমাইয়াদের। উমাইয়াদের কোন সাহায্য করা হবে না। আমাদের তিনটি রণতরীর সামনেই গ্রানাডার বাণিজ্যতরীটি ফ্রান্সের মারসাই ও বারসেলোনার দুটি ক্ষুদ্র রণতরী লুণ্ঠন করল এবং বাণিজ্য জাহাজের সব লোকদের হত্যা করল। আমিও স্পেনের একজন আরব মুসলমান। আমার চোখের সামনেই আমার স্বজনদের হত্যা করল খৃষ্টান দুটি রণতরীর লোকরা। এই আক্রমণে স্পেনের বারসেলোনো ও ফ্রান্সের মারসাই-এর খৃষ্টান সৈন্য এক হতে পারল, কিন্তু তুর্কি সুলতানের অপ্রতিদ্বন্দ্বী তিনটি যুদ্ধজাহাজ গ্রানাডার অসহায় এক মুসলিম বাণিজ্য জাহাজকে সাহায্য করতে পারল না। অনেক কাঁদলাম আমি। মন বিদ্রোহী হয়ে উঠল। তুর্কি জাহাজে একদিন, এক মিনিট, এক সেকেন্ড অবস্থান করা অসম্ভব হয়ে উঠল। সবার অলক্ষ্যে ঝাঁপিয়ে পড়লাম তুর্কি রণতরী থেকে ভূমধ্যসাগরে। এক ঘণ্টা সাঁতরে গিয়ে উঠলাম গ্রানাডার লুণ্ঠিত জাহাজে। লুণ্ঠিত জাহাজে লাশ ছাড়া আর কিছুই পেলাম না। তবু মনে সান্তনা পেলাম এই ভেবে যে, আমি মজলুমদের সাথে আছি। দীর্ঘ ৭ দিন একা জাহাজ চালিয়ে স্পেনের মালাগা বন্দরে এসে পৌছলাম। মালাগা বন্দরের শূন্য জেটিগুলো দেখে মনটা কেঁদে উঠল। একদিন নৌবাহিনীর জাহাজে ভর্তি থাকত মালাগা বন্দর। আজ একটিও নেই। অন্যদের সাথে নিয়ে লাশগুলো দাফন করার পর আমি পর্তুগালের এক জাহাজে চড়ে স্পেনও ছাড়লাম। চলে এলাম পর্তুগালের রাজধানী লিসবনে। পর্তুগালের তখন সমুদ্র-অভিযানের প্রাথমিককাল। সমুদ্র সম্পর্কে অভিজ্ঞ নেভিগেটর যোদ্ধাদের সেখানে দারুণ কদর। চাকরী পেয়ে গেলাম লিসবনের বড় একটা কোম্পানীর নৌবহরে। খুব অল্প সময়ের মধ্যেই নেভিগেটর থেকে একটা কমান্ডিং জাহাজের কমান্ডার পদে উন্নীত হলাম পরিশ্রম ও প্রতিভাগুণে এবং আল্লাহর সাহায্যে। ১৪৩১ সালের জুলাই মাস। আমার জাহাজটি উত্তর আটলান্টিকের দিক থেকে মধ্য আটলান্টিকের দিকে অগ্রসর হচ্ছিল ধীর গতিতে। সে দিন জুলাই-এর এগার তারিখ। আমি জাহাজের ডেকে বসেছিলাম। চোখে দূরবীন। আমি জানি পশ্চিমে কানাডার উপকূল আর পূর্বে ইউরো আফ্রিকান উপকূলের মাঝখানে কোন দ্বীপের অস্তিত্ত্ব নেই। তবু আমার অভ্যস্ত চোখের কোন ক্লান্তি নেই। দূরবীনের সাধ্যের শেষ পর্যন্ত চষে ফিরছিল আমার দুটি চোখ। হঠাৎ আমার চোখ দুটি আটকে গেল সবুজ পাহাড়ের চূড়ায়। চোখ দুটিকে আমার বিশ্বাস হলো না। চোখ থেকে দূরবীন সরিয়ে চোখ দুটি মুছে নিলাম। আবার দেখলাম। না, আমার চোখ ভুল দেখেনি। সত্যই ওটা একটা বড় সবুজ দ্বীপ। তার মানে আমি একটা নতুন ভূখন্ড আবিষ্কার করেছি। আনন্দে লাফিয়ে উঠলাম। চিৎকার করে নির্দেশ দিলাম জাহাজের গতি দক্ষিণ-পশ্চিম কোণে ঘুরিয়ে নেবার। চার ঘন্টা চলার পর দ্বীপটার নিকটবর্তী হলাম। ততক্ষণে দ্বীপটার পশ্চিমে আরো তিনটা দ্বীপের সবুজ দিগন্ত আমার চোখে ধরা পড়ে গেছে। আনন্দে আবারও চিৎকার করে উঠলাম, একটা দ্বীপপুঞ্জ আবিস্কার করেছি। এগারই জুলাই (১৪৩১) বেলা ১টার সময় আমাদের জাহাজ প্রথম দ্বীপে নোঙর ফেলল। এর আধঘন্টা পরে আমি জংগল আচ্ছাদিত তীরে পা রাখলাম। আনন্দে উদ্বেলিত জাহাজের সকলেই নেমেছিল দ্বীপে। তখন যোহর নামাজের সময়। সবাই যখন এদিক-ওদিক ঘুরতে ব্যস্ত তখন আমি যোহর নামাজটা পড়ে নিলাম। বেলা ২টায় আমরা সবাই খাওয়ার জন্যে একত্রিত হলাম। খাওয়ার পর দ্বীপপুঞ্জের নামকরণ ও পতাকা উত্তোলনের সিদ্ধান্ত নেয়া হলো। ঠিক যোহর নামাজের সময় দ্বীপপুঞ্জে পা রেখেছি বলে আমি প্রস্তাব করলাম দ্বীপপুঞ্জের নাম হবে ‘আয- যোহর।’ সবাই হাততালি দিয়ে সমর্থন জানাল। পরে সবার পক্ষ থেকে আয-যোহর দ্বীপপুঞ্জে পর্তুগালের পতাকা উত্তোলণ করলাম। আমরা দ্বীপে পনের দিন অবস্থান করলাম। দ্বীপে কোন মানুষ ছিল না। উপকূলের কাছেই একটা উচ্চভূমিতে একটা বাড়ি তৈরি করলাম। এই বাড়িটাকেই পরে আমি দূর্গে রূপ দিয়েছিলাম। নাম রেখেছিলাম ‘গাজী আলী জামাল’ দূর্গ। পরে পতুর্গাল থেকে পরিবার-পরিজন আনার পর এই দূর্গই আমার স্থায়ী নিবাসে পরিণত হয়। পতুর্গাল সরকার আমাকে দ্বীপপুঞ্জের গভর্ণরের দায়িত্ব দেন। দ্বীপপুঞ্জের গভর্ণর হিসেবে সবগুলো দ্বীপে বসতি স্থাপনের উদ্যোগ গ্রহণ করি। এই সুযোগকে আমি আল্লাহর দেয়া বড় একটা রহমত হিসেবে গ্রহণ করি। স্পেনের ভাগ্যাহত মুসলমানদের এই দ্বীপপুঞ্জে নিয়ে আসার পরিকল্পনা নিয়ে আমি স্পেনের মুসলিম নেতৃবৃন্দের সাথে যোগাযোগের উদ্যোগ নিলাম। একবার পর্তুগাল সফরকালে এই উদ্দেশ্যে আমি গোপনে গ্রানাডা গেলাম।</p>
+	<p class="block_13" lang="en">আমি.............।’</p>
+	<p class="block_13" lang="en">‘ভাইয়া খুব কাছেই হেলিকপ্টারের শব্দ। মনে হয় একটা হেলিকপ্টার নেমে আসছে।’ আহমদ মুসার পড়ার মাঝখানে চাপা-উত্তেজিত কণ্ঠে বলল হাসান তারিক। সে বসেছিল একদ গুহার মুখেই।</p>
+	<p class="block_13" lang="en">আহমদ মুসার ডাইরী পড়া বন্ধ হয়ে গেল।</p>
+	<p class="block_13" lang="en">সবাই উৎকর্ণ হয়ে উঠেছে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ডাইরীটা সার্গিও’র হাতে দিয়ে দ্রুত সরে এল গুহার মুখে হাসান তারিকের পাশে।</p>
+	<p class="block_13" lang="en">মুক্ত আকাশের দিকে কান পেতে একটু শোনার চেষ্টা করেই আহমদ মুসা বলে উঠল, ‘আমাদের মাথার উপরে হেলিকপ্টার। মনে হচ্ছে আলো না জ্বালিয়ে খুব নিচু দিয়ে ওরা এসেছে।’</p>
+	<p class="block_13" lang="en">বলেই আহমদ মুসা মুহূর্তের জন্যে থামল। পরমুহূর্তেই আহমদ মুসা ব্যাগ থেকে মুখোশ বের করে একটা নিজে নিয়ে অন্যগুলো সকলের সামনে ছুড়ে দিয়ে চাপা উত্তেজিত কণ্ঠে বলে উঠল, ‘তোমরা সকলে তাড়াতাড়ি গ্যাস মুখোশ পড়ে নাও। নিশ্চয় শব্দ মনিটরিং করে আমাদের অবস্থান পিন পয়েন্ট করার পর তারা এসেছে। অন্ধকারে নিশ্চয় তারা নামতে সাহস পাবে না। গ্যাস বোমাই তাদের টার্গেট।’</p>
+	<p class="block_13" lang="en">আহমদ মুসার কথা শেষ হওয়ার আগেই চারদিক থেকে ছোট ছোট বেলুন ফাটলে যেমন শব্দ হয় সেরকম শব্দ উঠতে শুরু করেছিল।</p>
+	<p class="block_13" lang="en">সবাই গ্যাস মুখোশ পরে নিয়েছিল। আহমদ মুসাও তাড়াতাড়ি গ্যাস মুখোশ পরে নিল।</p>
+	<p class="block_13" lang="en">ভ্যানিসা ও সার্গিও’র মুখে আতংক। ভ্যানিসা বলল, ‘ভাইয়া.......।’</p>
+	<p class="block_13" lang="en">ভ্যানিসা মুখ খুলতেই আহমদ মুসা ঠোঁটে আঙুল চেপে তাকে কথা বলতে নিষেধ করল।</p>
+	<p class="block_13" lang="en">‘ভাইয়া’ শব্দ বের হওয়ার পরই ভ্যানিসার মুখ বন্ধ হয়ে গেল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ফিসফিস কণ্ঠে বলল, ‘হেলিকপ্টারে ওদের শক্তিশালী শব্দগ্রাহক যন্ত্র আছে। আর কোন কথা নয়। ওদের বুঝাতে হবে যে, ওদের প্রাণঘাতি গ্যাস বোমায় আমরা সবাই মারা গেছি। এ বিশ্বাস যদি ওদের হয় তাহলে ওরা নিশ্চিন্তে চলে যাবে, অথবা আরও নিশ্চিত হবার জন্যে নিশ্চংকচিত্তে এই গুহার সামনে ল্যান্ড করবে।’</p>
+	<p class="block_13" lang="en">কথা শেষ করে আহমদ মুসা গুহামুখের দিকে একটু সরে গিয়ে বসল।</p>
+	<p class="block_13" lang="en">তারপর অখন্ড নিরবতা। আকাশে হেলিকপ্টারের চাপা হালকা যান্ত্রিক গর্জন, নিচে আশে-পাশে মাঝে মাঝে গ্যাসবোমা ফাটার ফটফট শব্দ।</p>
+	<p class="block_13" lang="en">দীর্ঘ এক ঘন্টা নিরবতার পর সবাই অনুভব করল হেলিকপ্টারের শব্দ আরও নিকটতর হচ্ছে। বুঝল সবাই নামছে হেলিকপ্টার থেকে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা হাসান তারিকের দিকে তাকিয়ে ফিসফিস কণ্ঠে বলল, ‘ওরা সম্ভবত দেখতে নামছে যে আমরা বেঁচে আছি কিনা। ওরা গুহামুখের দিকে আসবে, সাবধানে থেকো। আমি ওদের পেছন দিকে যাবার চেষ্টা করছি।’</p>
+	<p class="block_13" lang="en">বলে আহমদ মুসা গুহা থেকে বেরিয়ে গেল। তার মুখে গ্যাস মুখোশ এবং হাতে এম-১০ মেশিন রিভলবার।</p>
+	<p class="block_13" lang="en">হেলিকপ্টার ল্যান্ড করল গুহার একটু সামনে সমাধীক্ষেত্রের উপর।</p>
+	<p class="block_13" lang="en">আহমদ মুসা তখন ক্রলিং করে গুহামুখ থেকে অনেকখানি সরে গেছে।</p>
+	<p class="block_13" lang="en">আকাশটা মেঘে ঢেকে যাওয়ায় অন্ধকার এখন নিশ্ছিদ্র হয়ে উঠেছে। হেলিকপ্টারটিকে অন্ধকারের বুকে আরও অন্ধকার একটা পিন্ড বলে মনে হচ্ছে। চোখের সামনে আর সবকিছুই অন্ধকারে হারিয়ে গেছে।</p>
+	<p class="block_13" lang="en">হঠাৎ অন্ধকারের মধ্যে একটা ব্রাশ ফায়ারের শব্দ উঠল এবং তা অব্যাহতভাবে চলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা বুঝল, ব্রাশফায়ারের কেন্দ্রবিন্দু হলো গুহামুখ। আহমদ মুসা নিশ্চিত হলো, ওরা গুহার দিকে যাবে। এই ব্রাশফায়ার তারই পূর্ব প্রস্তুতি। তারা দেখতে চায় গুলীর কোন জবাব আসে কিনা। কেউ জীবিত থাকলে নিশ্চয় আত্মরক্ষার জন্যে জবাব দেবে।</p>
+	<p class="block_13" lang="en">হাসান তারিক ব্রাশফায়ারের কোন জবাব দিল না।</p>
+	<p class="block_13" lang="en">খুশি হলো আহমদ মুসা, হাসান তারিক ওদের পাতা ফাঁদে পা দেয়নি। শক্তিশালী শত্রুকে বাইরে গুহা বা ঘরের ভেতর থেকে সমর্থক গুলী চালিয়ে শত্রুর কাছে নিজের অস্তিত্বের জানান দেয়া ঠিক নয়। কারণ তাতে বোমা বা গ্রেনেড হামলার শিকার হয়ে বিপর্যয় ঘটার সম্ভাবনা থাকে। গুহা বা ঘর থেকে বাইরের প্রবল শক্তির প্রতি আক্রমণটা পিনপয়েন্টেড ও চূড়ান্ত হতে হয়।</p>
+	<p class="block_13" lang="en">আহমদ মুসা এসব ভাবছিল আর হেলিকপ্টারের পেছন দিকে অগ্রসর হচ্ছিল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা পাঁচ মিনিটের মত ক্রলিং করে চলার পর হেলিকপ্টারের পেছনে গিয়ে পৌছল।</p>
+	<p class="block_13" lang="en">ধীরে ধীরে উঠে বসল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">উঠে বসার পর মাথাটা স্থির হবার সাথে সাথেই একটা কঠিন বস্তু এসে মাথায় চেপে বসল। সংগে সংগেই ভারী একটা কণ্ঠ, ‘আমার চোখে ইনফ্রারেড গগলস আছে। তোমার সবকিছুই আমি দেখতে পাচ্ছি। চালাকি করার চেষ্টা করলে মাথার খুলি উড়ে যাবে।’ রুক্ষ ও কঠোর কণ্ঠ লোকটির।</p>
+	<p class="block_13" lang="en">আহমদ মুসার হাতে এম-১০, কিন্তু হাত যেমন ছিল তেমনি কোলের উপর রাখল। আক্রমণকারীর চোখে ইনফ্রারেড গগলস আছে তা আহমদ মুসা বিশ্বাস করেছে। এই গগলসটা থাকার কারণেই সে আহমদ মুসাকে দেখে ফলো করেছে।</p>
+	<p class="block_13" lang="en">আক্রমণকারী লোকটি একটু থেমেই আবার বলে উঠল, ‘বেন্টো, ওর হাতের ভয়ংকর এম-১০টা নিয়ে নাও।’</p>
+	<p class="block_13" lang="en">সংগে সংগেই একজন লোক আহমদ মুসার পাশে এসে আহমদ মুসার হাত থেকে এম-১০টা নিয়ে নিল।</p>
+	<p class="block_13" lang="en">পরক্ষণেই পেছনের রিভলবারধারী লোকটি তার রিভলবারের নল দিয়ে আহমদ মুসার মাথাকে একটু সামনে ঠেলে দিয়ে বলে উঠল, ‘উঠে দাঁড়াও।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা উঠে দাঁড়ালে সে বলল, ‘সামনে আগাও হেলিকপ্টারের দরজার দিকে।’</p>
+	<p class="block_13" lang="en">হাঁটতে লাগল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">পেছনে রিভলবারধারী লোকটির রিভলবার আহমদ মুসার মাথা থেকে তিল পরিমাণও নড়েনি।</p>
+	<p class="block_13" lang="en">হেলিকপ্টারের দরজার কাছে গিয়ে দাঁড়াল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">রিভলবারধারী পেছন থেকে বলল, ‘বেন্টো, ওর দুহাতে পেছনে এনে বেঁধে ফেল।’</p>
+	<p class="block_13" lang="en">বেন্টো নামক লোকটিকে আহমদ মুসার পেছনে জায়গা করে দেবার জন্যে রিভলবারধারী আহমদ মুসার পাশে সরে আসছিল। তার রিভলবারের নলটিও আহমদ মুসার মাথা থেকে আলগা হয়ে গিয়েছিল।</p>
+	<p class="block_13" lang="en">মুহূর্তের এই ফাঁকেই ঘটে গেল ঘটনাটা।</p>
+	<p class="block_13" lang="en">হঠাৎ আহমদ মুসার মাথা তীর বেগে নিমণমুখী হলো, আর তার দুই পা ঈষৎ ফাঁক হয়ে ক্ষেপণাস্ত্রের মত উৎক্ষিপ্ত হলো উপর দিকে এবং ধনুকের মত তা বেঁকে একটা আঘাত করল রিভলবারধারীর চোখে-মুখে, অন্য পা টি হাতুড়ীর মত গিয়ে পড়ল আহমদ মুসাকে বাঁধার জন্যে এগিয়ে আসা দ্বিতীয় লোকটির বুকে।</p>
+	<p class="block_13" lang="en">দুজনেই পড়ে গিয়েছিল।</p>
+	<p class="block_13" lang="en">রিভলবারধারীর অবস্থাই বেশি খারাপ হয়েছিল। আহমদ মুসার পায়ের আঘাতে লোকটির ইনফ্রারেড গগলস ভেঙে চোখে ঢুকে গিয়েছিল। কিন্তু হাতের রিভলবার তার হাত থেকে ছুটে যায়নি। সে পড়ে গিয়ে চোখ বন্ধ রেখেই এলোপাথাড়ি গুলী করা শুরু করে দিয়েছিল।</p>
+	<p class="block_13" lang="en">আহমদ মুসাও পড়ে গিয়েছিল।</p>
+	<p class="block_13" lang="en">শুয়ে থেকেই রিভলবারধারীর রিভলবার ধরা হাত সে চিহ্নিত করতে পারল গুলী বর্ষণ দেখে।</p>
+	<p class="block_13" lang="en">আহমদ মুসা ঝাঁপিয়ে পড়ে দুহাত দিয়ে তার রিভলবার কেড়ে নেয়ার চেষ্টা করল।</p>
+	<p class="block_13" lang="en">লোকটিও তার দুহাত দিয়ে রিভলবার আঁকড়ে ধরে গুলী করছিল।</p>
+	<p class="block_13" lang="en">রিভলবার নিয়ে ধস্তাধস্তি শুরু হয়ে গেল দুজনের মধ্যে।</p>
+	<p class="block_13" lang="en">লোকটি তার সর্বশক্তি দিয়ে রিভলবারের নল আহমদ মুসার দিকে ঘুরাতে চেষ্টা করছিল এবং আহমদ মুসাও।</p>
+	<p class="block_13" lang="en">আহমদ মুসাই শেষে জিতে গেল। লোকটির রিভলবারের গুলী তার নিজেরই থুথনির নিচ দিয়ে ঢুকে মস্তক বিদ্ধ করল।</p>
+	<p class="block_13" lang="en">রিভলবারটি হাতে নিয়ে আহমদ মুসা পাশের লোকটির দিকে এগুলো। সে মাটিতে পড়েছিল। আহমদ মুসা ভাবল, লোকটি এলোপাথাড়ী গুলীর মধ্যে মাটিতে পড়ে থেকে আত্মরক্ষা করছে।</p>
+	<p class="block_13" lang="en">অন্ধকারেই আন্দাজ করে আহমদ মুসা তার রিভলবার লোকটির মাথায় চেপে ধরল এবং বলল, ‘দুহাত একটু নড়াতে চেষ্টা করলে মাথা ছাতু করে দেব।’</p>
+	<p class="block_13" lang="en">বলে আহমদ মুসা তার বাম হাত দিয়ে লোকটির ডান কব্জি চেপে ধরল। কিন্তু হাতটি নিসাড়। আহমদ মুসা তার বাম হাতটি আরও সামনে সরিয়ে নিতেই অনুভব করল লোকটির হাত খোলা, তার শিথিল হাতের পাশেই আহমদ মুসা পেয়ে গেল তার এম-১০ মেশিন রিভলবার।</p>
+	<p class="block_13" lang="en">লোকটি কি জ্ঞান হারিয়েছে? - এই চিন্তা করেই আহমদ মুসা তার ডান হাত লোকটির মুখের উপর নিয়ে এল।</p>
+	<p class="block_13" lang="en">গরম তরল কিছুতে আহমদ মুসার ডান হাতটা ডুবে গেল। ‘রক্ত নিশ্চয়’- ভাবল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">আহমদ মুসা তার হাত লোকটির মাথায় নিয়ে এল।</p>
+	<p class="block_13" lang="en">মাথায় রক্তের বন্যা। আহমদ মুসা বুঝল লোকটি মাথায় গুলী খেয়ে মরেছে। এটা রিভলবারধারী লোকটির এলোপাথাড়ী গুলীরই ফল। মাথায় গুলী খাওয়ায় চিৎকারেরও অবসর পায়নি।</p>
+	<p class="block_13" lang="en">উঠে দাঁড়াল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">এই সময় তার পেছনে গুহামুখ থেকে সাব-মেশিনগানের একটানা গর্জন ভেসে এল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা গুলীর একটানা ষ্টাইল দেখেই বুঝল এ সাব মেশিনগান হাসান তারিকের।</p>
+	<p class="block_13" lang="en">খুশি হলো আহমদ মুসা যে, হাসান তারিক প্রথম গুলী ছুড়েছে এবং টার্গেট পিনপয়েন্ট করেই গুলী ছুড়ছে। এদের পাল্টা আক্রমণের আর অবসর হবে না।</p>
+	<p class="block_13" lang="en">তাই হলো।</p>
+	<p class="block_13" lang="en">হাসান তারিকের সাব মেশিনগান থেমে গেল। কিন্তু এ পক্ষের পাল্টা আক্রমণ আর হলো না। কিছুক্ষণ নিরবতা।</p>
+	<p class="block_13" lang="en">শত্রুপক্ষের কেউ আর অবশিষ্ট নেই, নিশ্চিত হলো আহমদ মুসা।</p>
+	<p class="block_13" lang="en">গুহা মুখের দিকে লক্ষ্য করে আহমদ মুসা বলল, ‘হাসান তারিক, তোমরা বেরিয়ে এস, গেম ইজ ওভার।’</p>
+	<p class="block_13" lang="en">বৈদ্যুতিক লণ্ঠন সাথে করে বেরিয়ে এল হাসান তারিকরা।</p>
+	<p class="block_13" lang="en">চলে এল ওরা হেলিকপ্টারের কাছে।</p>
+	<p class="block_13" lang="en">‘ওদিকের কি খবর হাসান তারিক?’ জিজ্ঞেস করল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘ওরা পাঁচজন গিয়েছিল। পাঁচজনই মারা পড়েছে ভাইয়া।’ হাসান তারিক বলল।</p>
+	<p class="block_13" lang="en">‘এদিকে ঐযে দুজনের লাশ দেখ, ওরাই শুধু ছিল।’ বলে উঠল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘তার মানে হেলিকপ্টারটি এখন আমাদের।’ আনন্দে বলে উঠল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘হ্যাঁ, যুদ্ধ-লব্ধ মাল। নিজের অবশ্যই বলতে পার।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘এখন হেলিকপ্টারে উঠে তো আলো জ্বালানো যায়।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘হ্যাঁ যায়।’ বলেই আহমদ মুসা উৎকর্ণ হয়ে দক্ষিণ দিকে তাকাল।</p>
+	<p class="block_13" lang="en">হঠাৎ আহমদ মুসাকে এভাবে উৎকর্ণ হয়ে উঠতে দেখে সবাই তাকাল দক্ষিণ দিকে।</p>
+	<p class="block_13" lang="en">সবাই শুনতে পেয়েছে দক্ষিণ দিক থেকে একটা হেলিকপ্টারের শব্দ ভেসে আসছে।</p>
+	<p class="block_13" lang="en">সবাই তাকিয়ে থাকল ওদিকে।</p>
+	<p class="block_13" lang="en">শব্দটি কাছে চলে এসেছে।</p>
+	<p class="block_13" lang="en">খুব নিচু দিয়ে উড়ে আসছে হেলিকপ্টারটি আলো নিভিয়ে। তাই খুব কাছে এসে গেলেও হেলিকপ্টারটি দেখা যাচ্ছে না।</p>
+	<p class="block_13" lang="en">আহমদ মুসা দ্রুত হেলিকপ্টারে উঠে গেল। মিনিটখানেকের মধ্যেই নেমে এল এ্যান্টি-এয়ারক্রাপ্ট ধরনের হালকা গান নিয়ে। এ গানগুলো লোফ্লাইং বিমান, হেলিকপ্টার কিংবা মাটিতে থাকা যে কোন হালকা ধরনের স্থাপনা ধ্বংসে বংবহার করা যায়। এয়ার থেকে এয়ার, এয়ার থেকে গ্রাউন্ড সব রকমেই এগুলো ব্যবহার করা যায়।</p>
+	<p class="block_13" lang="en">চারটি গানের একটা নিজে রেখে অন্য তিনটি হাসান তারিক, সার্গিও ও ভ্যানিসাকে দিয়ে বলল, ‘প্রথম হেলিকপ্টারটি আমাদের দখলে। দ্বিতীয় শত্রু হেলিকপ্টারটি আসছে হয় প্রথমটির খোঁজ নিতে, অথবা প্রথমটির আমন্ত্রণ পেয়ে। শত্রু হেলিকপ্টারটি নিকট আকাশে আসার পর আমাদের চারজনের একযোগে প্রথম আঘাতেই তাকে ধ্বংস করতে হবে। বোমা ফেলার সুযোগ তাকে দেয়া যাবে না।’</p>
+	<p class="block_13" lang="en">থামল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">ওরা তিনজন একসাথেই বলে উঠল, ‘আমরা বুঝেছি ভাইয়া।’</p>
+	<p class="block_13" lang="en">ল্যান্ড করা হেলিকপ্টারটির দক্ষিণপূর্ব কোণ বরাবর সমাধীক্ষেত্রের মাঝখানে পজিশন নিয়ে সবাই বসল আহমদ মুসার নির্দেশে।</p>
+	<p class="block_13" lang="en">লম্বালম্বি এক লাইনে প্রথমে আহমদ মুসা, তারপরে সার্গিও, পরে ভ্যানিসা এবং সবশেষে হাসান তারিক।</p>
+	<p class="block_13" lang="en">রাতের কালো আঁধার কেটে ততোধিক কালো হেলিকপ্টারটি যমদূতের মত আসছে খুব চাপা একটা গর্জন তুলে।</p>
+	<p class="block_13" lang="en">সমাধীক্ষেত্রের আকাশে ঢুকে পড়েছে হেলিকপ্টারটি।</p>
+	<p class="block_13" lang="en">গতি তার ধীর হয়েছে।</p>
+	<p class="block_13" lang="en">অনেকটা দ্বিধাগ্রস্ত গতি।</p>
+	<p class="block_13" lang="en">মনে হয় অয়্যারলেসের যোগাযোগে প্রথম হেলিকপ্টার থেকে সাড়া পাচ্ছে না। হঠাৎ সমাধীক্ষেত্রের মাঝখানের আকাশে এসে স্থির হয়ে থাকা হেলিকপ্টার থেকে সার্চ লাইটের একটা তীব্র আলো গিয়ে পড়ল মাটিতে ল্যান্ড করা হেলিকপ্টারটির উপর।</p>
+	<p class="block_13" lang="en">সেই আলোতে হেলিকপ্টারের দক্ষিণ পাশে পড়ে থাকা দুটি লাশের দৃশ্যও স্পষ্ট হয়ে উঠল।</p>
+	<p class="block_13" lang="en">‘ফায়ার। ওটা এখন বিটালিয়েশনে আসবে।’ চাপা কণ্ঠে গর্জন করে উঠল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">সংগে সংগেই চারটি এ্যান্টি-এয়ারক্র্যাফট গান গর্জন করে উঠল।</p>
+	<p class="block_13" lang="en">চারটি গান থেকে আটটি আগুনের বুলেট ছুটে গেল হেলিকপ্টারের দিকে।</p>
+	<p class="block_13" lang="en">আকাশে দাঁড়ানো হেলিকপ্টারকে তাক করে ধীরে সুস্থে ছোঁড়া আটটি বুলেটই গিয়ে আঘাত করল হেলিকপ্টারটিকে।</p>
+	<p class="block_13" lang="en">ভীষণভাবে কেঁপে উঠল হেলিকপ্টারটি। পরক্ষণেই মাথা নিচু করে একটা ড্রাইভ দিয়ে উত্তর দিক হয়ে পূর্ব দিকে ঘুরল। সেই সাথে একাধারে মেশিনগানের গুলী ও বোমা পড়তে শুরু করেছে হেলিকপ্টার থেকে।</p>
+	<p class="block_13" lang="en">হেলিকপ্টারটি একটু পূর্ব দিকে গিয়ে আবার পশ্চিম দিকে ফেরার চেষ্টা করে আবার পূর্বমুখী হয়ে ছুটতে শুরু করল। আগুনের ফুলকি বেরুচ্ছে হেলিকপ্টারের ইঞ্জিন থেকে।</p>
+	<p class="block_13" lang="en">কয়েক সেকেন্ডের মধ্যেই হেলিকপ্টারটি পাহাড়ের আড়ালে দৃষ্টিসীমার বাইরে চলে গেল।</p>
+	<p class="block_13" lang="en">অল্পক্ষণ পরেই পূর্ব দিকে ভয়ানক বিস্ফোরণের শব্দ ভেসে এল।</p>
+	<p class="block_13" lang="en">‘হেলিকপ্টারটি ধ্বংস হয়ে গেল, ভাইয়া।’ বলল ভ্যানিসা আহমদ মুসাকে লক্ষ্য করে।</p>
+	<p class="block_13" lang="en">সবাই উঠে দাঁড়িয়েছে বসা পজিশন থেকে। কিন্তু আহমদ মুসা ওঠেনি।</p>
+	<p class="block_13" lang="en">‘ভাইয়া আসুন। আমরা গুহামুখের দিকে একটু সরে যাই। বোমার আগুন এদিকে আসছে।’ বলল হাসান তারিক আহমদ মুসাকে লক্ষ্য করে।</p>
+	<p class="block_13" lang="en">হাসান তারিকের কথার দিকে ভ্রুক্ষেপ না করে আহমদ মুসা বলে উঠল, ‘হেলিকপ্টার বিস্ফোরণে যে বনি আদমরা মারা গেল, তার জন্য আমরা কতটুকু দায়ী হাসান তারিক?’ ধীর, ব্যথিত কণ্ঠ আহমদ মুসার।</p>
+	<p class="block_13" lang="en">‘আমরা দায়ী নই ভাইয়া। আমরা আত্মরক্ষার জন্যেই গুলী করেছি হেলিকপ্টারকে। ওরা বুঝতে পেরেছিল ওদের হেলিকপ্টারের সব লোক মারা গেছে। ওরা এর প্রতিশোধ নিতে বোমা ও গুলীর সয়লাব বইয়ে দিত এই সমাধীক্ষেত্রে। ওদের হেলিকপ্টারকে না মারলে আমাদেরকেই মরতে হতো।’ বলল হাসান তারিক।</p>
+	<p class="block_13" lang="en">হাসান তারিক থামতেই সার্গিও বলে উঠল, ‘এ প্রশ্ন আপনি তুলছেন কি করে ভাই? এটা যুদ্ধের ময়দান। মারার জন্যেই তারা এসেছিল, তারা না মরলে আমাদের মরতে হতো।’</p>
+	<p class="block_13" lang="en">ম্লান হাসল আহমদ মুসা। বলল, ‘আপনাদের যুক্তিগুলো আমারও জানা। কিন্তু অনেক সময় অনেক ঘটনায় নিজের দিয়ে নিজেকে জানানো যায় না। নিঃসন্দেহে এই হত্যাগুলো প্রয়োজনের। আল্লাহর বিধান একে স্বীকৃতি দেয়। কিন্তু তবু মনে হয় তাঁর বান্দাহদের প্রতি আল্লাহ অপরিসীম মেহেরবান। আল্লাহ ব্যাথা পান তার বান্দাহদের এইসব মৃত্যুতে।’</p>
+	<p class="block_13" lang="en">‘না ভাইয়া, আল্লাহ ব্যাথা পান বান্দাহদের পথভ্রষ্টতায়। বান্দাহদের পথ ভ্রষ্টতাই তো এইসব করুণ পরিণতির জন্য দায়ী।’ বলল হাসান তারিক।</p>
+	<p class="block_13" lang="en">‘তুমি ঠিক বলেছ হাসান তারিক। বান্দাহদের পথভ্রষ্টতাই মূল কথা। এই পথভ্রষ্টতা সব হানাহানি, জুলূম-নির্যাতন এবং হতাহতের জন্য দায়ী। শান্তির জন্যই এই পথভ্রষ্টতার হাত থেকে মানুষকে বাঁচাতে হবে।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘বাঁচাবার এই সংগ্রামই তো ইসলাম করছে। কিন্তু কল্যাণের এই সংগ্রামকেই উৎখাত করার জন্য এগিয়ে এসেছে পথভ্রষ্টরা। চলার পথ থেকে পথভ্রষ্টদের সরাতে না পারলে মানবতার শান্তির সংগ্রাম, মানবতার মুক্তির সংগ্রাম থেমে যাবে, শেষ হয়ে যাবে। সুতরাং মানুষের শান্তি ও মুক্তির জন্যই তো সংগ্রাম প্রয়োজন পথভ্রষ্টদের বিরুদ্ধে। এই সংগ্রামে আজকের হেলিকপ্টার বিধ্বস্ত হওয়ার মত আরও অসংখ্য ঘটনা ঘটতেই পারে।’ বলল হাসান তারিক।</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ মিঃ হাসান তারিক। আজ আপনাদের কথা খুব আপন বলে মনে হচ্ছে। মনে হচ্ছে মুসলিম ও ইসলাম গৌরবের বস্তু। কিন্তু এতদিন একে অপমানজনক মনে করে এসেছি।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘শুধু অপমানজনক নয়, আমরা নিষ্ঠুরভাবে আমাদের পূর্ব পুরুষের কবর ভেঙে ফেলেছি এবং পরিবারের ইতিহাসকে সমাধিস্থ করেছি।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘যারা কবর ভেঙেছেন, যারা ইতিহাস কবরস্থ করেছেন তাদের সৌভাগ্য হয়নি ডাইরীটা পড়ার, যা আজ আহমদ মুসা ভাই আমাদের পড়ে শোনালেন।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘ডাইরী পড়া তো শেষ হয়নি ভাইয়া।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">ভ্যানিসা থামতেই আহমদ মুসা বলে উঠল, ‘সব আলোচনা এখন বন্ধ। এখন কাজ। প্রথম কথা হলো, বাক্সটা গর্তে নামিয়ে আগের অবস্থায় রেখে দেয়া। আর.............।’</p>
+	<p class="block_13" lang="en">আহমদ মুসার কথার মাঝখানেই সার্গিও বলে উঠল, ‘বাক্সটিকে আর মাটির তলায় পাঠানো হবে না ভাইয়া। দেখছেন তো, পরিবারের ইতিহাসকে সমাধিস্থ করা নিয়ে ভ্যানিসা কি রকম ক্রিটিক্যাল কথাবার্তা বলছে শুরু থেকেই।’</p>
+	<p class="block_13" lang="en">‘না ভাইয়া, আমার মত আছে। বাক্সটাকে মাটির তলায় যেখানে ছিল সেখানে পাঠিয়ে দিন।’ বলে হাসতে লাগল ভ্যানিসা। হাসতে হাসতেই আবার বলে উঠল, ‘জানি ভাইয়া, আপনি পারবেন না আর বাক্সটাকে সমাধিস্থ করতে। দাদু গাজী আল জামাল এক মুহূর্তেই আমাদের মাথাকে আকাশস্পর্শী করেছেন। আমরা কি পারি এই মাথাকে আবার লুটিয়ে দিতে!’ আবেগ কম্পিত কণ্ঠ ভ্যানিসার কান্নায় ভরে গেল। মুখের হাসি নিভে গেল চোখের পানিতে।</p>
+	<p class="block_13" lang="en">ম্লান হাসল সার্গিও। আবেগ উত্তেজনায় লাল হয়ে উঠেছে তার মুখও। বলল, ‘ঠিক বলেছ বোন, ঐ বাক্সটা গনজালো পরিবারকে নতুন জীবন দান করল। ওকে কবর নয়, আমাদের মাথায় রাখতে হবে।’</p>
+	<p class="block_13" lang="en">‘কিন্তু আম্মার তো শর্ত ছিল, বাক্স আবার মাটির তলায় রাখতে হবে।’ দ্রুতকণ্ঠে বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘আম্মা যা বলেছেন, আম্মাই তা আর মানবেন না। সুতরাং সে চিন্তা নেই।’ সার্গিও বলল।</p>
+	<p class="block_13" lang="en">‘তাছাড়া আমাদের পূর্ব পুরুষ যিনি এই ইতিহাসকে সমাধিস্থ করেছিলেন, তাঁর চিঠিওতো শুনলাম। তিনিও আশা করেছিলেন তারই উত্তর পুরুষের কেউ এই ইতিহাস উদ্ধার করবেন। আজ তাঁর আশাই পূর্ণ হলো। সুতরাং আগের অবস্থায় ফিরে যাবার কোন প্রশ্ন নেই।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">আহমদ মুসা হাসল। স্বস্তির হাসি। বলল সার্গিওকে উদ্দেশ্য করে, ‘তাহলে এখন করণীয় বলুন।’</p>
+	<p class="block_13" lang="en">‘এখন আমরা হেলিকপ্টার নিয়ে যাত্রা করব।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘কোথায়?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘পশ্চিম উপকূলে আমাদের ঘাঁটিতে, যার কথা আমি আগেও বলেছিলাম।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘হেলিকপ্টার নিলে অসুবিধা হবে না? কেউ দেখে ফেলবে না? জিজ্ঞেস করল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘আমাদের ঘাঁটিটা হলো পশ্চিম উপকূলীয় শহর ‘সিরেটা ও দজ রিবেরা’র মাঝখানে এক পার্বত্য উপত্যকায়। ঐ ঘাঁটিতে কোন বাড়ি-ঘর নেই। পাহাড়ের বিভিন্ন গুহাকে বাড়িতে রূপান্তরিত করা হয়েছে। সুতরাং ও ঘাঁটি কারও নজরে পড়ার মত নয়। হেলিকপ্টারটি জংগলের আড়াল করে চালিয়ে নিয়ে যাব। আর ওখানে নিয়ে গিয়েই হেলিকপ্টারে নতুন রং দিয়ে ওটা পাল্টে ফেলব আমরা। এ হেলিকপ্টারেই আমরা কেকো দ্বীপের হারতা পৌছতে পারি।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘এখানে হেলিকপ্টারের রেজিষ্ট্রেশন নেই?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘আছে কমার্শিয়াল হেলিকপ্টারগুলোর। পার্সোনাল হেলিকপ্টারের নেই।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">মুখটা প্রসন্ন হয়ে উঠল আহমদ মুসার। বলল, ‘চলুন বাক্সটা হেলিকপ্টারে তুলে যাত্রার জন্য তৈরি হই।’</p>
+	<p class="block_13" lang="en">বলে আহমদ মুসা গুহা লক্ষ্যে হাঁটতে শুরু করল।</p>
+	<p class="block_13" lang="en">ভ্যানিসা হাঁটতে শুরু করে বলল, ‘হেলিকপ্টার জিন্দাবাদ।’</p>
+	<p class="block_13" lang="en">‘হেলিকপ্টার জিন্দাবাদ কেন?’ পেছন ফিরে জিজ্ঞেস করল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘হেলিকপ্টারই আমাকে ও সার্গিও ভাইয়াকে ওদিকে নিয়ে যাচ্ছে। আমরা বাদই পড়ে গিয়েছিলাম।’ বলল ভ্যানিসা আদুরে শিশুর ভংগিতে।</p>
+	<p class="block_13" lang="en">সবাই হেসে উঠল।</p>
+	<p class="block_13" lang="en">হেলিকপ্টার উড়ে চলেছে তেরসিয়েরা দ্বীপের পশ্চিম উপকূলের দিকে।</p>
+	<p class="block_13" lang="en">হেলিকপ্টার চালাচ্ছে হাসান তারিক।</p>
+	<p class="block_13" lang="en">তার পেছনেই তিনটি সিটে বসে আছে আহমদ মুসা, সার্গিও ও ভ্যানিসা।</p>
+	<p class="block_13" lang="en">কথা বলছিল সার্গিও, ‘আমি আশ্চর্য হয়ে যাচ্ছি আহমদ মুসা ভাই, ‘গাজী আলী জামাল’ হয়ে গেল ‘গনজালো’। আমাদের পরিবারও টের পেল না এই বিকৃতি।’</p>
+	<p class="block_13" lang="en">শুধু ‘গাজী আলী জামাল’ নাম কেন, দ্বীপপুঞ্জের নামও তো বিকৃত হয়েছে। কোথায় নামটা ছিল ‘আয-যোহর’ সেটা হয়ে গেল ‘আজোরস’। এ রকমই হয়। সময়ের পরিবর্তনে যখন কোন ভাষার চর্চা কমে যায়, কিংবা আদৌ থাকে না, তখন সে ভাষার শব্দগুলো বিকৃত হয়ে যায়। অন্যভাষার লেখকরা এই বিকৃতিকে ত্বরান্বিত করে। যেমন স্পেনের ‘জাবালুত তারিক’ হয়েছে ‘জিব্রালটার’। বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">আমার মনে হয় দ্বীপপুঞ্জের বিভিন্ন নামের মত মানুষের ঐতিহ্য-সংস্কৃতি যেটা আগে ছিল, সেটারও ব্যাপক বিকৃতি ঘটেছে।’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">এ সময় আহমদ মুসা একটু নড়ে-চড়ে বসল। তার চোখে-মুখে হঠাৎ প্রশ্ন ভেসে উঠল। কোন কথা যেন হঠাৎ তার মনে পড়ে গেছে। সে দ্রুত কণ্ঠে বলে উঠল, ‘একটা কথা মনে পড়েছে ভ্যানিসা। সেই উচ্চ ভূমিটায়, যেখানে তোমাদের আদি বাড়ি ছিল বলেছিলে, যে বেদিটা আছে সেখানে আমি পাথরের বাটি দেখেছি। বেদিও পাথরের ছিল। সেখান থেকে দুটো বিশাল সাপকে নেমে যেতে দেখেছি। এখন আমার মনে পড়ছে সাপ দুটো বাটিতে কিছু খেয়েছে। আবার তোমরা দুজন বেদির পাশেই গাছের উপর ছিলে। তোমরা সব দেখার কথা। কি দেখেছ? তোমরা ওখানে গাছেই বা কেন ছিলে? এসব প্রশ্ন আমার রয়েছে। জবাব খুঁজে পাইনি।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা থামতেই ভ্যানিসা সার্গিওর দিকে চেয়ে গম্ভীর কণ্ঠে বলল, ‘ভাইয়া, তুমিই উত্তরটা দাও।’</p>
+	<p class="block_13" lang="en">গম্ভীর হয়ে উঠেছে সার্গিও। একটু ভাবল।</p>
+	<p class="block_13" lang="en">একটা ম্লান হাসি ফুটে উঠল তার ঠোঁটে। বলল, ‘সাপ দুটোকে আমাদের পরিবারের সদস্য মনে করা হয়। পনের দিন বা এক মাস পর পর বেদির ঐ পাথর বাটিটায় দুধ দেয়া হয়। সাপ দুটো তা খেয়ে যায়। এই নিয়ম চলে আসছে কত যুগযুগ ধরে তা আমরা জানি না। আমাদের পূর্ব পুরুষরা এটা করেছে, সাপ দুটোর পিতা-দাদারাও এভাবে একই নিয়মে দুধ খেয়ে এসেছে। বিস্ময়ের ব্যাপার এক সাথে দুটোর বেশি সাপ দুধ খেতে আসে না। আমাদের পারিবারিক বিশ্বাস হলো, সাপ দুটো আমাদের সৌভাগ্যের প্রতীক। আদি ভিটা আমরা ছেড়েছি, কিন্তু তারা ছাড়েনি। তারা আদি বাস্তুভিটাকে ধরে রেখেছে লড়াইয়ে জয়ী হয়ে। আমাদের পরিবারের বিশ্বাস হলো, আমরা অতীতের শক্তি, সম্পদ সব একদিন ফিরে পাব। দ্বীপপুঞ্জে একদিন আবার গনজালো পরিবারের পতাকা উড়বে। সাপ দুটো আমাদের ঐশ্বর্য ও ঐতিহ্যের পাদপিঠকে আঁকড়ে থাকা তারই একটা প্রমাণ।’</p>
+	<p class="block_13" lang="en">একটু থামল সার্গিও।</p>
+	<p class="block_13" lang="en">সার্গিও থামতেই আহমদ মুসা বলল, ‘লড়াইয়ে জয়ী হয়ে’ কথাটার অর্থ বুঝলাম না। আর আপনাদের সাপের ইতিহাস কার থেকে শুরু? নিশ্চয় শুরু থেকে নয়।’</p>
+	<p class="block_13" lang="en">‘অবশ্যই শুরু থেকে নয়’, বলতে শুরু করল সার্গিও, ‘আমাদের পারিবারিক এক মহাবিপর্যয়ের সময় থেকে সাপের ইতিহাস শুরু বলে আমি শুনেছি। ইতিহাসটা হলোঃ গনজালো পরিবার তখনও দ্বীপের শাসক। সেই সময়ের কোন একদিন আমাদের পারিবারিক বাড়ি ও শাসনকেন্দ্র দুর্গটি আক্রান্ত হয় উত্তর আটলান্টিকের সবচেয়ে বড় জলদস্যুর নৌবাহিনী দ্বারা। রাতের বেলা আক্রমণটা এতই আকস্মিক ছিল যে, আত্মরক্ষার কোন উদ্যোগ নেয়াই সম্ভব হয়নি। দূর্গের সৈন্য ও প্রহরীরা সবাই মর্মান্তিক গণহত্যার শিকার হয়। পরিবারের পুরুষ সদস্যরা বেশির ভাগই মারা যায়। কিন্তু আমাদের পরিবারের শীর্ষ ও দ্বীপপুঞ্জের শাসকপদে অধিষ্ঠিত ব্যক্তিটি তার অবশিষ্ট পরিবার-পরিজন নিয়ে দক্ষিণে সিলভার উপত্যকায় পালিয়ে যেতে সক্ষম হয়।</p>
+	<p class="block_13" lang="en">জলদস্যু রেডরিংগর বাহিনী আমাদের দূর্গ দখলের ঐ রাতেই ভোরে আমাদের দ্বীপে ভয়াবহ ভূমিকম্প সংঘটিত হয়। ভূমিকম্পের কেন্দ্র যেন ছিল আমাদের দূর্গটি। দূর্গ সম্পূর্ণ বিধ্বস্ত হয়ে গেল। সেই সাথে ধ্বংস হয়ে গেল জলদস্যু রেডরিংগসহ তার বাহিনী। পরদিন দূর্গের শাসক আমাদের পূর্বপুরুষ দেখতে এসেছিলেন দুর্গের অবস্থা। আর দুর্গের আশে-পাশের লোকদের সাহায্যের জন্যে এনেছিলেন দুধ, রুটি, বিস্কুট ইত্যাদি। তিনি এসে দেখেন পাড়া-প্রতিবেশীদের তেমন ক্ষতি হয়নি। শুধু ধ্বংস হয়েছে দুর্গটাই। সবচেয়ে বিস্ময়কর যে ঘটনা দেখেন সেটা হলো, জলদস্যু সর্দার রেডরিংগ ও তার স্ত্রী দুর্গের গেটের বাইরে মৃত অবস্থায় পড়ে আছে। জানা যায় সর্প দংশনে তাদের মৃত্যু হয়েছে। আর যে সাপ দুটো তাদের কামড়েছিল সে দুটো সাপ তাদের পাশেই বসেছিল। মানুষের ভীড় সে দৃশ্য অবলোকন করেছে। দ্বীপপুঞ্জের শাসক আমাদের পুর্বপুরুষ সেখানে পৌছতেই সাপ দুটো চলে যেতে থাকে। যেন সাপ দুটো লাশ দুটিকে পাহারা দিয়ে রেখেছিল দ্বীপের শাসকের আগমনের অপেক্ষায়। উপস্থিত প্রবীণদের কেউ কেউ আমাদের পূর্বপুরুষকে বলে, ‘ও দুটো আপনাদের বাস্তু সাপ। ওরা প্রতিশোধ নিয়েছে রিংগর উপরে, যেমন প্রতিশোধ নেয় ঈশ্বর ভূমিকম্পের মাধ্যমে। আপনাদের সাপের দুধ খেতে দিন। সংগে সংগেই আমাদের পূর্বপুরুষটি তার একজন লোকের হাত থেকে দুধের একটা বালতি নিয়ে কিছু দূরে রেখে দেন। সাপ দুটো ফিরে এসে দুধ খেয়ে চলে যায়। সেই থেকেই ওখানে নির্দিষ্ট সময় পরপর দুধ রাখার নিয়ম মেনে আসা হচ্ছে। দুটি সাপও সেই থেকে দুধ খেয়ে যাওয়ার নিয়ম মেনে চলছে।’</p>
+	<p class="block_13" lang="en">একটু থামল সার্গিও। থেমেই আবার বলে উঠল, ‘কাহিনী আপনি হয়তো বিশ্বাস করবেন না, বিজ্ঞানও বিশ্বাস করবে না। কিন্তু আপনি তো দেখেছেন দুটো সাপকে দুধ খেয়ে যেতে।’</p>
+	<p class="block_13" lang="en">আহমদ মুসা হাসল। বলল, ‘এক ধরনের সাপ কোথাও দুধের সন্ধান পেলে নির্দিষ্ট নিয়মেই সেখানে বার বার আসে। ভূমিকম্পের সন্ধান প্রাণীকূল আগেই পেয়ে থাকে। সেদিন ভূমিকম্পের আগে নিশ্চয় সেখানকার সাপগুলো মাটির তলা থেকে বেরিয়ে এসেছিল। ভূমিকম্প শুরু হলে মানুষ পালাচ্ছিল, সাপও পালাচ্ছিল। এই সময় রেডরিংগরা ভীত-সন্ত্রস্ত সাপের আক্রমণের শিকার হয়। এরপরও সাপের একটা নিজস্ব জগৎ আছে, সেই সাথে আল্লাহরও ইচ্ছা আছে। সুতরাং কিছু ঘটনা অলৌকিক পর্যায়ে পড়তেই পারে। আমি সাপকে দুধ খাওয়ানো বন্ধ করতে বলবো না। তবে সাপকে ভালোমন্দের নিয়ামক ভাবা চলবে না।’</p>
+	<p class="block_13" lang="en">ম্লান হাসল সার্গিও। বলল, ‘আপনার ব্যাখ্যাটি ঠিক। তবু যে বিশ্বাস আশা যোগায়, শক্তি যোগায় এবং তা যদি ক্ষতিকর না হয়, তাহলে সে বিশ্বাস রাখলে ক্ষতি কি!’</p>
+	<p class="block_13" lang="en">হাসল আহমদ মুসা। বলল, ‘গাজী আলী জামাল ওরফে গনজালো পরিবার আবার ঐশ্বর্য ঐতিহ্য ফিরে পাবে, এ বিশ্বাসের জন্যে সাপকে অবলম্বন করার দরকার নেই। আপনাদের সংগ্রামই তা প্রমাণ করে দেবে, সে শুভ দিন আপনাদের অবশ্যই আসবে।’</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ আহমদ মুসা ভাই। কিন্তু এ ধরনের বিশ্বাস ধর্মনীতির পরিপন্থী?’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘হ্যাঁ, আমাদের ইসলাম ধর্মের পরিপন্থী। ইসলামের বক্তব্য হলো, আল্লাহই সবকিছুর স্রষ্টা, প্রতিপালক, প্রত্যাবর্তনস্থল। সব ভালো-মন্দ তারই হাতে। পৃথিবীর কোন পরাক্রমশালী শাসককেই ভালো-মন্দের মালিক বলা যাবে না। বেআইনীভাবে তার কাছে মাথাও নোয়ানো যাবে না।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘ভাইয়া, স্রষ্টা মানে আল্লাহ যদি মন্দেরও মালিক হন, তাহলে মন্দের জন্যে তো তিনিই দায়ী হন। তাহলে মন্দের বিচার তিনি করবেন কেমন করে?’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">আহমদ মুসা হাসল। বলল, ‘আমল বা আচরণ মানুষের স্বাধীন ইচ্ছার জন্যে নির্ধারিত। কিন্তু এর ফলটা হয় খোদায়ী বিধান অনুসারে। ফলাফলের এ অংশটা আল্লাহর এখতিয়ারে। কিন্তু এই ফলাফল আসে আল্লাহর দেয়া প্রাকৃতিক বিধান অনুসারে, তবে মানুষের আমল ও আচরণের ভিত্তিতে। সুতরাং মন্দের জন্য আচরণকারী মানুষই দায়ী।’</p>
+	<p class="block_13" lang="en">‘ভাইয়া আসুন, আমরা উদ্ভুত অবস্থার আলোচনায় আসি।’ বলে একটু থেমেই আবার বলা শুরু করল, ‘পারিবারিক ইতিহাস ও পূর্ব পুরুষের পরিচয় পাওয়ার পর সবকিছুই উলট-পালট হয়ে গেল। আমাদের পরিচয় এখন কি হবে সেটাই ভাবছি।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘তোমরা যে পরিচয় চাও, সেটাই হবে সার্গিও।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘আমি বুঝতে পারছি না আহমদ মুসা ভাই, একটি মুসলিম পরিবার কিভাবে খৃষ্টান পরিবারে রূপান্তরিত হলো?’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘অস্বাভাবিক নয় সার্গিও। শত শত বছর খৃষ্টান পরিবেশে যদি একটি বা কয়েকটি মুসলিম পরিবার থাকে এবং সেই সাথে যদি তাদের শিক্ষা-দীক্ষার কোন ব্যবস্থা না থাকে, তাহলে ধীরে ধীরে জীবনাচরণ তাদের পরিবর্তিত হয়ে যায়, সেই সাথে হারিয়ে যায় তাদের বিশ্বাসও। এক সময় চারদিকের চলমান ধর্মই তাদের ধর্ম হয়ে যায়। এভাবেই গাজী আলী জামাল পরিবার আমূল বদলে গেছে।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘পূর্ব-পরিচয়ের এই আবিস্কার বিস্ময়কর। কিন্তু পরিচয়টা আমার জন্যে গৌরবের। আমার পূর্ব পুরুষরা স্পেনের নৌবাহিনীতে ছিল, অটোমান নৌবাহিনীতে ছিল। কিন্তু সবচেয়ে গৌরবের মনে হচ্ছে আধুনিক যুগ ও অনন্য সভ্যতার নির্মাতা আরব মুসলমানরা আমাদের পূর্ব পুরুষ। নিজেকে মুসলমান ভাবতে গৌরবই বোধ করছি।’ বলল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘কিন্তু তোমাদের মুসলিম পরিচয় প্রকাশ হলে আজোরসের স্বাধীনতা সংগ্রামে নেতৃত্ব দেয়া গনজালো পরিবারের জন্যে অসুবিধা হবে না?’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">জবাব দিল সার্গিও। বলল, ‘আমাদের পূর্ব পুরুষরা পতুর্গাল সরকারের প্রপাগান্ডাকে যতটা ভয় করেছিল, ততটা ভয়ের কোন কারণ নেই। পতুর্গালের প্রপাগান্ডায় কোন কাজ হয়নি। গনজালো পরিবারের ধর্ম আজোরসবাসীদের কাছে কোন বিবেচ্য বিষয় নয়। গনজালো পরিবারের নেতৃত্ব তাদের ইতিহাসের কারণে। গনজালো পরিবার মুসলিম হলে সে ইতিহাস মিথ্যা হয়ে যাবে না।’</p>
+	<p class="block_13" lang="en">‘কিন্তু মুসলমানদের বিরুদ্ধে তো বিশ্বব্যাপী একটা খারাপ প্রপাগান্ডা চলছে। গনজালো পরিবারের মুসলিম পরিচয় আজোরসের স্বাধীনতা সংগ্রামে একটা সংকট সৃষ্টি করতে পারে।’ আহমদ মুসা বলল।</p>
+	<p class="block_13" lang="en">‘সে প্রপাগান্ডার ধার অনেকটা ভোঁতা হয়ে গেছে। এ প্রপাগান্ডার মূলে তো ছিল, ইহুদীরা। সে ইহুদীদের মেরুদন্ড ভেঙে গেছে মার্কিন যুক্তরাষ্ট্রে। মার্কিন যুক্তরাষ্ট্রে ইহুদীরা এখন প্রধান আসামীর কাঠগড়ায় দন্ডায়মান এবং একজন মুসলমান আপনিই এই ক্ষেত্রে সাহায্য করেছেন মার্কিন যুক্তরাষ্ট্রকে। সুতরাং মুসলমানদেরই সুদিন ফিরে আসছে। তারপরও যদি আমাদের পরিবারের মুসলিম পরিচয় আমাদের নেতৃত্বের পথে বাধা হয়ে দাঁড়ায়, আমরা নেতৃত্ব ছেড়ে দিয়ে কর্মীর কাতারে দাঁড়াতে একটুও দ্বিধা করবো না। নেতৃত্ব ছাড়ব, কিন্তু ইতিহাস আর ছাড়ব না, আদর্শ ছাড়ব না।’ বলল সার্গিও।</p>
+	<p class="block_13" lang="en">‘ধন্যবাদ ভাইয়া। আমারও মত এটাই।’ আনন্দে চিৎকার করে উঠল ভ্যানিসা।</p>
+	<p class="block_13" lang="en">‘কনগ্রাচুলেশন। তোমাদের স্বাগত জানাচ্ছি ভ্যানিসা, সার্গিও।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘ওয়েলকাম ভাইয়া। খুবই খুশি লাগছে আপনার সাথে এক হতে পেরে। আরও খুশি লাগতো যদি আপনার অভিযানে শরীক হতে পারতাম।’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা হাসল। বলল, ‘এও হতে পারে, বাধ্য হয়েই তোমাদের অভিযানে যোগ দিতে হচ্ছে। আমরা হারতা যাচ্ছি মূল অভিযানের প্রস্তুতির জন্য। ভবিষ্যত সম্পর্কে আমরা কিছুই জানি না। শত্রুর শক্তি এবং সেখানকার পরিস্থিতি সম্পর্কেও নয়। হতে পারে যে, অভিযানে তোমাদের অংশগ্রহণ অপরিহার্য হয়ে পড়েছে। অতএব হতাশ হয়ো না। বরং প্রস্তুত থেকো।’</p>
+	<p class="block_13" lang="en">‘অবশ্যই ভাইয়া। হারতা কবে যাত্রা করছেন?’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">‘পশ্চিম উপকূলে তোমাদের ঘাঁটিতে যাবার পর তোমাদের সাথে পরামর্শ করে সিদ্ধান্ত নেব।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘হেলিকপ্টারেই যাবেন?’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">‘সেটাও ঠিক হবে ওখানে যাবার পর। হেলিকপ্টার নিলে হেলিকপ্টারটি ফিরিয়ে আনার জন্য তোমাদের, মানে অন্তত সার্গিওর যেতে হবে।’ বলল আহমদ মুসা।</p>
+	<p class="block_13" lang="en">‘তাহলে হেলিকপ্টার নেন ভাইয়া।’ ভ্যানিসা বলল।</p>
+	<p class="block_13" lang="en">আহমদ মুসা হাসল।</p>
+	<p class="block_13" lang="en">অন্য সকলেই হেসে উঠল ভ্যানিসার বাচ্চাসুলভ আবদারে।</p>
+	<p class="block_13" lang="en">হাসি থামলেও কেউ কোন কথা তৎক্ষণাৎ বলল না।</p>
+	<p class="block_13" lang="en">নেমে এল নিরবতা।</p>
+	<p class="block_13" lang="en">এই নিরবতার মধ্যে হেলিকপ্টারের চাপা গর্জনটা আরও স্পষ্ট হয়ে উঠল।</p>
+	<p class="block_13" lang="en">সকলের দৃষ্টিই সামনে।</p>
+	<p class="block_13" lang="en">লক্ষক্ষ্যর পথে যেন প্রাণপণে উড়ে চলেছে হেলিকপ্টার।</p>
+	<p class="block_14" lang="en" id="calibre_pb_46">&#160;</p>
+
+            </article>
+        </div>
+
+    </div>
+
+    <div class="settings-overlay" id="settingsOverlay" data-id="settingsOverlay" aria-hidden="true"></div>
+    <div class="settings-modal" id="settingsModal" data-id="settingsModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="settingsModalTitle">
+        <div class="settings-header">
+            <h2 class="settings-header-title" id="settingsModalTitle">
+                <i class="fas fa-cog" aria-hidden="true"></i>
+                <span data-i18n="reader.settings">Settings</span>
+            </h2>
+            <button class="settings-close-btn" id="settingsCloseBtn" type="button" aria-label="Close settings" data-i18n-aria-label="reader.closeSettings">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="settings-tabs">
+            <button class="settings-tab active" data-tab="font">
+                <i class="fas fa-font"></i>
+                <span data-i18n="settings.appearance">Appearance</span>
+            </button>
+            <button class="settings-tab" data-tab="reading">
+                <i class="fas fa-book-reader"></i>
+                <span data-i18n="settings.reading">Reading</span>
+            </button>
+        </div>
+        <div class="settings-content">
+            <div class="settings-tab-panel active" id="font-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.fontFamily">Font family</label>
+        <div class="font-family-selector">
+            <select id="fontFamilySelect">
+                <option value="ebook-default" selected data-i18n="settings.bookDefault">Book default</option>
+                <option value="system-ui, -apple-system, sans-serif" data-i18n="settings.systemDefault">System default</option>
+                <option value="custom" data-i18n="settings.customByInput">Custom by input</option>
+            </select>
+        </div>
+        <div class="custom-font-input" id="customFontInput" style="display: none;">
+            <input type="text" id="customFontFamily" placeholder="Input font name here" data-i18n-placeholder="settings.customFontPlaceholder">
+            <small data-i18n="settings.customFontTip">Tip: Font family applies globally. Ensure it’s installed in the system.</small>
+            <button class="css-btn primary" id="applyFontSettings">
+                <i class="fas fa-check"></i> <span data-i18n="settings.apply">Apply</span>
+            </button>
+        </div>
+                </div>
+                
+                <div class="settings-group">
+                    <label class="settings-label" for="fontSizeSlider" data-i18n="settings.fontSize">Font size</label>
+                    <div class="font-size-control">
+                        <input type="range" id="fontSizeSlider" min="1" max="12" value="3" step="1" data-sizes-rem="0.9,1.1,1.3,1.5,1.7,1.9,2.2,2.5,2.8,3.2,3.6,4">
+                        <div class="font-size-scale" aria-hidden="true"><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark major"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark"></span><span class="scale-mark major"></span></div>
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <div class="settings-label-row">
+                        <label class="settings-label" for="pageWidthSlider" data-i18n="settings.pageWidth">Page width</label>
+                        
+                    </div>
+                    <div class="page-width-control">
+                        <input type="range" id="pageWidthSlider" min="1" max="4" value="3" step="1" aria-label="Page width" data-i18n-aria-label="settings.pageWidth">
+                        <div class="page-width-scale" aria-hidden="true">
+                            
+                            <span data-i18n="settings.pageWidthNarrow">Narrow</span>
+                            <span data-i18n="settings.pageWidthComfortable">Comfortable</span>
+                            <span data-i18n="settings.pageWidthWide">Wide</span>
+                            <span data-i18n="settings.pageWidthExtraWide">Extra wide</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-group settings-group-custom-css">
+                    <div class="settings-section-heading">
+                        <span class="settings-section-title" data-i18n="settings.customStyles">Custom styles</span>
+                        <span class="settings-section-optional" data-i18n="settings.optional">Optional</span>
+                    </div>
+                    <p class="settings-section-description" data-i18n="settings.customStylesDescription">Use CSS to fine-tune this book’s typography and layout.</p>
+                    <div class="css-editor">
+                        <textarea id="customCssInput" placeholder="Please input your CSS code... For example: #eb-content-container{background: inherit; box-shadow:inherit;} #eb-content{margin: 50px; width: auto} #eb-content p {margin-bottom: 0.8rem; line-height: 1.7;}" data-i18n-placeholder="settings.customCssPlaceholder"></textarea>
+                        <div class="css-controls">
+                            <button class="css-btn primary" id="saveCssBtn">
+                                <i class="fas fa-save"></i> <span data-i18n="settings.save">Save</span>
+                            </button>
+                            <button class="css-btn primary" id="saveAsDefaultBtn">
+                                <i class="fas fa-star"></i> <span data-i18n="settings.saveAsDefault">Save as default</span>
+                            </button>
+                            <button class="css-btn secondary" id="resetCssBtn">
+                                <i class="fas fa-undo"></i> <span data-i18n="settings.reset">Reset</span>
+                            </button>
+                            <button class="css-btn secondary" id="loadDefaultBtn">
+                                <i class="fas fa-download"></i> <span data-i18n="settings.loadDefault">Load default</span>
+                            </button>
+                            <button class="css-btn secondary" id="previewCssBtn">
+                                <i class="fas fa-eye"></i> <span data-i18n="settings.preview">Preview</span>
+                            </button>
+                        </div>
+                        <div class="css-info">
+                            <p><i class="fas fa-info-circle"></i> <span data-i18n="settings.defaultStyleTip">Tip: The default style will be applied to all books unless a custom style is set for specific books.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-tab-panel" id="reading-tab">
+                <div class="settings-group">
+                    <label class="settings-label" data-i18n="settings.readingMode">Reading mode</label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="showReadingProgressBarToggle" checked>
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.showReadingProgressBar">Show reading progress bar</span>
+                    </label>
+                    <label class="settings-switch">
+                        <input type="checkbox" id="paginationModeToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.paginationMode">Use page-turning mode</span>
+                    </label>
+                    <div class="settings-option-with-tip">
+                        <label class="settings-switch">
+                            <input type="checkbox" id="clickPageToggle" disabled aria-disabled="true">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="reader.clickToTurn">Click to turn page</span>
+                        </label>
+                        <button type="button" class="settings-info-tip" data-settings-tip data-tip="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-data-tip="settings.clickPageHelp" aria-label="In page-turning mode, click or tap the left and right sides to turn pages. On mobile, tap the center to show or hide the reading controls. Selecting text, dragging, and long-pressing will not trigger these actions." data-i18n-aria-label="settings.clickPageHelp">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <label class="settings-switch pagination-incompatible-setting">
+                        <input type="checkbox" id="continuousScrollToggle">
+                        <span class="switch-slider"></span>
+                        <span class="switch-text" data-i18n="settings.continuousScroll">Enable continuous scroll</span>
+                        <span class="continuous-scroll-tip" id="continuousScrollTip" tabindex="0" data-settings-tip data-tip="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-data-tip="settings.continuousScrollTip" aria-label="Automatically loads the next chapter when scrolling past the end. Note: scroll progress save/restore is disabled. Tip: press Space for a similar seamless reading experience when this is off." data-i18n-aria-label="settings.continuousScrollTip">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </span>
+                    </label>
+                </div>
+                <fieldset class="settings-group desktop-layout-settings">
+                    <legend class="settings-section-title" data-i18n="settings.desktopLayout">Desktop layout</legend>
+                    <div class="desktop-layout-options">
+                        <label class="settings-switch desktop-layout-option desktop-setting-only">
+                            <input type="checkbox" id="desktopChapterSidebarToggle">
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.desktopChapterSidebar">Show chapter sidebar</span>
+                        </label>
+                        <div class="desktop-layout-option settings-option-with-tip desktop-setting-only">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopChapterSidebarToggle" disabled aria-disabled="true">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopChapterSidebar">Auto-hide chapter sidebar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-data-tip="settings.autoHideDesktopChapterSidebarHelp" aria-label="Move the pointer to the left edge, or use Tab, to show the chapter sidebar." data-i18n-aria-label="settings.autoHideDesktopChapterSidebarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="desktop-layout-option settings-option-with-tip">
+                            <label class="settings-switch">
+                                <input type="checkbox" id="autoHideDesktopToolbarToggle">
+                                <span class="switch-slider"></span>
+                                <span class="switch-text" data-i18n="settings.autoHideDesktopToolbar">Auto-hide reading toolbar</span>
+                            </label>
+                            <button type="button" class="settings-info-tip" data-settings-tip data-tip="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-data-tip="settings.autoHideDesktopToolbarHelp" aria-label="Move the pointer to the right edge, or use Tab, to show the toolbar." data-i18n-aria-label="settings.autoHideDesktopToolbarHelp">
+                                <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group keyboard-navigation-settings">
+                    <legend class="settings-section-title" data-i18n="settings.keyboardNavigation">Keyboard navigation</legend>
+                    <div class="keyboard-navigation-options">
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="arrowKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.arrowKeyNavigation">Use Left and Right Arrow keys to navigate</span>
+                        </label>
+                        <label class="settings-switch keyboard-navigation-option">
+                            <input type="checkbox" id="spaceKeyNavigationToggle" checked>
+                            <span class="switch-slider"></span>
+                            <span class="switch-text" data-i18n="settings.spaceKeyNavigation">Use Space for the next page or chapter</span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="settings-group navigation-behavior-settings pagination-incompatible-setting" aria-describedby="navigationBehaviorHelp">
+                    <legend class="settings-section-title" data-i18n="settings.navigationBehavior">Navigation bar behavior</legend>
+                    <p class="settings-section-description" id="navigationBehaviorHelp" data-i18n="settings.navigationBehaviorHelp">Choose when the top navigation stays visible while you read.</p>
+                    <div class="navigation-behavior-options">
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="normal" checked><span data-i18n="settings.navigationBehavior.normal">Normal scroll</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="sticky"><span data-i18n="settings.navigationBehavior.sticky">Always sticky</span></label>
+                        <label class="navigation-behavior-option"><input type="radio" name="navigationBehavior" value="auto-hide"><span data-i18n="settings.navigationBehavior.autoHide">Hide down, show up</span></label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <div class="reading-controls" data-id="reading-controls">
+        <button class="control-btn" id="scrollToTopBtn" type="button" aria-label="Top" data-i18n-aria-label="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span class="control-name" data-i18n="reader.top">Top</span>
+        </button>
+        <a class="control-btn" id="bookHomeShortcut" href="index.html" aria-label="Open book home" data-i18n-aria-label="reader.openBookHome" title="Open book home" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span class="control-name" data-i18n="reader.openBookHome">Book home</span>
+        </a>
+    </div>
+
+    <!-- 移动端控件 -->
+    <div class="mobile-controls" data-id="mobile-controls">
+        <button class="control-btn" id="mobileTocBtn" type="button" aria-label="This chapter contents" title="This chapter contents" data-i18n-aria-label="reader.thisChapterContents" data-i18n-title="reader.thisChapterContents" aria-controls="tocFloating" aria-expanded="false">
+            <i class="fas fa-list"></i>
+            <span data-i18n="reader.thisChapterContents">This chapter</span>
+        </button>
+        <button class="control-btn" id="mobileBookHomeBtn" type="button" aria-label="Open book chapters" title="Open book chapters" data-i18n-aria-label="reader.openBookChapters" data-i18n-title="reader.openBookChapters">
+            <i class="fas fa-book"></i>
+            <span data-i18n="reader.bookChapters">Chapters</span>
+        </button>
+        
+        
+        
+        
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_299.html" aria-label="Previous chapter" title="Previous chapter" data-i18n-aria-label="reader.previous" data-i18n-title="reader.previous"> <div class="control-btn" aria-label="Previous chapter" data-i18n-aria-label="reader.previous"> <i class="fas fa-arrow-left"></i><span data-i18n="reader.previous">Previous chapter</span></div></a>
+        <a href="/" aria-label="Home" title="Home" data-i18n-aria-label="reader.home" data-i18n-title="reader.home">
+            <div class="control-btn" aria-label="Home" data-i18n-aria-label="reader.home">
+                <i class="fas fa-home"></i>
+                <span data-i18n="reader.home">Home</span>
+            </div>
+        </a>
+        <a href="/book/DrifIkw8QVGB2r1VWF5KrQ/chapter_301.html" aria-label="Next chapter" title="Next chapter" data-i18n-aria-label="reader.next" data-i18n-title="reader.next"> <div class="control-btn" aria-label="Next chapter" data-i18n-aria-label="reader.next"> <i class="fas fa-arrow-right"></i><span data-i18n="reader.next">Next chapter</span></div></a>
+        <button class="control-btn" id="mobilePageJumpBtn" type="button" aria-label="Jump" title="Jump" data-i18n-aria-label="reader.jump" data-i18n-title="reader.jump">
+            <i class="fas fa-arrow-right-to-bracket" aria-hidden="true"></i>
+            <span data-i18n="reader.jump">Jump</span>
+        </button>
+        <button class="control-btn" id="mobileSettingsBtn" type="button" aria-label="Settings" title="Settings" data-i18n-aria-label="reader.settings" data-i18n-title="reader.settings" aria-controls="settingsModal" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+            <span data-i18n="reader.settings">Settings</span>
+        </button>
+        <a class="control-btn" id="mobileBookHomeShortcut" href="index.html" aria-label="Open book home" title="Open book home" data-i18n-aria-label="reader.openBookHome" data-i18n-title="reader.openBookHome">
+            <i class="fas fa-book-open"></i>
+            <span data-i18n="reader.openBookHome">Book home</span>
+        </a>
+        <button class="control-btn" id="mobileTopBtn" type="button" aria-label="Top" title="Top" data-i18n-aria-label="reader.top" data-i18n-title="reader.top">
+            <i class="fas fa-arrow-up"></i>
+            <span data-i18n="reader.top">Top</span>
+        </button>
+    </div>
+
+    <!-- 书架弹窗 -->
+    <div class="bookshelf-modal" id="bookshelfModal" role="dialog" aria-modal="true" aria-labelledby="bookshelfModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addShelfGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addShelfBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    
+                    <button class="bookshelf-action-btn" id="exportShelfBtn">
+                        <i class="fas fa-upload" aria-hidden="true"></i> <span data-i18n="bookshelf.export">Export</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="importShelfBtn">
+                        <i class="fas fa-download" aria-hidden="true"></i> <span data-i18n="bookshelf.import">Import</span>
+                    </button>
+                    <input type="file" id="importShelfFile" accept=".json" style="display: none;">
+                </div>
+                <h2 class="bookshelf-title" id="bookshelfModalTitle"><i class="fas fa-home" aria-hidden="true"></i> <span data-i18n="bookshelf.title">Bookshelf</span></h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="bookshelfCloseBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="bookshelfLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="bookshelfBody">
+            </div>
+            <div class="bookshelf-footer" id="bookshelfFooter">
+                <span id="bookshelfStats"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分组弹窗 -->
+    <div class="bookshelf-modal" id="groupModal" role="dialog" aria-modal="true" aria-labelledby="groupModalTitle">
+        <div class="bookshelf-content" tabindex="-1">
+            <div class="bookshelf-header">
+                <div class="bookshelf-header-left">
+                    <button class="bookshelf-action-btn" id="addGroupSubGroupBtn">
+                        <i class="fas fa-folder-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addGroup">Add Group</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="addGroupBookBtn">
+                        <i class="fas fa-plus" aria-hidden="true"></i> <span data-i18n="bookshelf.addBook">Add Book</span>
+                    </button>
+                    <button class="bookshelf-action-btn" id="renameGroupBtn">
+                        <i class="fas fa-edit" aria-hidden="true"></i> <span data-i18n="bookshelf.rename">Rename</span>
+                    </button>
+                    <button class="bookshelf-action-btn bookshelf-delete-btn" id="deleteGroupBtn">
+                        <i class="fas fa-trash" aria-hidden="true"></i> <span data-i18n="bookshelf.deleteGroup">Delete Group</span>
+                    </button>
+                </div>
+                <h2 class="bookshelf-title" id="groupModalTitle" data-i18n="bookshelf.group">Group</h2>
+                <div class="bookshelf-header-right">
+                    <button class="bookshelf-close-btn" id="groupCloseBtn" aria-label="Back to bookshelf" data-i18n-aria-label="bookshelf.home">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button class="bookshelf-close-btn" id="groupCloseAllBtn" aria-label="Close" data-i18n-aria-label="bookshelf.close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bookshelf-loading" id="groupLoading" role="status" aria-label="Loading bookshelf" data-i18n-aria-label="bookshelf.loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="bookshelf-body" id="groupBody">
+            </div>
+            <div class="bookshelf-footer" id="groupFooter">
+                <span id="groupStats"></span>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="eb-footer" data-id="eb-footer" data-version-check data-current-version="2.17.1" data-release-api="">
+    <p><span data-i18n="footer.product">EPUB Library</span> &copy; 2026 | <span data-i18n="footer.poweredBy">Powered by</span> <a href="https://github.com/dfface/epub-browser" target="_blank" rel="noopener noreferrer">epub-browser</a><!-- i18n-allow-literal: product name --> <span data-i18n="footer.poweredBySuffix">&middot;</span> <span class="eb-footer-version" aria-label="Version 2.17.1" data-i18n-aria-label="common.version" data-i18n-params='{"version":"2.17.1"}'>v2.17.1</span><span class="eb-footer-update" data-version-update hidden><span aria-hidden="true"> &middot; </span><a target="_blank" rel="noopener noreferrer"></a></span></p>
+</footer>
+
+    
+    <script src="/assets/immutable/notification.ea0bd58fa985.js" defer></script>
+    
+    <script src="/assets/immutable/locale-nav.1dfbcbe0b37e.js" defer></script>
+    <script src="/assets/immutable/theme.fca510090d70.js" defer></script>
+    <script src="/assets/immutable/dialog.a3f376ac6a44.js" defer></script>
+    <script src="/assets/immutable/version-check.47351de03846.js" defer></script>
+    <script src="/assets/immutable/vendor/glightbox/glightbox.min.c67c59cdf980.js" defer></script>
+    <script src="/assets/immutable/lightbox-adapter.9c8cb9207923.js" defer></script>
+    <script src="/assets/immutable/vendor/web-highlighter/web-highlighter.min.7360ce01d835.js" defer></script>
+    <script src="/assets/immutable/chapter-prefetch.8dc88587bd93.js" defer></script>
+    <script src="/assets/immutable/chapter-window.8d2c13e8f216.js" defer></script>
+    <script src="/assets/immutable/viewport-anchor.021abaa5aa16.js" defer></script>
+    <script src="/assets/immutable/continuous-buffer.27eaf6de1887.js" defer></script>
+    <script src="/assets/immutable/reading-progress.653eacfc5c3b.js" defer></script>
+    <script src="/assets/immutable/reader-layout.c935b79be9f3.js" defer></script>
+    
+    
+    <script src="/assets/immutable/chapter.d142eca8903e.js" defer></script>
+    <script src="/assets/immutable/annotation-position.df7b410bbafb.js" defer></script>
+    <script src="/assets/immutable/annotation.b20d5ca76780.js" defer></script>
+    <script src="/assets/immutable/annotation-hub.ad5eeecee8bd.js" defer></script>
+    <script src="/assets/immutable/vendor/sortablejs/sortable.min.6d0a831fc19b.js" defer></script>
+    
+    
+    <script src="/assets/immutable/bookshelf.b75fb5bdddd2.js" defer></script>
+    
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.initScriptChapter) window.initScriptChapter();
+    });
+    </script>
+</body>
+</html>
